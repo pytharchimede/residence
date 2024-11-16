@@ -1,0 +1,234 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Soho Hotel Shortcodes & Post Types\n"
+"POT-Creation-Date: 2021-10-13 08:19+0800\n"
+"PO-Revision-Date: 2024-10-02 11:54+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: sohohotel-shortcodes-post-types.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/functions/frontend/shspt-pagination.php:18
+#: includes/functions/frontend/shspt-pagination.php:42
+#: includes/shortcodes/shspt-blog-page.php:161
+#: includes/shortcodes/shspt-testimonials-page.php:107
+msgid "&larr; Older posts"
+msgstr "&larr; 古い投稿"
+
+#: includes/functions/frontend/shspt-pagination.php:19
+#: includes/functions/frontend/shspt-pagination.php:43
+#: includes/shortcodes/shspt-blog-page.php:162
+#: includes/shortcodes/shspt-testimonials-page.php:108
+msgid "Newer posts &rarr;"
+msgstr "新しい投稿 &rarr;"
+
+#: includes/post-types/page.php:17
+msgid "Page Settings"
+msgstr "ページ設定"
+
+#: includes/post-types/post.php:17
+msgid "Post Excerpt"
+msgstr "投稿抜粋"
+
+#: includes/post-types/testimonial.php:8
+msgid "Testimonials"
+msgstr "お客様の声"
+
+#: includes/post-types/testimonial.php:9
+msgid "Testimonial"
+msgstr "お客様の声"
+
+#: includes/post-types/testimonial.php:10
+msgid "Add Testimonial"
+msgstr "テストimoniアルを追加"
+
+#: includes/post-types/testimonial.php:11
+msgid "Add New Testimonial"
+msgstr "新しいテストimoniアルを追加"
+
+#: includes/post-types/testimonial.php:17
+msgid "testimonials"
+msgstr "テストimoniアル"
+
+#: includes/post-types/testimonial.php:39
+msgid "Testimonial Settings"
+msgstr "テストimoniアル設定"
+
+#: includes/shortcodes/shspt-blog-carousel.php:80
+#: includes/shortcodes/shspt-blog-page.php:145
+#: includes/shortcodes/shspt-offer-carousel.php:80
+#: includes/shortcodes/shspt-testimonials-carousel.php:104
+msgid "No news has been added yet"
+msgstr "ニュースはまだ追加されていません"
+
+#: includes/shortcodes/shspt-blog-page.php:98
+msgid "By"
+msgstr "著者"
+
+#: includes/shortcodes/shspt-blog-page.php:103
+msgid "No Comments"
+msgstr "コメントはありません"
+
+#: includes/shortcodes/shspt-blog-page.php:103
+msgid "1 Comment"
+msgstr "1 件のコメント"
+
+#: includes/shortcodes/shspt-blog-page.php:103
+msgid "% Comments"
+msgstr "% 件のコメント"
+
+#: includes/shortcodes/shspt-blog-page.php:103
+msgid "Comments Off"
+msgstr "コメント無効"
+
+#: includes/shortcodes/shspt-blog-page.php:122
+msgid "Read More"
+msgstr "続きを読む"
+
+#: includes/shortcodes/shspt-google-map.php:124
+msgid ""
+"Please enter a valid Google Map API key in the theme options \"General\" "
+"section"
+msgstr ""
+"テーマオプションの「一般」セクションに有効なGoogleマップAPIキーを入力して"
+"ください。"
+
+#: includes/shortcodes/shspt-testimonials-page.php:91
+msgid "No testimonials have been added yet"
+msgstr "まだ証言は追加されていません"
+
+#: includes/templates/backend/testimonial/sohohotel-testimonial.htm.php:7
+msgid "Guest name"
+msgstr "ゲスト名"
+
+#: includes/templates/backend/testimonial/sohohotel-testimonial.htm.php:14
+msgid "Additional info"
+msgstr "追加情報"
+
+#: includes/widgets/widget-contact.php:15
+msgid "Soho Hotel Contact Details"
+msgstr "ソーホー ホテルの連絡先詳細"
+
+#: includes/widgets/widget-contact.php:16
+msgid "Display Contact Details"
+msgstr "連絡先詳細を表示"
+
+#: includes/widgets/widget-contact.php:88
+#: includes/widgets/widget-recent-posts.php:120
+#: includes/widgets/widget-social-about.php:131
+msgid "Title:"
+msgstr "タイトル:"
+
+#: includes/widgets/widget-contact.php:93
+msgid "Address/Location:"
+msgstr "住所/所在地:"
+
+#: includes/widgets/widget-contact.php:98
+msgid "Phone Number:"
+msgstr "電話番号:"
+
+#: includes/widgets/widget-contact.php:103
+msgid "Email Address:"
+msgstr "メールアドレス:"
+
+#: includes/widgets/widget-recent-posts.php:15
+msgid "Soho Hotel Recent Posts"
+msgstr "ソーホー ホテルの最近の投稿"
+
+#: includes/widgets/widget-recent-posts.php:16
+msgid "Display Recent Posts"
+msgstr "最近の投稿を表示"
+
+#: includes/widgets/widget-recent-posts.php:125
+msgid "Post Limit:"
+msgstr "投稿制限:"
+
+#: includes/widgets/widget-social-about.php:15
+msgid "Soho Hotel Social Icons & About Us"
+msgstr "ソーホー ホテルのソーシャルアイコンと私たちについて"
+
+#: includes/widgets/widget-social-about.php:16
+msgid "Display social icons & about us"
+msgstr "ソーシャルアイコンと私たちについて表示"
+
+#: includes/widgets/widget-social-about.php:136
+msgid "About Us"
+msgstr "私たちについて"
+
+#: includes/widgets/widget-social-about.php:141
+msgid "Facebook URL"
+msgstr "FacebookのURL"
+
+#: includes/widgets/widget-social-about.php:146
+msgid "Twitter URL"
+msgstr "TwitterのURL"
+
+#: includes/widgets/widget-social-about.php:151
+msgid "Instagram"
+msgstr "Instagram"
+
+#: includes/widgets/widget-social-about.php:156
+msgid "Yelp"
+msgstr "Yelp"
+
+#: includes/widgets/widget-social-about.php:161
+msgid "Youtube"
+msgstr "YouTube"
+
+#: includes/widgets/widget-social-about.php:166
+msgid "Tripadvisor"
+msgstr "Tripadvisor"
+
+#: includes/widgets/widget-social-about.php:171
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: includes/widgets/widget-social-about.php:176
+msgid "Skype"
+msgstr "Skype"
+
+#: includes/widgets/widget-social-about.php:181
+msgid "Flickr"
+msgstr "Flickr"
+
+#: includes/widgets/widget-social-about.php:186
+msgid "Googleplus"
+msgstr "Googleプラス"
+
+#: includes/widgets/widget-social-about.php:191
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: includes/widgets/widget-social-about.php:196
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#. Plugin Name of the plugin/theme
+msgid "Soho Hotel Shortcodes & Post Types"
+msgstr "ソーホー ホテルのショートコードと投稿タイプ"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://quitenicestuff.com"
+msgstr "http://quitenicestuff.com"
+
+#. Description of the plugin/theme
+msgid "Soho Hotel Shortcodes and Post Types"
+msgstr "ソーホー ホテルのショートコードと投稿タイプ"
+
+#. Author of the plugin/theme
+msgid "Quite Nice Stuff"
+msgstr "クワイティ ナイス スタッフ"

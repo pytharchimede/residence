@@ -1,0 +1,1 @@
+<?php echo shb_ical_export(); ?>

@@ -1,0 +1,234 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Soho Hotel Shortcodes & Post Types\n"
+"POT-Creation-Date: 2021-10-13 08:19+0800\n"
+"PO-Revision-Date: 2023-02-22 15:26+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: sohohotel-shortcodes-post-types.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/functions/frontend/shspt-pagination.php:18
+#: includes/functions/frontend/shspt-pagination.php:42
+#: includes/shortcodes/shspt-blog-page.php:161
+#: includes/shortcodes/shspt-testimonials-page.php:107
+msgid "&larr; Older posts"
+msgstr "&larr; ältere Beiträge"
+
+#: includes/functions/frontend/shspt-pagination.php:19
+#: includes/functions/frontend/shspt-pagination.php:43
+#: includes/shortcodes/shspt-blog-page.php:162
+#: includes/shortcodes/shspt-testimonials-page.php:108
+msgid "Newer posts &rarr;"
+msgstr "Neuere Beiträge &rarr;"
+
+#: includes/post-types/page.php:17
+msgid "Page Settings"
+msgstr "Seiteneinstellungen"
+
+#: includes/post-types/post.php:17
+msgid "Post Excerpt"
+msgstr "Auszug posten"
+
+#: includes/post-types/testimonial.php:8
+msgid "Testimonials"
+msgstr "Referenzen"
+
+#: includes/post-types/testimonial.php:9
+msgid "Testimonial"
+msgstr "Zeugnis"
+
+#: includes/post-types/testimonial.php:10
+msgid "Add Testimonial"
+msgstr "Erfahrungsbericht hinzufügen"
+
+#: includes/post-types/testimonial.php:11
+msgid "Add New Testimonial"
+msgstr "Neues Zeugnis hinzufügen"
+
+#: includes/post-types/testimonial.php:17
+msgid "testimonials"
+msgstr "Referenzen"
+
+#: includes/post-types/testimonial.php:39
+msgid "Testimonial Settings"
+msgstr "Testimonial-Einstellungen"
+
+#: includes/shortcodes/shspt-blog-carousel.php:80
+#: includes/shortcodes/shspt-blog-page.php:145
+#: includes/shortcodes/shspt-offer-carousel.php:80
+#: includes/shortcodes/shspt-testimonials-carousel.php:104
+msgid "No news has been added yet"
+msgstr "Es wurden noch keine Neuigkeiten hinzugefügt"
+
+#: includes/shortcodes/shspt-blog-page.php:98
+msgid "By"
+msgstr "Von"
+
+#: includes/shortcodes/shspt-blog-page.php:103
+msgid "No Comments"
+msgstr "Keine Kommentare"
+
+#: includes/shortcodes/shspt-blog-page.php:103
+msgid "1 Comment"
+msgstr "1 Kommentar"
+
+#: includes/shortcodes/shspt-blog-page.php:103
+msgid "% Comments"
+msgstr "% Kommentare"
+
+#: includes/shortcodes/shspt-blog-page.php:103
+msgid "Comments Off"
+msgstr "Kommentare deaktiviert"
+
+#: includes/shortcodes/shspt-blog-page.php:122
+msgid "Read More"
+msgstr "Weiterlesen"
+
+#: includes/shortcodes/shspt-google-map.php:124
+msgid ""
+"Please enter a valid Google Map API key in the theme options \"General\" "
+"section"
+msgstr ""
+"Bitte geben Sie einen gültigen Google Map-API-Schlüssel in den "
+"Themenoptionen im Abschnitt “Allgemein” ein"
+
+#: includes/shortcodes/shspt-testimonials-page.php:91
+msgid "No testimonials have been added yet"
+msgstr "Es wurden noch keine Erfahrungsberichte hinzugefügt"
+
+#: includes/templates/backend/testimonial/sohohotel-testimonial.htm.php:7
+msgid "Guest name"
+msgstr "Gastname"
+
+#: includes/templates/backend/testimonial/sohohotel-testimonial.htm.php:14
+msgid "Additional info"
+msgstr "Zusätzliche Information"
+
+#: includes/widgets/widget-contact.php:15
+msgid "Soho Hotel Contact Details"
+msgstr "Kontaktdaten des Soho-Hotels"
+
+#: includes/widgets/widget-contact.php:16
+msgid "Display Contact Details"
+msgstr "Kontaktdaten anzeigen"
+
+#: includes/widgets/widget-contact.php:88
+#: includes/widgets/widget-recent-posts.php:120
+#: includes/widgets/widget-social-about.php:131
+msgid "Title:"
+msgstr "Titel:"
+
+#: includes/widgets/widget-contact.php:93
+msgid "Address/Location:"
+msgstr "Adresse/Ort:"
+
+#: includes/widgets/widget-contact.php:98
+msgid "Phone Number:"
+msgstr "Telefonnummer:"
+
+#: includes/widgets/widget-contact.php:103
+msgid "Email Address:"
+msgstr "E-Mail-Addresse:"
+
+#: includes/widgets/widget-recent-posts.php:15
+msgid "Soho Hotel Recent Posts"
+msgstr "Soho Hotel Aktuelle Beiträge"
+
+#: includes/widgets/widget-recent-posts.php:16
+msgid "Display Recent Posts"
+msgstr "Neueste Beiträge anzeigen"
+
+#: includes/widgets/widget-recent-posts.php:125
+msgid "Post Limit:"
+msgstr "Post-Limit:"
+
+#: includes/widgets/widget-social-about.php:15
+msgid "Soho Hotel Social Icons & About Us"
+msgstr "Soho Hotel Social Icons & Über uns"
+
+#: includes/widgets/widget-social-about.php:16
+msgid "Display social icons & about us"
+msgstr "Zeigen Sie soziale Symbole und über uns an"
+
+#: includes/widgets/widget-social-about.php:136
+msgid "About Us"
+msgstr "Über uns"
+
+#: includes/widgets/widget-social-about.php:141
+msgid "Facebook URL"
+msgstr "Facebook URL"
+
+#: includes/widgets/widget-social-about.php:146
+msgid "Twitter URL"
+msgstr "Twitter URL"
+
+#: includes/widgets/widget-social-about.php:151
+msgid "Instagram"
+msgstr "Instagram"
+
+#: includes/widgets/widget-social-about.php:156
+msgid "Yelp"
+msgstr "Yelp"
+
+#: includes/widgets/widget-social-about.php:161
+msgid "Youtube"
+msgstr "Youtube"
+
+#: includes/widgets/widget-social-about.php:166
+msgid "Tripadvisor"
+msgstr "Tripadvisor"
+
+#: includes/widgets/widget-social-about.php:171
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: includes/widgets/widget-social-about.php:176
+msgid "Skype"
+msgstr "Skype"
+
+#: includes/widgets/widget-social-about.php:181
+msgid "Flickr"
+msgstr "Flickr"
+
+#: includes/widgets/widget-social-about.php:186
+msgid "Googleplus"
+msgstr "Googleplus"
+
+#: includes/widgets/widget-social-about.php:191
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: includes/widgets/widget-social-about.php:196
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#. Plugin Name of the plugin/theme
+msgid "Soho Hotel Shortcodes & Post Types"
+msgstr "Soho Hotel Shortcodes & Post Types"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://quitenicestuff.com"
+msgstr "http://quitenicestuff.com"
+
+#. Description of the plugin/theme
+msgid "Soho Hotel Shortcodes and Post Types"
+msgstr "Soho Hotel Shortcodes and Post Types"
+
+#. Author of the plugin/theme
+msgid "Quite Nice Stuff"
+msgstr "Quite Nice Stuff"

@@ -1,0 +1,2725 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Soho Hotel Booking\n"
+"POT-Creation-Date: 2023-07-24 17:05+0800\n"
+"PO-Revision-Date: 2023-07-24 17:14+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: sohohotel-booking.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/functions/backend/general/shb-admin-booking-custom-form.php:19
+#: includes/functions/backend/general/shb-core-functions.php:2257
+msgid "First Name"
+msgstr "İlk adı"
+
+#: includes/functions/backend/general/shb-admin-booking-custom-form.php:19
+#: includes/functions/backend/general/shb-core-functions.php:2257
+msgid "Last Name"
+msgstr "Soy isim"
+
+#: includes/functions/backend/general/shb-admin-booking-custom-form.php:19
+#: includes/functions/backend/general/shb-core-functions.php:2257
+#: includes/templates/backend/settings/shb-settings-emails.htm.php:14
+msgid "Email Address"
+msgstr "E-posta Adresi"
+
+#: includes/functions/backend/general/shb-admin-booking-custom-form.php:19
+#: includes/functions/backend/general/shb-core-functions.php:2257
+#: includes/templates/backend/settings/shb-settings-general.htm.php:37
+msgid "Phone Number"
+msgstr "Telefon numarası"
+
+#: includes/functions/backend/general/shb-admin-fields.php:181
+#: includes/functions/backend/general/shb-admin-fields.php:224
+#: includes/functions/backend/general/shb-admin-fields.php:267
+#: includes/functions/backend/general/shb-admin-fields.php:339
+#: includes/functions/backend/general/shb-admin-fields.php:382
+msgid "Check All"
+msgstr "Tümünü Kontrol Et"
+
+#: includes/functions/backend/general/shb-admin-fields.php:223
+#: includes/templates/backend/rate/shb-rate.htm.php:25
+msgid "Add to room"
+msgstr "Odaya ekle"
+
+#: includes/functions/backend/general/shb-admin-fields.php:236
+#: includes/functions/backend/general/shb-admin-fields.php:294
+msgid "(no title)"
+msgstr "(Başlık yok)"
+
+#: includes/functions/backend/general/shb-admin-fields.php:245
+#: includes/shortcodes/shb-accommodation-carousel-1.php:140
+#: includes/shortcodes/shb-accommodation-carousel-2.php:136
+#: includes/shortcodes/shb-accommodation-listing-1.php:228
+#: includes/shortcodes/shb-accommodation-listing-2.php:234
+#: includes/shortcodes/shb-accommodation-listing-3.php:224
+msgid "No rooms have been added yet"
+msgstr "Henüz oda eklenmemiş"
+
+#: includes/functions/backend/general/shb-admin-fields.php:266
+msgid "Add to rate"
+msgstr "Fiyata ekle"
+
+#: includes/functions/backend/general/shb-admin-fields.php:311
+msgid "No rates have been added yet"
+msgstr "Henüz oran eklenmemiş"
+
+#: includes/functions/backend/general/shb-admin-fields.php:338
+msgid "Add to season"
+msgstr "Sezona ekle"
+
+#: includes/functions/backend/general/shb-admin-fields.php:343
+msgid "Default (All year round any time)"
+msgstr "Varsayılan (Tüm yıl boyunca herhangi bir zamanda)"
+
+#: includes/functions/backend/general/shb-admin-fields.php:358
+msgid "No seasons have been added yet"
+msgstr "Varsayılan (Tüm yıl boyunca herhangi bir zamanda)"
+
+#: includes/functions/backend/general/shb-admin-fields.php:397
+msgid "No add-ons have been added yet"
+msgstr "Henüz eklenti eklenmemiş"
+
+#: includes/functions/backend/general/shb-admin-menu.php:10
+#: includes/functions/backend/general/shb-admin-menu.php:11
+msgid "Hotel Booking"
+msgstr "Otel rezervasyonu"
+
+#: includes/functions/backend/general/shb-admin-menu.php:22
+#: includes/post-types/shb-booking.php:14
+#: includes/post-types/shb-booking.php:16
+#: includes/post-types/shb-booking.php:18
+msgid "Bookings"
+msgstr "Rezervasyonlar"
+
+#: includes/functions/backend/general/shb-admin-menu.php:31
+msgid "Add Booking"
+msgstr "Rezervasyon Ekle"
+
+#: includes/functions/backend/general/shb-admin-menu.php:39
+#: includes/functions/backend/general/shb-admin-menu.php:40
+msgid "Calendar"
+msgstr "Takvim"
+
+#: includes/functions/backend/general/shb-admin-menu.php:49
+#: includes/post-types/shb-additionalfee.php:14
+#: includes/post-types/shb-additionalfee.php:16
+#: includes/post-types/shb-additionalfee.php:18
+#: includes/post-types/shb-booking.php:136
+msgid "Additional Fees"
+msgstr "Ek Ücretler"
+
+#: includes/functions/backend/general/shb-admin-menu.php:58
+msgid "Add Additional Fee"
+msgstr "Ek Ücret Ekle"
+
+#: includes/functions/backend/general/shb-admin-menu.php:67
+#: includes/post-types/shb-condition.php:14
+#: includes/post-types/shb-condition.php:16
+#: includes/post-types/shb-condition.php:18
+#: includes/shortcodes/shb-booking-page.php:498
+#: includes/shortcodes/shb-booking-page.php:563
+#: includes/templates/backend/booking/shb-booking-accommodation.htm.php:103
+#: includes/templates/backend/booking/shb-booking-accommodation.htm.php:128
+msgid "Conditions"
+msgstr "Koşullar"
+
+#: includes/functions/backend/general/shb-admin-menu.php:76
+msgid "Add Condition"
+msgstr "Koşul Ekle"
+
+#: includes/functions/backend/general/shb-admin-menu.php:85
+#: includes/post-types/shb-guestclass.php:16
+#: includes/post-types/shb-guestclass.php:18
+msgid "Guest Classes"
+msgstr "Misafir Kategorileri"
+
+#: includes/functions/backend/general/shb-admin-menu.php:94
+msgid "Add Guest Class"
+msgstr "Konuk Kategorisi Ekle"
+
+#: includes/functions/backend/general/shb-admin-menu.php:103
+#: includes/post-types/shb-additionalfee.php:111
+#: includes/post-types/shb-condition.php:112
+#: includes/post-types/shb-rate.php:14 includes/post-types/shb-rate.php:16
+#: includes/post-types/shb-rate.php:18
+#: includes/post-types/shb-ratevariation.php:107
+#: includes/post-types/shb-season.php:107
+msgid "Rates"
+msgstr "Oranlar"
+
+#: includes/functions/backend/general/shb-admin-menu.php:112
+msgid "Add Rate"
+msgstr "Fiyat Ekle"
+
+#: includes/functions/backend/general/shb-admin-menu.php:121
+#: includes/post-types/shb-ratevariation.php:14
+#: includes/post-types/shb-ratevariation.php:16
+#: includes/post-types/shb-ratevariation.php:18
+msgid "Rate Variations"
+msgstr "Oran Varyasyonları"
+
+#: includes/functions/backend/general/shb-admin-menu.php:130
+msgid "Add Rate Variation"
+msgstr "Oran Varyasyonu Ekle"
+
+#: includes/functions/backend/general/shb-admin-menu.php:139
+#: includes/post-types/shb-additionalfee.php:110
+#: includes/post-types/shb-condition.php:111
+#: includes/post-types/shb-ratevariation.php:106
+#: includes/post-types/shb-season.php:14 includes/post-types/shb-season.php:18
+msgid "Seasons"
+msgstr "Mevsimler"
+
+#: includes/functions/backend/general/shb-admin-menu.php:148
+msgid "Add Season"
+msgstr "Add Season"
+
+#: includes/functions/backend/general/shb-admin-menu.php:157
+#: includes/post-types/shb-offer.php:14 includes/post-types/shb-offer.php:16
+#: includes/post-types/shb-offer.php:18
+msgid "Offers"
+msgstr "Teklifler"
+
+#: includes/functions/backend/general/shb-admin-menu.php:166
+msgid "Add Offer"
+msgstr "Teklif Ekle"
+
+#: includes/functions/backend/general/shb-admin-menu.php:174
+#: includes/functions/backend/general/shb-admin-menu.php:175
+msgid "iCal Feeds"
+msgstr "iCal Beslemeleri"
+
+#: includes/functions/backend/general/shb-admin-menu.php:183
+#: includes/functions/backend/general/shb-admin-menu.php:184
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: includes/functions/backend/general/shb-calendar.php:297
+#: includes/functions/backend/general/shb-core-functions.php:1731
+msgid "Nights"
+msgstr "Geceler"
+
+#: includes/functions/backend/general/shb-calendar.php:299
+#: includes/functions/backend/general/shb-core-functions.php:1733
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:21
+msgid "Night"
+msgstr "Gece"
+
+#: includes/functions/backend/general/shb-calendar.php:327
+#: includes/functions/backend/general/shb-core-functions.php:479
+#: includes/templates/backend/booking/shb-booking-publish.htm.php:5
+msgid "Pending"
+msgstr "Askıda olması"
+
+#: includes/functions/backend/general/shb-calendar.php:328
+#: includes/functions/backend/general/shb-core-functions.php:480
+#: includes/templates/backend/booking/shb-booking-publish.htm.php:4
+msgid "Confirmed"
+msgstr "Onaylanmış"
+
+#: includes/functions/backend/general/shb-calendar.php:329
+#: includes/functions/backend/general/shb-core-functions.php:481
+#: includes/templates/backend/booking/shb-booking-publish.htm.php:6
+msgid "Cancelled"
+msgstr "İptal edildi"
+
+#: includes/functions/backend/general/shb-calendar.php:330
+#: includes/functions/backend/general/shb-core-functions.php:482
+msgid "iCal"
+msgstr "iCal"
+
+#: includes/functions/backend/general/shb-calendar.php:331
+#: includes/functions/backend/general/shb-core-functions.php:483
+#: includes/templates/backend/booking/shb-booking-publish.htm.php:7
+msgid "Maintenance"
+msgstr "Bakım"
+
+#: includes/functions/backend/general/shb-calendar.php:393
+#: includes/post-types/shb-accommodation.php:70
+#: includes/shortcodes/shb-accommodation-listing-1.php:99
+#: includes/shortcodes/shb-accommodation-listing-2.php:99
+#: includes/shortcodes/shb-accommodation-listing-3.php:99
+msgid "All"
+msgstr "Tüm"
+
+#: includes/functions/backend/general/shb-calendar.php:421
+#: includes/functions/backend/general/shb-css-js.php:42
+#: includes/functions/backend/general/shb-css-js.php:138
+#: includes/functions/frontend/datepicker/shb-datepicker.php:104
+#: includes/post-types/shb-condition.php:148
+#: includes/post-types/shb-condition.php:160
+#: includes/post-types/shb-condition.php:172
+#: includes/post-types/shb-condition.php:184
+msgid "Mo"
+msgstr "Pa"
+
+#: includes/functions/backend/general/shb-calendar.php:422
+#: includes/functions/backend/general/shb-css-js.php:42
+#: includes/functions/backend/general/shb-css-js.php:138
+#: includes/functions/frontend/datepicker/shb-datepicker.php:105
+#: includes/post-types/shb-condition.php:149
+#: includes/post-types/shb-condition.php:161
+#: includes/post-types/shb-condition.php:173
+#: includes/post-types/shb-condition.php:185
+msgid "Tu"
+msgstr "Sa"
+
+#: includes/functions/backend/general/shb-calendar.php:423
+#: includes/functions/backend/general/shb-css-js.php:42
+#: includes/functions/backend/general/shb-css-js.php:138
+#: includes/functions/frontend/datepicker/shb-datepicker.php:106
+#: includes/post-types/shb-condition.php:150
+#: includes/post-types/shb-condition.php:162
+#: includes/post-types/shb-condition.php:174
+#: includes/post-types/shb-condition.php:186
+msgid "We"
+msgstr "Ça"
+
+#: includes/functions/backend/general/shb-calendar.php:424
+#: includes/functions/backend/general/shb-css-js.php:42
+#: includes/functions/backend/general/shb-css-js.php:138
+#: includes/functions/frontend/datepicker/shb-datepicker.php:107
+#: includes/post-types/shb-condition.php:151
+#: includes/post-types/shb-condition.php:163
+#: includes/post-types/shb-condition.php:175
+#: includes/post-types/shb-condition.php:187
+msgid "Th"
+msgstr "Pe"
+
+#: includes/functions/backend/general/shb-calendar.php:425
+#: includes/functions/backend/general/shb-css-js.php:42
+#: includes/functions/backend/general/shb-css-js.php:138
+#: includes/functions/frontend/datepicker/shb-datepicker.php:108
+#: includes/post-types/shb-condition.php:152
+#: includes/post-types/shb-condition.php:164
+#: includes/post-types/shb-condition.php:176
+#: includes/post-types/shb-condition.php:188
+msgid "Fr"
+msgstr "Cu"
+
+#: includes/functions/backend/general/shb-calendar.php:426
+#: includes/functions/backend/general/shb-css-js.php:42
+#: includes/functions/backend/general/shb-css-js.php:138
+#: includes/functions/frontend/datepicker/shb-datepicker.php:109
+#: includes/post-types/shb-condition.php:153
+#: includes/post-types/shb-condition.php:165
+#: includes/post-types/shb-condition.php:177
+#: includes/post-types/shb-condition.php:189
+msgid "Sa"
+msgstr "Cu"
+
+#: includes/functions/backend/general/shb-calendar.php:427
+#: includes/functions/backend/general/shb-css-js.php:42
+#: includes/functions/backend/general/shb-css-js.php:138
+#: includes/functions/frontend/datepicker/shb-datepicker.php:110
+#: includes/post-types/shb-condition.php:154
+#: includes/post-types/shb-condition.php:166
+#: includes/post-types/shb-condition.php:178
+#: includes/post-types/shb-condition.php:190
+msgid "Su"
+msgstr "Pa"
+
+#: includes/functions/backend/general/shb-calendar.php:429
+#: includes/functions/backend/general/shb-css-js.php:43
+#: includes/functions/backend/general/shb-css-js.php:139
+#: includes/functions/frontend/datepicker/shb-datepicker.php:89
+msgid "January"
+msgstr "Ocak"
+
+#: includes/functions/backend/general/shb-calendar.php:430
+#: includes/functions/backend/general/shb-css-js.php:43
+#: includes/functions/backend/general/shb-css-js.php:139
+#: includes/functions/frontend/datepicker/shb-datepicker.php:90
+msgid "February"
+msgstr "Şubat"
+
+#: includes/functions/backend/general/shb-calendar.php:431
+#: includes/functions/backend/general/shb-css-js.php:43
+#: includes/functions/backend/general/shb-css-js.php:139
+#: includes/functions/frontend/datepicker/shb-datepicker.php:91
+msgid "March"
+msgstr "Mart"
+
+#: includes/functions/backend/general/shb-calendar.php:432
+#: includes/functions/backend/general/shb-css-js.php:43
+#: includes/functions/backend/general/shb-css-js.php:139
+#: includes/functions/frontend/datepicker/shb-datepicker.php:92
+msgid "April"
+msgstr "Nisan"
+
+#: includes/functions/backend/general/shb-calendar.php:433
+#: includes/functions/backend/general/shb-css-js.php:43
+#: includes/functions/backend/general/shb-css-js.php:139
+#: includes/functions/frontend/datepicker/shb-datepicker.php:93
+msgid "May"
+msgstr "Mayıs"
+
+#: includes/functions/backend/general/shb-calendar.php:434
+#: includes/functions/backend/general/shb-css-js.php:43
+#: includes/functions/backend/general/shb-css-js.php:139
+#: includes/functions/frontend/datepicker/shb-datepicker.php:94
+msgid "June"
+msgstr "Haziran"
+
+#: includes/functions/backend/general/shb-calendar.php:435
+#: includes/functions/backend/general/shb-css-js.php:43
+#: includes/functions/backend/general/shb-css-js.php:139
+#: includes/functions/frontend/datepicker/shb-datepicker.php:95
+msgid "July"
+msgstr "Temmuz"
+
+#: includes/functions/backend/general/shb-calendar.php:436
+#: includes/functions/backend/general/shb-css-js.php:43
+#: includes/functions/backend/general/shb-css-js.php:139
+#: includes/functions/frontend/datepicker/shb-datepicker.php:96
+msgid "August"
+msgstr "Ağustos"
+
+#: includes/functions/backend/general/shb-calendar.php:437
+#: includes/functions/backend/general/shb-css-js.php:43
+#: includes/functions/backend/general/shb-css-js.php:139
+#: includes/functions/frontend/datepicker/shb-datepicker.php:97
+msgid "September"
+msgstr "Eylül"
+
+#: includes/functions/backend/general/shb-calendar.php:438
+#: includes/functions/backend/general/shb-css-js.php:43
+#: includes/functions/backend/general/shb-css-js.php:139
+#: includes/functions/frontend/datepicker/shb-datepicker.php:98
+msgid "October"
+msgstr "Ekim"
+
+#: includes/functions/backend/general/shb-calendar.php:439
+#: includes/functions/backend/general/shb-css-js.php:43
+#: includes/functions/backend/general/shb-css-js.php:139
+#: includes/functions/frontend/datepicker/shb-datepicker.php:99
+msgid "November"
+msgstr "Kasım"
+
+#: includes/functions/backend/general/shb-calendar.php:440
+#: includes/functions/backend/general/shb-css-js.php:43
+#: includes/functions/backend/general/shb-css-js.php:139
+#: includes/functions/frontend/datepicker/shb-datepicker.php:100
+msgid "December"
+msgstr "Aralık"
+
+#: includes/functions/backend/general/shb-core-functions.php:423
+#: includes/templates/backend/accommodation/shb-accommodation-pricing.htm.php:152
+#: includes/templates/backend/accommodation/shb-accommodation-pricing.htm.php:170
+msgid "Default"
+msgstr "Varsayılan"
+
+#: includes/functions/backend/general/shb-core-functions.php:474
+msgid "Fixed Fee"
+msgstr "Sabit ücret"
+
+#: includes/functions/backend/general/shb-core-functions.php:475
+msgid "Per Room"
+msgstr "Oda başı"
+
+#: includes/functions/backend/general/shb-core-functions.php:476
+msgid "Per Person"
+msgstr "Kişi başına"
+
+#: includes/functions/backend/general/shb-core-functions.php:477
+msgid "Per Night"
+msgstr "Gecelik"
+
+#: includes/functions/backend/general/shb-core-functions.php:478
+msgid "Per Booking"
+msgstr "Rezervasyon Başına"
+
+#: includes/functions/backend/general/shb-core-functions.php:484
+msgid "Percentage"
+msgstr "Yüzde"
+
+#: includes/functions/backend/general/shb-core-functions.php:485
+msgid "Exact Price"
+msgstr "Tam Fiyat"
+
+#: includes/functions/backend/general/shb-core-functions.php:486
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:23
+msgid "Private"
+msgstr "Özel"
+
+#: includes/functions/backend/general/shb-core-functions.php:487
+msgid "Dorm"
+msgstr "Yurt"
+
+#: includes/functions/backend/general/shb-core-functions.php:488
+#: includes/pagebuilder/shb-pagebuilder.php:667
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:121
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:32
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:43
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:76
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:87
+#: includes/widgets/shb-widget-booking.php:218
+msgid "Yes"
+msgstr "Evet"
+
+#: includes/functions/backend/general/shb-core-functions.php:489
+#: includes/pagebuilder/shb-pagebuilder.php:668
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:122
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:33
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:44
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:77
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:88
+#: includes/widgets/shb-widget-booking.php:219
+msgid "No"
+msgstr "HAYIR"
+
+#: includes/functions/backend/general/shb-core-functions.php:490
+#: includes/templates/backend/ratevariation/shb-ratevariation.htm.php:11
+msgid "Duration"
+msgstr "Süre"
+
+#: includes/functions/backend/general/shb-core-functions.php:491
+#: includes/templates/backend/ratevariation/shb-ratevariation.htm.php:12
+msgid "Early"
+msgstr "Erken"
+
+#: includes/functions/backend/general/shb-core-functions.php:492
+#: includes/templates/backend/ratevariation/shb-ratevariation.htm.php:13
+msgid "Late"
+msgstr "Geç"
+
+#: includes/functions/backend/general/shb-core-functions.php:521
+msgid "year(s)"
+msgstr "yıl"
+
+#: includes/functions/backend/general/shb-core-functions.php:522
+msgid "month(s)"
+msgstr "ay"
+
+#: includes/functions/backend/general/shb-core-functions.php:523
+msgid "week(s)"
+msgstr "hafta"
+
+#: includes/functions/backend/general/shb-core-functions.php:524
+msgid "day(s)"
+msgstr "gün"
+
+#: includes/functions/backend/general/shb-core-functions.php:525
+msgid "hour(s)"
+msgstr "saat"
+
+#: includes/functions/backend/general/shb-core-functions.php:526
+msgid "minute(s)"
+msgstr "dakika"
+
+#: includes/functions/backend/general/shb-core-functions.php:527
+msgid "second(s)"
+msgstr "ikinci"
+
+#: includes/functions/backend/general/shb-core-functions.php:538
+msgid "ago"
+msgstr "evvel"
+
+#: includes/functions/backend/general/shb-core-functions.php:538
+msgid "just now"
+msgstr "şu anda"
+
+#: includes/functions/backend/general/shb-core-functions.php:1098
+#, php-format
+msgid "Minimum %u %s"
+msgstr "Minimum %u %s"
+
+#: includes/functions/backend/general/shb-core-functions.php:1103
+#, php-format
+msgid "Maximum %u %s"
+msgstr "Maksimum %u %s"
+
+#: includes/functions/backend/general/shb-core-functions.php:1114
+msgid "guests"
+msgstr "Konuk"
+
+#: includes/functions/backend/general/shb-core-functions.php:1116
+msgid "guest"
+msgstr "konuk"
+
+#: includes/functions/backend/general/shb-core-functions.php:1121
+#, php-format
+msgid "Minimum total of %u %s"
+msgstr "Minimum toplam %u %s"
+
+#: includes/functions/backend/general/shb-core-functions.php:1126
+#, php-format
+msgid "Maximum total of %u %s"
+msgstr "Maksimum toplam %u %s"
+
+#: includes/functions/backend/general/shb-core-functions.php:1250
+#, php-format
+msgid "You must book a minimum of %s nights when checking in on %s"
+msgstr "%s tarihinde check-in yaparken en az %s gece rezervasyonu yapmalısınız"
+
+#: includes/functions/backend/general/shb-core-functions.php:1251
+#, php-format
+msgid "You must book a minimum of %s nights when checking out on %s"
+msgstr ""
+"%s tarihinde check-out yaparken en az %s gece rezervasyonu yapmalısınız"
+
+#: includes/functions/backend/general/shb-core-functions.php:1257
+#, php-format
+msgid "You can book a maximum of %s nights when checking in on %s"
+msgstr ""
+"%s tarihinde check-in yaparken maksimum %s gece için rezervasyon "
+"yaptırabilirsiniz"
+
+#: includes/functions/backend/general/shb-core-functions.php:1258
+#, php-format
+msgid "You can book a maximum of %s nights when checking out on %s"
+msgstr ""
+"%s tarihinde check-out yaparken maksimum %s gece için rezervasyon "
+"yaptırabilirsiniz"
+
+#: includes/functions/backend/general/shb-core-functions.php:1267
+#, php-format
+msgid "You must book %s nights in advance"
+msgstr "%s gece önceden rezervasyon yapmalısınız"
+
+#: includes/functions/backend/general/shb-core-functions.php:1275
+#, php-format
+msgid ""
+"You must book in increments of %s nights e.g. %s nights, %s nights, %s "
+"nights, etc"
+msgstr ""
+"%s gecelik artışlarla rezervasyon yapmalısınız, örn. %s gece, %s gece, %s "
+"gece, vb"
+
+#: includes/functions/backend/general/shb-core-functions.php:1280
+#, php-format
+msgid "Check in allowed on %s for the selected dates"
+msgstr "Seçilen tarihler için %s tarihinde check-in yapılmasına izin verilir"
+
+#: includes/functions/backend/general/shb-core-functions.php:1285
+#, php-format
+msgid "Check out allowed on %s for the selected dates"
+msgstr "Seçilen tarihler için %s tarihinde çıkışa izin verilir"
+
+#: includes/functions/backend/general/shb-core-functions.php:1314
+msgid "and"
+msgstr "ve"
+
+#: includes/functions/backend/general/shb-core-functions.php:1330
+#: includes/functions/backend/general/shb-core-functions.php:1371
+msgid "Monday"
+msgstr "Pazartesi"
+
+#: includes/functions/backend/general/shb-core-functions.php:1331
+#: includes/functions/backend/general/shb-core-functions.php:1372
+msgid "Tuesday"
+msgstr "Salı"
+
+#: includes/functions/backend/general/shb-core-functions.php:1332
+#: includes/functions/backend/general/shb-core-functions.php:1373
+msgid "Wednesday"
+msgstr "Çarşamba"
+
+#: includes/functions/backend/general/shb-core-functions.php:1333
+#: includes/functions/backend/general/shb-core-functions.php:1374
+msgid "Thursday"
+msgstr "Perşembe"
+
+#: includes/functions/backend/general/shb-core-functions.php:1334
+#: includes/functions/backend/general/shb-core-functions.php:1375
+msgid "Friday"
+msgstr "Cuma"
+
+#: includes/functions/backend/general/shb-core-functions.php:1335
+#: includes/functions/backend/general/shb-core-functions.php:1376
+msgid "Saturday"
+msgstr "Cumartesi"
+
+#: includes/functions/backend/general/shb-core-functions.php:1336
+#: includes/functions/backend/general/shb-core-functions.php:1377
+msgid "Sunday"
+msgstr "Pazar"
+
+#: includes/functions/backend/general/shb-core-functions.php:1343
+#: includes/functions/backend/general/shb-core-functions.php:1383
+#: includes/templates/backend/condition/shb-condition.htm.php:51
+#: includes/templates/backend/condition/shb-condition.htm.php:66
+#: includes/templates/backend/condition/shb-condition.htm.php:81
+#: includes/templates/backend/condition/shb-condition.htm.php:96
+msgid "Mon"
+msgstr "Paz"
+
+#: includes/functions/backend/general/shb-core-functions.php:1344
+#: includes/functions/backend/general/shb-core-functions.php:1384
+#: includes/templates/backend/condition/shb-condition.htm.php:52
+#: includes/templates/backend/condition/shb-condition.htm.php:67
+#: includes/templates/backend/condition/shb-condition.htm.php:82
+#: includes/templates/backend/condition/shb-condition.htm.php:97
+msgid "Tue"
+msgstr "Sal"
+
+#: includes/functions/backend/general/shb-core-functions.php:1345
+#: includes/functions/backend/general/shb-core-functions.php:1385
+#: includes/templates/backend/condition/shb-condition.htm.php:53
+#: includes/templates/backend/condition/shb-condition.htm.php:68
+#: includes/templates/backend/condition/shb-condition.htm.php:83
+#: includes/templates/backend/condition/shb-condition.htm.php:98
+msgid "Wed"
+msgstr "Çar"
+
+#: includes/functions/backend/general/shb-core-functions.php:1346
+#: includes/functions/backend/general/shb-core-functions.php:1386
+#: includes/templates/backend/condition/shb-condition.htm.php:54
+#: includes/templates/backend/condition/shb-condition.htm.php:69
+#: includes/templates/backend/condition/shb-condition.htm.php:84
+#: includes/templates/backend/condition/shb-condition.htm.php:99
+msgid "Thu"
+msgstr "Per"
+
+#: includes/functions/backend/general/shb-core-functions.php:1347
+#: includes/functions/backend/general/shb-core-functions.php:1387
+#: includes/templates/backend/condition/shb-condition.htm.php:55
+#: includes/templates/backend/condition/shb-condition.htm.php:70
+#: includes/templates/backend/condition/shb-condition.htm.php:85
+#: includes/templates/backend/condition/shb-condition.htm.php:100
+msgid "Fri"
+msgstr "Cum"
+
+#: includes/functions/backend/general/shb-core-functions.php:1348
+#: includes/functions/backend/general/shb-core-functions.php:1388
+#: includes/templates/backend/condition/shb-condition.htm.php:56
+#: includes/templates/backend/condition/shb-condition.htm.php:71
+#: includes/templates/backend/condition/shb-condition.htm.php:86
+#: includes/templates/backend/condition/shb-condition.htm.php:101
+msgid "Sat"
+msgstr "Cum"
+
+#: includes/functions/backend/general/shb-core-functions.php:1349
+#: includes/functions/backend/general/shb-core-functions.php:1389
+#: includes/templates/backend/condition/shb-condition.htm.php:57
+#: includes/templates/backend/condition/shb-condition.htm.php:72
+#: includes/templates/backend/condition/shb-condition.htm.php:87
+#: includes/templates/backend/condition/shb-condition.htm.php:102
+msgid "Sun"
+msgstr "Paz"
+
+#: includes/functions/backend/general/shb-core-functions.php:1486
+msgid "This room is fully booked for the selected dates"
+msgstr "Bu oda seçilen tarihler için tamamen rezerve edilmiştir"
+
+#: includes/functions/backend/general/shb-core-functions.php:2084
+msgid "Sorry the selected accommodation is unavailable"
+msgstr "Üzgünüz, seçilen konaklama yeri mevcut değil"
+
+#: includes/functions/backend/general/shb-core-functions.php:2629
+#: includes/templates/backend/booking/shb-booking-sendmail.htm.php:26
+msgid "Booking Pending"
+msgstr "Rezervasyon Beklemede"
+
+#: includes/functions/backend/general/shb-core-functions.php:2633
+msgid "Booking Confirmation"
+msgstr "Rezervasyon onayı"
+
+#: includes/functions/backend/general/shb-core-functions.php:2637
+msgid "Booking Cancellation"
+msgstr "Rezervasyon İptali"
+
+#: includes/functions/backend/general/shb-core-functions.php:2708
+#: includes/post-types/shb-booking.php:15
+#: includes/post-types/shb-booking.php:30
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:22
+msgid "Booking"
+msgstr "Rezervasyon"
+
+#: includes/functions/backend/general/shb-core-functions.php:2712
+msgid "Item"
+msgstr "Öğe"
+
+#: includes/functions/backend/general/shb-core-functions.php:2713
+#: includes/post-types/shb-accommodation.php:182
+#: includes/post-types/shb-additionalfee.php:104
+#: includes/templates/backend/accommodation/shb-accommodation-pricing.htm.php:166
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:93
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:52
+msgid "Price"
+msgstr "Fiyat"
+
+#: includes/functions/backend/general/shb-core-functions.php:2719
+#: includes/shortcodes/shb-booking-page.php:1390
+#: includes/shortcodes/shb-booking-page.php:1392
+#: includes/templates/backend/accommodation/shb-accommodation-pricing.htm.php:52
+#: includes/templates/backend/booking/shb-booking-additionalfee.htm.php:25
+#: includes/templates/backend/booking/shb-booking-additionalfee.htm.php:27
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:30
+msgid "Room"
+msgstr "Oda"
+
+#: includes/functions/backend/general/shb-core-functions.php:2719
+#: includes/post-types/shb-rate.php:15 includes/post-types/shb-rate.php:30
+#: includes/templates/backend/accommodation/shb-accommodation-pricing.htm.php:135
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:31
+msgid "Rate"
+msgstr "Oran"
+
+#: includes/functions/backend/general/shb-core-functions.php:2719
+#: includes/shortcodes/shb-booking-form-1.php:222
+#: includes/shortcodes/shb-booking-form-single-horizontal.php:129
+#: includes/shortcodes/shb-booking-form-single-vertical.php:127
+#: includes/shortcodes/shb-booking-page.php:677
+#: includes/shortcodes/shb-booking-page.php:1014
+#: includes/shortcodes/shb-booking-page.php:1135
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:41
+#: includes/widgets/shb-widget-booking.php:166
+msgid "Guests"
+msgstr "Konuk"
+
+#: includes/functions/backend/general/shb-core-functions.php:2719
+#: includes/post-types/shb-booking.php:341
+#: includes/post-types/shb-booking.php:663
+#: includes/shortcodes/shb-booking-form-1.php:198
+#: includes/shortcodes/shb-booking-form-single-horizontal.php:105
+#: includes/shortcodes/shb-booking-form-single-vertical.php:103
+#: includes/shortcodes/shb-booking-page.php:1854
+#: includes/shortcodes/shb-booking-page.php:1862
+#: includes/templates/backend/booking/shb-booking-accommodation.htm.php:37
+#: includes/widgets/shb-widget-booking.php:142
+msgid "Check In"
+msgstr "Check-in tarihi"
+
+#: includes/functions/backend/general/shb-core-functions.php:2719
+#: includes/post-types/shb-booking.php:342
+#: includes/post-types/shb-booking.php:664
+#: includes/shortcodes/shb-booking-form-1.php:210
+#: includes/shortcodes/shb-booking-form-single-horizontal.php:117
+#: includes/shortcodes/shb-booking-form-single-vertical.php:115
+#: includes/shortcodes/shb-booking-page.php:1863
+#: includes/templates/backend/booking/shb-booking-accommodation.htm.php:43
+#: includes/widgets/shb-widget-booking.php:154
+msgid "Check Out"
+msgstr "Check-out tarihi"
+
+#: includes/functions/backend/general/shb-core-functions.php:2730
+msgid "Fee"
+msgstr "Ücret"
+
+#: includes/functions/backend/general/shb-core-functions.php:2733
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:39
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:55
+msgid "Quantity"
+msgstr "Miktar"
+
+#: includes/functions/backend/general/shb-core-functions.php:2737
+#: includes/post-types/shb-additionalfee.php:109
+#: includes/shortcodes/shb-booking-page.php:1509
+#: includes/templates/backend/booking/shb-booking-additionalfee.htm.php:128
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:63
+msgid "Time"
+msgstr "Zaman"
+
+#: includes/functions/backend/general/shb-core-functions.php:2741
+#: includes/post-types/shb-accommodation.php:187
+#: includes/post-types/shb-additionalfee.php:108
+#: includes/shortcodes/shb-booking-page.php:1495
+#: includes/templates/backend/booking/shb-booking-additionalfee.htm.php:110
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:59
+msgid "Date"
+msgstr "Tarih"
+
+#: includes/functions/backend/general/shb-core-functions.php:2763
+#: includes/shortcodes/shb-booking-page.php:734
+#: includes/shortcodes/shb-booking-page.php:1149
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:98
+msgid "Total"
+msgstr "Toplam"
+
+#: includes/functions/backend/general/shb-core-functions.php:2768
+#: includes/post-types/shb-booking.php:145
+msgid "Guest Information"
+msgstr "Konuk Bilgisi"
+
+#: includes/functions/backend/general/shb-core-functions.php:3176
+#: includes/shortcodes/shb-booking-form-1.php:30
+#: includes/shortcodes/shb-booking-form-with-background-3.php:61
+#: includes/templates/backend/booking/shb-booking-publish.htm.php:20
+#: includes/widgets/shb-widget-booking.php:176
+msgid "Book Now"
+msgstr "Rezervasyon"
+
+#: includes/functions/backend/general/shb-css-js.php:40
+msgid "Please select a check in and check out date"
+msgstr "Lütfen bir check-in ve check-out tarihi seçin"
+
+#: includes/functions/backend/general/shb-css-js.php:41
+msgid "Please select at least 1 guest"
+msgstr "Lütfen en az 1 konuk seçin"
+
+#: includes/functions/backend/general/shb-css-js.php:57
+msgid "MM/DD/YYYY"
+msgstr "AA/GG/YYYY"
+
+#: includes/functions/backend/general/shb-css-js.php:59
+msgid "YYYY/MM/DD"
+msgstr "YYYY/AA/GG"
+
+#: includes/functions/backend/general/shb-css-js.php:61
+msgid "DD.MM.YYYY"
+msgstr "GG.AA.YYYY"
+
+#: includes/functions/backend/general/shb-css-js.php:63
+msgid "MM.DD.YYYY"
+msgstr "AA.GG.YYYY"
+
+#: includes/functions/backend/general/shb-css-js.php:65
+msgid "YYYY.MM.DD"
+msgstr "YYYY.AA.GG"
+
+#: includes/functions/backend/general/shb-css-js.php:67
+msgid "DD/MM/YYYY"
+msgstr "GG/AA/YYYY"
+
+#: includes/functions/backend/general/shb-ical.php:13
+msgid "Import iCal Data"
+msgstr "iCal Verilerini İçe Aktar"
+
+#: includes/functions/backend/general/shb-ical.php:14
+msgid ""
+"This section allows you to import external iCal feeds, you can separate "
+"multiple feeds with a comma,"
+msgstr ""
+"Bu bölüm, harici iCal beslemelerini içe aktarmanıza izin verir, birden fazla "
+"beslemeyi virgülle ayırabilir,"
+
+#: includes/functions/backend/general/shb-ical.php:14
+msgid "click here to import all iCal feeds"
+msgstr "tüm iCal yayınlarını içe aktarmak için burayı tıklayın"
+
+#: includes/functions/backend/general/shb-ical.php:23
+msgid "Seperate multiple feed URLs with a comma ,"
+msgstr "Birden çok besleme URL’sini virgülle ayırın ,"
+
+#: includes/functions/backend/general/shb-ical.php:32
+msgid "Export iCal Data"
+msgstr "iCal Verilerini Dışa Aktar"
+
+#: includes/functions/backend/general/shb-ical.php:33
+msgid ""
+"This section allows you to export your iCal feeds to any external service "
+"which supports the iCal format"
+msgstr ""
+"Bu bölüm, iCal beslemelerinizi iCal biçimini destekleyen herhangi bir harici "
+"hizmete aktarmanıza olanak tanır"
+
+#: includes/functions/backend/general/shb-ical.php:53
+#: includes/templates/backend/settings/shb-settings-emails.htm.php:60
+#: includes/templates/backend/settings/shb-settings-forms.htm.php:36
+#: includes/templates/backend/settings/shb-settings-general.htm.php:105
+#: includes/templates/backend/settings/shb-settings-messages.htm.php:36
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:218
+msgid "Save Changes"
+msgstr "Değişiklikleri Kaydet"
+
+#: includes/functions/backend/general/shb-ical.php:193
+msgid "Success"
+msgstr "Başarı"
+
+#: includes/functions/backend/general/shb-ical.php:197
+msgid "Error"
+msgstr "Hata"
+
+#: includes/functions/backend/general/shb-settings.php:17
+msgid "General"
+msgstr "Genel"
+
+#: includes/functions/backend/general/shb-settings.php:21
+msgid "Forms"
+msgstr "Formlar"
+
+#: includes/functions/backend/general/shb-settings.php:25
+msgid "Emails"
+msgstr "E-postalar"
+
+#: includes/functions/backend/general/shb-settings.php:29
+msgid "Messages"
+msgstr "Mesajlar"
+
+#: includes/functions/backend/general/shb-settings.php:33
+msgid "Payments"
+msgstr "Ödemeler"
+
+#: includes/functions/backend/general/shb-users.php:5
+msgid "Guest"
+msgstr "Misafir"
+
+#: includes/functions/backend/general/shb-users.php:38
+msgid "Registration successful, you may login now"
+msgstr "Kayıt başarılı, şimdi giriş yapabilirsiniz"
+
+#: includes/functions/backend/general/shb-users.php:42
+#: includes/functions/backend/general/shb-users.php:48
+msgid "Username or email is already registered"
+msgstr "Kullanıcı adı veya e-posta zaten kayıtlı"
+
+#: includes/functions/backend/general/shb-users.php:60
+msgid "Username"
+msgstr "Kullanıcı adı"
+
+#: includes/functions/backend/general/shb-users.php:63
+#: includes/pagebuilder/shb-pagebuilder.php:1029
+msgid "Email"
+msgstr "E-posta"
+
+#: includes/functions/backend/general/shb-users.php:66
+msgid "Password"
+msgstr "Şifre"
+
+#: includes/functions/backend/general/shb-users.php:69
+msgid "Register"
+msgstr "Kayıt olmak"
+
+#: includes/functions/backend/general/shb-users.php:80
+msgid "Contact Details"
+msgstr "İletişim detayları"
+
+#: includes/functions/backend/general/shb-users.php:98
+msgid "Custom Fields"
+msgstr "Özel Alanlar"
+
+#: includes/pagebuilder/shb-pagebuilder.php:16
+msgid "Accommodation Listing 1"
+msgstr "Konaklama İlanı 1"
+
+#: includes/pagebuilder/shb-pagebuilder.php:26
+#: includes/pagebuilder/shb-pagebuilder.php:205
+#: includes/pagebuilder/shb-pagebuilder.php:384
+#: includes/pagebuilder/shb-pagebuilder.php:574
+#: includes/pagebuilder/shb-pagebuilder.php:620
+msgid "Columns"
+msgstr "Sütunlar"
+
+#: includes/pagebuilder/shb-pagebuilder.php:38
+#: includes/pagebuilder/shb-pagebuilder.php:217
+#: includes/pagebuilder/shb-pagebuilder.php:396
+msgid "Rooms per page"
+msgstr "Sayfa başına oda"
+
+#: includes/pagebuilder/shb-pagebuilder.php:148
+#: includes/pagebuilder/shb-pagebuilder.php:327
+#: includes/pagebuilder/shb-pagebuilder.php:506
+#: includes/pagebuilder/shb-pagebuilder.php:585
+#: includes/pagebuilder/shb-pagebuilder.php:631
+msgid "Accommodation Category Slug (Leave blank to display all)"
+msgstr "Konaklama Kategorisi Slug (Tümünü görüntülemek için boş bırakın)"
+
+#: includes/pagebuilder/shb-pagebuilder.php:156
+#: includes/pagebuilder/shb-pagebuilder.php:335
+#: includes/pagebuilder/shb-pagebuilder.php:514
+msgid "Hide Pagination"
+msgstr "Sayfalandırmayı Gizle"
+
+#: includes/pagebuilder/shb-pagebuilder.php:167
+#: includes/pagebuilder/shb-pagebuilder.php:346
+#: includes/pagebuilder/shb-pagebuilder.php:525
+msgid "Hide Filter"
+msgstr "Filtreyi Gizle"
+
+#: includes/pagebuilder/shb-pagebuilder.php:178
+#: includes/pagebuilder/shb-pagebuilder.php:357
+#: includes/pagebuilder/shb-pagebuilder.php:536
+msgid "Hide Order"
+msgstr "Siparişi Gizle"
+
+#: includes/pagebuilder/shb-pagebuilder.php:195
+msgid "Accommodation Listing 2"
+msgstr "Konaklama Listesi 2"
+
+#: includes/pagebuilder/shb-pagebuilder.php:374
+msgid "Accommodation Listing 3"
+msgstr "Konaklama Listesi 3"
+
+#: includes/pagebuilder/shb-pagebuilder.php:553
+msgid "Accommodation Carousel 1"
+msgstr "Konaklama Karuseli 1"
+
+#: includes/pagebuilder/shb-pagebuilder.php:563
+#: includes/pagebuilder/shb-pagebuilder.php:609
+#: includes/pagebuilder/shb-pagebuilder.php:1179
+msgid "Order"
+msgstr "Emir"
+
+#: includes/pagebuilder/shb-pagebuilder.php:599
+msgid "Accommodation Carousel 2"
+msgstr "Konaklama Karuseli 2"
+
+#: includes/pagebuilder/shb-pagebuilder.php:639
+msgid "Show specific accommodation IDs (Leave blank to display all)"
+msgstr ""
+"Belirli konaklama kimliklerini göster (Tümünü görüntülemek için boş bırakın)"
+
+#: includes/pagebuilder/shb-pagebuilder.php:653
+msgid "Booking Form 1"
+msgstr "Rezervasyon Formu 1"
+
+#: includes/pagebuilder/shb-pagebuilder.php:663
+msgid "Display location selection"
+msgstr "Konum seçimini göster"
+
+#: includes/pagebuilder/shb-pagebuilder.php:681
+msgid "Booking Form With Background 1"
+msgstr "Arkaplanlı Rezervasyon Formu 1"
+
+#: includes/pagebuilder/shb-pagebuilder.php:691
+#: includes/pagebuilder/shb-pagebuilder.php:739
+#: includes/pagebuilder/shb-pagebuilder.php:787
+#: includes/pagebuilder/shb-pagebuilder.php:907
+msgid "Title 1"
+msgstr "Başlık 1"
+
+#: includes/pagebuilder/shb-pagebuilder.php:699
+#: includes/pagebuilder/shb-pagebuilder.php:747
+#: includes/pagebuilder/shb-pagebuilder.php:795
+#: includes/pagebuilder/shb-pagebuilder.php:931
+msgid "Title 2"
+msgstr "Başlık 2"
+
+#: includes/pagebuilder/shb-pagebuilder.php:707
+#: includes/pagebuilder/shb-pagebuilder.php:755
+#: includes/pagebuilder/shb-pagebuilder.php:803
+msgid "Background Image"
+msgstr "Arka plan görüntüsü"
+
+#: includes/pagebuilder/shb-pagebuilder.php:715
+#: includes/pagebuilder/shb-pagebuilder.php:763
+#: includes/pagebuilder/shb-pagebuilder.php:811
+msgid "Offset"
+msgstr "Telafi etmek"
+
+#: includes/pagebuilder/shb-pagebuilder.php:729
+msgid "Booking Form With Background 2"
+msgstr "Arkaplanlı Rezervasyon Formu 2"
+
+#: includes/pagebuilder/shb-pagebuilder.php:777
+msgid "Booking Form With Background 3"
+msgstr "Arkaplanlı Rezervasyon Formu 3"
+
+#: includes/pagebuilder/shb-pagebuilder.php:825
+msgid "Booking Form Single Accommodation Horizontal"
+msgstr "Rezervasyon Formu Tek Kişilik Konaklama Yatay"
+
+#: includes/pagebuilder/shb-pagebuilder.php:835
+#: includes/pagebuilder/shb-pagebuilder.php:859
+msgid "Accommodation ID"
+msgstr "Konaklama kimliği"
+
+#: includes/pagebuilder/shb-pagebuilder.php:849
+msgid "Booking Form Single Accommodation Vertical"
+msgstr "Rezervasyon Formu Tek Kişilik Konaklama Dikey"
+
+#: includes/pagebuilder/shb-pagebuilder.php:873
+msgid "Title With Icons"
+msgstr "Simgeli Başlık"
+
+#: includes/pagebuilder/shb-pagebuilder.php:883
+msgid "Main Title"
+msgstr "Ana başlık"
+
+#: includes/pagebuilder/shb-pagebuilder.php:891
+msgid "Secondary Title"
+msgstr "İkincil Başlık"
+
+#: includes/pagebuilder/shb-pagebuilder.php:899
+msgid "Icon 1"
+msgstr "Simge 1"
+
+#: includes/pagebuilder/shb-pagebuilder.php:915
+msgid "Value 1"
+msgstr "Değer 1"
+
+#: includes/pagebuilder/shb-pagebuilder.php:923
+msgid "Icon 2"
+msgstr "Simge 2"
+
+#: includes/pagebuilder/shb-pagebuilder.php:939
+msgid "Value 2"
+msgstr "Değer 2"
+
+#: includes/pagebuilder/shb-pagebuilder.php:947
+msgid "Icon 3"
+msgstr "Simge 3"
+
+#: includes/pagebuilder/shb-pagebuilder.php:955
+msgid "Title 3"
+msgstr "Başlık 3"
+
+#: includes/pagebuilder/shb-pagebuilder.php:963
+msgid "Value 3"
+msgstr "Değer 3"
+
+#: includes/pagebuilder/shb-pagebuilder.php:979
+msgid "Booking Contact"
+msgstr "Rezervasyon İletişim"
+
+#: includes/pagebuilder/shb-pagebuilder.php:989
+#: includes/post-types/shb-booking.php:339
+msgid "Title"
+msgstr "Başlık"
+
+#: includes/pagebuilder/shb-pagebuilder.php:997
+msgid "Content"
+msgstr "İçerik"
+
+#: includes/pagebuilder/shb-pagebuilder.php:1005
+#: includes/templates/backend/settings/shb-settings-general.htm.php:25
+msgid "Address"
+msgstr "Adres"
+
+#: includes/pagebuilder/shb-pagebuilder.php:1013
+#: includes/templates/backend/settings/shb-settings-general.htm.php:31
+msgid "Address URL"
+msgstr "Adres URL’si"
+
+#: includes/pagebuilder/shb-pagebuilder.php:1021
+msgid "Phone"
+msgstr "Telefon"
+
+#: includes/pagebuilder/shb-pagebuilder.php:1044
+#: includes/templates/backend/settings/shb-settings-general.htm.php:71
+msgid "Booking Page"
+msgstr "Rezervasyon Sayfası"
+
+#: includes/pagebuilder/shb-pagebuilder.php:1060
+msgid "Offer Carousel"
+msgstr "Teklif Döngüsü"
+
+#: includes/pagebuilder/shb-pagebuilder.php:1061
+msgid "Display offer posts in a carousel"
+msgstr "Teklif gönderilerini bir döngüde göster"
+
+#: includes/pagebuilder/shb-pagebuilder.php:1070
+msgid "Post quantity to display"
+msgstr "Görüntülenecek gönderi miktarı"
+
+#: includes/post-types/shb-accommodation.php:14
+#: includes/post-types/shb-accommodation.php:15
+#: includes/post-types/shb-accommodation.php:16
+#: includes/post-types/shb-accommodation.php:18
+#: includes/post-types/shb-accommodation.php:30
+#: includes/post-types/shb-booking.php:127 includes/post-types/shb-rate.php:104
+#: includes/templates/backend/booking/shb-booking-additionalfee.htm.php:19
+msgid "Accommodation"
+msgstr "Konaklama"
+
+#: includes/post-types/shb-accommodation.php:17
+msgid "Parent Accommodation:"
+msgstr "Ebeveyn Konaklaması:"
+
+#: includes/post-types/shb-accommodation.php:19
+msgid "View Accommodation"
+msgstr "Konaklamayı Görüntüle"
+
+#: includes/post-types/shb-accommodation.php:20
+msgid "Add New Room"
+msgstr "Yeni Oda Ekle"
+
+#: includes/post-types/shb-accommodation.php:21
+#: includes/post-types/shb-additionalfee.php:21
+#: includes/post-types/shb-booking.php:21
+#: includes/post-types/shb-condition.php:21
+#: includes/post-types/shb-guestclass.php:21
+#: includes/post-types/shb-offer.php:21 includes/post-types/shb-rate.php:21
+#: includes/post-types/shb-ratevariation.php:21
+#: includes/post-types/shb-season.php:21
+msgid "Add New"
+msgstr "Yeni ekle"
+
+#: includes/post-types/shb-accommodation.php:22
+msgid "Edit Room"
+msgstr "Oda düzenle"
+
+#: includes/post-types/shb-accommodation.php:23
+msgid "Update Room"
+msgstr "Odayı Güncelle"
+
+#: includes/post-types/shb-accommodation.php:24
+msgid "Search Accommodation"
+msgstr "Konaklama Ara"
+
+#: includes/post-types/shb-accommodation.php:25
+#: includes/post-types/shb-additionalfee.php:25
+#: includes/post-types/shb-booking.php:25
+#: includes/post-types/shb-condition.php:25
+#: includes/post-types/shb-guestclass.php:25
+#: includes/post-types/shb-offer.php:25 includes/post-types/shb-rate.php:25
+#: includes/post-types/shb-ratevariation.php:25
+#: includes/post-types/shb-season.php:25
+msgid "Not found"
+msgstr "Bulunamadı"
+
+#: includes/post-types/shb-accommodation.php:26
+#: includes/post-types/shb-additionalfee.php:26
+#: includes/post-types/shb-booking.php:26
+#: includes/post-types/shb-condition.php:26
+#: includes/post-types/shb-guestclass.php:26
+#: includes/post-types/shb-offer.php:26 includes/post-types/shb-rate.php:26
+#: includes/post-types/shb-ratevariation.php:26
+#: includes/post-types/shb-season.php:26
+msgid "Not found in Trash"
+msgstr "Çöp kutusunda bulunamadı"
+
+#: includes/post-types/shb-accommodation.php:66
+msgctxt "taxonomy general name"
+msgid "Accommodation Type"
+msgstr "Konaklama biçimi"
+
+#: includes/post-types/shb-accommodation.php:67
+msgctxt "taxonomy singular name"
+msgid "Accommodation Type"
+msgstr "Konaklama biçimi"
+
+#: includes/post-types/shb-accommodation.php:68
+#: includes/shortcodes/shb-booking-page.php:415
+msgid "Search"
+msgstr "Aramak"
+
+#: includes/post-types/shb-accommodation.php:69
+msgid "Popular"
+msgstr "Popüler"
+
+#: includes/post-types/shb-accommodation.php:73
+msgid "Edit Type"
+msgstr "Düzenleme Türü"
+
+#: includes/post-types/shb-accommodation.php:74
+msgid "Update Type"
+msgstr "Güncelleme Türü"
+
+#: includes/post-types/shb-accommodation.php:75
+msgid "Add New Type"
+msgstr "Yeni Tür Ekle"
+
+#: includes/post-types/shb-accommodation.php:76
+msgid "New Type Name"
+msgstr "Yeni Tip Adı"
+
+#: includes/post-types/shb-accommodation.php:77
+msgid "Separate types with commas"
+msgstr "Türleri virgülle ayırın"
+
+#: includes/post-types/shb-accommodation.php:78
+msgid "Add or remove types"
+msgstr "Tür ekle veya kaldır"
+
+#: includes/post-types/shb-accommodation.php:79
+msgid "Choose from the most used types"
+msgstr "En çok kullanılan türlerden birini seçin"
+
+#: includes/post-types/shb-accommodation.php:80
+msgid "No types found"
+msgstr "Tür bulunamadı"
+
+#: includes/post-types/shb-accommodation.php:81
+msgid "Types"
+msgstr "Türler"
+
+#: includes/post-types/shb-accommodation.php:103
+#: includes/post-types/shb-accommodation.php:186
+msgid "Hotel"
+msgstr "Otel"
+
+#: includes/post-types/shb-accommodation.php:118
+msgid "Accommodation Settings"
+msgstr "Konaklama Ayarları"
+
+#: includes/post-types/shb-accommodation.php:127
+msgid "Accommodation Pricing"
+msgstr "Konaklama Fiyatlandırması"
+
+#: includes/post-types/shb-accommodation.php:183
+#: includes/post-types/shb-ratevariation.php:104
+#: includes/templates/backend/ratevariation/shb-ratevariation.htm.php:7
+msgid "Type"
+msgstr "Tip"
+
+#: includes/post-types/shb-accommodation.php:184
+msgid "Occupancy"
+msgstr "Doluluk"
+
+#: includes/post-types/shb-accommodation.php:185
+#: includes/post-types/shb-additionalfee.php:106
+msgid "Qty"
+msgstr "Miktar"
+
+#: includes/post-types/shb-accommodation.php:228
+msgid "Min"
+msgstr "Asgari"
+
+#: includes/post-types/shb-accommodation.php:228
+msgid "Max"
+msgstr "Maksimum"
+
+#: includes/post-types/shb-accommodation.php:407
+msgid "All Hotels"
+msgstr "Tüm Oteller"
+
+#: includes/post-types/shb-additionalfee.php:15
+#: includes/post-types/shb-additionalfee.php:30
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:51
+msgid "Additional Fee"
+msgstr "Ek ücret"
+
+#: includes/post-types/shb-additionalfee.php:17
+msgid "Parent Additional Fee:"
+msgstr "Ebeveyn Ek Ücreti:"
+
+#: includes/post-types/shb-additionalfee.php:19
+msgid "View Additional Fee"
+msgstr "Ek Ücreti Görüntüle"
+
+#: includes/post-types/shb-additionalfee.php:20
+msgid "Add New Additional Fee"
+msgstr "Yeni Ek Ücret Ekle"
+
+#: includes/post-types/shb-additionalfee.php:22
+msgid "Edit Additional Fee"
+msgstr "Ek Ücreti Düzenle"
+
+#: includes/post-types/shb-additionalfee.php:23
+msgid "Update Additional Fee"
+msgstr "Ek Ücreti Güncelle"
+
+#: includes/post-types/shb-additionalfee.php:24
+msgid "Search Additional Fee"
+msgstr "Ek Ücret Ara"
+
+#: includes/post-types/shb-additionalfee.php:46
+msgid "additionalfee"
+msgstr "ekücret"
+
+#: includes/post-types/shb-additionalfee.php:65
+msgid "Additional Fee Settings"
+msgstr "Ek Ücret Ayarları"
+
+#: includes/post-types/shb-additionalfee.php:105
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:27
+msgid "Optional"
+msgstr "İsteğe bağlı"
+
+#: includes/post-types/shb-additionalfee.php:107
+msgid "Min/Max Qty"
+msgstr "Min/Maks Miktar"
+
+#: includes/post-types/shb-additionalfee.php:135
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:17
+msgid "Per"
+msgstr "Başına"
+
+#: includes/post-types/shb-booking.php:17
+msgid "Parent Booking:"
+msgstr "Ebeveyn Rezervasyonu:"
+
+#: includes/post-types/shb-booking.php:19
+msgid "View Booking"
+msgstr "Rezervasyonu Görüntüle"
+
+#: includes/post-types/shb-booking.php:20
+msgid "Add New Booking"
+msgstr "Yeni Rezervasyon Ekle"
+
+#: includes/post-types/shb-booking.php:22
+msgid "Edit Booking"
+msgstr "Rezervasyonu Düzenle"
+
+#: includes/post-types/shb-booking.php:23
+msgid "Update Booking"
+msgstr "Rezervasyonu Güncelle"
+
+#: includes/post-types/shb-booking.php:24
+msgid "Search Guest"
+msgstr "Misafir Ara"
+
+#: includes/post-types/shb-booking.php:46
+msgid "booking"
+msgstr "rezervasyon"
+
+#: includes/post-types/shb-booking.php:64
+msgctxt "post"
+msgid "Pending"
+msgstr "Askıda olması"
+
+#: includes/post-types/shb-booking.php:69
+#, php-format
+msgid "Pending <span class=\"count\">(%s)</span>"
+msgid_plural "Pending <span class=\"count\">(%s)</span>"
+msgstr[0] "Beklemede <span class=“count”>(%s)</span>"
+msgstr[1] "Beklemede <span class=“count”>(%s)</span>"
+
+#: includes/post-types/shb-booking.php:73
+msgctxt "post"
+msgid "Confirmed"
+msgstr "Onaylanmış"
+
+#: includes/post-types/shb-booking.php:78
+#, php-format
+msgid "Confirmed <span class=\"count\">(%s)</span>"
+msgid_plural "Confirmed <span class=\"count\">(%s)</span>"
+msgstr[0] "Onaylandı <span class=“count”>(%s)</span>"
+msgstr[1] "Onaylandı <span class=“count”>(%s)</span>"
+
+#: includes/post-types/shb-booking.php:82
+msgctxt "post"
+msgid "Cancelled"
+msgstr "İptal edildi"
+
+#: includes/post-types/shb-booking.php:87
+#, php-format
+msgid "Cancelled <span class=\"count\">(%s)</span>"
+msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+msgstr[0] "Iptal edildi <span class=“count”>(%s)</span>"
+msgstr[1] "Iptal edildi <span class=“count”>(%s)</span>"
+
+#: includes/post-types/shb-booking.php:91
+msgctxt "post"
+msgid "iCal"
+msgstr "iCal"
+
+#: includes/post-types/shb-booking.php:96
+#, php-format
+msgid "iCal <span class=\"count\">(%s)</span>"
+msgid_plural "iCal <span class=\"count\">(%s)</span>"
+msgstr[0] "iCal <span class=“count”>(%s)</span>"
+msgstr[1] "iCal <span class=“count”>(%s)</span>"
+
+#: includes/post-types/shb-booking.php:100
+msgctxt "post"
+msgid "Maintenance"
+msgstr "Bakım"
+
+#: includes/post-types/shb-booking.php:105
+#, php-format
+msgid "Maintenance <span class=\"count\">(%s)</span>"
+msgid_plural "Maintenance <span class=\"count\">(%s)</span>"
+msgstr[0] "Bakım <span class=“count”>(%s)</span>"
+msgstr[1] "Bakım <span class=“count”>(%s)</span>"
+
+#: includes/post-types/shb-booking.php:154
+msgid "Booking Status"
+msgstr "Rezervasyon durumu"
+
+#: includes/post-types/shb-booking.php:163
+msgid "Send Email"
+msgstr "Eposta gönder"
+
+#: includes/post-types/shb-booking.php:172
+msgid "Booking Summary"
+msgstr "Rezervasyon özeti"
+
+#: includes/post-types/shb-booking.php:181
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/post-types/shb-booking.php:340
+#: includes/post-types/shb-offer.php:124
+msgid "Room(s)"
+msgstr "Odalar"
+
+#: includes/post-types/shb-booking.php:343
+msgid "Received"
+msgstr "Kabul edilmiş"
+
+#: includes/post-types/shb-booking.php:344
+msgid "Status"
+msgstr "Durum"
+
+#: includes/post-types/shb-booking.php:345
+msgid "WC Payment ID"
+msgstr "WC Ödeme Kimliği"
+
+#: includes/post-types/shb-booking.php:379
+#: includes/post-types/shb-booking.php:382
+msgid "Move"
+msgstr "Taşınmak"
+
+#: includes/post-types/shb-booking.php:379
+#: includes/post-types/shb-booking.php:382
+msgid "to the Trash"
+msgstr "çöp Kutusuna"
+
+#: includes/post-types/shb-booking.php:379
+#: includes/post-types/shb-booking.php:382
+msgid "Trash"
+msgstr "Çöp"
+
+#: includes/post-types/shb-booking.php:382
+msgid "Edit"
+msgstr "Düzenlemek"
+
+#: includes/post-types/shb-booking.php:385
+msgid "Show more details"
+msgstr "Daha fazla ayrıntı göster"
+
+#: includes/post-types/shb-booking.php:414
+msgid "Note: This booking contains rooms booked for different dates"
+msgstr ""
+"Not: Bu rezervasyon, farklı tarihler için rezerve edilmiş odalar içermektedir"
+
+#: includes/post-types/shb-condition.php:15
+#: includes/post-types/shb-condition.php:30
+msgid "Condition"
+msgstr "Durum"
+
+#: includes/post-types/shb-condition.php:17
+msgid "Parent Condition:"
+msgstr "Ebeveyn Koşulu:"
+
+#: includes/post-types/shb-condition.php:19
+msgid "View Condition"
+msgstr "Durumu Görüntüle"
+
+#: includes/post-types/shb-condition.php:20
+msgid "Add New Condition"
+msgstr "Yeni Koşul Ekle"
+
+#: includes/post-types/shb-condition.php:22
+msgid "Edit Condition"
+msgstr "Koşulu Düzenle"
+
+#: includes/post-types/shb-condition.php:23
+msgid "Update Condition"
+msgstr "Koşulu Güncelle"
+
+#: includes/post-types/shb-condition.php:24
+msgid "Search Condition"
+msgstr "Arama Durumu"
+
+#: includes/post-types/shb-condition.php:46
+msgid "condition"
+msgstr "durum"
+
+#: includes/post-types/shb-condition.php:65
+msgid "Condition Settings"
+msgstr "Durum Ayarları"
+
+#: includes/post-types/shb-condition.php:104
+msgid "Min/Max Stay"
+msgstr "Min/Maks Konaklama"
+
+#: includes/post-types/shb-condition.php:105
+#: includes/templates/backend/condition/shb-condition.htm.php:27
+msgid "Notice"
+msgstr "Fark etme"
+
+#: includes/post-types/shb-condition.php:106
+#: includes/templates/backend/condition/shb-condition.htm.php:37
+msgid "Increments"
+msgstr "Artışlar"
+
+#: includes/post-types/shb-condition.php:107
+msgid "Allow In"
+msgstr "Giriş Yapılmasına İzin Verildi"
+
+#: includes/post-types/shb-condition.php:108
+msgid "Allow Out"
+msgstr "Çıkış Yapılmasına İzin Verildi"
+
+#: includes/post-types/shb-condition.php:109
+msgid "Apply In"
+msgstr "Giriş Yap"
+
+#: includes/post-types/shb-condition.php:110
+msgid "Apply Out"
+msgstr "Çıkış İçin Uygula"
+
+#: includes/post-types/shb-condition.php:134
+#: includes/post-types/shb-condition.php:138
+#: includes/post-types/shb-condition.php:142
+#: includes/post-types/shb-ratevariation.php:133
+msgid "Night(s)"
+msgstr "Geceler"
+
+#: includes/post-types/shb-guestclass.php:14
+#: includes/post-types/shb-guestclass.php:15
+#: includes/post-types/shb-guestclass.php:30
+msgid "Guest Class"
+msgstr "Misafir Sınıfı"
+
+#: includes/post-types/shb-guestclass.php:17
+msgid "Parent Guest Class:"
+msgstr "Ebeveyn Konuk Kategorisi:"
+
+#: includes/post-types/shb-guestclass.php:19
+msgid "View Guest Classes"
+msgstr "Konuk Kategorisini Görüntüle"
+
+#: includes/post-types/shb-guestclass.php:20
+msgid "Add New Guest Class"
+msgstr "Yeni Konuk Kategorisi Ekle"
+
+#: includes/post-types/shb-guestclass.php:22
+msgid "Edit Guest Class"
+msgstr "Konuk Kategorisini Düzenle"
+
+#: includes/post-types/shb-guestclass.php:23
+msgid "Update Guest Class"
+msgstr "Konuk Kategorisini Güncelle"
+
+#: includes/post-types/shb-guestclass.php:24
+msgid "Search Guest Class"
+msgstr "Misafir Kategorisini Ara"
+
+#: includes/post-types/shb-guestclass.php:46
+msgid "guestclass"
+msgstr "misafirkategorisi"
+
+#: includes/post-types/shb-guestclass.php:65
+msgid "Guest Class Settings"
+msgstr "Misafir Kategorisi Ayarları"
+
+#: includes/post-types/shb-guestclass.php:104
+#: includes/templates/backend/guestclass/shb-guestclass.htm.php:7
+msgid "Title Plural"
+msgstr "Başlık Çoğul"
+
+#: includes/post-types/shb-offer.php:15 includes/post-types/shb-offer.php:50
+msgid "Offer"
+msgstr "Teklif"
+
+#: includes/post-types/shb-offer.php:17
+msgid "Parent Offer:"
+msgstr "Ebeveyn Teklifi:"
+
+#: includes/post-types/shb-offer.php:19
+msgid "View Offer"
+msgstr "Teklifi göster"
+
+#: includes/post-types/shb-offer.php:20
+msgid "Add New Offer"
+msgstr "Yeni Teklif Ekle"
+
+#: includes/post-types/shb-offer.php:22
+msgid "Edit Offer"
+msgstr "Teklifi Düzenle"
+
+#: includes/post-types/shb-offer.php:23
+msgid "Update Offer"
+msgstr "Teklifi Güncelle"
+
+#: includes/post-types/shb-offer.php:24
+msgid "Search Offer"
+msgstr "Teklif Ara"
+
+#: includes/post-types/shb-offer.php:66
+msgid "offer"
+msgstr "teklif"
+
+#: includes/post-types/shb-offer.php:85
+msgid "Offer Settings"
+msgstr "Teklif Ayarları"
+
+#: includes/post-types/shb-offer.php:189 includes/post-types/shb-season.php:189
+msgid "None"
+msgstr "Hiçbiri"
+
+#: includes/post-types/shb-rate.php:17
+msgid "Parent Rate:"
+msgstr "Ebeveyn Ücreti:"
+
+#: includes/post-types/shb-rate.php:19
+msgid "View Rate"
+msgstr "Görüntüleme Oranı"
+
+#: includes/post-types/shb-rate.php:20
+msgid "Add New Rate"
+msgstr "Yeni Fiyat Ekle"
+
+#: includes/post-types/shb-rate.php:22
+msgid "Edit Rate"
+msgstr "Oranı Düzenle"
+
+#: includes/post-types/shb-rate.php:23
+msgid "Update Rate"
+msgstr "Güncelleme Hızı"
+
+#: includes/post-types/shb-rate.php:24
+msgid "Search Rate"
+msgstr "Arama Oranı"
+
+#: includes/post-types/shb-rate.php:46
+msgid "rate"
+msgstr "oran"
+
+#: includes/post-types/shb-rate.php:65
+msgid "Rate Settings"
+msgstr "Oran Ayarları"
+
+#: includes/post-types/shb-ratevariation.php:15
+#: includes/post-types/shb-ratevariation.php:30
+msgid "Rate Variation"
+msgstr "Oran Değişimi"
+
+#: includes/post-types/shb-ratevariation.php:17
+msgid "Parent Rate Variation:"
+msgstr "Ebeveyn Oranı Değişimi:"
+
+#: includes/post-types/shb-ratevariation.php:19
+msgid "View Rate Variation"
+msgstr "Oran Değişimini Görüntüle"
+
+#: includes/post-types/shb-ratevariation.php:20
+msgid "Add New Rate Variation"
+msgstr "Yeni Oran Varyasyonu Ekle"
+
+#: includes/post-types/shb-ratevariation.php:22
+msgid "Edit Rate Variation"
+msgstr "Oran Değişimini Düzenle"
+
+#: includes/post-types/shb-ratevariation.php:23
+msgid "Update Rate Variation"
+msgstr "Güncelleme Hızı Değişimi"
+
+#: includes/post-types/shb-ratevariation.php:24
+msgid "Search Rate Variation"
+msgstr "Arama Oranı Değişimi"
+
+#: includes/post-types/shb-ratevariation.php:46
+msgid "ratevariation"
+msgstr "orandeğişimi"
+
+#: includes/post-types/shb-ratevariation.php:65
+msgid "Rate Variation Settings"
+msgstr "Hız Değişimi Ayarları"
+
+#: includes/post-types/shb-ratevariation.php:105
+#: includes/templates/backend/ratevariation/shb-ratevariation.htm.php:18
+msgid "Applied To"
+msgstr "Uygulanan"
+
+#: includes/post-types/shb-season.php:15 includes/post-types/shb-season.php:30
+#: includes/templates/backend/accommodation/shb-accommodation-pricing.htm.php:148
+msgid "Season"
+msgstr "Mevsim"
+
+#: includes/post-types/shb-season.php:16
+msgid "Seasones"
+msgstr "Mevsimler"
+
+#: includes/post-types/shb-season.php:17
+msgid "Parent Season:"
+msgstr "Ebeveyn Sezonu:"
+
+#: includes/post-types/shb-season.php:19
+msgid "View Season"
+msgstr "Sezonu Görüntüle"
+
+#: includes/post-types/shb-season.php:20
+msgid "Add New Season"
+msgstr "Yeni Sezon Ekle"
+
+#: includes/post-types/shb-season.php:22
+msgid "Edit Season"
+msgstr "Sezonu Düzenle"
+
+#: includes/post-types/shb-season.php:23
+msgid "Update Season"
+msgstr "Sezonu Güncelle"
+
+#: includes/post-types/shb-season.php:24
+msgid "Search Season"
+msgstr "Arama Sezonu"
+
+#: includes/post-types/shb-season.php:46
+msgid "season"
+msgstr "mevsim"
+
+#: includes/post-types/shb-season.php:65
+msgid "Season Settings"
+msgstr "Sezon Ayarları"
+
+#: includes/post-types/shb-season.php:104
+msgid "From"
+msgstr "İtibaren"
+
+#: includes/post-types/shb-season.php:105
+msgid "To"
+msgstr "İle"
+
+#: includes/post-types/shb-season.php:108
+msgid "Overlap"
+msgstr "Örtüşmek"
+
+#: includes/post-types/shb-season.php:108
+msgid "Overlapping seasons should be avoided"
+msgstr "Çakışan mevsimlerden kaçınılmalıdır"
+
+#: includes/shortcodes/shb-accommodation-carousel-1.php:125
+#: includes/shortcodes/shb-accommodation-listing-1.php:214
+msgid "View Room"
+msgstr "Odayı Görüntüle"
+
+#: includes/shortcodes/shb-accommodation-listing-1.php:127
+#: includes/shortcodes/shb-accommodation-listing-2.php:127
+#: includes/shortcodes/shb-accommodation-listing-3.php:127
+msgid "Default Sorting"
+msgstr "Varsayılan sıralama"
+
+#: includes/shortcodes/shb-accommodation-listing-1.php:135
+#: includes/shortcodes/shb-accommodation-listing-2.php:135
+#: includes/shortcodes/shb-accommodation-listing-3.php:135
+msgid "Price Low to High"
+msgstr "Fiyat Düşükten Yükseğe"
+
+#: includes/shortcodes/shb-accommodation-listing-1.php:143
+#: includes/shortcodes/shb-accommodation-listing-2.php:143
+#: includes/shortcodes/shb-accommodation-listing-3.php:143
+msgid "Price High to Low"
+msgstr "Fiyat pahalıdan ucuza"
+
+#: includes/shortcodes/shb-accommodation-listing-1.php:156
+#: includes/shortcodes/shb-accommodation-listing-2.php:156
+#: includes/shortcodes/shb-accommodation-listing-3.php:156
+msgid "Filter by"
+msgstr "Tarafından filtre"
+
+#: includes/shortcodes/shb-booking-form-1.php:172
+#: includes/shortcodes/shb-booking-form-single-horizontal.php:83
+#: includes/shortcodes/shb-booking-form-single-vertical.php:81
+#: includes/widgets/shb-widget-booking.php:116
+msgid "Ok"
+msgstr "Tamam"
+
+#: includes/shortcodes/shb-booking-form-1.php:184
+#: includes/widgets/shb-widget-booking.php:128
+msgid "Location"
+msgstr "Konum"
+
+#: includes/shortcodes/shb-booking-form-1.php:185
+#: includes/widgets/shb-widget-booking.php:129
+msgid "Select a location"
+msgstr "Bir konum seçin"
+
+#: includes/shortcodes/shb-booking-form-1.php:223
+#: includes/shortcodes/shb-booking-form-single-horizontal.php:130
+#: includes/shortcodes/shb-booking-form-single-vertical.php:128
+#: includes/widgets/shb-widget-booking.php:167
+msgid "Guest(s)"
+msgstr "Konuk"
+
+#: includes/shortcodes/shb-booking-form-single-horizontal.php:93
+#: includes/shortcodes/shb-booking-form-single-vertical.php:91
+msgid "Room Type"
+msgstr "Oda tipi"
+
+#: includes/shortcodes/shb-booking-form-single-horizontal.php:154
+#: includes/shortcodes/shb-booking-form-single-vertical.php:152
+msgid "Please enter a valid accommodation ID to display the booking form."
+msgstr ""
+"Lütfen rezervasyon formunu görüntülemek için geçerli bir konaklama kimliği "
+"girin."
+
+#: includes/shortcodes/shb-booking-page.php:17
+#: includes/shortcodes/shb-booking-page.php:35
+msgid "Rooms"
+msgstr "Odalar"
+
+#: includes/shortcodes/shb-booking-page.php:18
+#: includes/shortcodes/shb-booking-page.php:37
+#: includes/templates/backend/booking/shb-booking-woocommerce.htm.php:210
+msgid "Payment"
+msgstr "Ödeme"
+
+#: includes/shortcodes/shb-booking-page.php:19
+#: includes/shortcodes/shb-booking-page.php:38
+msgid "Complete"
+msgstr "Tamamlamak"
+
+#: includes/shortcodes/shb-booking-page.php:36
+msgid "Add-Ons"
+msgstr "Eklentiler"
+
+#: includes/shortcodes/shb-booking-page.php:487
+msgid "Room Selected"
+msgstr "Oda Seçildi"
+
+#: includes/shortcodes/shb-booking-page.php:489
+msgid ""
+"You have selected to book this room, you can select it again if you need "
+"multiple rooms of the same type"
+msgstr ""
+"Bu odayı rezerve etmeyi seçtiniz, aynı tipte birden fazla odaya ihtiyacınız "
+"varsa tekrar seçebilirsiniz"
+
+#: includes/shortcodes/shb-booking-page.php:588
+#: includes/shortcodes/shb-booking-page.php:592
+#: includes/shortcodes/shb-booking-page.php:740
+msgid "Select Room"
+msgstr "Oda Seç"
+
+#: includes/shortcodes/shb-booking-page.php:590
+#: includes/shortcodes/shb-booking-page.php:593
+msgid "View Details"
+msgstr "Detayları göster"
+
+#: includes/shortcodes/shb-booking-page.php:676
+#: includes/shortcodes/shb-booking-page.php:1013
+#: includes/shortcodes/shb-booking-page.php:1134
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:40
+msgid "Dates"
+msgstr "Tarih"
+
+#: includes/shortcodes/shb-booking-page.php:743
+msgid "Cancel"
+msgstr "İptal etmek"
+
+#: includes/shortcodes/shb-booking-page.php:1007
+#, php-format
+msgid "Room %u of %s"
+msgstr "%u oda %s"
+
+#: includes/shortcodes/shb-booking-page.php:1072
+#: includes/shortcodes/shb-booking-page.php:1089
+msgid "Remove"
+msgstr "Kaldırmak"
+
+#: includes/shortcodes/shb-booking-page.php:1106
+msgid "Your Stay"
+msgstr "Konaklamanız"
+
+#: includes/shortcodes/shb-booking-page.php:1178
+#, php-format
+msgid "Charged in %s (%s)"
+msgstr "%s (%s) olarak ücretlendirildi"
+
+#: includes/shortcodes/shb-booking-page.php:1204
+msgid "Discounts"
+msgstr "Indirimler"
+
+#: includes/shortcodes/shb-booking-page.php:1217
+#, php-format
+msgid "Pay Now (%s)"
+msgstr "Şimdi Öde (%s)"
+
+#: includes/shortcodes/shb-booking-page.php:1231
+msgid "Continue"
+msgstr "Devam etmek"
+
+#: includes/shortcodes/shb-booking-page.php:1238
+msgid "Add A Room?"
+msgstr "Oda Ekle?"
+
+#: includes/shortcodes/shb-booking-page.php:1383
+msgid "Select add-ons for"
+msgstr "Için eklentileri seçin"
+
+#: includes/shortcodes/shb-booking-page.php:1446
+msgid "Read More"
+msgstr "Devamını oku"
+
+#: includes/shortcodes/shb-booking-page.php:1447
+msgid "Read Less"
+msgstr "Az oku"
+
+#: includes/shortcodes/shb-booking-page.php:1601
+#: includes/templates/backend/booking/shb-booking-accommodation.htm.php:143
+#: includes/templates/backend/booking/shb-booking-accommodation.htm.php:145
+#: includes/templates/backend/booking/shb-booking-additionalfee.htm.php:235
+msgid "Select"
+msgstr "Seçme"
+
+#: includes/shortcodes/shb-booking-page.php:1629
+msgid "No add-ons available"
+msgstr "Kullanılabilir eklenti yok"
+
+#: includes/shortcodes/shb-booking-page.php:1685
+msgid "Please select at least one room before checking out"
+msgstr "Lütfen çıkış yapmadan önce en az bir oda seçin"
+
+#: includes/shortcodes/shb-booking-page.php:1838
+msgid "Booking Complete!"
+msgstr "Rezervasyon Tamamlandı!"
+
+#: includes/shortcodes/shb-booking-page.php:1846
+#, php-format
+msgid "A confirmation email has been sent to %s"
+msgstr "%s adresine bir onay e-postası gönderildi"
+
+#: includes/shortcodes/shb-booking-page.php:1851
+msgid "Thank You"
+msgstr "Teşekkür ederim"
+
+#: includes/shortcodes/shb-booking-page.php:1862
+#: includes/shortcodes/shb-booking-page.php:1863
+#, php-format
+msgid "%s at %s"
+msgstr "%s konumunda %s"
+
+#: includes/shortcodes/shb-booking-page.php:1867
+msgid "Find Us"
+msgstr "Bizi bul"
+
+#: includes/shortcodes/shb-offer-carousel.php:78
+msgid "No news has been added yet"
+msgstr "Henüz haber eklenmemiş"
+
+#: includes/templates/backend/accommodation/shb-accommodation-pricing.htm.php:177
+#, php-format
+msgid "Duration: %d night(s) or more"
+msgstr "Süre: %d gece veya daha fazla"
+
+#: includes/templates/backend/accommodation/shb-accommodation-pricing.htm.php:179
+#, php-format
+msgid "Early: %d night(s) or more until check in date"
+msgstr "Erken: Giriş tarihine kadar %d gece veya daha fazla"
+
+#: includes/templates/backend/accommodation/shb-accommodation-pricing.htm.php:181
+#, php-format
+msgid "Late: %d night(s) or less until check in date"
+msgstr "Geç: Giriş tarihine kadar %d gece veya daha az"
+
+#: includes/templates/backend/accommodation/shb-accommodation-pricing.htm.php:220
+msgid ""
+"Go to \"Hotel Booking > Rates\" and add this accommodation to an existing "
+"rate, or create a new one."
+msgstr ""
+"“Otel Rezervasyonu > Fiyatlar”a gidin ve bu konaklamayı mevcut bir fiyata "
+"ekleyin veya yeni bir tane oluşturun."
+
+#: includes/templates/backend/accommodation/shb-accommodation-pricing.htm.php:226
+msgid ""
+"You must set the \"Accommodation Settings\" above and publish the "
+"accommodation before you can enter prices."
+msgstr ""
+"Fiyat girebilmeniz için yukarıdaki “Konaklama Ayarları”nı belirlemeli ve "
+"konaklamayı yayınlamalısınız."
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:11
+msgid "Short description"
+msgstr "Kısa Açıklama"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:12
+msgid ""
+"This is displayed on the accommodation listing pages and is intended as a "
+"brief overview of the room"
+msgstr ""
+"Bu, konaklama listesi sayfalarında görüntülenir ve odaya kısa bir genel "
+"bakış olarak tasarlanmıştır"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:19
+msgid "Accommodation type"
+msgstr "Konaklama biçimi"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:24
+msgid "Shared dorm"
+msgstr "Paylaşılan yurt"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:29
+msgid "Price Scheme"
+msgstr "Fiyat Şeması"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:33
+msgid "Charge per guest"
+msgstr "Konuk başına ücret"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:34
+msgid "Charge per room"
+msgstr "Oda başına ücret"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:40
+msgid ""
+"This sets the quantity of units available for this accommodation, use this "
+"if you have multiple units of the same type available"
+msgstr ""
+"Bu, bu konaklama birimi için mevcut olan birim miktarını ayarlar, aynı "
+"türden birden fazla biriminiz varsa bunu kullanın"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:58
+msgid "min"
+msgstr "minimum"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:66
+msgid "max"
+msgstr "maksimum"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:79
+msgid "Total min"
+msgstr "Toplam minimum"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:86
+msgid "Total max"
+msgstr "Toplam maksimum"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:100
+msgid "Price Introduction"
+msgstr "Fiyat Tanıtımı"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:101
+msgid ""
+"This is a guide price for guests, it's displayed before the actual price can "
+"be calculated e.g. before dates and guest quantities are selected. You can "
+"add something like 'From $250 / Night'. Add the [price] shortcode in this "
+"field to use the 'Sorting Price' if you're using multiple currencies so it "
+"will be converted"
+msgstr ""
+"Bu, misafirler için bir rehber fiyattır, gerçek fiyat hesaplanmadan önce "
+"gösterilir, örn. tarihler ve konuk miktarları seçilmeden önce. “250 $ / "
+"Geceden” gibi bir şey ekleyebilirsiniz. Birden fazla para birimi "
+"kullanıyorsanız ‘Sıralama Fiyatı’nı kullanmak için bu alana [fiyat] kısa "
+"kodunu ekleyin, böylece dönüştürülecektir"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:108
+msgid "Sorting Price"
+msgstr "Sıralama Fiyatı"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:109
+msgid ""
+"This price is used for sorting purposes, when the user selects the sort by "
+"price filter"
+msgstr ""
+"Bu fiyat, kullanıcı fiyata göre sırala filtresini seçtiğinde sıralama "
+"amaçları için kullanılır"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:116
+msgid "Display form"
+msgstr "Ekran formu"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:117
+msgid "Display a booking form on the accommodation single page"
+msgstr "Konaklama tek sayfasında bir rezervasyon formu görüntüleyin"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:132
+#: includes/templates/backend/booking/shb-booking-accommodation.htm.php:79
+msgid ""
+"Go to \"Hotel Booking > Guest Classes\" and create at least one guest class."
+msgstr ""
+"“Otel Rezervasyonu > Misafir Sınıfları”na gidin ve en az bir misafir sınıfı "
+"oluşturun."
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:7
+msgid "Charge"
+msgstr "Şarj"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:11
+msgid "Per room"
+msgstr "Oda başı"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:12
+msgid "Per person"
+msgstr "Kişi başına"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:28
+msgid ""
+"If this is set to 'No' the fee will be automatically added to user's total "
+"at the checkout"
+msgstr ""
+"Bu ‘Hayır’ olarak ayarlanırsa ücret, ödeme sırasında kullanıcının toplamına "
+"otomatik olarak eklenecektir"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:38
+msgid "Quantity select"
+msgstr "Miktar seçimi"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:39
+msgid "Display a quantity selection for this fee"
+msgstr "Bu ücret için bir miktar seçimi göster"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:49
+msgid "Quantity min"
+msgstr "Minimum miktar"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:56
+msgid "Quantity max"
+msgstr "Maksimum miktar"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:63
+msgid "Quantity name"
+msgstr "Miktar adı"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:64
+msgid ""
+"What is the name of the thing the user is selecting the quantity for? e.g. "
+"'people', 'car', 'breakfast', etc"
+msgstr ""
+"Kullanıcının miktarı seçtiği şeyin adı nedir? Örneğin. “insanlar”, “araba”, "
+"“kahvaltı” vb"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:71
+msgid "Select date"
+msgstr "Tarih seç"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:72
+msgid "Display a date selection for this fee"
+msgstr "Bu ücret için bir tarih seçimi göster"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:82
+msgid "Select time"
+msgstr "Zaman seçin"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:83
+msgid "Display a time selection for this fee"
+msgstr "Bu ücret için bir zaman seçimi göster"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:100
+msgid "Price name"
+msgstr "Fiyat adı"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:101
+msgid ""
+"Displayed next to the 'Price', you can add more details to describe the "
+"price such as 'Per Guest' or 'Per Night'"
+msgstr ""
+"“Fiyat”ın yanında görüntülenen “Misafir Başına” veya “Gecelik” gibi fiyatı "
+"açıklamak için daha fazla ayrıntı ekleyebilirsiniz."
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:108
+msgid "Custom text input label"
+msgstr "Özel metin girişi etiketi"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:109
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:117
+msgid "Leave this field blank if you do not want a custom text input"
+msgstr "Özel bir metin girişi istemiyorsanız bu alanı boş bırakın"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:116
+msgid "Custom select label"
+msgstr "Özel seçim etiketi"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:124
+msgid "Custom select options"
+msgstr "Özel seçim seçenekleri"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:125
+msgid "Separate each option with a | e.g. Option #1 | Option #2"
+msgstr "Her seçeneği bir | Örneğin. Seçenek #1 | Seçenek 2"
+
+#: includes/templates/backend/booking/shb-booking-accommodation.htm.php:75
+msgid "Check Availability"
+msgstr "Kullanılabilirliği kontrol et"
+
+#: includes/templates/backend/booking/shb-booking-accommodation.htm.php:115
+msgid "Available"
+msgstr "Mevcut"
+
+#: includes/templates/backend/booking/shb-booking-accommodation.htm.php:156
+msgid "No rates available"
+msgstr "Fiyat yok"
+
+#: includes/templates/backend/booking/shb-booking-additionalfee.htm.php:25
+#: includes/templates/backend/booking/shb-booking-additionalfee.htm.php:27
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:28
+msgid "of"
+msgstr "/"
+
+#: includes/templates/backend/booking/shb-booking-additionalfee.htm.php:256
+msgid ""
+"Enter your booking dates and guest quantities above, click \"Check "
+"Availability\", select your accommodation, and then you can select "
+"additional fees"
+msgstr ""
+"Yukarıya rezervasyon tarihlerinizi ve konuk sayılarınızı girin, “Müsaitliği "
+"Kontrol Et”e tıklayın, konaklamanızı seçin ve ardından ek ücretleri "
+"seçebilirsiniz"
+
+#: includes/templates/backend/booking/shb-booking-guest-information.htm.php:11
+#: includes/templates/backend/booking/shb-booking-publish.htm.php:20
+msgid "Update"
+msgstr "Güncelleme"
+
+#: includes/templates/backend/booking/shb-booking-publish.htm.php:14
+msgid "Move to trash"
+msgstr "Çöp kutusuna taşıyın"
+
+#: includes/templates/backend/booking/shb-booking-sendmail.htm.php:15
+msgid "Email successfully sent"
+msgstr "E-posta başarıyla gönderildi"
+
+#: includes/templates/backend/booking/shb-booking-sendmail.htm.php:27
+msgid "Booking Confirmed"
+msgstr "Rezervasyon onaylandı"
+
+#: includes/templates/backend/booking/shb-booking-sendmail.htm.php:28
+msgid "Booking Cancelled"
+msgstr "Rezervasyon İptal Edildi"
+
+#: includes/templates/backend/booking/shb-booking-sendmail.htm.php:31
+msgid "Send"
+msgstr "Göndermek"
+
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:42
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:79
+msgid "Delete"
+msgstr "Silmek"
+
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:104
+msgid "No accommodation selected."
+msgstr "Konaklama seçilmedi."
+
+#: includes/templates/backend/booking/shb-booking-woocommerce.htm.php:116
+#: includes/templates/backend/booking/shb-booking-woocommerce.htm.php:159
+msgid "View WooCommerce Order"
+msgstr "WooCommerce Siparişini Görüntüle"
+
+#: includes/templates/backend/booking/shb-booking-woocommerce.htm.php:132
+#: includes/templates/backend/booking/shb-booking-woocommerce.htm.php:175
+#: includes/templates/backend/booking/shb-booking-woocommerce.htm.php:190
+msgid "Create WooCommerce Order"
+msgstr "WooCommerce Siparişi Oluşturun"
+
+#: includes/templates/backend/booking/shb-booking-woocommerce.htm.php:209
+msgid "Amount"
+msgstr "Miktar"
+
+#: includes/templates/backend/booking/shb-booking-woocommerce.htm.php:223
+msgid "Update Price"
+msgstr "Fiyatı Güncelle"
+
+#: includes/templates/backend/condition/shb-condition.htm.php:7
+msgid "Min Stay"
+msgstr "Minimum konaklama"
+
+#: includes/templates/backend/condition/shb-condition.htm.php:8
+msgid "Set a minimum booking period"
+msgstr "Minimum rezervasyon süresi belirleyin"
+
+#: includes/templates/backend/condition/shb-condition.htm.php:12
+#: includes/templates/backend/condition/shb-condition.htm.php:22
+#: includes/templates/backend/condition/shb-condition.htm.php:32
+#: includes/templates/backend/condition/shb-condition.htm.php:42
+#: includes/templates/backend/ratevariation/shb-ratevariation.htm.php:22
+msgid "nights"
+msgstr "geceler"
+
+#: includes/templates/backend/condition/shb-condition.htm.php:13
+#: includes/templates/backend/condition/shb-condition.htm.php:23
+#: includes/templates/backend/condition/shb-condition.htm.php:33
+#: includes/templates/backend/condition/shb-condition.htm.php:43
+#: includes/templates/backend/ratevariation/shb-ratevariation.htm.php:23
+msgid "night"
+msgstr "gece"
+
+#: includes/templates/backend/condition/shb-condition.htm.php:17
+msgid "Max Stay"
+msgstr "Maksimum Konaklama"
+
+#: includes/templates/backend/condition/shb-condition.htm.php:18
+msgid "Set a maximum booking period"
+msgstr "Bir maksimum rezervasyon süresi belirleyin"
+
+#: includes/templates/backend/condition/shb-condition.htm.php:28
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:20
+msgid ""
+"Set how many nights in advance of the check in date the user needs to submit "
+"their booking"
+msgstr ""
+"Kullanıcının check-in tarihinden kaç gece önce rezervasyonunu göndermesi "
+"gerektiğini ayarlayın"
+
+#: includes/templates/backend/condition/shb-condition.htm.php:38
+msgid ""
+"Restrict users so they can only book a certain number of nights, e.g. if you "
+"set this option to 7 nights, users will only be able to book weekly e.g. 7 "
+"nights, 14 nights, 21 nights, etc"
+msgstr ""
+"Kullanıcıları yalnızca belirli sayıda gece rezervasyonu yapabilecek şekilde "
+"kısıtlayın, ör. bu seçeneği 7 geceye ayarlarsanız, kullanıcılar yalnızca "
+"haftalık rezervasyon yapabilir, örn. 7 gece, 14 gece, 21 gece, vb."
+
+#: includes/templates/backend/condition/shb-condition.htm.php:47
+msgid "Allowed check in"
+msgstr "İzinli check-in"
+
+#: includes/templates/backend/condition/shb-condition.htm.php:62
+msgid "Allowed check out"
+msgstr "İzinli check-out"
+
+#: includes/templates/backend/condition/shb-condition.htm.php:77
+msgid "Apply condition when check in is on the following days"
+msgstr "Check-in sonraki günlerde olduğunda koşulu uygulayın"
+
+#: includes/templates/backend/condition/shb-condition.htm.php:92
+msgid "Apply condition when check out is on the following days"
+msgstr "Check-out sonraki günlerde olduğunda koşulu uygulayın"
+
+#: includes/templates/backend/guestclass/shb-guestclass.htm.php:13
+msgid "Description"
+msgstr "Tanım"
+
+#: includes/templates/backend/offer/shb-offer.htm.php:7
+#: includes/templates/backend/rate/shb-rate.htm.php:19
+msgid "Short Description"
+msgstr "Kısa Açıklama"
+
+#: includes/templates/backend/season/shb-season.htm.php:7
+msgid "Start"
+msgstr "Başlangıç"
+
+#: includes/templates/backend/season/shb-season.htm.php:15
+msgid "End"
+msgstr "Son"
+
+#: includes/templates/backend/settings/shb-settings-emails.htm.php:20
+msgid "Pending message 1"
+msgstr "Bekleyen mesaj 1"
+
+#: includes/templates/backend/settings/shb-settings-emails.htm.php:26
+msgid "Pending message 2"
+msgstr "Bekleyen mesaj 2"
+
+#: includes/templates/backend/settings/shb-settings-emails.htm.php:32
+msgid "Confirmed message 1"
+msgstr "Onaylanan mesaj 1"
+
+#: includes/templates/backend/settings/shb-settings-emails.htm.php:38
+msgid "Confirmed message 2"
+msgstr "Onaylanan mesaj 2"
+
+#: includes/templates/backend/settings/shb-settings-emails.htm.php:44
+msgid "Cancelled message 1"
+msgstr "İptal edilen mesaj 1"
+
+#: includes/templates/backend/settings/shb-settings-emails.htm.php:50
+msgid "Cancelled message 2"
+msgstr "İptal edilen mesaj 2"
+
+#: includes/templates/backend/settings/shb-settings-forms.htm.php:26
+msgid "preset"
+msgstr "ön ayar"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:14
+msgid "Booking confirmation"
+msgstr "Rezervasyon onayı"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:15
+msgid ""
+"Booking dates are not blocked until a booking is set to confirmed status, "
+"booking dates will be automatically blocked if you set this option to "
+"automatic"
+msgstr ""
+"Bir rezervasyon onaylanmış durumuna ayarlanana kadar rezervasyon tarihleri "
+"bloke edilmez, bu seçeneği otomatik olarak ayarlarsanız rezervasyon "
+"tarihleri otomatik olarak bloke edilir"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:19
+msgid "Automatic"
+msgstr "Otomatik"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:20
+msgid "Manual"
+msgstr "Manuel"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:43
+msgid "Date Format"
+msgstr "Tarih formatı"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:57
+msgid "Alternative Date Format"
+msgstr "Alternatif Tarih Formatı"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:58
+msgid ""
+"Used on the booking page sidebar, you should use a valid PHP date format "
+"such as M d, Y"
+msgstr ""
+"Rezervasyon sayfası kenar çubuğunda kullanılır, M d, Y gibi geçerli bir PHP "
+"tarih formatı kullanmalısınız."
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:64
+msgid "My Account Page"
+msgstr "Hesabım Sayfası"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:78
+msgid "Check In Time"
+msgstr "Zamanında kontrol et"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:84
+msgid "Check Out Time"
+msgstr "Kontrol zamanı"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:90
+msgid "Booking Form Add-Ons step"
+msgstr "Rezervasyon Formu Eklentileri adımı"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:91
+msgid ""
+"This option allows you to show / hide the Add-On step in the booking process"
+msgstr ""
+"Bu seçenek, rezervasyon sürecinde Eklenti adımını göstermenizi / gizlemenizi "
+"sağlar."
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:95
+msgid "Show"
+msgstr "Göstermek"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:96
+msgid "Hide"
+msgstr "Saklamak"
+
+#: includes/templates/backend/settings/shb-settings-messages.htm.php:14
+msgid "Booking success"
+msgstr "Rezervasyon başarısı"
+
+#: includes/templates/backend/settings/shb-settings-messages.htm.php:20
+msgid "Booking page sidebar title"
+msgstr "Rezervasyon sayfası kenar çubuğu başlığı"
+
+#: includes/templates/backend/settings/shb-settings-messages.htm.php:26
+msgid "Booking page sidebar message"
+msgstr "Rezervasyon sayfası kenar çubuğu mesajı"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:15
+msgid "Deposit"
+msgstr "Depozito"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:19
+msgid "Amount to pay (%)"
+msgstr "Ödenecek miktar (%)"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:30
+msgid "Base currency"
+msgstr "Temel para birimi"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:34
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:95
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:157
+msgid "Currency code"
+msgstr "Para birimi kodu"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:35
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:96
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:158
+msgid "E.g. USD"
+msgstr "Örneğin. Amerikan Doları"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:41
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:102
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:164
+msgid "Currency symbol"
+msgstr "Para birimi simgesi"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:42
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:103
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:165
+msgid "E.g. $"
+msgstr "Örneğin. $"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:48
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:109
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:171
+msgid "Currency symbol position"
+msgstr "Para birimi simgesi konumu"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:52
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:113
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:175
+msgid "Before price"
+msgstr "Fiyattan önce"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:53
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:114
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:176
+msgid "After price"
+msgstr "Fiyattan sonra"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:58
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:119
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:181
+msgid "Decimal places"
+msgstr "Ondalık"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:71
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:132
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:194
+msgid "Decimal separator"
+msgstr "Ondalık ayırıcı"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:77
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:138
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:200
+msgid "Thousand separator"
+msgstr "Binlik ayırıcı"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:83
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:145
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:207
+msgid "Conversion multiplier"
+msgstr "Dönüşüm çarpanı"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:84
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:146
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:208
+msgid ""
+"E.g. if your base currency is USD, and converted currency is EUR, go to "
+"Google and search '1 USD to EUR', the result will be something like '0.84', "
+"add this in the field. Add '1' for the base currency since we're not "
+"converting it"
+msgstr ""
+"Örneğin. temel para biriminiz USD ve dönüştürülen para birimi EUR ise, "
+"Google’a gidin ve ‘1 USD - EUR’ araması yapın, sonuç ‘0,84’ gibi bir şey "
+"olacaktır, bunu alana ekleyin. Dönüştürmediğimiz için temel para birimi için "
+"‘1’ ekleyin"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:91
+msgid "Converted currency 1"
+msgstr "Dönüştürülen para birimi 1"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:153
+msgid "Converted currency 2"
+msgstr "Dönüştürülen para birimi 2"
+
+#: includes/templates/backend/tax/shb-tax.htm.php:7
+msgid "Tax Rate (%)"
+msgstr "Vergi oranı (%)"
+
+#: includes/templates/frontend/offer/shb-offer-single.htm.php:52
+msgid "Next page"
+msgstr "Sonraki Sayfa"
+
+#: includes/templates/frontend/offer/shb-offer-single.htm.php:53
+msgid "Previous page"
+msgstr "Önceki sayfa"
+
+#: includes/templates/frontend/offer/shb-offer-single.htm.php:60
+msgid "Tags: "
+msgstr "Etiketler:"
+
+#: includes/templates/frontend/offer/shb-offer-single.htm.php:103
+msgid "Rooms Eligible For Offer"
+msgstr "Teklife Uygun Odalar"
+
+#: includes/widgets/shb-widget-booking.php:15
+msgid "Soho Hotel Booking Form"
+msgstr "Soho Otel Rezervasyon Formu"
+
+#: includes/widgets/shb-widget-booking.php:16
+msgid "Display Booking Form"
+msgstr "Rezervasyon Formunu Görüntüle"
+
+#: includes/widgets/shb-widget-booking.php:216
+msgid "Show hotel select option:"
+msgstr "Otel seçme seçeneğini göster:"
+
+#. Plugin Name of the plugin/theme
+msgid "Soho Hotel Booking"
+msgstr "Soho Hotel Booking"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://quitenicestuff.com"
+msgstr "http://quitenicestuff.com"
+
+#. Description of the plugin/theme
+msgid "Accommodation Booking System"
+msgstr "Accommodation Booking System"
+
+#. Author of the plugin/theme
+msgid "Quite Nice Stuff"
+msgstr "Quite Nice Stuff"
+
+#~ msgid "day"
+#~ msgstr "gün"

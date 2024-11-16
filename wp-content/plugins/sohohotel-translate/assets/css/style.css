@@ -1,0 +1,124 @@
+.sh-clearfix {
+	zoom: 1;
+}
+
+.sh-clearfix:before, .sh-clearfix:after {
+	content: "";
+	display: table;
+}
+
+.sh-clearfix:after {
+	clear: both;
+}
+
+.sh-clearboth {
+	clear: both;
+}
+
+/* Settings tabs */
+.sh-admin-settings-tabs a {
+	background: #dcdcde;
+	color: #50575e;
+	float: left;
+	border: #c3c4c7 1px solid;
+	border-bottom: none;
+	margin: 0 0 0 7px;
+	padding: 5px 10px;
+	font-size: 14px;
+	line-height: 24px;
+	text-decoration: none;
+	white-space: nowrap;
+	font-weight: 600;
+}
+
+.sh-admin-settings-tabs a:hover {
+	background: #fff;
+	color: #3c434a;
+}
+
+.sh-admin-settings-tabs a.sh-tab-active {
+	border-bottom: #f1f1f1 1px solid;
+	background: #f1f1f1;
+	color: #000;
+	margin: 0 0 -1px 7px;
+}
+
+.sh-admin-settings-tabs {
+	border-bottom: #c3c4c7 1px solid;
+	margin: 0;
+	padding-top: 9px;
+	padding-bottom: 0;
+	line-height: inherit;
+	margin: 0 0 20px 0;
+}
+
+@media only screen and (max-width: 782px) { 
+	
+	.sh-admin-settings-tabs {
+		border-bottom: none;
+	}
+	
+	.sh-admin-settings-tabs a,
+	.sh-admin-settings-tabs a.sh-tab-active {
+		border-bottom: #c3c4c7 1px solid;
+	}
+	
+	.sh-admin-settings-tabs a,
+	.sh-admin-settings-tabs a, .sh-admin-settings-tabs a.sh-tab-active {
+		margin: 0 7px 7px 0;
+	}
+	
+	.sh-admin-settings-tabs {
+		margin: 0;
+	}
+	
+	.sh-admin-settings-form .sh-fields-wrapper {
+		margin: 20px 0 0 0;
+	}
+	
+}
+
+.sht-translate-from-wrapper {
+	margin: 0 0 20px 0;
+}
+
+.sht-translate-from-wrapper label {
+	display: block;
+	margin: 0 0 5px 0;
+}
+
+
+.sht-translate-from-wrapper label,
+.sht-translate-to-wrapper p {
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.sht-translate-to-wrapper p {
+	font-size: 13px;
+	font-weight: 600;
+	display: block;
+	margin: 0 0 12px 0;
+}
+
+.sht-translate-to {
+	margin: 0 0 12px 0;
+}
+
+.sht-translate-to input[type="checkbox"] {
+	margin: 0 8px 0 0;
+}
+
+.sht-translation-info label {
+	display: block;
+	margin: 0 0 5px 0;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.sht-translation-info textarea {
+	width: 600px;
+	max-width: 100%;
+	height: 200px;
+	margin: 0 0 25px 0;
+}

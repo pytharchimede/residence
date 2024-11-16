@@ -1,0 +1,232 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Soho Hotel Shortcodes & Post Types\n"
+"POT-Creation-Date: 2021-10-13 08:19+0800\n"
+"PO-Revision-Date: 2024-10-02 12:40+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: sohohotel-shortcodes-post-types.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/functions/frontend/shspt-pagination.php:18
+#: includes/functions/frontend/shspt-pagination.php:42
+#: includes/shortcodes/shspt-blog-page.php:161
+#: includes/shortcodes/shspt-testimonials-page.php:107
+msgid "&larr; Older posts"
+msgstr "&larr; 舊文章"
+
+#: includes/functions/frontend/shspt-pagination.php:19
+#: includes/functions/frontend/shspt-pagination.php:43
+#: includes/shortcodes/shspt-blog-page.php:162
+#: includes/shortcodes/shspt-testimonials-page.php:108
+msgid "Newer posts &rarr;"
+msgstr "更新文章 &rarr;"
+
+#: includes/post-types/page.php:17
+msgid "Page Settings"
+msgstr "頁面設定"
+
+#: includes/post-types/post.php:17
+msgid "Post Excerpt"
+msgstr "文章摘要"
+
+#: includes/post-types/testimonial.php:8
+msgid "Testimonials"
+msgstr "推薦信"
+
+#: includes/post-types/testimonial.php:9
+msgid "Testimonial"
+msgstr "推薦信"
+
+#: includes/post-types/testimonial.php:10
+msgid "Add Testimonial"
+msgstr "新增推薦信"
+
+#: includes/post-types/testimonial.php:11
+msgid "Add New Testimonial"
+msgstr "新增推薦信"
+
+#: includes/post-types/testimonial.php:17
+msgid "testimonials"
+msgstr "推薦信"
+
+#: includes/post-types/testimonial.php:39
+msgid "Testimonial Settings"
+msgstr "推薦信設定"
+
+#: includes/shortcodes/shspt-blog-carousel.php:80
+#: includes/shortcodes/shspt-blog-page.php:145
+#: includes/shortcodes/shspt-offer-carousel.php:80
+#: includes/shortcodes/shspt-testimonials-carousel.php:104
+msgid "No news has been added yet"
+msgstr "尚未新增任何消息"
+
+#: includes/shortcodes/shspt-blog-page.php:98
+msgid "By"
+msgstr "作者"
+
+#: includes/shortcodes/shspt-blog-page.php:103
+msgid "No Comments"
+msgstr "沒有評論"
+
+#: includes/shortcodes/shspt-blog-page.php:103
+msgid "1 Comment"
+msgstr "1 則評論"
+
+#: includes/shortcodes/shspt-blog-page.php:103
+msgid "% Comments"
+msgstr "% 則評論"
+
+#: includes/shortcodes/shspt-blog-page.php:103
+msgid "Comments Off"
+msgstr "評論關閉"
+
+#: includes/shortcodes/shspt-blog-page.php:122
+msgid "Read More"
+msgstr "閱讀更多"
+
+#: includes/shortcodes/shspt-google-map.php:124
+msgid ""
+"Please enter a valid Google Map API key in the theme options \"General\" "
+"section"
+msgstr "請在主題選項的 \"一般\" 區段中輸入有效的 Google 地圖 API 金鑰"
+
+#: includes/shortcodes/shspt-testimonials-page.php:91
+msgid "No testimonials have been added yet"
+msgstr "尚未新增任何推薦信"
+
+#: includes/templates/backend/testimonial/sohohotel-testimonial.htm.php:7
+msgid "Guest name"
+msgstr "客人姓名"
+
+#: includes/templates/backend/testimonial/sohohotel-testimonial.htm.php:14
+msgid "Additional info"
+msgstr "其他資訊"
+
+#: includes/widgets/widget-contact.php:15
+msgid "Soho Hotel Contact Details"
+msgstr "蘇荷酒店聯絡資訊"
+
+#: includes/widgets/widget-contact.php:16
+msgid "Display Contact Details"
+msgstr "顯示聯絡資訊"
+
+#: includes/widgets/widget-contact.php:88
+#: includes/widgets/widget-recent-posts.php:120
+#: includes/widgets/widget-social-about.php:131
+msgid "Title:"
+msgstr "標題："
+
+#: includes/widgets/widget-contact.php:93
+msgid "Address/Location:"
+msgstr "地址/地點："
+
+#: includes/widgets/widget-contact.php:98
+msgid "Phone Number:"
+msgstr "電話號碼："
+
+#: includes/widgets/widget-contact.php:103
+msgid "Email Address:"
+msgstr "電子郵件地址："
+
+#: includes/widgets/widget-recent-posts.php:15
+msgid "Soho Hotel Recent Posts"
+msgstr "蘇荷酒店最新文章"
+
+#: includes/widgets/widget-recent-posts.php:16
+msgid "Display Recent Posts"
+msgstr "顯示最新文章"
+
+#: includes/widgets/widget-recent-posts.php:125
+msgid "Post Limit:"
+msgstr "文章限制："
+
+#: includes/widgets/widget-social-about.php:15
+msgid "Soho Hotel Social Icons & About Us"
+msgstr "蘇荷酒店社交圖標與關於我們"
+
+#: includes/widgets/widget-social-about.php:16
+msgid "Display social icons & about us"
+msgstr "顯示社交圖標與關於我們"
+
+#: includes/widgets/widget-social-about.php:136
+msgid "About Us"
+msgstr "關於我們"
+
+#: includes/widgets/widget-social-about.php:141
+msgid "Facebook URL"
+msgstr "Facebook 網址"
+
+#: includes/widgets/widget-social-about.php:146
+msgid "Twitter URL"
+msgstr "Twitter 網址"
+
+#: includes/widgets/widget-social-about.php:151
+msgid "Instagram"
+msgstr "Instagram"
+
+#: includes/widgets/widget-social-about.php:156
+msgid "Yelp"
+msgstr "Yelp"
+
+#: includes/widgets/widget-social-about.php:161
+msgid "Youtube"
+msgstr "Youtube"
+
+#: includes/widgets/widget-social-about.php:166
+msgid "Tripadvisor"
+msgstr "Tripadvisor"
+
+#: includes/widgets/widget-social-about.php:171
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: includes/widgets/widget-social-about.php:176
+msgid "Skype"
+msgstr "Skype"
+
+#: includes/widgets/widget-social-about.php:181
+msgid "Flickr"
+msgstr "Flickr"
+
+#: includes/widgets/widget-social-about.php:186
+msgid "Googleplus"
+msgstr "Googleplus"
+
+#: includes/widgets/widget-social-about.php:191
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: includes/widgets/widget-social-about.php:196
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#. Plugin Name of the plugin/theme
+msgid "Soho Hotel Shortcodes & Post Types"
+msgstr "蘇荷酒店短代碼與文章類型"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://quitenicestuff.com"
+msgstr "http://quitenicestuff.com"
+
+#. Description of the plugin/theme
+msgid "Soho Hotel Shortcodes and Post Types"
+msgstr "蘇荷酒店短代碼和文章類型"
+
+#. Author of the plugin/theme
+msgid "Quite Nice Stuff"
+msgstr "相當不錯的東西"

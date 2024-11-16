@@ -1,0 +1,2225 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Soho Hotel\n"
+"POT-Creation-Date: 2022-07-27 11:09+0800\n"
+"PO-Revision-Date: 2023-11-10 18:09+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sq\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: 404.php:9
+msgid "Page Not Found"
+msgstr "Faqja nuk u gjet"
+
+#: 404.php:10
+msgid ""
+"Sorry, the requested page could not be found, the page may have been deleted "
+"or you may have followed a broken link."
+msgstr ""
+"Na vjen keq, faqja e kërkuar nuk mund të gjendej, faqja mund të jetë fshirë "
+"ose mund të keni ndjekur një lidhje të prishur."
+
+#: 404.php:14 search.php:14 searchform.php:3
+msgid "Search..."
+msgstr "Kërko…"
+
+#: archive.php:14
+#, php-format
+msgid "All posts in: \"%s\""
+msgstr "Të gjitha postimet në: “%s”"
+
+#: archive.php:18
+#, php-format
+msgid "All posts tagged: \"%s\""
+msgstr "Të gjitha postimet e etiketuara: “%s”"
+
+#: archive.php:23
+#, php-format
+msgid "All posts by: \"%s\""
+msgstr "Të gjitha postimet nga: “%s”"
+
+#: archive.php:27
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Arkivat ditore: %s"
+
+#: archive.php:31
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Arkivat mujore: %s"
+
+#: archive.php:31
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:35
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Arkivat vjetore: %s"
+
+#: archive.php:35
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:38
+msgid "Archives"
+msgstr "Arkivat"
+
+#: archive.php:86 category.php:41 index.php:43 single.php:27
+msgid "By"
+msgstr "Nga"
+
+#: archive.php:88 category.php:43 index.php:45
+msgid "No Comments"
+msgstr "Nuk ka komente"
+
+#: archive.php:88 category.php:43 comments.php:20 index.php:45
+msgid "1 Comment"
+msgstr "1 Koment"
+
+#: archive.php:88 category.php:43 comments.php:20 index.php:45
+msgid "% Comments"
+msgstr "% Komentet"
+
+#: archive.php:88 category.php:43 index.php:45
+msgid "Comments Off"
+msgstr "Komentet joaktive"
+
+#: archive.php:99 category.php:54 functions.php:1276 index.php:56
+msgid "Read More"
+msgstr "Lexo më shumë"
+
+#: comments.php:20
+msgid "No comments"
+msgstr "Nuk ka komente"
+
+#: comments.php:29
+msgid "&larr; Older Comments"
+msgstr "&larr; Komente të vjetra"
+
+#: comments.php:30
+msgid "Newer Comments &rarr;"
+msgstr "Komentet më të reja &rarr;"
+
+#: comments.php:49
+msgid "Comment"
+msgstr "Komentoni"
+
+#: comments.php:52
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+"Identifikuar si <a href=“%1$s”>%2$s</a>. <a href=“%3$s” title=“Dil nga kjo "
+"llogari”>Dil?</a>"
+
+#: comments.php:53 comments.php:54
+msgid "Leave a Comment"
+msgstr "Lini një koment"
+
+#: comments.php:55
+msgid "Cancel Reply To Comment"
+msgstr "Anulo përgjigjen ndaj komentit"
+
+#: comments.php:56
+msgid "Submit Comment"
+msgstr "Dërgo koment"
+
+#: comments.php:59
+msgid "Name"
+msgstr "Emri"
+
+#: comments.php:59 comments.php:60
+msgid "*"
+msgstr "*"
+
+#: comments.php:60 framework/inc/pagebuilder/pagebuilder_theme.php:217
+msgid "Email"
+msgstr "Email"
+
+#: comments.php:61
+msgid "Website"
+msgstr "Faqja e internetit"
+
+#: footer.php:13
+msgid "&copy; 2021 Soho Hotel. All Rights Reserved"
+msgstr "&kopjoni; 2021 Hotel Soho. Të gjitha të drejtat e rezervuara"
+
+#: footer.php:59
+msgid "Currency"
+msgstr "Monedha"
+
+#: footer.php:69
+msgid "Language"
+msgstr "Gjuhe"
+
+#: framework/admin/admin-config.php:248
+msgid "Soho Hotel Settings"
+msgstr "Cilësimet e Hotelit Soho"
+
+#: framework/admin/admin-config.php:249
+msgid "Adjust Soho Hotel settings"
+msgstr "Rregulloni cilësimet e Hotelit Soho"
+
+#: framework/admin/admin-config.php:260
+msgid "Header"
+msgstr "Kreu"
+
+#: framework/admin/admin-config.php:277
+msgid "Header Style"
+msgstr "Stili i kokës"
+
+#: framework/admin/admin-config.php:283
+msgid "Header 1"
+msgstr "Kreu 1"
+
+#: framework/admin/admin-config.php:284
+msgid "Header 2"
+msgstr "Kreu 2"
+
+#: framework/admin/admin-config.php:285
+msgid "Header 3"
+msgstr "Kreu 3"
+
+#: framework/admin/admin-config.php:286
+msgid "Header 4"
+msgstr "Kreu 4"
+
+#: framework/admin/admin-config.php:301
+msgid "Phone number"
+msgstr "Numri i telefonit"
+
+#: framework/admin/admin-config.php:319
+#: framework/inc/pagebuilder/pagebuilder_theme.php:201
+msgid "Address"
+msgstr "Adresë"
+
+#: framework/admin/admin-config.php:337
+msgid "Address URL"
+msgstr "URL e adresës"
+
+#: framework/admin/admin-config.php:355
+msgid "Button label 1"
+msgstr "Etiketa e butonit 1"
+
+#: framework/admin/admin-config.php:373
+msgid "Button link 1"
+msgstr "Lidhja e butonit 1"
+
+#: framework/admin/admin-config.php:379 framework/admin/admin-config.php:458
+msgid "http://"
+msgstr "http://"
+
+#: framework/admin/admin-config.php:394
+msgid "Button icon 1"
+msgstr "Ikona e butonit 1"
+
+#: framework/admin/admin-config.php:412
+msgid "Button target 1"
+msgstr "Objektivi i butonit 1"
+
+#: framework/admin/admin-config.php:418 framework/admin/admin-config.php:497
+msgid "Open in new window/tab"
+msgstr "Hapni në dritare/skedë të re"
+
+#: framework/admin/admin-config.php:419 framework/admin/admin-config.php:498
+msgid "Open in same window/tab"
+msgstr "Hapeni në të njëjtën dritare/skedë"
+
+#: framework/admin/admin-config.php:434
+msgid "Button label 2"
+msgstr "Etiketa e butonit 2"
+
+#: framework/admin/admin-config.php:452
+msgid "Button link 2"
+msgstr "Lidhja e butonit 2"
+
+#: framework/admin/admin-config.php:473
+msgid "Button icon 2"
+msgstr "Ikona e butonit 2"
+
+#: framework/admin/admin-config.php:491
+msgid "Button target 2"
+msgstr "Objektivi i butonit 2"
+
+#: framework/admin/admin-config.php:513 framework/admin/admin-config.php:611
+msgid "Display language selection"
+msgstr "Shfaq përzgjedhjen e gjuhës"
+
+#: framework/admin/admin-config.php:519 framework/admin/admin-config.php:541
+#: framework/admin/admin-config.php:617 framework/admin/admin-config.php:639
+#: framework/admin/admin-config.php:1050
+#: framework/inc/pagebuilder/pagebuilder_theme.php:538
+#: framework/inc/pagebuilder/pagebuilder_theme.php:692
+msgid "No"
+msgstr "Nr"
+
+#: framework/admin/admin-config.php:520 framework/admin/admin-config.php:542
+#: framework/admin/admin-config.php:618 framework/admin/admin-config.php:640
+#: framework/admin/admin-config.php:1049
+#: framework/inc/pagebuilder/pagebuilder_theme.php:537
+#: framework/inc/pagebuilder/pagebuilder_theme.php:691
+msgid "Yes"
+msgstr "po"
+
+#: framework/admin/admin-config.php:535 framework/admin/admin-config.php:633
+msgid "Display currency selection"
+msgstr "Shfaq përzgjedhjen e monedhës"
+
+#: framework/admin/admin-config.php:550
+msgid "Footer"
+msgstr "Fundi i faqes"
+
+#: framework/admin/admin-config.php:567
+msgid "Message"
+msgstr "Mesazh"
+
+#: framework/admin/admin-config.php:585
+msgid "Widget columns"
+msgstr "Kolonat e miniaplikacioneve"
+
+#: framework/admin/admin-config.php:591
+msgid "1"
+msgstr "1"
+
+#: framework/admin/admin-config.php:592
+msgid "2"
+msgstr "2"
+
+#: framework/admin/admin-config.php:593
+msgid "3"
+msgstr "3"
+
+#: framework/admin/admin-config.php:594
+msgid "4"
+msgstr "4"
+
+#: framework/admin/admin-config.php:595
+msgid "5"
+msgstr "5"
+
+#: framework/admin/admin-config.php:596
+msgid "6"
+msgstr "6"
+
+#: framework/admin/admin-config.php:648 framework/admin/admin-config.php:665
+msgid "Logo"
+msgstr "Logo"
+
+#: framework/admin/admin-config.php:668 framework/admin/admin-config.php:673
+#: framework/admin/admin-config.php:874 framework/admin/admin-config.php:879
+#: framework/admin/admin-config.php:899 framework/admin/admin-config.php:904
+#: framework/admin/admin-config.php:924 framework/admin/admin-config.php:929
+msgid "Select Image"
+msgstr "Zgjidhni Imazhi"
+
+#: framework/admin/admin-config.php:669 framework/admin/admin-config.php:875
+#: framework/admin/admin-config.php:900 framework/admin/admin-config.php:925
+msgid "Change Image"
+msgstr "Ndrysho imazhin"
+
+#: framework/admin/admin-config.php:670 framework/admin/admin-config.php:876
+#: framework/admin/admin-config.php:901 framework/admin/admin-config.php:926
+msgid "Remove"
+msgstr "Hiq"
+
+#: framework/admin/admin-config.php:671 framework/admin/admin-config.php:877
+#: framework/admin/admin-config.php:902 framework/admin/admin-config.php:927
+msgid "Default"
+msgstr "E paracaktuar"
+
+#: framework/admin/admin-config.php:672 framework/admin/admin-config.php:878
+#: framework/admin/admin-config.php:903 framework/admin/admin-config.php:928
+msgid "No image selected"
+msgstr "Asnjë imazh i zgjedhur"
+
+#: framework/admin/admin-config.php:674 framework/admin/admin-config.php:880
+#: framework/admin/admin-config.php:905 framework/admin/admin-config.php:930
+msgid "Choose Image"
+msgstr "Zgjidhni imazhin"
+
+#: framework/admin/admin-config.php:690
+msgid "Desktop logo top margin (px)"
+msgstr "Diferenca e sipërme e logos së desktopit (px)"
+
+#: framework/admin/admin-config.php:709
+msgid "Desktop logo width (px or %)"
+msgstr "Gjerësia e logos së desktopit (px ose %)"
+
+#: framework/admin/admin-config.php:728
+msgid "Desktop logo max width (px or %)"
+msgstr "Gjerësia maksimale e logos së desktopit (px ose %)"
+
+#: framework/admin/admin-config.php:747
+msgid "Desktop sticky nav logo top margin (px)"
+msgstr "Diferenca e sipërme e logos ngjitëse të desktopit (px)"
+
+#: framework/admin/admin-config.php:766
+msgid "Desktop sticky nav logo width (px or %)"
+msgstr "Gjerësia e logos ngjitëse të desktopit (px ose %)"
+
+#: framework/admin/admin-config.php:785
+msgid "Desktop sticky nav logo max width (px or %)"
+msgstr ""
+"Gjerësia maksimale e logos së navigimit ngjitës të desktopit (px ose %)"
+
+#: framework/admin/admin-config.php:804
+msgid "Mobile logo top margin (px)"
+msgstr "Margjina e sipërme e logos së celularit (px)"
+
+#: framework/admin/admin-config.php:823
+msgid "Mobile logo width (px or %)"
+msgstr "Gjerësia e logos së celularit (px ose %)"
+
+#: framework/admin/admin-config.php:842
+msgid "Mobile logo max width (px or %)"
+msgstr "Gjerësia maksimale e logos së celularit (px ose %)"
+
+#: framework/admin/admin-config.php:853
+msgid "Images"
+msgstr "Imazhet"
+
+#: framework/admin/admin-config.php:871
+msgid "Default header image"
+msgstr "Imazhi i parazgjedhur i kokës"
+
+#: framework/admin/admin-config.php:896
+msgid "Search header image"
+msgstr "Kërko imazhin e kokës"
+
+#: framework/admin/admin-config.php:921
+msgid "404 header image"
+msgstr "404 imazhi i kokës"
+
+#: framework/admin/admin-config.php:938
+#: framework/inc/pagebuilder/pagebuilder_theme.php:986
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1035
+#: framework/inc/templates/backend/page/sohohotel-page.htm.php:6
+msgid "Layout"
+msgstr "Paraqitja"
+
+#: framework/admin/admin-config.php:956
+msgid "Archive Layout"
+msgstr "Paraqitja e arkivit"
+
+#: framework/admin/admin-config.php:962 framework/admin/admin-config.php:985
+#: framework/admin/admin-config.php:1008
+#: framework/inc/templates/backend/page/sohohotel-page.htm.php:10
+msgid "Right Sidebar"
+msgstr "Shiriti anësor i djathtë"
+
+#: framework/admin/admin-config.php:963 framework/admin/admin-config.php:986
+#: framework/admin/admin-config.php:1009
+#: framework/inc/templates/backend/page/sohohotel-page.htm.php:11
+msgid "Left Sidebar"
+msgstr "Shiriti anësor i majtë"
+
+#: framework/admin/admin-config.php:964 framework/admin/admin-config.php:987
+#: framework/admin/admin-config.php:1010
+#: framework/inc/templates/backend/page/sohohotel-page.htm.php:12
+msgid "Full Width"
+msgstr "Gjerësia e plotë"
+
+#: framework/admin/admin-config.php:979
+msgid "Category Layout"
+msgstr "Paraqitja e kategorisë"
+
+#: framework/admin/admin-config.php:1002
+msgid "Search Layout"
+msgstr "Struktura e kërkimit"
+
+#: framework/admin/admin-config.php:1025
+msgid "Blog page URL"
+msgstr "URL e faqes së blogut"
+
+#: framework/admin/admin-config.php:1043
+msgid "Show Newsletter Field Labels"
+msgstr "Shfaq etiketat e fushës së buletinit"
+
+#: framework/admin/admin-config.php:1058
+msgid "Colors"
+msgstr "Ngjyrat"
+
+#: framework/admin/admin-config.php:1075
+msgid "Main color"
+msgstr "Ngjyra kryesore"
+
+#: framework/admin/admin-config.php:1093
+msgid "Header background color"
+msgstr "Ngjyra e sfondit të kokës"
+
+#: framework/admin/admin-config.php:1111
+msgid "Header primary text color"
+msgstr "Ngjyra kryesore e tekstit të kokës"
+
+#: framework/admin/admin-config.php:1129
+msgid "Header secondary text color"
+msgstr "Ngjyra e tekstit dytësor të kokës"
+
+#: framework/admin/admin-config.php:1147
+msgid "Header border color"
+msgstr "Ngjyra e kufirit të kokës"
+
+#: framework/admin/admin-config.php:1165
+msgid "Top right button background color"
+msgstr "Ngjyra e sfondit të butonit lart djathtas"
+
+#: framework/admin/admin-config.php:1183
+msgid "Top right button text color"
+msgstr "Ngjyra e tekstit të butonit lart djathtas"
+
+#: framework/admin/admin-config.php:1201
+msgid "Booking form button background color"
+msgstr "Ngjyra e sfondit të butonit të formularit të rezervimit"
+
+#: framework/admin/admin-config.php:1219
+msgid "Booking form button text color"
+msgstr "Ngjyra e tekstit të butonit të formularit të rezervimit"
+
+#: framework/admin/admin-config.php:1237
+msgid "Booking form icon color"
+msgstr "Ngjyra e ikonës së formularit të rezervimit"
+
+#: framework/admin/admin-config.php:1255
+msgid "Footer background color"
+msgstr "Ngjyra e sfondit të fundit"
+
+#: framework/admin/admin-config.php:1273
+msgid "Footer text color"
+msgstr "Ngjyra e tekstit në fund"
+
+#: framework/admin/admin-config.php:1291
+msgid "Footer border color"
+msgstr "Ngjyra e kufirit të fundit"
+
+#: framework/admin/admin-config.php:1309
+msgid "Footer bottom bar background color"
+msgstr "Ngjyra e sfondit të shiritit të poshtëm të fundit"
+
+#: framework/admin/admin-config.php:1327
+msgid "Footer bottom bar text color"
+msgstr "Ngjyra e tekstit të shiritit të poshtëm të fundit"
+
+#: framework/admin/admin-config.php:1345
+msgid "Slideshow button background color"
+msgstr "Ngjyra e sfondit të butonit të shfaqjes së rrëshqitjes"
+
+#: framework/admin/admin-config.php:1363
+msgid "Slideshow button text color"
+msgstr "Ngjyra e tekstit të butonit të shfaqjes së rrëshqitjes"
+
+#: framework/admin/admin-config.php:1381
+msgid "Title line color"
+msgstr "Ngjyra e linjës së titullit"
+
+#: framework/admin/admin-config.php:1399
+msgid "Datepicker hover background color"
+msgstr "Ngjyra e sfondit të matjes së datës"
+
+#: framework/admin/admin-config.php:1417
+msgid "Datepicker select background color 1"
+msgstr "Zgjedhja e ngjyrës së sfondit nga Zgjedhësi i datës 1"
+
+#: framework/admin/admin-config.php:1435
+msgid "Datepicker select background color 2"
+msgstr "Zgjedhja e ngjyrës së sfondit nga Zgjedhësi i datës 2"
+
+#: framework/admin/admin-config.php:1453
+msgid "Booking background color"
+msgstr "Ngjyra e sfondit të rezervimit"
+
+#: framework/admin/admin-config.php:1471
+msgid "Booking primary text color"
+msgstr "Ngjyra kryesore e tekstit të rezervimit"
+
+#: framework/admin/admin-config.php:1489
+msgid "Booking secondary text color"
+msgstr "Ngjyra e tekstit dytësor të rezervimit"
+
+#: framework/admin/admin-config.php:1507
+msgid "Booking border color"
+msgstr "Ngjyra e kufirit të rezervimit"
+
+#: framework/admin/admin-config.php:1525
+msgid "Footer Alternative Text Color"
+msgstr "Ngjyra alternative e tekstit të fundorit"
+
+#: framework/admin/admin-config.php:1544
+msgid "Transparent header page IDs"
+msgstr "ID-të transparente të faqeve të kokës"
+
+#: framework/admin/admin-config.php:1555
+msgid "Fonts"
+msgstr "Fontet"
+
+#: framework/admin/admin-config.php:1572
+msgid "Primary font family"
+msgstr "Familja kryesore e shkronjave"
+
+#: framework/admin/admin-config.php:1590
+msgid "Primary font weights"
+msgstr "Peshat kryesore të shkronjave"
+
+#: framework/admin/admin-config.php:1608
+msgid "Secondary font family"
+msgstr "Familja dytësore e shkronjave"
+
+#: framework/admin/admin-config.php:1626
+msgid "Secondary font weights"
+msgstr "Peshat dytësore të shkronjave"
+
+#: framework/admin/admin-config.php:1637
+msgid "Google API"
+msgstr "Google API"
+
+#: framework/admin/admin-config.php:1654
+msgid "Google API Key"
+msgstr "Çelësi i Google API"
+
+#: framework/inc/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr "Instaloni shtojcat e nevojshme"
+
+#: framework/inc/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr "Instaloni Plugins"
+
+#. translators: %s: plugin name.
+#: framework/inc/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Instalimi i shtojcës: %s"
+
+#. translators: %s: plugin name.
+#: framework/inc/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "Përditësimi i shtojcës: %s"
+
+#: framework/inc/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr "Diçka shkoi keq me API-në e shtojcës."
+
+#. translators: 1: plugin name(s).
+#: framework/inc/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Kjo temë kërkon shtojcën e mëposhtme: %1$s."
+msgstr[1] "Kjo temë kërkon shtojcat e mëposhtme: %1$s."
+
+#. translators: 1: plugin name(s).
+#: framework/inc/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Kjo temë rekomandon shtojcën e mëposhtme: %1$s."
+msgstr[1] "Kjo temë rekomandon shtojcat e mëposhtme: %1$s."
+
+#. translators: 1: plugin name(s).
+#: framework/inc/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"Shtojca e mëposhtme duhet të përditësohet në versionin e saj më të fundit "
+"për të siguruar përputhshmëri maksimale me këtë temë: %1$s."
+msgstr[1] ""
+"Shtojcat e mëposhtme duhet të përditësohen në versionin e tyre më të fundit "
+"për të siguruar përputhshmëri maksimale me këtë temë: %1$s."
+
+#. translators: 1: plugin name(s).
+#: framework/inc/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Ekziston një përditësim i disponueshëm për: %1$s."
+msgstr[1] "Ka përditësime të disponueshme për shtojcat e mëposhtme: %1$s."
+
+#. translators: 1: plugin name(s).
+#: framework/inc/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Shtojca e mëposhtme e kërkuar është aktualisht joaktive: %1$s."
+msgstr[1] "Shtojcat e mëposhtme të kërkuara janë aktualisht joaktive: %1$s."
+
+#. translators: 1: plugin name(s).
+#: framework/inc/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Shtojca e rekomanduar e mëposhtme është aktualisht joaktive: %1$s."
+msgstr[1] ""
+"Shtojcat e rekomanduara të mëposhtme janë aktualisht joaktive: %1$s."
+
+#: framework/inc/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Filloni instalimin e shtojcës"
+msgstr[1] "Filloni instalimin e shtojcave"
+
+#: framework/inc/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Filloni përditësimin e shtojcës"
+msgstr[1] "Filloni të përditësoni shtojcat"
+
+#: framework/inc/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Filloni të aktivizoni shtojcën"
+msgstr[1] "Filloni të aktivizoni shtojcat"
+
+#: framework/inc/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr "Kthehu te instaluesi i shtojcave të kërkuara"
+
+#: framework/inc/class-tgm-plugin-activation.php:393
+#: framework/inc/class-tgm-plugin-activation.php:912
+#: framework/inc/class-tgm-plugin-activation.php:2618
+#: framework/inc/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr "Kthehu te paneli i kontrollit"
+
+#: framework/inc/class-tgm-plugin-activation.php:394
+#: framework/inc/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr "Shtojca u aktivizua me sukses."
+
+#: framework/inc/class-tgm-plugin-activation.php:395
+#: framework/inc/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Shtojca e mëposhtme u aktivizua me sukses:"
+msgstr[1] "Shtojcat e mëposhtme u aktivizuan me sukses:"
+
+#. translators: 1: plugin name.
+#: framework/inc/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Asnjë veprim i ndërmarrë. Shtojca %1$s ishte tashmë aktive."
+
+#. translators: 1: plugin name.
+#: framework/inc/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Shtojca nuk është aktivizuar. Për këtë temë nevojitet një version më i lartë "
+"i %s. Ju lutemi përditësoni shtojcën."
+
+#. translators: 1: dashboard link.
+#: framework/inc/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Të gjitha shtojcat u instaluan dhe u aktivizuan me sukses. %1$s"
+
+#: framework/inc/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "Hiqe këtë njoftim"
+
+#: framework/inc/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Ka një ose më shumë shtojca të kërkuara ose të rekomanduara për t’u "
+"instaluar, përditësuar ose aktivizuar."
+
+#: framework/inc/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "Ju lutemi kontaktoni administratorin e kësaj faqeje për ndihmë."
+
+#: framework/inc/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+"Kjo shtojcë duhet të përditësohet për të qenë në përputhje me temën tuaj."
+
+#: framework/inc/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr "Kërkohet përditësim"
+
+#: framework/inc/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"Paketa e shtojcave në distancë nuk përmban një dosje me slugun e dëshiruar "
+"dhe riemërtimi nuk funksionoi."
+
+#: framework/inc/class-tgm-plugin-activation.php:1019
+#: framework/inc/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Ju lutemi kontaktoni ofruesin e shtojcave dhe kërkojuni që ta paketojnë "
+"shtojcën e tyre sipas udhëzimeve të WordPress."
+
+#: framework/inc/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"Paketa e shtojcave në distancë përbëhet nga më shumë se një skedar, por "
+"skedarët nuk janë të paketuar në një dosje."
+
+#: framework/inc/class-tgm-plugin-activation.php:1206
+#: framework/inc/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "dhe"
+
+#. translators: %s: version number
+#: framework/inc/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: framework/inc/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr "E detyrueshme"
+
+#: framework/inc/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr "Rekomanduar"
+
+#: framework/inc/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr "Depoja e WordPress"
+
+#: framework/inc/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr "Burimi i jashtëm"
+
+#: framework/inc/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr "Paketuar paraprakisht"
+
+#: framework/inc/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr "Nuk është instaluar"
+
+#: framework/inc/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr "I instaluar por jo i aktivizuar"
+
+#: framework/inc/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr "Aktiv"
+
+#: framework/inc/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr "Përditësimi i kërkuar nuk disponohet"
+
+#: framework/inc/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr "Kërkon Përditësim"
+
+#: framework/inc/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr "Rekomandohet përditësimi"
+
+#. translators: 1: install status, 2: update status
+#: framework/inc/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#. translators: 1: number of plugins.
+#: framework/inc/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Të gjitha <span class=“count”>(%s)</span>"
+msgstr[1] "Të gjitha <span class=“count”>(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: framework/inc/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Për të instaluar <span class=“count”>(%s)</span>"
+msgstr[1] "Për të instaluar <span class=“count”>(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: framework/inc/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Ofrohet përditësim <span class=“count”>(%s)</span>"
+msgstr[1] "Ofrohet përditësim <span class=“count”>(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: framework/inc/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "To Activate <span class=“count”>(%s)</span>"
+msgstr[1] "To Activate <span class=“count”>(%s)</span>"
+
+#: framework/inc/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "i panjohur"
+
+#: framework/inc/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr "Versioni i instaluar:"
+
+#: framework/inc/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr "Versioni minimal i kërkuar:"
+
+#: framework/inc/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr "Versioni i disponueshëm:"
+
+#: framework/inc/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr "Nuk ka shtojca për të instaluar, përditësuar ose aktivizuar."
+
+#: framework/inc/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr "Plugin"
+
+#: framework/inc/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr "Burimi"
+
+#: framework/inc/class-tgm-plugin-activation.php:2634
+#: framework/inc/pagebuilder/pagebuilder_theme.php:190
+#: framework/inc/pagebuilder/pagebuilder_theme.php:742
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1089
+msgid "Type"
+msgstr "Lloji"
+
+#: framework/inc/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr "Version"
+
+#: framework/inc/class-tgm-plugin-activation.php:2639
+#: woocommerce/myaccount/orders.php:69
+msgid "Status"
+msgstr "Statusi"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: framework/inc/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr "Instalo %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: framework/inc/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr "Instalo %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: framework/inc/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr "Aktivizo %2$s"
+
+#: framework/inc/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr "Mesazhi i përditësimit nga autori i shtojcës:"
+
+#: framework/inc/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr "Instaloni"
+
+#: framework/inc/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr "Përditëso"
+
+#: framework/inc/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr "Aktivizoni"
+
+#: framework/inc/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+"Nuk u zgjodh asnjë shtojcë për t’u instaluar. Asnjë veprim i ndërmarrë."
+
+#: framework/inc/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+"Nuk u zgjodh asnjë shtojcë për t’u përditësuar. Asnjë veprim i ndërmarrë."
+
+#: framework/inc/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr "Në këtë moment nuk ka asnjë shtojcë për t’u instaluar."
+
+#: framework/inc/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr "Në këtë moment nuk ka asnjë shtojcë për t’u përditësuar."
+
+#: framework/inc/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+"Nuk u zgjodh asnjë shtojcë për t’u aktivizuar. Asnjë veprim i ndërmarrë."
+
+#: framework/inc/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr "Asnjë shtojcë nuk disponohet për t’u aktivizuar në këtë moment."
+
+#: framework/inc/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr "Aktivizimi i shtesës dështoi."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: framework/inc/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Përditësimi i shtesës %1$s (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: error message.
+#: framework/inc/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Ndodhi një gabim gjatë instalimit të %1$s: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name.
+#: framework/inc/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "Instalimi i %1$s dështoi."
+
+#: framework/inc/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Procesi i instalimit dhe aktivizimit po fillon. Ky proces mund të zgjasë pak "
+"në disa hoste, ndaj ju lutemi jini të durueshëm."
+
+#. translators: 1: plugin name.
+#: framework/inc/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s u instalua dhe u aktivizua me sukses."
+
+#: framework/inc/class-tgm-plugin-activation.php:3594
+#: framework/inc/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr "Trego detajet"
+
+#: framework/inc/class-tgm-plugin-activation.php:3594
+#: framework/inc/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr "Fshih detajet"
+
+#: framework/inc/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr "Të gjitha instalimet dhe aktivizimet kanë përfunduar."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: framework/inc/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalimi dhe aktivizimi i pjesës shtesë %1$s (%2$d/%3$d)"
+
+#: framework/inc/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Procesi i instalimit po fillon. Ky proces mund të zgjasë pak në disa hoste, "
+"ndaj ju lutemi jini të durueshëm."
+
+#. translators: 1: plugin name.
+#: framework/inc/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s u instalua me sukses."
+
+#: framework/inc/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr "Të gjitha instalimet kanë përfunduar."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: framework/inc/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Po instalon shtesën %1$s (%2$d/%3$d)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:37
+#: framework/inc/pagebuilder/pagebuilder_theme.php:47
+#: framework/inc/pagebuilder/pagebuilder_theme.php:486
+#: framework/inc/pagebuilder/pagebuilder_theme.php:648
+#: framework/inc/pagebuilder/pagebuilder_theme.php:970
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1081
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1720
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1774
+#: framework/inc/templates/backend/page/sohohotel-page.htm.php:18
+msgid "Title"
+msgstr "Titulli"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:38
+msgid "Add a title"
+msgstr "Shto një titull"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:55
+msgid "Size"
+msgstr "Madhësia"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:58
+msgid "20px"
+msgstr "20px"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:59
+msgid "25px"
+msgstr "25px"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:60
+msgid "28px"
+msgstr "28px"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:61
+msgid "35px"
+msgstr "35px"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:68
+msgid "Alignment"
+msgstr "Radhitje"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:71
+#: framework/inc/pagebuilder/pagebuilder_theme.php:883
+msgid "Left"
+msgstr "Majtas"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:72
+#: framework/inc/pagebuilder/pagebuilder_theme.php:885
+msgid "Center"
+msgstr "Qendra"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:83
+msgid "Hotel Listing"
+msgstr "Listimi i hoteleve"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:84
+msgid "Add a hotel listing"
+msgstr "Shto një listë hoteli"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:93
+msgid "Columns"
+msgstr "Kolonat"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:96
+msgid "2 Columns"
+msgstr "2 kolona"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:97
+msgid "3 Columns"
+msgstr "3 kolona"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:104
+#: framework/inc/pagebuilder/pagebuilder_theme.php:761
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1847
+msgid "Title 1"
+msgstr "Titulli 1"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:112
+msgid "Link URL 1"
+msgstr "URL-ja e lidhjes 1"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:120
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1839
+msgid "Image 1"
+msgstr "Imazhi 1"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:128
+#: framework/inc/pagebuilder/pagebuilder_theme.php:785
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1914
+msgid "Title 2"
+msgstr "Titulli 2"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:136
+msgid "Link URL 2"
+msgstr "URL-ja e lidhjes 2"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:144
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1906
+msgid "Image 2"
+msgstr "Imazhi 2"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:152
+#: framework/inc/pagebuilder/pagebuilder_theme.php:809
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1981
+msgid "Title 3"
+msgstr "Titulli 3"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:160
+msgid "Link URL 3"
+msgstr "URL-ja e lidhjes 3"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:168
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1973
+msgid "Image 3"
+msgstr "Imazhi 3"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:180
+msgid "Contact Details"
+msgstr "Detajet e kontaktit"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:181
+msgid "Display contact details in icon list"
+msgstr "Shfaqni detajet e kontaktit në listën e ikonave"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:193
+msgid "Type 1"
+msgstr "Lloji 1"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:194
+msgid "Type 2"
+msgstr "Lloji 2"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:209
+msgid "Phone"
+msgstr "Telefoni"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:229
+msgid "Google Map"
+msgstr "Harta e Google"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:230
+msgid "Display Google Map"
+msgstr "Shfaq Hartën e Google"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:239
+msgid "Map ID"
+msgstr "ID e hartës"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:248
+msgid "Width"
+msgstr "Gjerësia"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:257
+msgid "Height"
+msgstr "Lartësia"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:266
+msgid "Map Type"
+msgstr "Lloji i hartës"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:275
+msgid "Zoom"
+msgstr "Zmadhoni"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:284
+msgid "Latitude"
+msgstr "Gjerësia gjeografike"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:293
+msgid "Longitude"
+msgstr "Gjatësia gjeografike"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:302
+msgid "Marker Content"
+msgstr "Përmbajtja e shënuesit"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:311
+msgid "Map Color"
+msgstr "Ngjyra e hartës"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:319
+msgid "Marker Color"
+msgstr "Ngjyra e shënuesit"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:331
+msgid "Social Media"
+msgstr "Mediat sociale"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:332
+msgid "Display social media icon links"
+msgstr "Shfaq lidhjet e ikonave të mediave sociale"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:341
+msgid "Facebook"
+msgstr "Facebook"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:349
+msgid "Flickr"
+msgstr "Flickr"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:357
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:365
+msgid "Instagram"
+msgstr "Instagram"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:373
+msgid "Pinterest"
+msgstr "Instagram"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:381
+msgid "Skype"
+msgstr "Skype"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:389
+msgid "Soundcloud"
+msgstr "Soundcloud"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:397
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:405
+msgid "Twitter"
+msgstr "Twitter"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:413
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:421
+msgid "Vine"
+msgstr "Vine"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:429
+msgid "Yelp"
+msgstr "Yelp"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:437
+msgid "Youtube"
+msgstr "Youtube"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:445
+msgid "Trip Advisor"
+msgstr "Trip Advisor"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:457
+msgid "Image Text"
+msgstr "Teksti i imazhit"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:458
+msgid "Add a large image with text and a button beside it"
+msgstr "Shtoni një imazh të madh me tekst dhe një buton pranë tij"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:467
+#: framework/inc/pagebuilder/pagebuilder_theme.php:580
+#: framework/inc/pagebuilder/pagebuilder_theme.php:629
+msgid "Image Alignment"
+msgstr "Rreshtimi i imazhit"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:470
+#: framework/inc/pagebuilder/pagebuilder_theme.php:583
+#: framework/inc/pagebuilder/pagebuilder_theme.php:632
+msgid "Left Align Image"
+msgstr "Imazhin e rreshtimit majtas"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:471
+#: framework/inc/pagebuilder/pagebuilder_theme.php:584
+#: framework/inc/pagebuilder/pagebuilder_theme.php:633
+msgid "Right Align Image"
+msgstr "Rreshtoni imazhin djathtas"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:478
+#: framework/inc/pagebuilder/pagebuilder_theme.php:591
+#: framework/inc/pagebuilder/pagebuilder_theme.php:640
+#: framework/inc/pagebuilder/pagebuilder_theme.php:962
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1011
+msgid "Image"
+msgstr "Imazhi"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:494
+#: framework/inc/pagebuilder/pagebuilder_theme.php:656
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1674
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1728
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1782
+msgid "Text"
+msgstr "Teksti"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:502
+#: framework/inc/pagebuilder/pagebuilder_theme.php:664
+#: framework/inc/pagebuilder/pagebuilder_theme.php:863
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1682
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1736
+msgid "Button Text"
+msgstr "Teksti i butonit"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:510
+#: framework/inc/pagebuilder/pagebuilder_theme.php:672
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1690
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1744
+msgid "Button URL"
+msgstr "URL e butonit"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:518
+#: framework/inc/pagebuilder/pagebuilder_theme.php:680
+msgid "Button Icon"
+msgstr "Ikona e butonit"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:526
+msgid "Image Gallery IDs"
+msgstr "ID-të e galerisë së imazheve"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:534
+#: framework/inc/pagebuilder/pagebuilder_theme.php:688
+msgid "Open link in new window"
+msgstr "Hap lidhjen në dritare të re"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:544
+#: framework/inc/pagebuilder/pagebuilder_theme.php:706
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1045
+msgid "Background color"
+msgstr "Ngjyrë e sfondit"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:551
+#: framework/inc/pagebuilder/pagebuilder_theme.php:713
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1052
+msgid "Primary text color"
+msgstr "Ngjyra kryesore e tekstit"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:558
+#: framework/inc/pagebuilder/pagebuilder_theme.php:720
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1059
+msgid "Secondary text color"
+msgstr "Ngjyra e tekstit dytësor"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:570
+msgid "Image Testimonial"
+msgstr "Dëshmia e imazhit"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:571
+msgid "Add a large image with a testimonial beside it"
+msgstr "Shtoni një imazh të madh me një dëshmi pranë tij"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:599
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1019
+msgid "Testimonial Text"
+msgstr "Tekst dëshmitar"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:607
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1027
+msgid "Guest Name"
+msgstr "Emri i mysafirit"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:619
+msgid "Video Text"
+msgstr "Teksti video"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:620
+msgid "Add a video and text"
+msgstr "Shtoni një video dhe tekst"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:699
+#: framework/inc/pagebuilder/pagebuilder_theme.php:939
+msgid "Video URL"
+msgstr "URL e videos"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:732
+msgid "Icon Text"
+msgstr "Teksti i ikonës"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:733
+msgid "Add an icon with text"
+msgstr "Shtoni një ikonë me tekst"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:745
+msgid "Left Aligned Icons"
+msgstr "Ikonat e rreshtuara majtas"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:746
+msgid "Center Aligned Icons"
+msgstr "Ikonat e rreshtuara në qendër"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:753
+msgid "Icon 1"
+msgstr "Ikona 1"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:769
+msgid "Content 1"
+msgstr "Përmbajtja 1"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:777
+msgid "Icon 2"
+msgstr "Ikona 2"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:793
+msgid "Content 2"
+msgstr "Përmbajtja 2"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:801
+msgid "Icon 3"
+msgstr "Ikona 3"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:817
+msgid "Content 3"
+msgstr "Përmbajtja 3"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:825
+msgid "Icon 4"
+msgstr "Ikona 4"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:833
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2048
+msgid "Title 4"
+msgstr "Titulli 4"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:841
+msgid "Content 4"
+msgstr "Përmbajtja 4"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:853
+msgid "Button"
+msgstr "Butoni"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:854
+msgid "Add a button"
+msgstr "Shto një buton"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:871
+msgid "Link"
+msgstr "Lidhje"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:880
+msgid "Align"
+msgstr "Rreshtoni"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:884
+msgid "Right"
+msgstr "E drejta"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:892
+msgid "Background Color"
+msgstr "Ngjyrë e sfondit"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:900
+msgid "Text Color"
+msgstr "Ngjyra e tekstit"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:908
+msgid "Margin Bottom"
+msgstr "Margjina e poshtme"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:911
+msgid "e.g. 30px"
+msgstr "p.sh. 30 px"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:921
+msgid "Video Thumbnail"
+msgstr "Miniatura e videos"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:922
+msgid "Add a video with a thumbnail image"
+msgstr "Shtoni një video me një imazh miniaturë"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:931
+msgid "Thumbnail Image"
+msgstr "Imazhi i miniaturës"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:952
+msgid "Fixed Height Text Image"
+msgstr "Imazhi i tekstit me lartësi fikse"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:953
+msgid "Add text and an image with a fixed height"
+msgstr "Shtoni tekst dhe një imazh me një lartësi të caktuar"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:978
+msgid "Content"
+msgstr "përmbajtja"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:989
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1038
+msgid "Image on right"
+msgstr "Imazhi në të djathtë"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:990
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1039
+msgid "Image on left"
+msgstr "Imazhi në të majtë"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1001
+msgid "Single Testimonial"
+msgstr "Dëshmi e vetme"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1002
+msgid "Add single testimonial with an image"
+msgstr "Shtoni një dëshmi të vetme me një imazh"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1071
+msgid "Testimonials Carousel"
+msgstr "Dëshmi Carousel"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1072
+msgid "Display testimonials in a carousel"
+msgstr "Shfaqni dëshmitë në një karusel"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1100
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1376
+msgid "Post quantity to display"
+msgstr "Sasia e postimit për t’u shfaqur"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1209
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1351
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1485
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1641
+msgid "Order"
+msgstr "Rendit"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1220
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1698
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1752
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1798
+msgid "Background Image"
+msgstr "Imazhi i sfondit"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1232
+msgid "Testimonials Page"
+msgstr "Faqja e dëshmive"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1233
+msgid "Display the testimonials page content"
+msgstr "Shfaq përmbajtjen e faqes së dëshmive"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1242
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1532
+msgid "Posts per page"
+msgstr "Postimet për faqe"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1366
+msgid "Blog Carousel"
+msgstr "Karuseli i blogut"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1367
+msgid "Display blog posts in a carousel"
+msgstr "Shfaqni postimet e blogut në një karusel"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1496
+msgid "Category"
+msgstr "Kategoria"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1499
+msgid "Leave blank to display all post categories"
+msgstr "Lëreni bosh për të shfaqur të gjitha kategoritë e postimeve"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1509
+msgid "Blog Page"
+msgstr "Faqja e blogut"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1510
+msgid "Display blog posts"
+msgstr "Shfaq postimet në blog"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1519
+msgid "Style"
+msgstr "Stili"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1652
+msgid "Category ID (Leave empty to display all categories)"
+msgstr "ID e kategorisë (Lëreni bosh për të shfaqur të gjitha kategoritë)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1664
+msgid "Call To Action Small"
+msgstr "Call To Action Small"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1665
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1711
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1765
+msgid "Display call to action"
+msgstr "Shfaq thirrjen për veprim"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1710
+msgid "Call To Action Large"
+msgstr "Call To Action Large"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1764
+msgid "Call To Action Video"
+msgstr "Video Call To Action"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1790
+msgid "Youtube Video URL"
+msgstr "URL e videos në Youtube"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1810
+msgid "Slideshow"
+msgstr "Slideshow"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1811
+msgid "Create a simple slideshow"
+msgstr "Krijoni një rrëshqitje të thjeshtë"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1820
+msgid "Full screen"
+msgstr "Ekran i plotë"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1831
+msgid "Full screen offset"
+msgstr "Kompensimi i ekranit të plotë"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1855
+msgid "Text 1"
+msgstr "Teksti 1"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1863
+msgid "Button Text 1"
+msgstr "Teksti i butonit 1"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1871
+msgid "Button URL 1"
+msgstr "URL e butonit 1"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1879
+msgid "Align 1"
+msgstr "Rreshtoni 1"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1890
+msgid "Overlay Color 1 (e.g. '#000')"
+msgstr "Ngjyra e mbivendosjes 1 (p.sh. ‘#000’)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1898
+msgid "Overlay Opacity 1 (e.g. '0.1' or '0.9' etc)"
+msgstr "Opaciteti i mbivendosjes 1 (p.sh. “0.1” ose “0.9” etj.)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1922
+msgid "Text 2"
+msgstr "Teksti 2"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1930
+msgid "Button Text 2"
+msgstr "Teksti i butonit 2"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1938
+msgid "Button URL 2"
+msgstr "URL e butonit 2"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1946
+msgid "Align 2"
+msgstr "Rreshtoni 2"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1957
+msgid "Overlay Color 2 (e.g. '#000')"
+msgstr "Ngjyra e mbivendosjes 2 (p.sh. ‘#000’)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1965
+msgid "Overlay Opacity 2 (e.g. '0.1' or '0.9' etc)"
+msgstr "Opaciteti i mbivendosjes 2 (p.sh. “0.1” ose “0.9” etj.)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1989
+msgid "Text 3"
+msgstr "Teksti 3"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1997
+msgid "Button Text 3"
+msgstr "Teksti i butonit 3"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2005
+msgid "Button URL 3"
+msgstr "URL e butonit 3"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2013
+msgid "Align 3"
+msgstr "Rreshtoni 3"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2024
+msgid "Overlay Color 3 (e.g. '#000')"
+msgstr "Ngjyra e mbivendosjes 3 (p.sh. ‘#000’)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2032
+msgid "Overlay Opacity 3 (e.g. '0.1' or '0.9' etc)"
+msgstr "Opaciteti i mbivendosjes 3 (p.sh. “0.1” ose “0.9” etj.)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2040
+msgid "Image 4"
+msgstr "Imazhi 4"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2056
+msgid "Text 4"
+msgstr "Teksti 4"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2064
+msgid "Button Text 4"
+msgstr "Teksti i butonit 4"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2072
+msgid "Button URL 4"
+msgstr "URL e butonit 4"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2080
+msgid "Align 4"
+msgstr "Rreshtoni 4"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2091
+msgid "Overlay Color 4 (e.g. '#000')"
+msgstr "Ngjyra e mbivendosjes 4 (p.sh. ‘#000’)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2099
+msgid "Overlay Opacity 4 (e.g. '0.1' or '0.9' etc)"
+msgstr "Opaciteti i mbivendosjes 4 (p.sh. “0.1” ose “0.9” etj.)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2107
+msgid "Image 5"
+msgstr "Imazhi 5"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2115
+msgid "Title 5"
+msgstr "Titulli 5"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2123
+msgid "Text 5"
+msgstr "Teksti 5"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2131
+msgid "Button Text 5"
+msgstr "Teksti i butonit 5"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2139
+msgid "Button URL 5"
+msgstr "URL e butonit 5"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2147
+msgid "Align 5"
+msgstr "Rreshtoni 5"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2158
+msgid "Overlay Color 5 (e.g. '#000')"
+msgstr "Ngjyra e mbivendosjes 5 (p.sh. ‘#000’)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2166
+msgid "Overlay Opacity 5 (e.g. '0.1' or '0.9' etc)"
+msgstr "Opaciteti i mbivendosjes 5 (p.sh. “0.1” ose “0.9” etj.)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2174
+msgid "Image 6"
+msgstr "Imazhi 6"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2182
+msgid "Title 6"
+msgstr "Titulli 6"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2190
+msgid "Text 6"
+msgstr "Teksti 6"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2198
+msgid "Button Text 6"
+msgstr "Teksti i butonit 6"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2206
+msgid "Button URL 6"
+msgstr "URL e butonit 6"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2214
+msgid "Align 6"
+msgstr "Rreshtoni 6"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2225
+msgid "Overlay Color 6 (e.g. '#000')"
+msgstr "Ngjyra e mbivendosjes 6 (p.sh. ‘#000’)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2233
+msgid "Overlay Opacity 6 (e.g. '0.1' or '0.9' etc)"
+msgstr "Opaciteti i mbivendosjes 6 (p.sh. “0.1” ose “0.9” etj.)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2241
+msgid "Image 7"
+msgstr "Imazhi 7"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2249
+msgid "Title 7"
+msgstr "Titulli 7"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2257
+msgid "Text 7"
+msgstr "Teksti 7"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2265
+msgid "Button Text 7"
+msgstr "Teksti i butonit 7"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2273
+msgid "Button URL 7"
+msgstr "URL e butonit 7"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2281
+msgid "Align 7"
+msgstr "Rreshtoni 7"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2292
+msgid "Overlay Color 7 (e.g. '#000')"
+msgstr "Ngjyra e mbivendosjes 7 (p.sh. ‘#000’)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2300
+msgid "Overlay Opacity 7 (e.g. '0.1' or '0.9' etc)"
+msgstr "Opaciteti i mbivendosjes 7 (p.sh. “0.1” ose “0.9” etj.)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2308
+msgid "Image 8"
+msgstr "Imazhi 8"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2316
+msgid "Title 8"
+msgstr "Titulli 8"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2324
+msgid "Text 8"
+msgstr "Teksti 8"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2332
+msgid "Button Text 8"
+msgstr "Teksti i butonit 8"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2340
+msgid "Button URL 8"
+msgstr "URL e butonit 8"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2348
+msgid "Align 8"
+msgstr "Rreshtoni 8"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2359
+msgid "Overlay Color 8 (e.g. '#000')"
+msgstr "Ngjyra e mbivendosjes 8 (p.sh. ‘#000’)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2367
+msgid "Overlay Opacity 8 (e.g. '0.1' or '0.9' etc)"
+msgstr "Opaciteti i mbivendosjes 8 (p.sh. “0.1” ose “0.9” etj.)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2375
+msgid "Image 9"
+msgstr "Imazhi 9"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2383
+msgid "Title 9"
+msgstr "Titulli 9"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2391
+msgid "Text 9"
+msgstr "Teksti 9"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2399
+msgid "Button Text 9"
+msgstr "Teksti i butonit 9"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2407
+msgid "Button URL 9"
+msgstr "URL e butonit 9"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2415
+msgid "Align 9"
+msgstr "Rreshtoni 9"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2426
+msgid "Overlay Color 9 (e.g. '#000')"
+msgstr "Ngjyra e mbivendosjes 9 (p.sh. ‘#000’)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2434
+msgid "Overlay Opacity 9 (e.g. '0.1' or '0.9' etc)"
+msgstr "Opaciteti i mbivendosjes 9 (p.sh. “0.1” ose “0.9” etj.)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2442
+msgid "Image 10"
+msgstr "Imazhi 10"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2450
+msgid "Title 10"
+msgstr "Titulli 10"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2458
+msgid "Text 10"
+msgstr "Teksti 10"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2466
+msgid "Button Text 10"
+msgstr "Teksti i butonit 10"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2474
+msgid "Button URL 10"
+msgstr "URL e butonit 10"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2482
+msgid "Align 10"
+msgstr "Rreshtoni 10"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2493
+msgid "Overlay Color 10 (e.g. '#000')"
+msgstr "Ngjyra e mbivendosjes 10 (p.sh. ‘#000’)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2501
+msgid "Overlay Opacity 10 (e.g. '0.1' or '0.9' etc)"
+msgstr "Opaciteti i mbivendosjes 10 (p.sh. “0.1” ose “0.9” etj.)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2514
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2524
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2534
+msgid "Fixed Width"
+msgstr "Gjerësia e fiksuar"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2516
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2526
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2536
+msgid "yes"
+msgstr "po"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2517
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2527
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2537
+msgid ""
+"If you're using the unboxed full width page layout check this option to "
+"display boxed content"
+msgstr ""
+"Nëse jeni duke përdorur paraqitjen e faqes me gjerësi të plotë të pa kuti, "
+"kontrolloni këtë opsion për të shfaqur përmbajtjen me kuti"
+
+#: framework/inc/templates/backend/page/sohohotel-page.htm.php:13
+msgid "Full Width Unboxed"
+msgstr "Gjerësia e plotë e zbërthyer"
+
+#: framework/inc/templates/backend/page/sohohotel-page.htm.php:22
+msgid "Standard Title"
+msgstr "Titulli standard"
+
+#: framework/inc/templates/backend/page/sohohotel-page.htm.php:23
+msgid "No Title"
+msgstr "Pa titull"
+
+#: framework/inc/templates/backend/post/sohohotel-post.htm.php:6
+msgid "Enter a short summary of the post"
+msgstr "Shkruani një përmbledhje të shkurtër të postimit"
+
+#: functions.php:719
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr "në"
+
+#: functions.php:770
+msgid "Soho Hotel Shortcodes & Post Types"
+msgstr "Soho Hotel Shortcodes & Post Types"
+
+#: functions.php:780
+msgid "Soho Hotel Booking"
+msgstr "Soho Hotel Booking"
+
+#: functions.php:790
+msgid "Soho Hotel Demo Data"
+msgstr "Soho Hotel Demo Data"
+
+#: functions.php:800
+msgid "WP Bakery Page Builder"
+msgstr "WP Bakery Page Builder"
+
+#: functions.php:810
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#: functions.php:819
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: functions.php:828
+msgid "WP PageNavi"
+msgstr "WP PageNavi"
+
+#: functions.php:837
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: functions.php:897
+msgid "Standard Page Sidebar"
+msgstr "Shiriti anësor standard i faqes"
+
+#: functions.php:899
+msgid "Displayed on all pages with a sidebar set"
+msgstr "Shfaqet në të gjitha faqet me një grup anësor"
+
+#: functions.php:908
+msgid "Footer Area"
+msgstr "Zona e Fundit"
+
+#: functions.php:910
+msgid "Displayed at the bottom of all pages"
+msgstr "Shfaqet në fund të të gjitha faqeve"
+
+#: functions.php:937
+msgid "Primary Navigation Left"
+msgstr "Navigimi kryesor majtas"
+
+#: functions.php:938
+msgid "Primary Navigation Right"
+msgstr "E drejta kryesore e navigimit"
+
+#: functions.php:939 functions.php:946
+msgid "Primary Navigation Mobile"
+msgstr "Celulari kryesor i navigimit"
+
+#: functions.php:945
+msgid "Primary Navigation"
+msgstr "Navigimi primar"
+
+#: functions.php:1202
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: functions.php:1204
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s në %2$s"
+
+#: functions.php:1210
+msgid "Your comment is awaiting moderation."
+msgstr "Komenti juaj është në pritje të moderimit."
+
+#: functions.php:1217
+msgid "(Edit)"
+msgstr "(Redakto)"
+
+#: functions.php:1241
+msgid ""
+"This post is password protected. To view it please enter your password below"
+msgstr ""
+"Ky postim është i mbrojtur me fjalëkalim. Për ta parë, ju lutemi shkruani "
+"fjalëkalimin tuaj më poshtë"
+
+#: functions.php:1242
+msgid "Password"
+msgstr "Fjalëkalimi"
+
+#: functions.php:1242
+msgid "Submit"
+msgstr "Paraqisni"
+
+#: functions.php:1291
+msgid "Post"
+msgstr "Posto"
+
+#: functions.php:1295
+msgid "Testimonial"
+msgstr "Dëshmi"
+
+#: functions.php:1299
+msgid "Page"
+msgstr "Faqe"
+
+#: functions.php:1303
+msgid "Room"
+msgstr "Dhoma"
+
+#: page.php:13
+msgid "Pages:"
+msgstr "Faqet:"
+
+#: search.php:10
+msgid "You searched for:"
+msgstr "Keni kërkuar për:"
+
+#: search.php:74
+msgid "No results were found."
+msgstr "Nuk u gjetën rezultate."
+
+#: single.php:54
+msgid "Next page"
+msgstr "Faqja tjetër"
+
+#: single.php:55
+msgid "Previous page"
+msgstr "Faqja e meparshme"
+
+#: single.php:62
+msgid "Tags: "
+msgstr "Etiketa:"
+
+#: single.php:92
+msgid "More News"
+msgstr "Më shumë Lajme"
+
+#: single.php:161
+msgid "No news has been added yet"
+msgstr "Asnjë lajm nuk është shtuar ende"
+
+#: single.php:167
+msgid "View More"
+msgstr "Shiko më shumë"
+
+#: sohohotel-pagetitle.php:12
+msgid "Latest News"
+msgstr "Lajmet e fundit"
+
+#: sohohotel-pagination.php:18 sohohotel-pagination.php:42
+msgid "&larr; Older posts"
+msgstr "&larr; Postime të vjetra"
+
+#: sohohotel-pagination.php:19 sohohotel-pagination.php:43
+msgid "Newer posts &rarr;"
+msgstr "Postimet më të reja &rarr;"
+
+#: woocommerce/checkout/review-order.php:23
+msgid "Product"
+msgstr "Produkt"
+
+#: woocommerce/checkout/review-order.php:24
+#: woocommerce/checkout/review-order.php:56
+msgid "Subtotal"
+msgstr "Nëntotali"
+
+#: woocommerce/checkout/review-order.php:103
+#: woocommerce/myaccount/orders.php:70
+msgid "Total"
+msgstr "Total"
+
+#: woocommerce/checkout/review-order.php:117
+#, php-format
+msgid "%s deposit due now for total price of %s"
+msgstr "%s depozitë e paguar tani për çmimin total prej %s"
+
+#: woocommerce/myaccount/orders.php:67
+msgid "Booking ID"
+msgstr "ID e rezervimit"
+
+#: woocommerce/myaccount/orders.php:68
+msgid "Date"
+msgstr "Data"
+
+#: woocommerce/myaccount/orders.php:88
+msgid "No bookings have been placed yet."
+msgstr "Nuk është bërë ende asnjë rezervim."
+
+#. Theme Name of the plugin/theme
+msgid "Soho Hotel"
+msgstr "Soho Hotel"
+
+#. Theme URI of the plugin/theme
+msgid "http://themes.quitenicestuff.com/sohohotelwp"
+msgstr "http://themes.quitenicestuff.com/sohohotelwp"
+
+#. Description of the plugin/theme
+msgid "A Premium WordPress Theme For Hotels and Accommodation Providers"
+msgstr "Një temë Premium WordPress për hotelet dhe ofruesit e akomodimit"
+
+#. Author of the plugin/theme
+msgid "quitenicestuff"
+msgstr "quitenicestuff"
+
+#. Author URI of the plugin/theme
+msgid "http://themeforest.net/user/quitenicestuff"
+msgstr "http://themeforest.net/user/quitenicestuff"

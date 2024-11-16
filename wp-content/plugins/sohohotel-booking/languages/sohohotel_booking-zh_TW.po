@@ -1,0 +1,2502 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Soho Hotel Booking\n"
+"POT-Creation-Date: 2023-07-24 17:05+0800\n"
+"PO-Revision-Date: 2024-10-02 12:38+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: sohohotel-booking.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;"
+"esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/functions/backend/general/shb-admin-booking-custom-form.php:19
+#: includes/functions/backend/general/shb-core-functions.php:2257
+msgid "First Name"
+msgstr "名字"
+
+#: includes/functions/backend/general/shb-admin-booking-custom-form.php:19
+#: includes/functions/backend/general/shb-core-functions.php:2257
+msgid "Last Name"
+msgstr "姓氏"
+
+#: includes/functions/backend/general/shb-admin-booking-custom-form.php:19
+#: includes/functions/backend/general/shb-core-functions.php:2257
+#: includes/templates/backend/settings/shb-settings-emails.htm.php:14
+msgid "Email Address"
+msgstr "電子郵件地址"
+
+#: includes/functions/backend/general/shb-admin-booking-custom-form.php:19
+#: includes/functions/backend/general/shb-core-functions.php:2257
+#: includes/templates/backend/settings/shb-settings-general.htm.php:37
+msgid "Phone Number"
+msgstr "電話號碼"
+
+#: includes/functions/backend/general/shb-admin-fields.php:181
+#: includes/functions/backend/general/shb-admin-fields.php:224
+#: includes/functions/backend/general/shb-admin-fields.php:267
+#: includes/functions/backend/general/shb-admin-fields.php:339
+#: includes/functions/backend/general/shb-admin-fields.php:382
+msgid "Check All"
+msgstr "全選"
+
+#: includes/functions/backend/general/shb-admin-fields.php:223
+#: includes/templates/backend/rate/shb-rate.htm.php:25
+msgid "Add to room"
+msgstr "添加至房間"
+
+#: includes/functions/backend/general/shb-admin-fields.php:236
+#: includes/functions/backend/general/shb-admin-fields.php:294
+msgid "(no title)"
+msgstr "(無標題)"
+
+#: includes/functions/backend/general/shb-admin-fields.php:245
+#: includes/shortcodes/shb-accommodation-carousel-1.php:140
+#: includes/shortcodes/shb-accommodation-carousel-2.php:136
+#: includes/shortcodes/shb-accommodation-listing-1.php:228
+#: includes/shortcodes/shb-accommodation-listing-2.php:234
+#: includes/shortcodes/shb-accommodation-listing-3.php:224
+msgid "No rooms have been added yet"
+msgstr "尚未添加任何房間"
+
+#: includes/functions/backend/general/shb-admin-fields.php:266
+msgid "Add to rate"
+msgstr "添加至價格"
+
+#: includes/functions/backend/general/shb-admin-fields.php:311
+msgid "No rates have been added yet"
+msgstr "尚未添加任何價格"
+
+#: includes/functions/backend/general/shb-admin-fields.php:338
+msgid "Add to season"
+msgstr "添加至季節"
+
+#: includes/functions/backend/general/shb-admin-fields.php:343
+msgid "Default (All year round any time)"
+msgstr "預設（全年隨時）"
+
+#: includes/functions/backend/general/shb-admin-fields.php:358
+msgid "No seasons have been added yet"
+msgstr "尚未添加任何季節"
+
+#: includes/functions/backend/general/shb-admin-fields.php:397
+msgid "No add-ons have been added yet"
+msgstr "尚未添加任何附加項目"
+
+#: includes/functions/backend/general/shb-admin-menu.php:10
+#: includes/functions/backend/general/shb-admin-menu.php:11
+msgid "Hotel Booking"
+msgstr "飯店訂房"
+
+#: includes/functions/backend/general/shb-admin-menu.php:22 includes/post-types/shb-booking.php:14
+#: includes/post-types/shb-booking.php:16 includes/post-types/shb-booking.php:18
+msgid "Bookings"
+msgstr "訂房"
+
+#: includes/functions/backend/general/shb-admin-menu.php:31
+msgid "Add Booking"
+msgstr "添加訂房"
+
+#: includes/functions/backend/general/shb-admin-menu.php:39
+#: includes/functions/backend/general/shb-admin-menu.php:40
+msgid "Calendar"
+msgstr "日曆"
+
+#: includes/functions/backend/general/shb-admin-menu.php:49 includes/post-types/shb-additionalfee.php:14
+#: includes/post-types/shb-additionalfee.php:16 includes/post-types/shb-additionalfee.php:18
+#: includes/post-types/shb-booking.php:136
+msgid "Additional Fees"
+msgstr "額外費用"
+
+#: includes/functions/backend/general/shb-admin-menu.php:58
+msgid "Add Additional Fee"
+msgstr "添加額外費用"
+
+#: includes/functions/backend/general/shb-admin-menu.php:67 includes/post-types/shb-condition.php:14
+#: includes/post-types/shb-condition.php:16 includes/post-types/shb-condition.php:18
+#: includes/shortcodes/shb-booking-page.php:498 includes/shortcodes/shb-booking-page.php:563
+#: includes/templates/backend/booking/shb-booking-accommodation.htm.php:103
+#: includes/templates/backend/booking/shb-booking-accommodation.htm.php:128
+msgid "Conditions"
+msgstr "條件"
+
+#: includes/functions/backend/general/shb-admin-menu.php:76
+msgid "Add Condition"
+msgstr "添加條件"
+
+#: includes/functions/backend/general/shb-admin-menu.php:85 includes/post-types/shb-guestclass.php:16
+#: includes/post-types/shb-guestclass.php:18
+msgid "Guest Classes"
+msgstr "客人類別"
+
+#: includes/functions/backend/general/shb-admin-menu.php:94
+msgid "Add Guest Class"
+msgstr "添加客人類別"
+
+#: includes/functions/backend/general/shb-admin-menu.php:103 includes/post-types/shb-additionalfee.php:111
+#: includes/post-types/shb-condition.php:112 includes/post-types/shb-rate.php:14
+#: includes/post-types/shb-rate.php:16 includes/post-types/shb-rate.php:18
+#: includes/post-types/shb-ratevariation.php:107 includes/post-types/shb-season.php:107
+msgid "Rates"
+msgstr "價格"
+
+#: includes/functions/backend/general/shb-admin-menu.php:112
+msgid "Add Rate"
+msgstr "添加價格"
+
+#: includes/functions/backend/general/shb-admin-menu.php:121 includes/post-types/shb-ratevariation.php:14
+#: includes/post-types/shb-ratevariation.php:16 includes/post-types/shb-ratevariation.php:18
+msgid "Rate Variations"
+msgstr "價格變化"
+
+#: includes/functions/backend/general/shb-admin-menu.php:130
+msgid "Add Rate Variation"
+msgstr "添加價格變化"
+
+#: includes/functions/backend/general/shb-admin-menu.php:139 includes/post-types/shb-additionalfee.php:110
+#: includes/post-types/shb-condition.php:111 includes/post-types/shb-ratevariation.php:106
+#: includes/post-types/shb-season.php:14 includes/post-types/shb-season.php:18
+msgid "Seasons"
+msgstr "季節"
+
+#: includes/functions/backend/general/shb-admin-menu.php:148
+msgid "Add Season"
+msgstr "添加季節"
+
+#: includes/functions/backend/general/shb-admin-menu.php:157 includes/post-types/shb-offer.php:14
+#: includes/post-types/shb-offer.php:16 includes/post-types/shb-offer.php:18
+msgid "Offers"
+msgstr "優惠"
+
+#: includes/functions/backend/general/shb-admin-menu.php:166
+msgid "Add Offer"
+msgstr "添加優惠"
+
+#: includes/functions/backend/general/shb-admin-menu.php:174
+#: includes/functions/backend/general/shb-admin-menu.php:175
+msgid "iCal Feeds"
+msgstr "iCal 訂閱"
+
+#: includes/functions/backend/general/shb-admin-menu.php:183
+#: includes/functions/backend/general/shb-admin-menu.php:184
+msgid "Settings"
+msgstr "設置"
+
+#: includes/functions/backend/general/shb-calendar.php:297
+#: includes/functions/backend/general/shb-core-functions.php:1731
+msgid "Nights"
+msgstr "晚"
+
+#: includes/functions/backend/general/shb-calendar.php:299
+#: includes/functions/backend/general/shb-core-functions.php:1733
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:21
+msgid "Night"
+msgstr "晚"
+
+#: includes/functions/backend/general/shb-calendar.php:327
+#: includes/functions/backend/general/shb-core-functions.php:479
+#: includes/templates/backend/booking/shb-booking-publish.htm.php:5
+msgid "Pending"
+msgstr "待處理"
+
+#: includes/functions/backend/general/shb-calendar.php:328
+#: includes/functions/backend/general/shb-core-functions.php:480
+#: includes/templates/backend/booking/shb-booking-publish.htm.php:4
+msgid "Confirmed"
+msgstr "已確認"
+
+#: includes/functions/backend/general/shb-calendar.php:329
+#: includes/functions/backend/general/shb-core-functions.php:481
+#: includes/templates/backend/booking/shb-booking-publish.htm.php:6
+msgid "Cancelled"
+msgstr "已取消"
+
+#: includes/functions/backend/general/shb-calendar.php:330
+#: includes/functions/backend/general/shb-core-functions.php:482
+msgid "iCal"
+msgstr "iCal"
+
+#: includes/functions/backend/general/shb-calendar.php:331
+#: includes/functions/backend/general/shb-core-functions.php:483
+#: includes/templates/backend/booking/shb-booking-publish.htm.php:7
+msgid "Maintenance"
+msgstr "維護"
+
+#: includes/functions/backend/general/shb-calendar.php:393 includes/post-types/shb-accommodation.php:70
+#: includes/shortcodes/shb-accommodation-listing-1.php:99
+#: includes/shortcodes/shb-accommodation-listing-2.php:99
+#: includes/shortcodes/shb-accommodation-listing-3.php:99
+msgid "All"
+msgstr "全部"
+
+#: includes/functions/backend/general/shb-calendar.php:421 includes/functions/backend/general/shb-css-js.php:42
+#: includes/functions/backend/general/shb-css-js.php:138
+#: includes/functions/frontend/datepicker/shb-datepicker.php:104 includes/post-types/shb-condition.php:148
+#: includes/post-types/shb-condition.php:160 includes/post-types/shb-condition.php:172
+#: includes/post-types/shb-condition.php:184
+msgid "Mo"
+msgstr "一"
+
+#: includes/functions/backend/general/shb-calendar.php:422 includes/functions/backend/general/shb-css-js.php:42
+#: includes/functions/backend/general/shb-css-js.php:138
+#: includes/functions/frontend/datepicker/shb-datepicker.php:105 includes/post-types/shb-condition.php:149
+#: includes/post-types/shb-condition.php:161 includes/post-types/shb-condition.php:173
+#: includes/post-types/shb-condition.php:185
+msgid "Tu"
+msgstr "二"
+
+#: includes/functions/backend/general/shb-calendar.php:423 includes/functions/backend/general/shb-css-js.php:42
+#: includes/functions/backend/general/shb-css-js.php:138
+#: includes/functions/frontend/datepicker/shb-datepicker.php:106 includes/post-types/shb-condition.php:150
+#: includes/post-types/shb-condition.php:162 includes/post-types/shb-condition.php:174
+#: includes/post-types/shb-condition.php:186
+msgid "We"
+msgstr "三"
+
+#: includes/functions/backend/general/shb-calendar.php:424 includes/functions/backend/general/shb-css-js.php:42
+#: includes/functions/backend/general/shb-css-js.php:138
+#: includes/functions/frontend/datepicker/shb-datepicker.php:107 includes/post-types/shb-condition.php:151
+#: includes/post-types/shb-condition.php:163 includes/post-types/shb-condition.php:175
+#: includes/post-types/shb-condition.php:187
+msgid "Th"
+msgstr "四"
+
+#: includes/functions/backend/general/shb-calendar.php:425 includes/functions/backend/general/shb-css-js.php:42
+#: includes/functions/backend/general/shb-css-js.php:138
+#: includes/functions/frontend/datepicker/shb-datepicker.php:108 includes/post-types/shb-condition.php:152
+#: includes/post-types/shb-condition.php:164 includes/post-types/shb-condition.php:176
+#: includes/post-types/shb-condition.php:188
+msgid "Fr"
+msgstr "五"
+
+#: includes/functions/backend/general/shb-calendar.php:426 includes/functions/backend/general/shb-css-js.php:42
+#: includes/functions/backend/general/shb-css-js.php:138
+#: includes/functions/frontend/datepicker/shb-datepicker.php:109 includes/post-types/shb-condition.php:153
+#: includes/post-types/shb-condition.php:165 includes/post-types/shb-condition.php:177
+#: includes/post-types/shb-condition.php:189
+msgid "Sa"
+msgstr "六"
+
+#: includes/functions/backend/general/shb-calendar.php:427 includes/functions/backend/general/shb-css-js.php:42
+#: includes/functions/backend/general/shb-css-js.php:138
+#: includes/functions/frontend/datepicker/shb-datepicker.php:110 includes/post-types/shb-condition.php:154
+#: includes/post-types/shb-condition.php:166 includes/post-types/shb-condition.php:178
+#: includes/post-types/shb-condition.php:190
+msgid "Su"
+msgstr "日"
+
+#: includes/functions/backend/general/shb-calendar.php:429 includes/functions/backend/general/shb-css-js.php:43
+#: includes/functions/backend/general/shb-css-js.php:139
+#: includes/functions/frontend/datepicker/shb-datepicker.php:89
+msgid "January"
+msgstr "一月"
+
+#: includes/functions/backend/general/shb-calendar.php:430 includes/functions/backend/general/shb-css-js.php:43
+#: includes/functions/backend/general/shb-css-js.php:139
+#: includes/functions/frontend/datepicker/shb-datepicker.php:90
+msgid "February"
+msgstr "二月"
+
+#: includes/functions/backend/general/shb-calendar.php:431 includes/functions/backend/general/shb-css-js.php:43
+#: includes/functions/backend/general/shb-css-js.php:139
+#: includes/functions/frontend/datepicker/shb-datepicker.php:91
+msgid "March"
+msgstr "三月"
+
+#: includes/functions/backend/general/shb-calendar.php:432 includes/functions/backend/general/shb-css-js.php:43
+#: includes/functions/backend/general/shb-css-js.php:139
+#: includes/functions/frontend/datepicker/shb-datepicker.php:92
+msgid "April"
+msgstr "四月"
+
+#: includes/functions/backend/general/shb-calendar.php:433 includes/functions/backend/general/shb-css-js.php:43
+#: includes/functions/backend/general/shb-css-js.php:139
+#: includes/functions/frontend/datepicker/shb-datepicker.php:93
+msgid "May"
+msgstr "五月"
+
+#: includes/functions/backend/general/shb-calendar.php:434 includes/functions/backend/general/shb-css-js.php:43
+#: includes/functions/backend/general/shb-css-js.php:139
+#: includes/functions/frontend/datepicker/shb-datepicker.php:94
+msgid "June"
+msgstr "六月"
+
+#: includes/functions/backend/general/shb-calendar.php:435 includes/functions/backend/general/shb-css-js.php:43
+#: includes/functions/backend/general/shb-css-js.php:139
+#: includes/functions/frontend/datepicker/shb-datepicker.php:95
+msgid "July"
+msgstr "七月"
+
+#: includes/functions/backend/general/shb-calendar.php:436 includes/functions/backend/general/shb-css-js.php:43
+#: includes/functions/backend/general/shb-css-js.php:139
+#: includes/functions/frontend/datepicker/shb-datepicker.php:96
+msgid "August"
+msgstr "八月"
+
+#: includes/functions/backend/general/shb-calendar.php:437 includes/functions/backend/general/shb-css-js.php:43
+#: includes/functions/backend/general/shb-css-js.php:139
+#: includes/functions/frontend/datepicker/shb-datepicker.php:97
+msgid "September"
+msgstr "九月"
+
+#: includes/functions/backend/general/shb-calendar.php:438 includes/functions/backend/general/shb-css-js.php:43
+#: includes/functions/backend/general/shb-css-js.php:139
+#: includes/functions/frontend/datepicker/shb-datepicker.php:98
+msgid "October"
+msgstr "十月"
+
+#: includes/functions/backend/general/shb-calendar.php:439 includes/functions/backend/general/shb-css-js.php:43
+#: includes/functions/backend/general/shb-css-js.php:139
+#: includes/functions/frontend/datepicker/shb-datepicker.php:99
+msgid "November"
+msgstr "十一月"
+
+#: includes/functions/backend/general/shb-calendar.php:440 includes/functions/backend/general/shb-css-js.php:43
+#: includes/functions/backend/general/shb-css-js.php:139
+#: includes/functions/frontend/datepicker/shb-datepicker.php:100
+msgid "December"
+msgstr "十二月"
+
+#: includes/functions/backend/general/shb-core-functions.php:423
+#: includes/templates/backend/accommodation/shb-accommodation-pricing.htm.php:152
+#: includes/templates/backend/accommodation/shb-accommodation-pricing.htm.php:170
+msgid "Default"
+msgstr "預設"
+
+#: includes/functions/backend/general/shb-core-functions.php:474
+msgid "Fixed Fee"
+msgstr "固定費用"
+
+#: includes/functions/backend/general/shb-core-functions.php:475
+msgid "Per Room"
+msgstr "每房"
+
+#: includes/functions/backend/general/shb-core-functions.php:476
+msgid "Per Person"
+msgstr "每人"
+
+#: includes/functions/backend/general/shb-core-functions.php:477
+msgid "Per Night"
+msgstr "每晚"
+
+#: includes/functions/backend/general/shb-core-functions.php:478
+msgid "Per Booking"
+msgstr "每預訂"
+
+#: includes/functions/backend/general/shb-core-functions.php:484
+msgid "Percentage"
+msgstr "百分比"
+
+#: includes/functions/backend/general/shb-core-functions.php:485
+msgid "Exact Price"
+msgstr "確切價格"
+
+#: includes/functions/backend/general/shb-core-functions.php:486
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:23
+msgid "Private"
+msgstr "私人"
+
+#: includes/functions/backend/general/shb-core-functions.php:487
+msgid "Dorm"
+msgstr "宿舍"
+
+#: includes/functions/backend/general/shb-core-functions.php:488 includes/pagebuilder/shb-pagebuilder.php:667
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:121
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:32
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:43
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:76
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:87
+#: includes/widgets/shb-widget-booking.php:218
+msgid "Yes"
+msgstr "是"
+
+#: includes/functions/backend/general/shb-core-functions.php:489 includes/pagebuilder/shb-pagebuilder.php:668
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:122
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:33
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:44
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:77
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:88
+#: includes/widgets/shb-widget-booking.php:219
+msgid "No"
+msgstr "不"
+
+#: includes/functions/backend/general/shb-core-functions.php:490
+#: includes/templates/backend/ratevariation/shb-ratevariation.htm.php:11
+msgid "Duration"
+msgstr "持續時間"
+
+#: includes/functions/backend/general/shb-core-functions.php:491
+#: includes/templates/backend/ratevariation/shb-ratevariation.htm.php:12
+msgid "Early"
+msgstr "早"
+
+#: includes/functions/backend/general/shb-core-functions.php:492
+#: includes/templates/backend/ratevariation/shb-ratevariation.htm.php:13
+msgid "Late"
+msgstr "晚"
+
+#: includes/functions/backend/general/shb-core-functions.php:521
+msgid "year(s)"
+msgstr "年"
+
+#: includes/functions/backend/general/shb-core-functions.php:522
+msgid "month(s)"
+msgstr "月"
+
+#: includes/functions/backend/general/shb-core-functions.php:523
+msgid "week(s)"
+msgstr "週"
+
+#: includes/functions/backend/general/shb-core-functions.php:524
+msgid "day(s)"
+msgstr "天"
+
+#: includes/functions/backend/general/shb-core-functions.php:525
+msgid "hour(s)"
+msgstr "小時"
+
+#: includes/functions/backend/general/shb-core-functions.php:526
+msgid "minute(s)"
+msgstr "分鐘"
+
+#: includes/functions/backend/general/shb-core-functions.php:527
+msgid "second(s)"
+msgstr "秒"
+
+#: includes/functions/backend/general/shb-core-functions.php:538
+msgid "ago"
+msgstr "之前"
+
+#: includes/functions/backend/general/shb-core-functions.php:538
+msgid "just now"
+msgstr "剛剛"
+
+#: includes/functions/backend/general/shb-core-functions.php:1098
+#, php-format
+msgid "Minimum %u %s"
+msgstr "最低 %u %s"
+
+#: includes/functions/backend/general/shb-core-functions.php:1103
+#, php-format
+msgid "Maximum %u %s"
+msgstr "最高 %u %s"
+
+#: includes/functions/backend/general/shb-core-functions.php:1114
+msgid "guests"
+msgstr "位客人"
+
+#: includes/functions/backend/general/shb-core-functions.php:1116
+msgid "guest"
+msgstr "位客人"
+
+#: includes/functions/backend/general/shb-core-functions.php:1121
+#, php-format
+msgid "Minimum total of %u %s"
+msgstr "最低總計 %u %s"
+
+#: includes/functions/backend/general/shb-core-functions.php:1126
+#, php-format
+msgid "Maximum total of %u %s"
+msgstr "最高總計 %u %s"
+
+#: includes/functions/backend/general/shb-core-functions.php:1250
+#, php-format
+msgid "You must book a minimum of %s nights when checking in on %s"
+msgstr "在 %s 進行入住時，您必須預訂至少 %s 晚"
+
+#: includes/functions/backend/general/shb-core-functions.php:1251
+#, php-format
+msgid "You must book a minimum of %s nights when checking out on %s"
+msgstr "在 %s 進行退房時，您必須預訂至少 %s 晚"
+
+#: includes/functions/backend/general/shb-core-functions.php:1257
+#, php-format
+msgid "You can book a maximum of %s nights when checking in on %s"
+msgstr "在 %s 進行入住時，您可以預訂最多 %s 晚"
+
+#: includes/functions/backend/general/shb-core-functions.php:1258
+#, php-format
+msgid "You can book a maximum of %s nights when checking out on %s"
+msgstr "在 %s 進行退房時，您可以預訂最多 %s 晚"
+
+#: includes/functions/backend/general/shb-core-functions.php:1267
+#, php-format
+msgid "You must book %s nights in advance"
+msgstr "您必須提前預訂 %s 晚"
+
+#: includes/functions/backend/general/shb-core-functions.php:1275
+#, php-format
+msgid "You must book in increments of %s nights e.g. %s nights, %s nights, %s nights, etc"
+msgstr "您必須以 %s 晚為增量進行預訂，例如 %s 晚、%s 晚、%s 晚，等等"
+
+#: includes/functions/backend/general/shb-core-functions.php:1280
+#, php-format
+msgid "Check in allowed on %s for the selected dates"
+msgstr "在所選日期 %s 可進行入住"
+
+#: includes/functions/backend/general/shb-core-functions.php:1285
+#, php-format
+msgid "Check out allowed on %s for the selected dates"
+msgstr "在所選日期 %s 可進行退房"
+
+#: includes/functions/backend/general/shb-core-functions.php:1314
+msgid "and"
+msgstr "和"
+
+#: includes/functions/backend/general/shb-core-functions.php:1330
+#: includes/functions/backend/general/shb-core-functions.php:1371
+msgid "Monday"
+msgstr "星期一"
+
+#: includes/functions/backend/general/shb-core-functions.php:1331
+#: includes/functions/backend/general/shb-core-functions.php:1372
+msgid "Tuesday"
+msgstr "星期二"
+
+#: includes/functions/backend/general/shb-core-functions.php:1332
+#: includes/functions/backend/general/shb-core-functions.php:1373
+msgid "Wednesday"
+msgstr "星期三"
+
+#: includes/functions/backend/general/shb-core-functions.php:1333
+#: includes/functions/backend/general/shb-core-functions.php:1374
+msgid "Thursday"
+msgstr "星期四"
+
+#: includes/functions/backend/general/shb-core-functions.php:1334
+#: includes/functions/backend/general/shb-core-functions.php:1375
+msgid "Friday"
+msgstr "星期五"
+
+#: includes/functions/backend/general/shb-core-functions.php:1335
+#: includes/functions/backend/general/shb-core-functions.php:1376
+msgid "Saturday"
+msgstr "星期六"
+
+#: includes/functions/backend/general/shb-core-functions.php:1336
+#: includes/functions/backend/general/shb-core-functions.php:1377
+msgid "Sunday"
+msgstr "星期日"
+
+#: includes/functions/backend/general/shb-core-functions.php:1343
+#: includes/functions/backend/general/shb-core-functions.php:1383
+#: includes/templates/backend/condition/shb-condition.htm.php:51
+#: includes/templates/backend/condition/shb-condition.htm.php:66
+#: includes/templates/backend/condition/shb-condition.htm.php:81
+#: includes/templates/backend/condition/shb-condition.htm.php:96
+msgid "Mon"
+msgstr "週一"
+
+#: includes/functions/backend/general/shb-core-functions.php:1344
+#: includes/functions/backend/general/shb-core-functions.php:1384
+#: includes/templates/backend/condition/shb-condition.htm.php:52
+#: includes/templates/backend/condition/shb-condition.htm.php:67
+#: includes/templates/backend/condition/shb-condition.htm.php:82
+#: includes/templates/backend/condition/shb-condition.htm.php:97
+msgid "Tue"
+msgstr "週二"
+
+#: includes/functions/backend/general/shb-core-functions.php:1345
+#: includes/functions/backend/general/shb-core-functions.php:1385
+#: includes/templates/backend/condition/shb-condition.htm.php:53
+#: includes/templates/backend/condition/shb-condition.htm.php:68
+#: includes/templates/backend/condition/shb-condition.htm.php:83
+#: includes/templates/backend/condition/shb-condition.htm.php:98
+msgid "Wed"
+msgstr "週三"
+
+#: includes/functions/backend/general/shb-core-functions.php:1346
+#: includes/functions/backend/general/shb-core-functions.php:1386
+#: includes/templates/backend/condition/shb-condition.htm.php:54
+#: includes/templates/backend/condition/shb-condition.htm.php:69
+#: includes/templates/backend/condition/shb-condition.htm.php:84
+#: includes/templates/backend/condition/shb-condition.htm.php:99
+msgid "Thu"
+msgstr "週四"
+
+#: includes/functions/backend/general/shb-core-functions.php:1347
+#: includes/functions/backend/general/shb-core-functions.php:1387
+#: includes/templates/backend/condition/shb-condition.htm.php:55
+#: includes/templates/backend/condition/shb-condition.htm.php:70
+#: includes/templates/backend/condition/shb-condition.htm.php:85
+#: includes/templates/backend/condition/shb-condition.htm.php:100
+msgid "Fri"
+msgstr "週五"
+
+#: includes/functions/backend/general/shb-core-functions.php:1348
+#: includes/functions/backend/general/shb-core-functions.php:1388
+#: includes/templates/backend/condition/shb-condition.htm.php:56
+#: includes/templates/backend/condition/shb-condition.htm.php:71
+#: includes/templates/backend/condition/shb-condition.htm.php:86
+#: includes/templates/backend/condition/shb-condition.htm.php:101
+msgid "Sat"
+msgstr "週六"
+
+#: includes/functions/backend/general/shb-core-functions.php:1349
+#: includes/functions/backend/general/shb-core-functions.php:1389
+#: includes/templates/backend/condition/shb-condition.htm.php:57
+#: includes/templates/backend/condition/shb-condition.htm.php:72
+#: includes/templates/backend/condition/shb-condition.htm.php:87
+#: includes/templates/backend/condition/shb-condition.htm.php:102
+msgid "Sun"
+msgstr "星期日"
+
+#: includes/functions/backend/general/shb-core-functions.php:1486
+msgid "This room is fully booked for the selected dates"
+msgstr "該房間在所選日期已全部預訂"
+
+#: includes/functions/backend/general/shb-core-functions.php:2084
+msgid "Sorry the selected accommodation is unavailable"
+msgstr "抱歉，所選住宿不可用"
+
+#: includes/functions/backend/general/shb-core-functions.php:2629
+#: includes/templates/backend/booking/shb-booking-sendmail.htm.php:26
+msgid "Booking Pending"
+msgstr "預訂待處理"
+
+#: includes/functions/backend/general/shb-core-functions.php:2633
+msgid "Booking Confirmation"
+msgstr "預訂確認"
+
+#: includes/functions/backend/general/shb-core-functions.php:2637
+msgid "Booking Cancellation"
+msgstr "預訂取消"
+
+#: includes/functions/backend/general/shb-core-functions.php:2708 includes/post-types/shb-booking.php:15
+#: includes/post-types/shb-booking.php:30 includes/templates/backend/additionalfee/shb-additionalfee.htm.php:22
+msgid "Booking"
+msgstr "預訂"
+
+#: includes/functions/backend/general/shb-core-functions.php:2712
+msgid "Item"
+msgstr "項目"
+
+#: includes/functions/backend/general/shb-core-functions.php:2713 includes/post-types/shb-accommodation.php:182
+#: includes/post-types/shb-additionalfee.php:104
+#: includes/templates/backend/accommodation/shb-accommodation-pricing.htm.php:166
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:93
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:52
+msgid "Price"
+msgstr "價格"
+
+#: includes/functions/backend/general/shb-core-functions.php:2719 includes/shortcodes/shb-booking-page.php:1390
+#: includes/shortcodes/shb-booking-page.php:1392
+#: includes/templates/backend/accommodation/shb-accommodation-pricing.htm.php:52
+#: includes/templates/backend/booking/shb-booking-additionalfee.htm.php:25
+#: includes/templates/backend/booking/shb-booking-additionalfee.htm.php:27
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:30
+msgid "Room"
+msgstr "房間"
+
+#: includes/functions/backend/general/shb-core-functions.php:2719 includes/post-types/shb-rate.php:15
+#: includes/post-types/shb-rate.php:30
+#: includes/templates/backend/accommodation/shb-accommodation-pricing.htm.php:135
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:31
+msgid "Rate"
+msgstr "費率"
+
+#: includes/functions/backend/general/shb-core-functions.php:2719
+#: includes/shortcodes/shb-booking-form-1.php:222
+#: includes/shortcodes/shb-booking-form-single-horizontal.php:129
+#: includes/shortcodes/shb-booking-form-single-vertical.php:127 includes/shortcodes/shb-booking-page.php:677
+#: includes/shortcodes/shb-booking-page.php:1014 includes/shortcodes/shb-booking-page.php:1135
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:41
+#: includes/widgets/shb-widget-booking.php:166
+msgid "Guests"
+msgstr "客人"
+
+#: includes/functions/backend/general/shb-core-functions.php:2719 includes/post-types/shb-booking.php:341
+#: includes/post-types/shb-booking.php:663 includes/shortcodes/shb-booking-form-1.php:198
+#: includes/shortcodes/shb-booking-form-single-horizontal.php:105
+#: includes/shortcodes/shb-booking-form-single-vertical.php:103 includes/shortcodes/shb-booking-page.php:1854
+#: includes/shortcodes/shb-booking-page.php:1862
+#: includes/templates/backend/booking/shb-booking-accommodation.htm.php:37
+#: includes/widgets/shb-widget-booking.php:142
+msgid "Check In"
+msgstr "入住"
+
+#: includes/functions/backend/general/shb-core-functions.php:2719 includes/post-types/shb-booking.php:342
+#: includes/post-types/shb-booking.php:664 includes/shortcodes/shb-booking-form-1.php:210
+#: includes/shortcodes/shb-booking-form-single-horizontal.php:117
+#: includes/shortcodes/shb-booking-form-single-vertical.php:115 includes/shortcodes/shb-booking-page.php:1863
+#: includes/templates/backend/booking/shb-booking-accommodation.htm.php:43
+#: includes/widgets/shb-widget-booking.php:154
+msgid "Check Out"
+msgstr "退房"
+
+#: includes/functions/backend/general/shb-core-functions.php:2730
+msgid "Fee"
+msgstr "費用"
+
+#: includes/functions/backend/general/shb-core-functions.php:2733
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:39
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:55
+msgid "Quantity"
+msgstr "數量"
+
+#: includes/functions/backend/general/shb-core-functions.php:2737 includes/post-types/shb-additionalfee.php:109
+#: includes/shortcodes/shb-booking-page.php:1509
+#: includes/templates/backend/booking/shb-booking-additionalfee.htm.php:128
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:63
+msgid "Time"
+msgstr "時間"
+
+#: includes/functions/backend/general/shb-core-functions.php:2741 includes/post-types/shb-accommodation.php:187
+#: includes/post-types/shb-additionalfee.php:108 includes/shortcodes/shb-booking-page.php:1495
+#: includes/templates/backend/booking/shb-booking-additionalfee.htm.php:110
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:59
+msgid "Date"
+msgstr "日期"
+
+#: includes/functions/backend/general/shb-core-functions.php:2763 includes/shortcodes/shb-booking-page.php:734
+#: includes/shortcodes/shb-booking-page.php:1149
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:98
+msgid "Total"
+msgstr "總計"
+
+#: includes/functions/backend/general/shb-core-functions.php:2768 includes/post-types/shb-booking.php:145
+msgid "Guest Information"
+msgstr "客人資訊"
+
+#: includes/functions/backend/general/shb-core-functions.php:3176 includes/shortcodes/shb-booking-form-1.php:30
+#: includes/shortcodes/shb-booking-form-with-background-3.php:61
+#: includes/templates/backend/booking/shb-booking-publish.htm.php:20
+#: includes/widgets/shb-widget-booking.php:176
+msgid "Book Now"
+msgstr "立即預訂"
+
+#: includes/functions/backend/general/shb-css-js.php:40
+msgid "Please select a check in and check out date"
+msgstr "請選擇入住和退房日期"
+
+#: includes/functions/backend/general/shb-css-js.php:41
+msgid "Please select at least 1 guest"
+msgstr "請至少選擇1位客人"
+
+#: includes/functions/backend/general/shb-css-js.php:57
+msgid "MM/DD/YYYY"
+msgstr "MM/DD/YYYY"
+
+#: includes/functions/backend/general/shb-css-js.php:59
+msgid "YYYY/MM/DD"
+msgstr "YYYY/MM/DD"
+
+#: includes/functions/backend/general/shb-css-js.php:61
+msgid "DD.MM.YYYY"
+msgstr "DD.MM.YYYY"
+
+#: includes/functions/backend/general/shb-css-js.php:63
+msgid "MM.DD.YYYY"
+msgstr "MM.DD.YYYY"
+
+#: includes/functions/backend/general/shb-css-js.php:65
+msgid "YYYY.MM.DD"
+msgstr "YYYY.MM.DD"
+
+#: includes/functions/backend/general/shb-css-js.php:67
+msgid "DD/MM/YYYY"
+msgstr "DD/MM/YYYY"
+
+#: includes/functions/backend/general/shb-ical.php:13
+msgid "Import iCal Data"
+msgstr "導入 iCal 數據"
+
+#: includes/functions/backend/general/shb-ical.php:14
+msgid "This section allows you to import external iCal feeds, you can separate multiple feeds with a comma,"
+msgstr "此部分允許您導入外部 iCal 訂閱，您可以用逗號分隔多個訂閱，"
+
+#: includes/functions/backend/general/shb-ical.php:14
+msgid "click here to import all iCal feeds"
+msgstr "點擊這裡導入所有 iCal 訂閱"
+
+#: includes/functions/backend/general/shb-ical.php:23
+msgid "Seperate multiple feed URLs with a comma ,"
+msgstr "用逗號分隔多個訂閱網址，"
+
+#: includes/functions/backend/general/shb-ical.php:32
+msgid "Export iCal Data"
+msgstr "匯出 iCal 數據"
+
+#: includes/functions/backend/general/shb-ical.php:33
+msgid ""
+"This section allows you to export your iCal feeds to any external service which supports the iCal format"
+msgstr "此部分允許您將 iCal 資料匯出到任何支援 iCal 格式的外部服務"
+
+#: includes/functions/backend/general/shb-ical.php:53
+#: includes/templates/backend/settings/shb-settings-emails.htm.php:60
+#: includes/templates/backend/settings/shb-settings-forms.htm.php:36
+#: includes/templates/backend/settings/shb-settings-general.htm.php:105
+#: includes/templates/backend/settings/shb-settings-messages.htm.php:36
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:218
+msgid "Save Changes"
+msgstr "儲存變更"
+
+#: includes/functions/backend/general/shb-ical.php:193
+msgid "Success"
+msgstr "成功"
+
+#: includes/functions/backend/general/shb-ical.php:197
+msgid "Error"
+msgstr "錯誤"
+
+#: includes/functions/backend/general/shb-settings.php:17
+msgid "General"
+msgstr "一般"
+
+#: includes/functions/backend/general/shb-settings.php:21
+msgid "Forms"
+msgstr "表單"
+
+#: includes/functions/backend/general/shb-settings.php:25
+msgid "Emails"
+msgstr "電子郵件"
+
+#: includes/functions/backend/general/shb-settings.php:29
+msgid "Messages"
+msgstr "訊息"
+
+#: includes/functions/backend/general/shb-settings.php:33
+msgid "Payments"
+msgstr "付款"
+
+#: includes/functions/backend/general/shb-users.php:5
+msgid "Guest"
+msgstr "來賓"
+
+#: includes/functions/backend/general/shb-users.php:38
+msgid "Registration successful, you may login now"
+msgstr "註冊成功，您可以現在登入"
+
+#: includes/functions/backend/general/shb-users.php:42 includes/functions/backend/general/shb-users.php:48
+msgid "Username or email is already registered"
+msgstr "使用者名稱或電子郵件已被註冊"
+
+#: includes/functions/backend/general/shb-users.php:60
+msgid "Username"
+msgstr "使用者名稱"
+
+#: includes/functions/backend/general/shb-users.php:63 includes/pagebuilder/shb-pagebuilder.php:1029
+msgid "Email"
+msgstr "電子郵件"
+
+#: includes/functions/backend/general/shb-users.php:66
+msgid "Password"
+msgstr "密碼"
+
+#: includes/functions/backend/general/shb-users.php:69
+msgid "Register"
+msgstr "註冊"
+
+#: includes/functions/backend/general/shb-users.php:80
+msgid "Contact Details"
+msgstr "聯絡資訊"
+
+#: includes/functions/backend/general/shb-users.php:98
+msgid "Custom Fields"
+msgstr "自定義欄位"
+
+#: includes/pagebuilder/shb-pagebuilder.php:16
+msgid "Accommodation Listing 1"
+msgstr "住宿列表 1"
+
+#: includes/pagebuilder/shb-pagebuilder.php:26 includes/pagebuilder/shb-pagebuilder.php:205
+#: includes/pagebuilder/shb-pagebuilder.php:384 includes/pagebuilder/shb-pagebuilder.php:574
+#: includes/pagebuilder/shb-pagebuilder.php:620
+msgid "Columns"
+msgstr "欄位"
+
+#: includes/pagebuilder/shb-pagebuilder.php:38 includes/pagebuilder/shb-pagebuilder.php:217
+#: includes/pagebuilder/shb-pagebuilder.php:396
+msgid "Rooms per page"
+msgstr "每頁房間數"
+
+#: includes/pagebuilder/shb-pagebuilder.php:148 includes/pagebuilder/shb-pagebuilder.php:327
+#: includes/pagebuilder/shb-pagebuilder.php:506 includes/pagebuilder/shb-pagebuilder.php:585
+#: includes/pagebuilder/shb-pagebuilder.php:631
+msgid "Accommodation Category Slug (Leave blank to display all)"
+msgstr "住宿類別縮排（留空以顯示所有）"
+
+#: includes/pagebuilder/shb-pagebuilder.php:156 includes/pagebuilder/shb-pagebuilder.php:335
+#: includes/pagebuilder/shb-pagebuilder.php:514
+msgid "Hide Pagination"
+msgstr "隱藏分頁"
+
+#: includes/pagebuilder/shb-pagebuilder.php:167 includes/pagebuilder/shb-pagebuilder.php:346
+#: includes/pagebuilder/shb-pagebuilder.php:525
+msgid "Hide Filter"
+msgstr "隱藏篩選"
+
+#: includes/pagebuilder/shb-pagebuilder.php:178 includes/pagebuilder/shb-pagebuilder.php:357
+#: includes/pagebuilder/shb-pagebuilder.php:536
+msgid "Hide Order"
+msgstr "隱藏排序"
+
+#: includes/pagebuilder/shb-pagebuilder.php:195
+msgid "Accommodation Listing 2"
+msgstr "住宿列表 2"
+
+#: includes/pagebuilder/shb-pagebuilder.php:374
+msgid "Accommodation Listing 3"
+msgstr "住宿列表 3"
+
+#: includes/pagebuilder/shb-pagebuilder.php:553
+msgid "Accommodation Carousel 1"
+msgstr "住宿輪播 1"
+
+#: includes/pagebuilder/shb-pagebuilder.php:563 includes/pagebuilder/shb-pagebuilder.php:609
+#: includes/pagebuilder/shb-pagebuilder.php:1179
+msgid "Order"
+msgstr "訂單"
+
+#: includes/pagebuilder/shb-pagebuilder.php:599
+msgid "Accommodation Carousel 2"
+msgstr "住宿輪播 2"
+
+#: includes/pagebuilder/shb-pagebuilder.php:639
+msgid "Show specific accommodation IDs (Leave blank to display all)"
+msgstr "顯示特定住宿 ID（留空以顯示所有）"
+
+#: includes/pagebuilder/shb-pagebuilder.php:653
+msgid "Booking Form 1"
+msgstr "訂房表單 1"
+
+#: includes/pagebuilder/shb-pagebuilder.php:663
+msgid "Display location selection"
+msgstr "顯示地點選擇"
+
+#: includes/pagebuilder/shb-pagebuilder.php:681
+msgid "Booking Form With Background 1"
+msgstr "帶背景的訂房表單 1"
+
+#: includes/pagebuilder/shb-pagebuilder.php:691 includes/pagebuilder/shb-pagebuilder.php:739
+#: includes/pagebuilder/shb-pagebuilder.php:787 includes/pagebuilder/shb-pagebuilder.php:907
+msgid "Title 1"
+msgstr "標題 1"
+
+#: includes/pagebuilder/shb-pagebuilder.php:699 includes/pagebuilder/shb-pagebuilder.php:747
+#: includes/pagebuilder/shb-pagebuilder.php:795 includes/pagebuilder/shb-pagebuilder.php:931
+msgid "Title 2"
+msgstr "標題 2"
+
+#: includes/pagebuilder/shb-pagebuilder.php:707 includes/pagebuilder/shb-pagebuilder.php:755
+#: includes/pagebuilder/shb-pagebuilder.php:803
+msgid "Background Image"
+msgstr "背景圖片"
+
+#: includes/pagebuilder/shb-pagebuilder.php:715 includes/pagebuilder/shb-pagebuilder.php:763
+#: includes/pagebuilder/shb-pagebuilder.php:811
+msgid "Offset"
+msgstr "偏移"
+
+#: includes/pagebuilder/shb-pagebuilder.php:729
+msgid "Booking Form With Background 2"
+msgstr "帶背景的訂房表單 2"
+
+#: includes/pagebuilder/shb-pagebuilder.php:777
+msgid "Booking Form With Background 3"
+msgstr "帶背景的訂房表單 3"
+
+#: includes/pagebuilder/shb-pagebuilder.php:825
+msgid "Booking Form Single Accommodation Horizontal"
+msgstr "單一住宿橫向訂房表單"
+
+#: includes/pagebuilder/shb-pagebuilder.php:835 includes/pagebuilder/shb-pagebuilder.php:859
+msgid "Accommodation ID"
+msgstr "住宿 ID"
+
+#: includes/pagebuilder/shb-pagebuilder.php:849
+msgid "Booking Form Single Accommodation Vertical"
+msgstr "單一住宿縱向訂房表單"
+
+#: includes/pagebuilder/shb-pagebuilder.php:873
+msgid "Title With Icons"
+msgstr "帶圖示的標題"
+
+#: includes/pagebuilder/shb-pagebuilder.php:883
+msgid "Main Title"
+msgstr "主標題"
+
+#: includes/pagebuilder/shb-pagebuilder.php:891
+msgid "Secondary Title"
+msgstr "副標題"
+
+#: includes/pagebuilder/shb-pagebuilder.php:899
+msgid "Icon 1"
+msgstr "圖示 1"
+
+#: includes/pagebuilder/shb-pagebuilder.php:915
+msgid "Value 1"
+msgstr "值 1"
+
+#: includes/pagebuilder/shb-pagebuilder.php:923
+msgid "Icon 2"
+msgstr "圖示 2"
+
+#: includes/pagebuilder/shb-pagebuilder.php:939
+msgid "Value 2"
+msgstr "值 2"
+
+#: includes/pagebuilder/shb-pagebuilder.php:947
+msgid "Icon 3"
+msgstr "圖示 3"
+
+#: includes/pagebuilder/shb-pagebuilder.php:955
+msgid "Title 3"
+msgstr "標題 3"
+
+#: includes/pagebuilder/shb-pagebuilder.php:963
+msgid "Value 3"
+msgstr "值 3"
+
+#: includes/pagebuilder/shb-pagebuilder.php:979
+msgid "Booking Contact"
+msgstr "訂房聯絡人"
+
+#: includes/pagebuilder/shb-pagebuilder.php:989 includes/post-types/shb-booking.php:339
+msgid "Title"
+msgstr "標題"
+
+#: includes/pagebuilder/shb-pagebuilder.php:997
+msgid "Content"
+msgstr "內容"
+
+#: includes/pagebuilder/shb-pagebuilder.php:1005
+#: includes/templates/backend/settings/shb-settings-general.htm.php:25
+msgid "Address"
+msgstr "地址"
+
+#: includes/pagebuilder/shb-pagebuilder.php:1013
+#: includes/templates/backend/settings/shb-settings-general.htm.php:31
+msgid "Address URL"
+msgstr "地址 URL"
+
+#: includes/pagebuilder/shb-pagebuilder.php:1021
+msgid "Phone"
+msgstr "電話"
+
+#: includes/pagebuilder/shb-pagebuilder.php:1044
+#: includes/templates/backend/settings/shb-settings-general.htm.php:71
+msgid "Booking Page"
+msgstr "訂房頁面"
+
+#: includes/pagebuilder/shb-pagebuilder.php:1060
+msgid "Offer Carousel"
+msgstr "優惠輪播"
+
+#: includes/pagebuilder/shb-pagebuilder.php:1061
+msgid "Display offer posts in a carousel"
+msgstr "以輪播方式顯示優惠文章"
+
+#: includes/pagebuilder/shb-pagebuilder.php:1070
+msgid "Post quantity to display"
+msgstr "要顯示的文章數量"
+
+#: includes/post-types/shb-accommodation.php:14 includes/post-types/shb-accommodation.php:15
+#: includes/post-types/shb-accommodation.php:16 includes/post-types/shb-accommodation.php:18
+#: includes/post-types/shb-accommodation.php:30 includes/post-types/shb-booking.php:127
+#: includes/post-types/shb-rate.php:104 includes/templates/backend/booking/shb-booking-additionalfee.htm.php:19
+msgid "Accommodation"
+msgstr "住宿"
+
+#: includes/post-types/shb-accommodation.php:17
+msgid "Parent Accommodation:"
+msgstr "父級住宿："
+
+#: includes/post-types/shb-accommodation.php:19
+msgid "View Accommodation"
+msgstr "查看住宿"
+
+#: includes/post-types/shb-accommodation.php:20
+msgid "Add New Room"
+msgstr "新增房間"
+
+#: includes/post-types/shb-accommodation.php:21 includes/post-types/shb-additionalfee.php:21
+#: includes/post-types/shb-booking.php:21 includes/post-types/shb-condition.php:21
+#: includes/post-types/shb-guestclass.php:21 includes/post-types/shb-offer.php:21
+#: includes/post-types/shb-rate.php:21 includes/post-types/shb-ratevariation.php:21
+#: includes/post-types/shb-season.php:21
+msgid "Add New"
+msgstr "新增"
+
+#: includes/post-types/shb-accommodation.php:22
+msgid "Edit Room"
+msgstr "編輯房間"
+
+#: includes/post-types/shb-accommodation.php:23
+msgid "Update Room"
+msgstr "更新房間"
+
+#: includes/post-types/shb-accommodation.php:24
+msgid "Search Accommodation"
+msgstr "搜尋住宿"
+
+#: includes/post-types/shb-accommodation.php:25 includes/post-types/shb-additionalfee.php:25
+#: includes/post-types/shb-booking.php:25 includes/post-types/shb-condition.php:25
+#: includes/post-types/shb-guestclass.php:25 includes/post-types/shb-offer.php:25
+#: includes/post-types/shb-rate.php:25 includes/post-types/shb-ratevariation.php:25
+#: includes/post-types/shb-season.php:25
+msgid "Not found"
+msgstr "未找到"
+
+#: includes/post-types/shb-accommodation.php:26 includes/post-types/shb-additionalfee.php:26
+#: includes/post-types/shb-booking.php:26 includes/post-types/shb-condition.php:26
+#: includes/post-types/shb-guestclass.php:26 includes/post-types/shb-offer.php:26
+#: includes/post-types/shb-rate.php:26 includes/post-types/shb-ratevariation.php:26
+#: includes/post-types/shb-season.php:26
+msgid "Not found in Trash"
+msgstr "在垃圾桶中未找到"
+
+#: includes/post-types/shb-accommodation.php:66
+msgctxt "taxonomy general name"
+msgid "Accommodation Type"
+msgstr "住宿類型"
+
+#: includes/post-types/shb-accommodation.php:67
+msgctxt "taxonomy singular name"
+msgid "Accommodation Type"
+msgstr "住宿類型"
+
+#: includes/post-types/shb-accommodation.php:68 includes/shortcodes/shb-booking-page.php:415
+msgid "Search"
+msgstr "搜尋"
+
+#: includes/post-types/shb-accommodation.php:69
+msgid "Popular"
+msgstr "熱門"
+
+#: includes/post-types/shb-accommodation.php:73
+msgid "Edit Type"
+msgstr "編輯類型"
+
+#: includes/post-types/shb-accommodation.php:74
+msgid "Update Type"
+msgstr "更新類型"
+
+#: includes/post-types/shb-accommodation.php:75
+msgid "Add New Type"
+msgstr "新增類型"
+
+#: includes/post-types/shb-accommodation.php:76
+msgid "New Type Name"
+msgstr "新類型名稱"
+
+#: includes/post-types/shb-accommodation.php:77
+msgid "Separate types with commas"
+msgstr "用逗號分隔類型"
+
+#: includes/post-types/shb-accommodation.php:78
+msgid "Add or remove types"
+msgstr "新增或移除類型"
+
+#: includes/post-types/shb-accommodation.php:79
+msgid "Choose from the most used types"
+msgstr "從最常用的類型中選擇"
+
+#: includes/post-types/shb-accommodation.php:80
+msgid "No types found"
+msgstr "未找到類型"
+
+#: includes/post-types/shb-accommodation.php:81
+msgid "Types"
+msgstr "類型"
+
+#: includes/post-types/shb-accommodation.php:103 includes/post-types/shb-accommodation.php:186
+msgid "Hotel"
+msgstr "飯店"
+
+#: includes/post-types/shb-accommodation.php:118
+msgid "Accommodation Settings"
+msgstr "住宿設置"
+
+#: includes/post-types/shb-accommodation.php:127
+msgid "Accommodation Pricing"
+msgstr "住宿定價"
+
+#: includes/post-types/shb-accommodation.php:183 includes/post-types/shb-ratevariation.php:104
+#: includes/templates/backend/ratevariation/shb-ratevariation.htm.php:7
+msgid "Type"
+msgstr "類型"
+
+#: includes/post-types/shb-accommodation.php:184
+msgid "Occupancy"
+msgstr "入住人數"
+
+#: includes/post-types/shb-accommodation.php:185 includes/post-types/shb-additionalfee.php:106
+msgid "Qty"
+msgstr "數量"
+
+#: includes/post-types/shb-accommodation.php:228
+msgid "Min"
+msgstr "最小"
+
+#: includes/post-types/shb-accommodation.php:228
+msgid "Max"
+msgstr "最大"
+
+#: includes/post-types/shb-accommodation.php:407
+msgid "All Hotels"
+msgstr "所有飯店"
+
+#: includes/post-types/shb-additionalfee.php:15 includes/post-types/shb-additionalfee.php:30
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:51
+msgid "Additional Fee"
+msgstr "額外費用"
+
+#: includes/post-types/shb-additionalfee.php:17
+msgid "Parent Additional Fee:"
+msgstr "父項額外費用："
+
+#: includes/post-types/shb-additionalfee.php:19
+msgid "View Additional Fee"
+msgstr "查看額外費用"
+
+#: includes/post-types/shb-additionalfee.php:20
+msgid "Add New Additional Fee"
+msgstr "新增額外費用"
+
+#: includes/post-types/shb-additionalfee.php:22
+msgid "Edit Additional Fee"
+msgstr "編輯額外費用"
+
+#: includes/post-types/shb-additionalfee.php:23
+msgid "Update Additional Fee"
+msgstr "更新額外費用"
+
+#: includes/post-types/shb-additionalfee.php:24
+msgid "Search Additional Fee"
+msgstr "搜尋額外費用"
+
+#: includes/post-types/shb-additionalfee.php:46
+msgid "additionalfee"
+msgstr "額外費用"
+
+#: includes/post-types/shb-additionalfee.php:65
+msgid "Additional Fee Settings"
+msgstr "額外費用設置"
+
+#: includes/post-types/shb-additionalfee.php:105
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:27
+msgid "Optional"
+msgstr "可選"
+
+#: includes/post-types/shb-additionalfee.php:107
+msgid "Min/Max Qty"
+msgstr "最小/最大數量"
+
+#: includes/post-types/shb-additionalfee.php:135
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:17
+msgid "Per"
+msgstr "每"
+
+#: includes/post-types/shb-booking.php:17
+msgid "Parent Booking:"
+msgstr "父項預訂："
+
+#: includes/post-types/shb-booking.php:19
+msgid "View Booking"
+msgstr "查看預訂"
+
+#: includes/post-types/shb-booking.php:20
+msgid "Add New Booking"
+msgstr "新增預訂"
+
+#: includes/post-types/shb-booking.php:22
+msgid "Edit Booking"
+msgstr "編輯預訂"
+
+#: includes/post-types/shb-booking.php:23
+msgid "Update Booking"
+msgstr "更新預訂"
+
+#: includes/post-types/shb-booking.php:24
+msgid "Search Guest"
+msgstr "搜尋客人"
+
+#: includes/post-types/shb-booking.php:46
+msgid "booking"
+msgstr "預訂"
+
+#: includes/post-types/shb-booking.php:64
+msgctxt "post"
+msgid "Pending"
+msgstr "待處理"
+
+#: includes/post-types/shb-booking.php:69
+#, php-format
+msgid "Pending <span class=\"count\">(%s)</span>"
+msgid_plural "Pending <span class=\"count\">(%s)</span>"
+msgstr[0] "待處理 <span class=\"count\">(%s)</span>"
+
+#: includes/post-types/shb-booking.php:73
+msgctxt "post"
+msgid "Confirmed"
+msgstr "已確認"
+
+#: includes/post-types/shb-booking.php:78
+#, php-format
+msgid "Confirmed <span class=\"count\">(%s)</span>"
+msgid_plural "Confirmed <span class=\"count\">(%s)</span>"
+msgstr[0] "已確認 <span class=\"count\">(%s)</span>"
+
+#: includes/post-types/shb-booking.php:82
+msgctxt "post"
+msgid "Cancelled"
+msgstr "已取消"
+
+#: includes/post-types/shb-booking.php:87
+#, php-format
+msgid "Cancelled <span class=\"count\">(%s)</span>"
+msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+msgstr[0] "已取消 <span class=\"count\">(%s)</span>"
+
+#: includes/post-types/shb-booking.php:91
+msgctxt "post"
+msgid "iCal"
+msgstr "iCal"
+
+#: includes/post-types/shb-booking.php:96
+#, php-format
+msgid "iCal <span class=\"count\">(%s)</span>"
+msgid_plural "iCal <span class=\"count\">(%s)</span>"
+msgstr[0] "iCal <span class=\"count\">(%s)</span>"
+
+#: includes/post-types/shb-booking.php:100
+msgctxt "post"
+msgid "Maintenance"
+msgstr "維護"
+
+#: includes/post-types/shb-booking.php:105
+#, php-format
+msgid "Maintenance <span class=\"count\">(%s)</span>"
+msgid_plural "Maintenance <span class=\"count\">(%s)</span>"
+msgstr[0] "維護 <span class=\"count\">(%s)</span>"
+
+#: includes/post-types/shb-booking.php:154
+msgid "Booking Status"
+msgstr "預訂狀態"
+
+#: includes/post-types/shb-booking.php:163
+msgid "Send Email"
+msgstr "發送電子郵件"
+
+#: includes/post-types/shb-booking.php:172
+msgid "Booking Summary"
+msgstr "預訂摘要"
+
+#: includes/post-types/shb-booking.php:181
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/post-types/shb-booking.php:340 includes/post-types/shb-offer.php:124
+msgid "Room(s)"
+msgstr "房間"
+
+#: includes/post-types/shb-booking.php:343
+msgid "Received"
+msgstr "已收到"
+
+#: includes/post-types/shb-booking.php:344
+msgid "Status"
+msgstr "狀態"
+
+#: includes/post-types/shb-booking.php:345
+msgid "WC Payment ID"
+msgstr "WC 付款 ID"
+
+#: includes/post-types/shb-booking.php:379 includes/post-types/shb-booking.php:382
+msgid "Move"
+msgstr "移動"
+
+#: includes/post-types/shb-booking.php:379 includes/post-types/shb-booking.php:382
+msgid "to the Trash"
+msgstr "到垃圾桶"
+
+#: includes/post-types/shb-booking.php:379 includes/post-types/shb-booking.php:382
+msgid "Trash"
+msgstr "垃圾桶"
+
+#: includes/post-types/shb-booking.php:382
+msgid "Edit"
+msgstr "編輯"
+
+#: includes/post-types/shb-booking.php:385
+msgid "Show more details"
+msgstr "顯示更多詳情"
+
+#: includes/post-types/shb-booking.php:414
+msgid "Note: This booking contains rooms booked for different dates"
+msgstr "注意：此預訂包含為不同日期預訂的房間"
+
+#: includes/post-types/shb-condition.php:15 includes/post-types/shb-condition.php:30
+msgid "Condition"
+msgstr "條件"
+
+#: includes/post-types/shb-condition.php:17
+msgid "Parent Condition:"
+msgstr "父條件："
+
+#: includes/post-types/shb-condition.php:19
+msgid "View Condition"
+msgstr "查看條件"
+
+#: includes/post-types/shb-condition.php:20
+msgid "Add New Condition"
+msgstr "新增條件"
+
+#: includes/post-types/shb-condition.php:22
+msgid "Edit Condition"
+msgstr "編輯條件"
+
+#: includes/post-types/shb-condition.php:23
+msgid "Update Condition"
+msgstr "更新條件"
+
+#: includes/post-types/shb-condition.php:24
+msgid "Search Condition"
+msgstr "搜尋條件"
+
+#: includes/post-types/shb-condition.php:46
+msgid "condition"
+msgstr "條件"
+
+#: includes/post-types/shb-condition.php:65
+msgid "Condition Settings"
+msgstr "條件設定"
+
+#: includes/post-types/shb-condition.php:104
+msgid "Min/Max Stay"
+msgstr "最短/最長住宿"
+
+#: includes/post-types/shb-condition.php:105 includes/templates/backend/condition/shb-condition.htm.php:27
+msgid "Notice"
+msgstr "通知"
+
+#: includes/post-types/shb-condition.php:106 includes/templates/backend/condition/shb-condition.htm.php:37
+msgid "Increments"
+msgstr "增量"
+
+#: includes/post-types/shb-condition.php:107
+msgid "Allow In"
+msgstr "允許進入"
+
+#: includes/post-types/shb-condition.php:108
+msgid "Allow Out"
+msgstr "允許離開"
+
+#: includes/post-types/shb-condition.php:109
+msgid "Apply In"
+msgstr "應用進入"
+
+#: includes/post-types/shb-condition.php:110
+msgid "Apply Out"
+msgstr "應用離開"
+
+#: includes/post-types/shb-condition.php:134 includes/post-types/shb-condition.php:138
+#: includes/post-types/shb-condition.php:142 includes/post-types/shb-ratevariation.php:133
+msgid "Night(s)"
+msgstr "晚"
+
+#: includes/post-types/shb-guestclass.php:14 includes/post-types/shb-guestclass.php:15
+#: includes/post-types/shb-guestclass.php:30
+msgid "Guest Class"
+msgstr "客人類別"
+
+#: includes/post-types/shb-guestclass.php:17
+msgid "Parent Guest Class:"
+msgstr "父客人類別："
+
+#: includes/post-types/shb-guestclass.php:19
+msgid "View Guest Classes"
+msgstr "查看客人類別"
+
+#: includes/post-types/shb-guestclass.php:20
+msgid "Add New Guest Class"
+msgstr "新增客人類別"
+
+#: includes/post-types/shb-guestclass.php:22
+msgid "Edit Guest Class"
+msgstr "編輯客人類別"
+
+#: includes/post-types/shb-guestclass.php:23
+msgid "Update Guest Class"
+msgstr "更新客人類別"
+
+#: includes/post-types/shb-guestclass.php:24
+msgid "Search Guest Class"
+msgstr "搜尋客人類別"
+
+#: includes/post-types/shb-guestclass.php:46
+msgid "guestclass"
+msgstr "客人類別"
+
+#: includes/post-types/shb-guestclass.php:65
+msgid "Guest Class Settings"
+msgstr "客人類別設定"
+
+#: includes/post-types/shb-guestclass.php:104 includes/templates/backend/guestclass/shb-guestclass.htm.php:7
+msgid "Title Plural"
+msgstr "標題（複數）"
+
+#: includes/post-types/shb-offer.php:15 includes/post-types/shb-offer.php:50
+msgid "Offer"
+msgstr "優惠"
+
+#: includes/post-types/shb-offer.php:17
+msgid "Parent Offer:"
+msgstr "父優惠："
+
+#: includes/post-types/shb-offer.php:19
+msgid "View Offer"
+msgstr "查看優惠"
+
+#: includes/post-types/shb-offer.php:20
+msgid "Add New Offer"
+msgstr "新增優惠"
+
+#: includes/post-types/shb-offer.php:22
+msgid "Edit Offer"
+msgstr "編輯優惠"
+
+#: includes/post-types/shb-offer.php:23
+msgid "Update Offer"
+msgstr "更新優惠"
+
+#: includes/post-types/shb-offer.php:24
+msgid "Search Offer"
+msgstr "搜尋優惠"
+
+#: includes/post-types/shb-offer.php:66
+msgid "offer"
+msgstr "優惠"
+
+#: includes/post-types/shb-offer.php:85
+msgid "Offer Settings"
+msgstr "優惠設定"
+
+#: includes/post-types/shb-offer.php:189 includes/post-types/shb-season.php:189
+msgid "None"
+msgstr "無"
+
+#: includes/post-types/shb-rate.php:17
+msgid "Parent Rate:"
+msgstr "父價格："
+
+#: includes/post-types/shb-rate.php:19
+msgid "View Rate"
+msgstr "查看價格"
+
+#: includes/post-types/shb-rate.php:20
+msgid "Add New Rate"
+msgstr "新增價格"
+
+#: includes/post-types/shb-rate.php:22
+msgid "Edit Rate"
+msgstr "編輯價格"
+
+#: includes/post-types/shb-rate.php:23
+msgid "Update Rate"
+msgstr "更新價格"
+
+#: includes/post-types/shb-rate.php:24
+msgid "Search Rate"
+msgstr "搜尋價格"
+
+#: includes/post-types/shb-rate.php:46
+msgid "rate"
+msgstr "價格"
+
+#: includes/post-types/shb-rate.php:65
+msgid "Rate Settings"
+msgstr "價格設定"
+
+#: includes/post-types/shb-ratevariation.php:15 includes/post-types/shb-ratevariation.php:30
+msgid "Rate Variation"
+msgstr "價格變化"
+
+#: includes/post-types/shb-ratevariation.php:17
+msgid "Parent Rate Variation:"
+msgstr "父價格變化："
+
+#: includes/post-types/shb-ratevariation.php:19
+msgid "View Rate Variation"
+msgstr "查看價格變化"
+
+#: includes/post-types/shb-ratevariation.php:20
+msgid "Add New Rate Variation"
+msgstr "新增價格變化"
+
+#: includes/post-types/shb-ratevariation.php:22
+msgid "Edit Rate Variation"
+msgstr "編輯價格變化"
+
+#: includes/post-types/shb-ratevariation.php:23
+msgid "Update Rate Variation"
+msgstr "更新價格變化"
+
+#: includes/post-types/shb-ratevariation.php:24
+msgid "Search Rate Variation"
+msgstr "搜尋價格變化"
+
+#: includes/post-types/shb-ratevariation.php:46
+msgid "ratevariation"
+msgstr "價格變化"
+
+#: includes/post-types/shb-ratevariation.php:65
+msgid "Rate Variation Settings"
+msgstr "價格變化設定"
+
+#: includes/post-types/shb-ratevariation.php:105
+#: includes/templates/backend/ratevariation/shb-ratevariation.htm.php:18
+msgid "Applied To"
+msgstr "適用於"
+
+#: includes/post-types/shb-season.php:15 includes/post-types/shb-season.php:30
+#: includes/templates/backend/accommodation/shb-accommodation-pricing.htm.php:148
+msgid "Season"
+msgstr "季節"
+
+#: includes/post-types/shb-season.php:16
+msgid "Seasones"
+msgstr "季節"
+
+#: includes/post-types/shb-season.php:17
+msgid "Parent Season:"
+msgstr "父季節："
+
+#: includes/post-types/shb-season.php:19
+msgid "View Season"
+msgstr "查看季節"
+
+#: includes/post-types/shb-season.php:20
+msgid "Add New Season"
+msgstr "新增季節"
+
+#: includes/post-types/shb-season.php:22
+msgid "Edit Season"
+msgstr "編輯季節"
+
+#: includes/post-types/shb-season.php:23
+msgid "Update Season"
+msgstr "更新季節"
+
+#: includes/post-types/shb-season.php:24
+msgid "Search Season"
+msgstr "搜尋季節"
+
+#: includes/post-types/shb-season.php:46
+msgid "season"
+msgstr "季節"
+
+#: includes/post-types/shb-season.php:65
+msgid "Season Settings"
+msgstr "季節設定"
+
+#: includes/post-types/shb-season.php:104
+msgid "From"
+msgstr "從"
+
+#: includes/post-types/shb-season.php:105
+msgid "To"
+msgstr "到"
+
+#: includes/post-types/shb-season.php:108
+msgid "Overlap"
+msgstr "重疊"
+
+#: includes/post-types/shb-season.php:108
+msgid "Overlapping seasons should be avoided"
+msgstr "應避免重疊的季節"
+
+#: includes/shortcodes/shb-accommodation-carousel-1.php:125
+#: includes/shortcodes/shb-accommodation-listing-1.php:214
+msgid "View Room"
+msgstr "查看房間"
+
+#: includes/shortcodes/shb-accommodation-listing-1.php:127
+#: includes/shortcodes/shb-accommodation-listing-2.php:127
+#: includes/shortcodes/shb-accommodation-listing-3.php:127
+msgid "Default Sorting"
+msgstr "預設排序"
+
+#: includes/shortcodes/shb-accommodation-listing-1.php:135
+#: includes/shortcodes/shb-accommodation-listing-2.php:135
+#: includes/shortcodes/shb-accommodation-listing-3.php:135
+msgid "Price Low to High"
+msgstr "價格由低到高"
+
+#: includes/shortcodes/shb-accommodation-listing-1.php:143
+#: includes/shortcodes/shb-accommodation-listing-2.php:143
+#: includes/shortcodes/shb-accommodation-listing-3.php:143
+msgid "Price High to Low"
+msgstr "價格由高到低"
+
+#: includes/shortcodes/shb-accommodation-listing-1.php:156
+#: includes/shortcodes/shb-accommodation-listing-2.php:156
+#: includes/shortcodes/shb-accommodation-listing-3.php:156
+msgid "Filter by"
+msgstr "篩選依據"
+
+#: includes/shortcodes/shb-booking-form-1.php:172 includes/shortcodes/shb-booking-form-single-horizontal.php:83
+#: includes/shortcodes/shb-booking-form-single-vertical.php:81 includes/widgets/shb-widget-booking.php:116
+msgid "Ok"
+msgstr "確定"
+
+#: includes/shortcodes/shb-booking-form-1.php:184 includes/widgets/shb-widget-booking.php:128
+msgid "Location"
+msgstr "地點"
+
+#: includes/shortcodes/shb-booking-form-1.php:185 includes/widgets/shb-widget-booking.php:129
+msgid "Select a location"
+msgstr "選擇一個地點"
+
+#: includes/shortcodes/shb-booking-form-1.php:223
+#: includes/shortcodes/shb-booking-form-single-horizontal.php:130
+#: includes/shortcodes/shb-booking-form-single-vertical.php:128 includes/widgets/shb-widget-booking.php:167
+msgid "Guest(s)"
+msgstr "客人"
+
+#: includes/shortcodes/shb-booking-form-single-horizontal.php:93
+#: includes/shortcodes/shb-booking-form-single-vertical.php:91
+msgid "Room Type"
+msgstr "房型"
+
+#: includes/shortcodes/shb-booking-form-single-horizontal.php:154
+#: includes/shortcodes/shb-booking-form-single-vertical.php:152
+msgid "Please enter a valid accommodation ID to display the booking form."
+msgstr "請輸入有效的住宿 ID 以顯示預訂表單。"
+
+#: includes/shortcodes/shb-booking-page.php:17 includes/shortcodes/shb-booking-page.php:35
+msgid "Rooms"
+msgstr "房間"
+
+#: includes/shortcodes/shb-booking-page.php:18 includes/shortcodes/shb-booking-page.php:37
+#: includes/templates/backend/booking/shb-booking-woocommerce.htm.php:210
+msgid "Payment"
+msgstr "付款"
+
+#: includes/shortcodes/shb-booking-page.php:19 includes/shortcodes/shb-booking-page.php:38
+msgid "Complete"
+msgstr "完成"
+
+#: includes/shortcodes/shb-booking-page.php:36
+msgid "Add-Ons"
+msgstr "附加項目"
+
+#: includes/shortcodes/shb-booking-page.php:487
+msgid "Room Selected"
+msgstr "已選擇房間"
+
+#: includes/shortcodes/shb-booking-page.php:489
+msgid ""
+"You have selected to book this room, you can select it again if you need multiple rooms of the same type"
+msgstr "您已選擇預訂此房間，如果需要多間相同類型的房間，您可以再次選擇。"
+
+#: includes/shortcodes/shb-booking-page.php:588 includes/shortcodes/shb-booking-page.php:592
+#: includes/shortcodes/shb-booking-page.php:740
+msgid "Select Room"
+msgstr "選擇房間"
+
+#: includes/shortcodes/shb-booking-page.php:590 includes/shortcodes/shb-booking-page.php:593
+msgid "View Details"
+msgstr "查看詳情"
+
+#: includes/shortcodes/shb-booking-page.php:676 includes/shortcodes/shb-booking-page.php:1013
+#: includes/shortcodes/shb-booking-page.php:1134
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:40
+msgid "Dates"
+msgstr "日期"
+
+#: includes/shortcodes/shb-booking-page.php:743
+msgid "Cancel"
+msgstr "取消"
+
+#: includes/shortcodes/shb-booking-page.php:1007
+#, php-format
+msgid "Room %u of %s"
+msgstr "房間 %u / %s"
+
+#: includes/shortcodes/shb-booking-page.php:1072 includes/shortcodes/shb-booking-page.php:1089
+msgid "Remove"
+msgstr "移除"
+
+#: includes/shortcodes/shb-booking-page.php:1106
+msgid "Your Stay"
+msgstr "您的住宿"
+
+#: includes/shortcodes/shb-booking-page.php:1178
+#, php-format
+msgid "Charged in %s (%s)"
+msgstr "已收費 %s (%s)"
+
+#: includes/shortcodes/shb-booking-page.php:1204
+msgid "Discounts"
+msgstr "折扣"
+
+#: includes/shortcodes/shb-booking-page.php:1217
+#, php-format
+msgid "Pay Now (%s)"
+msgstr "立即付款 (%s)"
+
+#: includes/shortcodes/shb-booking-page.php:1231
+msgid "Continue"
+msgstr "繼續"
+
+#: includes/shortcodes/shb-booking-page.php:1238
+msgid "Add A Room?"
+msgstr "要添加房間嗎？"
+
+#: includes/shortcodes/shb-booking-page.php:1383
+msgid "Select add-ons for"
+msgstr "選擇附加服務"
+
+#: includes/shortcodes/shb-booking-page.php:1446
+msgid "Read More"
+msgstr "閱讀更多"
+
+#: includes/shortcodes/shb-booking-page.php:1447
+msgid "Read Less"
+msgstr "閱讀更少"
+
+#: includes/shortcodes/shb-booking-page.php:1601
+#: includes/templates/backend/booking/shb-booking-accommodation.htm.php:143
+#: includes/templates/backend/booking/shb-booking-accommodation.htm.php:145
+#: includes/templates/backend/booking/shb-booking-additionalfee.htm.php:235
+msgid "Select"
+msgstr "選擇"
+
+#: includes/shortcodes/shb-booking-page.php:1629
+msgid "No add-ons available"
+msgstr "沒有可用的附加服務"
+
+#: includes/shortcodes/shb-booking-page.php:1685
+msgid "Please select at least one room before checking out"
+msgstr "請在結帳前至少選擇一間房間"
+
+#: includes/shortcodes/shb-booking-page.php:1838
+msgid "Booking Complete!"
+msgstr "預訂完成！"
+
+#: includes/shortcodes/shb-booking-page.php:1846
+#, php-format
+msgid "A confirmation email has been sent to %s"
+msgstr "已向 %s 發送確認電子郵件"
+
+#: includes/shortcodes/shb-booking-page.php:1851
+msgid "Thank You"
+msgstr "謝謝您"
+
+#: includes/shortcodes/shb-booking-page.php:1862 includes/shortcodes/shb-booking-page.php:1863
+#, php-format
+msgid "%s at %s"
+msgstr "%s 在 %s"
+
+#: includes/shortcodes/shb-booking-page.php:1867
+msgid "Find Us"
+msgstr "聯繫我們"
+
+#: includes/shortcodes/shb-offer-carousel.php:78
+msgid "No news has been added yet"
+msgstr "尚未添加任何消息"
+
+#: includes/templates/backend/accommodation/shb-accommodation-pricing.htm.php:177
+#, php-format
+msgid "Duration: %d night(s) or more"
+msgstr "持續時間：%d 晚或更多"
+
+#: includes/templates/backend/accommodation/shb-accommodation-pricing.htm.php:179
+#, php-format
+msgid "Early: %d night(s) or more until check in date"
+msgstr "提前：%d 晚或更多，直到入住日期"
+
+#: includes/templates/backend/accommodation/shb-accommodation-pricing.htm.php:181
+#, php-format
+msgid "Late: %d night(s) or less until check in date"
+msgstr "延遲：%d 晚或更少，直到入住日期"
+
+#: includes/templates/backend/accommodation/shb-accommodation-pricing.htm.php:220
+msgid "Go to \"Hotel Booking > Rates\" and add this accommodation to an existing rate, or create a new one."
+msgstr "前往「酒店預訂 > 價格」，將此住宿添加到現有價格，或創建新的價格。"
+
+#: includes/templates/backend/accommodation/shb-accommodation-pricing.htm.php:226
+msgid ""
+"You must set the \"Accommodation Settings\" above and publish the accommodation before you can enter prices."
+msgstr "您必須設置上面的「住宿設置」並發布住宿，然後才能輸入價格。"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:11
+msgid "Short description"
+msgstr "簡短描述"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:12
+msgid "This is displayed on the accommodation listing pages and is intended as a brief overview of the room"
+msgstr "這將顯示在住宿列表頁面上，旨在提供房間的簡要概述。"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:19
+msgid "Accommodation type"
+msgstr "住宿類型"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:24
+msgid "Shared dorm"
+msgstr "共享宿舍"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:29
+msgid "Price Scheme"
+msgstr "價格方案"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:33
+msgid "Charge per guest"
+msgstr "每位客人收費"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:34
+msgid "Charge per room"
+msgstr "每間房間收費"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:40
+msgid ""
+"This sets the quantity of units available for this accommodation, use this if you have multiple units of the "
+"same type available"
+msgstr "這設置此住宿可用的單位數量，如果您有多個相同類型的單位可用，請使用此設置。"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:58
+msgid "min"
+msgstr "最小"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:66
+msgid "max"
+msgstr "最大"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:79
+msgid "Total min"
+msgstr "總最小"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:86
+msgid "Total max"
+msgstr "總最大"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:100
+msgid "Price Introduction"
+msgstr "價格介紹"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:101
+msgid ""
+"This is a guide price for guests, it's displayed before the actual price can be calculated e.g. before dates "
+"and guest quantities are selected. You can add something like 'From $250 / Night'. Add the [price] shortcode "
+"in this field to use the 'Sorting Price' if you're using multiple currencies so it will be converted"
+msgstr ""
+"這是給客人的參考價格，它在實際價格計算之前顯示，例如，在選擇日期和客人數量之前。您可以添加類似「從 $250 / "
+"晚」的內容。在此字段中添加 [price] 短代碼以使用「排序價格」，如果您使用多種貨幣，則將進行轉換。"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:108
+msgid "Sorting Price"
+msgstr "排序價格"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:109
+msgid "This price is used for sorting purposes, when the user selects the sort by price filter"
+msgstr "此價格用於排序目的，當用戶選擇按價格過濾時使用。"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:116
+msgid "Display form"
+msgstr "顯示表單"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:117
+msgid "Display a booking form on the accommodation single page"
+msgstr "在住宿單頁上顯示預訂表單"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:132
+#: includes/templates/backend/booking/shb-booking-accommodation.htm.php:79
+msgid "Go to \"Hotel Booking > Guest Classes\" and create at least one guest class."
+msgstr "前往「酒店預訂 > 客人類別」，創建至少一個客人類別。"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:7
+msgid "Charge"
+msgstr "收費"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:11
+msgid "Per room"
+msgstr "每間房間"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:12
+msgid "Per person"
+msgstr "每人"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:28
+msgid "If this is set to 'No' the fee will be automatically added to user's total at the checkout"
+msgstr "如果此設置為「否」，則該費用將自動添加到用戶的結帳總額中。"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:38
+msgid "Quantity select"
+msgstr "數量選擇"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:39
+msgid "Display a quantity selection for this fee"
+msgstr "顯示此費用的數量選擇"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:49
+msgid "Quantity min"
+msgstr "最小數量"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:56
+msgid "Quantity max"
+msgstr "最大數量"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:63
+msgid "Quantity name"
+msgstr "數量名稱"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:64
+msgid ""
+"What is the name of the thing the user is selecting the quantity for? e.g. 'people', 'car', 'breakfast', etc"
+msgstr "使用者所選擇數量的物品名稱是什麼？例如：'人', '車', '早餐'等"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:71
+msgid "Select date"
+msgstr "選擇日期"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:72
+msgid "Display a date selection for this fee"
+msgstr "顯示此費用的日期選擇"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:82
+msgid "Select time"
+msgstr "選擇時間"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:83
+msgid "Display a time selection for this fee"
+msgstr "顯示此費用的時間選擇"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:100
+msgid "Price name"
+msgstr "價格名稱"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:101
+msgid ""
+"Displayed next to the 'Price', you can add more details to describe the price such as 'Per Guest' or 'Per "
+"Night'"
+msgstr "顯示在「價格」旁邊，您可以添加更多細節來描述價格，例如「每位客人」或「每晚」"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:108
+msgid "Custom text input label"
+msgstr "自定義文字輸入標籤"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:109
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:117
+msgid "Leave this field blank if you do not want a custom text input"
+msgstr "如果您不想要自定義文字輸入，請留此欄位為空"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:116
+msgid "Custom select label"
+msgstr "自定義選擇標籤"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:124
+msgid "Custom select options"
+msgstr "自定義選擇選項"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:125
+msgid "Separate each option with a | e.g. Option #1 | Option #2"
+msgstr "用 | 分隔每個選項，例如：選項 #1 | 選項 #2"
+
+#: includes/templates/backend/booking/shb-booking-accommodation.htm.php:75
+msgid "Check Availability"
+msgstr "檢查可用性"
+
+#: includes/templates/backend/booking/shb-booking-accommodation.htm.php:115
+msgid "Available"
+msgstr "可用"
+
+#: includes/templates/backend/booking/shb-booking-accommodation.htm.php:156
+msgid "No rates available"
+msgstr "沒有可用的價格"
+
+#: includes/templates/backend/booking/shb-booking-additionalfee.htm.php:25
+#: includes/templates/backend/booking/shb-booking-additionalfee.htm.php:27
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:28
+msgid "of"
+msgstr "的"
+
+#: includes/templates/backend/booking/shb-booking-additionalfee.htm.php:256
+msgid ""
+"Enter your booking dates and guest quantities above, click \"Check Availability\", select your "
+"accommodation, and then you can select additional fees"
+msgstr "在上方輸入您的預訂日期和客人數量，點擊「檢查可用性」，選擇您的住宿，然後您可以選擇額外費用"
+
+#: includes/templates/backend/booking/shb-booking-guest-information.htm.php:11
+#: includes/templates/backend/booking/shb-booking-publish.htm.php:20
+msgid "Update"
+msgstr "更新"
+
+#: includes/templates/backend/booking/shb-booking-publish.htm.php:14
+msgid "Move to trash"
+msgstr "移至垃圾桶"
+
+#: includes/templates/backend/booking/shb-booking-sendmail.htm.php:15
+msgid "Email successfully sent"
+msgstr "電子郵件發送成功"
+
+#: includes/templates/backend/booking/shb-booking-sendmail.htm.php:27
+msgid "Booking Confirmed"
+msgstr "預訂已確認"
+
+#: includes/templates/backend/booking/shb-booking-sendmail.htm.php:28
+msgid "Booking Cancelled"
+msgstr "預訂已取消"
+
+#: includes/templates/backend/booking/shb-booking-sendmail.htm.php:31
+msgid "Send"
+msgstr "發送"
+
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:42
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:79
+msgid "Delete"
+msgstr "刪除"
+
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:104
+msgid "No accommodation selected."
+msgstr "未選擇任何住宿。"
+
+#: includes/templates/backend/booking/shb-booking-woocommerce.htm.php:116
+#: includes/templates/backend/booking/shb-booking-woocommerce.htm.php:159
+msgid "View WooCommerce Order"
+msgstr "查看 WooCommerce 訂單"
+
+#: includes/templates/backend/booking/shb-booking-woocommerce.htm.php:132
+#: includes/templates/backend/booking/shb-booking-woocommerce.htm.php:175
+#: includes/templates/backend/booking/shb-booking-woocommerce.htm.php:190
+msgid "Create WooCommerce Order"
+msgstr "創建 WooCommerce 訂單"
+
+#: includes/templates/backend/booking/shb-booking-woocommerce.htm.php:209
+msgid "Amount"
+msgstr "金額"
+
+#: includes/templates/backend/booking/shb-booking-woocommerce.htm.php:223
+msgid "Update Price"
+msgstr "更新價格"
+
+#: includes/templates/backend/condition/shb-condition.htm.php:7
+msgid "Min Stay"
+msgstr "最少入住"
+
+#: includes/templates/backend/condition/shb-condition.htm.php:8
+msgid "Set a minimum booking period"
+msgstr "設置最少預訂期限"
+
+#: includes/templates/backend/condition/shb-condition.htm.php:12
+#: includes/templates/backend/condition/shb-condition.htm.php:22
+#: includes/templates/backend/condition/shb-condition.htm.php:32
+#: includes/templates/backend/condition/shb-condition.htm.php:42
+#: includes/templates/backend/ratevariation/shb-ratevariation.htm.php:22
+msgid "nights"
+msgstr "晚"
+
+#: includes/templates/backend/condition/shb-condition.htm.php:13
+#: includes/templates/backend/condition/shb-condition.htm.php:23
+#: includes/templates/backend/condition/shb-condition.htm.php:33
+#: includes/templates/backend/condition/shb-condition.htm.php:43
+#: includes/templates/backend/ratevariation/shb-ratevariation.htm.php:23
+msgid "night"
+msgstr "夜"
+
+#: includes/templates/backend/condition/shb-condition.htm.php:17
+msgid "Max Stay"
+msgstr "最長住宿"
+
+#: includes/templates/backend/condition/shb-condition.htm.php:18
+msgid "Set a maximum booking period"
+msgstr "設定最長訂房期間"
+
+#: includes/templates/backend/condition/shb-condition.htm.php:28
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:20
+msgid "Set how many nights in advance of the check in date the user needs to submit their booking"
+msgstr "設定用戶在入住日期之前需要提前幾晚提交預訂"
+
+#: includes/templates/backend/condition/shb-condition.htm.php:38
+msgid ""
+"Restrict users so they can only book a certain number of nights, e.g. if you set this option to 7 nights, "
+"users will only be able to book weekly e.g. 7 nights, 14 nights, 21 nights, etc"
+msgstr ""
+"限制用戶只能預訂特定的夜晚數，例如如果您將此選項設置為 7 晚，用戶將只能按週預訂，例如 7 晚、14 晚、21 晚等"
+
+#: includes/templates/backend/condition/shb-condition.htm.php:47
+msgid "Allowed check in"
+msgstr "允許入住"
+
+#: includes/templates/backend/condition/shb-condition.htm.php:62
+msgid "Allowed check out"
+msgstr "允許退房"
+
+#: includes/templates/backend/condition/shb-condition.htm.php:77
+msgid "Apply condition when check in is on the following days"
+msgstr "當入住在以下日期時應用條件"
+
+#: includes/templates/backend/condition/shb-condition.htm.php:92
+msgid "Apply condition when check out is on the following days"
+msgstr "當退房在以下日期時應用條件"
+
+#: includes/templates/backend/guestclass/shb-guestclass.htm.php:13
+msgid "Description"
+msgstr "描述"
+
+#: includes/templates/backend/offer/shb-offer.htm.php:7 includes/templates/backend/rate/shb-rate.htm.php:19
+msgid "Short Description"
+msgstr "簡短描述"
+
+#: includes/templates/backend/season/shb-season.htm.php:7
+msgid "Start"
+msgstr "開始"
+
+#: includes/templates/backend/season/shb-season.htm.php:15
+msgid "End"
+msgstr "結束"
+
+#: includes/templates/backend/settings/shb-settings-emails.htm.php:20
+msgid "Pending message 1"
+msgstr "待處理訊息 1"
+
+#: includes/templates/backend/settings/shb-settings-emails.htm.php:26
+msgid "Pending message 2"
+msgstr "待處理訊息 2"
+
+#: includes/templates/backend/settings/shb-settings-emails.htm.php:32
+msgid "Confirmed message 1"
+msgstr "確認訊息 1"
+
+#: includes/templates/backend/settings/shb-settings-emails.htm.php:38
+msgid "Confirmed message 2"
+msgstr "確認訊息 2"
+
+#: includes/templates/backend/settings/shb-settings-emails.htm.php:44
+msgid "Cancelled message 1"
+msgstr "已取消訊息 1"
+
+#: includes/templates/backend/settings/shb-settings-emails.htm.php:50
+msgid "Cancelled message 2"
+msgstr "已取消訊息 2"
+
+#: includes/templates/backend/settings/shb-settings-forms.htm.php:26
+msgid "preset"
+msgstr "預設"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:14
+msgid "Booking confirmation"
+msgstr "預訂確認"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:15
+msgid ""
+"Booking dates are not blocked until a booking is set to confirmed status, booking dates will be "
+"automatically blocked if you set this option to automatic"
+msgstr "在預訂狀態設定為確認之前，預訂日期不會被封鎖，如果您將此選項設置為自動，預訂日期將自動被封鎖"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:19
+msgid "Automatic"
+msgstr "自動"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:20
+msgid "Manual"
+msgstr "手動"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:43
+msgid "Date Format"
+msgstr "日期格式"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:57
+msgid "Alternative Date Format"
+msgstr "替代日期格式"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:58
+msgid "Used on the booking page sidebar, you should use a valid PHP date format such as M d, Y"
+msgstr "在預訂頁面側邊欄中使用，您應該使用有效的 PHP 日期格式，例如 M d, Y"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:64
+msgid "My Account Page"
+msgstr "我的帳戶頁面"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:78
+msgid "Check In Time"
+msgstr "入住時間"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:84
+msgid "Check Out Time"
+msgstr "退房時間"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:90
+msgid "Booking Form Add-Ons step"
+msgstr "預訂表單附加步驟"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:91
+msgid "This option allows you to show / hide the Add-On step in the booking process"
+msgstr "此選項允許您在預訂過程中顯示/隱藏附加步驟"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:95
+msgid "Show"
+msgstr "顯示"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:96
+msgid "Hide"
+msgstr "隱藏"
+
+#: includes/templates/backend/settings/shb-settings-messages.htm.php:14
+msgid "Booking success"
+msgstr "預訂成功"
+
+#: includes/templates/backend/settings/shb-settings-messages.htm.php:20
+msgid "Booking page sidebar title"
+msgstr "預訂頁面側邊欄標題"
+
+#: includes/templates/backend/settings/shb-settings-messages.htm.php:26
+msgid "Booking page sidebar message"
+msgstr "預訂頁面側邊欄訊息"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:15
+msgid "Deposit"
+msgstr "押金"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:19
+msgid "Amount to pay (%)"
+msgstr "應支付金額 (%)"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:30
+msgid "Base currency"
+msgstr "基本貨幣"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:34
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:95
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:157
+msgid "Currency code"
+msgstr "貨幣代碼"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:35
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:96
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:158
+msgid "E.g. USD"
+msgstr "例如：美元 (USD)"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:41
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:102
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:164
+msgid "Currency symbol"
+msgstr "貨幣符號"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:42
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:103
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:165
+msgid "E.g. $"
+msgstr "例如：$"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:48
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:109
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:171
+msgid "Currency symbol position"
+msgstr "貨幣符號位置"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:52
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:113
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:175
+msgid "Before price"
+msgstr "價格之前"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:53
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:114
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:176
+msgid "After price"
+msgstr "價格之後"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:58
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:119
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:181
+msgid "Decimal places"
+msgstr "小數位數"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:71
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:132
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:194
+msgid "Decimal separator"
+msgstr "小數點分隔符"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:77
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:138
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:200
+msgid "Thousand separator"
+msgstr "千位分隔符"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:83
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:145
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:207
+msgid "Conversion multiplier"
+msgstr "轉換倍率"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:84
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:146
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:208
+msgid ""
+"E.g. if your base currency is USD, and converted currency is EUR, go to Google and search '1 USD to EUR', "
+"the result will be something like '0.84', add this in the field. Add '1' for the base currency since we're "
+"not converting it"
+msgstr ""
+"例如，如果您的基礎貨幣是美元（USD），而轉換的貨幣是歐元（EUR），請在 Google 上搜索 '1 USD to EUR'，結果會是 "
+"'0.84' 之類的，請將其添加到該字段中。基礎貨幣設為 '1'，因為我們不進行轉換。"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:91
+msgid "Converted currency 1"
+msgstr "轉換後的貨幣 1"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:153
+msgid "Converted currency 2"
+msgstr "轉換後的貨幣 2"
+
+#: includes/templates/backend/tax/shb-tax.htm.php:7
+msgid "Tax Rate (%)"
+msgstr "稅率 (%)"
+
+#: includes/templates/frontend/offer/shb-offer-single.htm.php:52
+msgid "Next page"
+msgstr "下一頁"
+
+#: includes/templates/frontend/offer/shb-offer-single.htm.php:53
+msgid "Previous page"
+msgstr "上一頁"
+
+#: includes/templates/frontend/offer/shb-offer-single.htm.php:60
+msgid "Tags: "
+msgstr "標籤："
+
+#: includes/templates/frontend/offer/shb-offer-single.htm.php:103
+msgid "Rooms Eligible For Offer"
+msgstr "符合優惠的房間"
+
+#: includes/widgets/shb-widget-booking.php:15
+msgid "Soho Hotel Booking Form"
+msgstr "蘇荷酒店訂房表單"
+
+#: includes/widgets/shb-widget-booking.php:16
+msgid "Display Booking Form"
+msgstr "顯示訂房表單"
+
+#: includes/widgets/shb-widget-booking.php:216
+msgid "Show hotel select option:"
+msgstr "顯示酒店選擇選項："
+
+#. Plugin Name of the plugin/theme
+msgid "Soho Hotel Booking"
+msgstr "蘇荷酒店訂房"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://quitenicestuff.com"
+msgstr "http://quitenicestuff.com"
+
+#. Description of the plugin/theme
+msgid "Accommodation Booking System"
+msgstr "住宿訂房系統"
+
+#. Author of the plugin/theme
+msgid "Quite Nice Stuff"
+msgstr "相當不錯的東西"

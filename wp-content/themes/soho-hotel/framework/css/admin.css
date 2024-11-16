@@ -1,0 +1,24 @@
+.sh-post-fields-wrapper {
+	margin: 12px 0 0 0;
+}
+
+.sh-post-fields-wrapper label {
+	display: block;
+	margin: 0 0 6px 0;
+	vertical-align: baseline;
+	font-weight: 600;
+}
+
+.sh-post-fields-wrapper textarea {
+	width: 100%;
+	min-height: 200px;
+}
+
+.sh-post-fields-wrapper select,
+.sh-post-fields-wrapper input {
+	margin: 0 0 10px 0;
+}
+
+#wp-admin-bar-view-store {
+	display: none;
+}

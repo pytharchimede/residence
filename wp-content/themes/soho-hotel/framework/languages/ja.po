@@ -1,0 +1,2083 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Soho Hotel\n"
+"POT-Creation-Date: 2022-07-27 11:09+0800\n"
+"PO-Revision-Date: 2024-10-02 11:20+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: 404.php:9
+msgid "Page Not Found"
+msgstr "ページが見つかりません"
+
+#: 404.php:10
+msgid "Sorry, the requested page could not be found, the page may have been deleted or you may have followed a broken link."
+msgstr ""
+"申し訳ありませんが、リクエストされたページが見つかりませんでした。ページが削除されたか、壊れたリンクをたどった可能性がありま"
+"す。"
+
+#: 404.php:14 search.php:14 searchform.php:3
+msgid "Search..."
+msgstr "検索..."
+
+#: archive.php:14
+#, php-format
+msgid "All posts in: \"%s\""
+msgstr "すべての投稿: \"%s\""
+
+#: archive.php:18
+#, php-format
+msgid "All posts tagged: \"%s\""
+msgstr "タグ付きの投稿: \"%s\""
+
+#: archive.php:23
+#, php-format
+msgid "All posts by: \"%s\""
+msgstr "\"%s\" によるすべての投稿"
+
+#: archive.php:27
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "日別アーカイブ: %s"
+
+#: archive.php:31
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "月別アーカイブ: %s"
+
+#: archive.php:31
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "%Y年%m月"
+
+#: archive.php:35
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "年別アーカイブ: %s"
+
+#: archive.php:35
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "%Y年"
+
+#: archive.php:38
+msgid "Archives"
+msgstr "アーカイブ"
+
+#: archive.php:86 category.php:41 index.php:43 single.php:27
+msgid "By"
+msgstr "投稿者:"
+
+#: archive.php:88 category.php:43 index.php:45
+msgid "No Comments"
+msgstr "コメントなし"
+
+#: archive.php:88 category.php:43 comments.php:20 index.php:45
+msgid "1 Comment"
+msgstr "1件のコメント"
+
+#: archive.php:88 category.php:43 comments.php:20 index.php:45
+msgid "% Comments"
+msgstr "%件のコメント"
+
+#: archive.php:88 category.php:43 index.php:45
+msgid "Comments Off"
+msgstr "コメントは無効"
+
+#: archive.php:99 category.php:54 functions.php:1276 index.php:56
+msgid "Read More"
+msgstr "続きを読む"
+
+#: comments.php:20
+msgid "No comments"
+msgstr "コメントなし"
+
+#: comments.php:29
+msgid "&larr; Older Comments"
+msgstr "← 古いコメント"
+
+#: comments.php:30
+msgid "Newer Comments &rarr;"
+msgstr "新しいコメント →"
+
+#: comments.php:49
+msgid "Comment"
+msgstr "コメント"
+
+#: comments.php:52
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr ""
+"ログイン中: <a href=\"%1$s\">%2$s</a>。<a href=\"%3$s\" title=\"このアカウントからログアウト\">ログアウトしますか？</a>"
+
+#: comments.php:53 comments.php:54
+msgid "Leave a Comment"
+msgstr "コメントを残す"
+
+#: comments.php:55
+msgid "Cancel Reply To Comment"
+msgstr "コメントへの返信をキャンセル"
+
+#: comments.php:56
+msgid "Submit Comment"
+msgstr "コメントを送信"
+
+#: comments.php:59
+msgid "Name"
+msgstr "名前"
+
+#: comments.php:59 comments.php:60
+msgid "*"
+msgstr "*"
+
+#: comments.php:60 framework/inc/pagebuilder/pagebuilder_theme.php:217
+msgid "Email"
+msgstr "メールアドレス"
+
+#: comments.php:61
+msgid "Website"
+msgstr "ウェブサイト"
+
+#: footer.php:13
+msgid "&copy; 2021 Soho Hotel. All Rights Reserved"
+msgstr "&copy; 2021 Soho Hotel. 全著作権所有"
+
+#: footer.php:59
+msgid "Currency"
+msgstr "通貨"
+
+#: footer.php:69
+msgid "Language"
+msgstr "言語"
+
+#: framework/admin/admin-config.php:248
+msgid "Soho Hotel Settings"
+msgstr "Soho Hotel 設定"
+
+#: framework/admin/admin-config.php:249
+msgid "Adjust Soho Hotel settings"
+msgstr "Soho Hotel 設定を調整"
+
+#: framework/admin/admin-config.php:260
+msgid "Header"
+msgstr "ヘッダー"
+
+#: framework/admin/admin-config.php:277
+msgid "Header Style"
+msgstr "ヘッダースタイル"
+
+#: framework/admin/admin-config.php:283
+msgid "Header 1"
+msgstr "ヘッダー 1"
+
+#: framework/admin/admin-config.php:284
+msgid "Header 2"
+msgstr "ヘッダー 2"
+
+#: framework/admin/admin-config.php:285
+msgid "Header 3"
+msgstr "ヘッダー 3"
+
+#: framework/admin/admin-config.php:286
+msgid "Header 4"
+msgstr "ヘッダー 4"
+
+#: framework/admin/admin-config.php:301
+msgid "Phone number"
+msgstr "電話番号"
+
+#: framework/admin/admin-config.php:319 framework/inc/pagebuilder/pagebuilder_theme.php:201
+msgid "Address"
+msgstr "住所"
+
+#: framework/admin/admin-config.php:337
+msgid "Address URL"
+msgstr "住所のURL"
+
+#: framework/admin/admin-config.php:355
+msgid "Button label 1"
+msgstr "ボタンラベル 1"
+
+#: framework/admin/admin-config.php:373
+msgid "Button link 1"
+msgstr "ボタンリンク 1"
+
+#: framework/admin/admin-config.php:379 framework/admin/admin-config.php:458
+msgid "http://"
+msgstr "http://"
+
+#: framework/admin/admin-config.php:394
+msgid "Button icon 1"
+msgstr "ボタンアイコン 1"
+
+#: framework/admin/admin-config.php:412
+msgid "Button target 1"
+msgstr "ボタンターゲット 1"
+
+#: framework/admin/admin-config.php:418 framework/admin/admin-config.php:497
+msgid "Open in new window/tab"
+msgstr "新しいウィンドウ/タブで開く"
+
+#: framework/admin/admin-config.php:419 framework/admin/admin-config.php:498
+msgid "Open in same window/tab"
+msgstr "同じウィンドウ/タブで開く"
+
+#: framework/admin/admin-config.php:434
+msgid "Button label 2"
+msgstr "ボタンラベル 2"
+
+#: framework/admin/admin-config.php:452
+msgid "Button link 2"
+msgstr "ボタンリンク 2"
+
+#: framework/admin/admin-config.php:473
+msgid "Button icon 2"
+msgstr "ボタンアイコン 2"
+
+#: framework/admin/admin-config.php:491
+msgid "Button target 2"
+msgstr "ボタンターゲット 2"
+
+#: framework/admin/admin-config.php:513 framework/admin/admin-config.php:611
+msgid "Display language selection"
+msgstr "言語選択を表示"
+
+#: framework/admin/admin-config.php:519 framework/admin/admin-config.php:541 framework/admin/admin-config.php:617
+#: framework/admin/admin-config.php:639 framework/admin/admin-config.php:1050
+#: framework/inc/pagebuilder/pagebuilder_theme.php:538 framework/inc/pagebuilder/pagebuilder_theme.php:692
+msgid "No"
+msgstr "いいえ"
+
+#: framework/admin/admin-config.php:520 framework/admin/admin-config.php:542 framework/admin/admin-config.php:618
+#: framework/admin/admin-config.php:640 framework/admin/admin-config.php:1049
+#: framework/inc/pagebuilder/pagebuilder_theme.php:537 framework/inc/pagebuilder/pagebuilder_theme.php:691
+msgid "Yes"
+msgstr "はい"
+
+#: framework/admin/admin-config.php:535 framework/admin/admin-config.php:633
+msgid "Display currency selection"
+msgstr "通貨選択を表示"
+
+#: framework/admin/admin-config.php:550
+msgid "Footer"
+msgstr "フッター"
+
+#: framework/admin/admin-config.php:567
+msgid "Message"
+msgstr "メッセージ"
+
+#: framework/admin/admin-config.php:585
+msgid "Widget columns"
+msgstr "ウィジェット列"
+
+#: framework/admin/admin-config.php:591
+msgid "1"
+msgstr "1"
+
+#: framework/admin/admin-config.php:592
+msgid "2"
+msgstr "2"
+
+#: framework/admin/admin-config.php:593
+msgid "3"
+msgstr "3"
+
+#: framework/admin/admin-config.php:594
+msgid "4"
+msgstr "4"
+
+#: framework/admin/admin-config.php:595
+msgid "5"
+msgstr "5"
+
+#: framework/admin/admin-config.php:596
+msgid "6"
+msgstr "6"
+
+#: framework/admin/admin-config.php:648 framework/admin/admin-config.php:665
+msgid "Logo"
+msgstr "ロゴ"
+
+#: framework/admin/admin-config.php:668 framework/admin/admin-config.php:673 framework/admin/admin-config.php:874
+#: framework/admin/admin-config.php:879 framework/admin/admin-config.php:899 framework/admin/admin-config.php:904
+#: framework/admin/admin-config.php:924 framework/admin/admin-config.php:929
+msgid "Select Image"
+msgstr "画像を選択"
+
+#: framework/admin/admin-config.php:669 framework/admin/admin-config.php:875 framework/admin/admin-config.php:900
+#: framework/admin/admin-config.php:925
+msgid "Change Image"
+msgstr "画像を変更"
+
+#: framework/admin/admin-config.php:670 framework/admin/admin-config.php:876 framework/admin/admin-config.php:901
+#: framework/admin/admin-config.php:926
+msgid "Remove"
+msgstr "削除"
+
+#: framework/admin/admin-config.php:671 framework/admin/admin-config.php:877 framework/admin/admin-config.php:902
+#: framework/admin/admin-config.php:927
+msgid "Default"
+msgstr "デフォルト"
+
+#: framework/admin/admin-config.php:672 framework/admin/admin-config.php:878 framework/admin/admin-config.php:903
+#: framework/admin/admin-config.php:928
+msgid "No image selected"
+msgstr "画像が選択されていません"
+
+#: framework/admin/admin-config.php:674 framework/admin/admin-config.php:880 framework/admin/admin-config.php:905
+#: framework/admin/admin-config.php:930
+msgid "Choose Image"
+msgstr "画像を選択"
+
+#: framework/admin/admin-config.php:690
+msgid "Desktop logo top margin (px)"
+msgstr "デスクトップロゴの上部余白 (px)"
+
+#: framework/admin/admin-config.php:709
+msgid "Desktop logo width (px or %)"
+msgstr "デスクトップロゴの幅 (pxまたは%)"
+
+#: framework/admin/admin-config.php:728
+msgid "Desktop logo max width (px or %)"
+msgstr "デスクトップロゴの最大幅 (pxまたは%)"
+
+#: framework/admin/admin-config.php:747
+msgid "Desktop sticky nav logo top margin (px)"
+msgstr "デスクトップの固定ナビロゴの上マージン (px)"
+
+#: framework/admin/admin-config.php:766
+msgid "Desktop sticky nav logo width (px or %)"
+msgstr "デスクトップの固定ナビロゴの幅 (px または %)"
+
+#: framework/admin/admin-config.php:785
+msgid "Desktop sticky nav logo max width (px or %)"
+msgstr "デスクトップの固定ナビロゴの最大幅 (px または %)"
+
+#: framework/admin/admin-config.php:804
+msgid "Mobile logo top margin (px)"
+msgstr "モバイルロゴの上マージン (px)"
+
+#: framework/admin/admin-config.php:823
+msgid "Mobile logo width (px or %)"
+msgstr "モバイルロゴの幅 (px または %)"
+
+#: framework/admin/admin-config.php:842
+msgid "Mobile logo max width (px or %)"
+msgstr "モバイルロゴの最大幅 (px または %)"
+
+#: framework/admin/admin-config.php:853
+msgid "Images"
+msgstr "画像"
+
+#: framework/admin/admin-config.php:871
+msgid "Default header image"
+msgstr "デフォルトヘッダー画像"
+
+#: framework/admin/admin-config.php:896
+msgid "Search header image"
+msgstr "検索ヘッダー画像"
+
+#: framework/admin/admin-config.php:921
+msgid "404 header image"
+msgstr "404ヘッダー画像"
+
+#: framework/admin/admin-config.php:938
+msgid "Layout"
+msgstr "レイアウト"
+
+#: framework/admin/admin-config.php:956
+msgid "Archive Layout"
+msgstr "アーカイブレイアウト"
+
+#: framework/admin/admin-config.php:962
+msgid "Right Sidebar"
+msgstr "右サイドバー"
+
+#: framework/admin/admin-config.php:963
+msgid "Left Sidebar"
+msgstr "左サイドバー"
+
+#: framework/admin/admin-config.php:964
+msgid "Full Width"
+msgstr "全幅"
+
+#: framework/admin/admin-config.php:979
+msgid "Category Layout"
+msgstr "カテゴリーのレイアウト"
+
+#: framework/admin/admin-config.php:1002
+msgid "Search Layout"
+msgstr "検索レイアウト"
+
+#: framework/admin/admin-config.php:1025
+msgid "Blog page URL"
+msgstr "ブログページのURL"
+
+#: framework/admin/admin-config.php:1043
+msgid "Show Newsletter Field Labels"
+msgstr "ニュースレターフィールドラベルを表示"
+
+#: framework/admin/admin-config.php:1058
+msgid "Colors"
+msgstr "色"
+
+#: framework/admin/admin-config.php:1075
+msgid "Main color"
+msgstr "メインカラー"
+
+#: framework/admin/admin-config.php:1093
+msgid "Header background color"
+msgstr "ヘッダー背景色"
+
+#: framework/admin/admin-config.php:1111
+msgid "Header primary text color"
+msgstr "ヘッダーの主要なテキスト色"
+
+#: framework/admin/admin-config.php:1129
+msgid "Header secondary text color"
+msgstr "ヘッダーの二次テキスト色"
+
+#: framework/admin/admin-config.php:1147
+msgid "Header border color"
+msgstr "ヘッダーのボーダー色"
+
+#: framework/admin/admin-config.php:1165
+msgid "Top right button background color"
+msgstr "右上ボタンの背景色"
+
+#: framework/admin/admin-config.php:1183
+msgid "Top right button text color"
+msgstr "右上ボタンのテキスト色"
+
+#: framework/admin/admin-config.php:1201
+msgid "Booking form button background color"
+msgstr "予約フォームボタンの背景色"
+
+#: framework/admin/admin-config.php:1219
+msgid "Booking form button text color"
+msgstr "予約フォームボタンのテキスト色"
+
+#: framework/admin/admin-config.php:1237
+msgid "Booking form icon color"
+msgstr "予約フォームのアイコン色"
+
+#: framework/admin/admin-config.php:1255
+msgid "Footer background color"
+msgstr "フッターの背景色"
+
+#: framework/admin/admin-config.php:1273
+msgid "Footer text color"
+msgstr "フッターのテキスト色"
+
+#: framework/admin/admin-config.php:1291
+msgid "Footer border color"
+msgstr "フッターのボーダー色"
+
+#: framework/admin/admin-config.php:1309
+msgid "Footer bottom bar background color"
+msgstr "フッターボトムバーの背景色"
+
+#: framework/admin/admin-config.php:1327
+msgid "Footer bottom bar text color"
+msgstr "フッターボトムバーのテキスト色"
+
+#: framework/admin/admin-config.php:1345
+msgid "Slideshow button background color"
+msgstr "スライドショーボタンの背景色"
+
+#: framework/admin/admin-config.php:1363
+msgid "Slideshow button text color"
+msgstr "スライドショーボタンのテキスト色"
+
+#: framework/admin/admin-config.php:1381
+msgid "Title line color"
+msgstr "タイトルラインの色"
+
+#: framework/admin/admin-config.php:1399
+msgid "Datepicker hover background color"
+msgstr "日付選択時のホバーバックグラウンド色"
+
+#: framework/admin/admin-config.php:1417
+msgid "Datepicker select background color 1"
+msgstr "日付選択時の背景色1"
+
+#: framework/admin/admin-config.php:1435
+msgid "Datepicker select background color 2"
+msgstr "日付選択時の背景色2"
+
+#: framework/admin/admin-config.php:1453
+msgid "Booking background color"
+msgstr "予約バックグラウンド色"
+
+#: framework/admin/admin-config.php:1471
+msgid "Booking primary text color"
+msgstr "予約の主要テキスト色"
+
+#: framework/admin/admin-config.php:1489
+msgid "Booking secondary text color"
+msgstr "予約の二次テキスト色"
+
+#: framework/admin/admin-config.php:1507
+msgid "Booking border color"
+msgstr "予約のボーダー色"
+
+#: framework/admin/admin-config.php:1525
+msgid "Footer Alternative Text Color"
+msgstr "フッター代替テキスト色"
+
+#: framework/admin/admin-config.php:1544
+msgid "Transparent header page IDs"
+msgstr "透過ヘッダーページID"
+
+#: framework/admin/admin-config.php:1555
+msgid "Fonts"
+msgstr "フォント"
+
+#: framework/admin/admin-config.php:1572
+msgid "Primary font family"
+msgstr "主要フォントファミリー"
+
+#: framework/admin/admin-config.php:1590
+msgid "Primary font weights"
+msgstr "主要フォントのウェイト"
+
+#: framework/admin/admin-config.php:1608
+msgid "Secondary font family"
+msgstr "二次フォントファミリー"
+
+#: framework/admin/admin-config.php:1626
+msgid "Secondary font weights"
+msgstr "二次フォントのウェイト"
+
+#: framework/admin/admin-config.php:1637
+msgid "Google API"
+msgstr "Google API"
+
+#: framework/admin/admin-config.php:1654
+msgid "Google API Key"
+msgstr "Google APIキー"
+
+#: framework/inc/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr "必須プラグインのインストール"
+
+#: framework/inc/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr "プラグインのインストール"
+
+#. translators: %s: plugin name.
+#: framework/inc/class-tgm-plugin-activation.php:337
+msgid "Installing Plugin: %s"
+msgstr "プラグインのインストール中: %s"
+
+#. translators: %s: plugin name.
+#: framework/inc/class-tgm-plugin-activation.php:339
+msgid "Updating Plugin: %s"
+msgstr "プラグインの更新中: %s"
+
+#: framework/inc/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr "プラグインAPIに問題が発生しました。"
+
+#. translators: 1: plugin name(s).
+#: framework/inc/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "このテーマには次のプラグインが必要です: %1$s."
+
+#. translators: 1: plugin name(s).
+#: framework/inc/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "このテーマは次のプラグインを推奨します: %1$s."
+
+#. translators: 1: plugin name(s).
+#: framework/inc/class-tgm-plugin-activation.php:355
+#, php-format
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "次のプラグインはこのテーマとの最大互換性を確保するために最新バージョンに更新する必要があります: %1$s."
+
+#. translators: 1: plugin name(s).
+#: framework/inc/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "次のプラグインに利用可能な更新があります: %1$s."
+
+#. translators: 1: plugin name(s).
+#: framework/inc/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "次の必須プラグインは現在非アクティブです: %1$s."
+
+#. translators: 1: plugin name(s).
+#: framework/inc/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "次の推奨プラグインは現在非アクティブです: %1$s."
+
+#: framework/inc/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "プラグインのインストールを開始"
+
+#: framework/inc/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "プラグインの更新を開始"
+
+#: framework/inc/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "プラグインの有効化を開始"
+
+#: framework/inc/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr "必須プラグインインストーラーに戻る"
+
+#: framework/inc/class-tgm-plugin-activation.php:393 framework/inc/class-tgm-plugin-activation.php:912
+#: framework/inc/class-tgm-plugin-activation.php:2618 framework/inc/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr "ダッシュボードに戻る"
+
+#: framework/inc/class-tgm-plugin-activation.php:394 framework/inc/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr "プラグインが正常に有効化されました。"
+
+#: framework/inc/class-tgm-plugin-activation.php:395 framework/inc/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "次のプラグインが正常に有効化されました:"
+
+#. translators: 1: plugin name.
+#: framework/inc/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "アクションは行われませんでした。プラグイン %1$s は既にアクティブです。"
+
+#. translators: 1: plugin name.
+#: framework/inc/class-tgm-plugin-activation.php:399
+#, php-format
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "プラグインは有効化されませんでした。このテーマには %s のより高いバージョンが必要です。プラグインを更新してください。"
+
+#. translators: 1: dashboard link.
+#: framework/inc/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "すべてのプラグインが正常にインストールおよび有効化されました。 %1$s"
+
+#: framework/inc/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "この通知を閉じる"
+
+#: framework/inc/class-tgm-plugin-activation.php:403
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "インストール、更新、または有効化が必要な必須または推奨プラグインが1つ以上あります。"
+
+#: framework/inc/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "ヘルプが必要な場合は、このサイトの管理者に連絡してください。"
+
+#: framework/inc/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "このプラグインは、テーマと互換性を持たせるために更新が必要です。"
+
+#: framework/inc/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr "更新が必要です"
+
+#: framework/inc/class-tgm-plugin-activation.php:1019
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "リモートプラグインパッケージには、指定されたスラッグを持つフォルダーが含まれておらず、名前の変更も機能しませんでした。"
+
+#: framework/inc/class-tgm-plugin-activation.php:1019 framework/inc/class-tgm-plugin-activation.php:1022
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "プラグインプロバイダーに連絡し、プラグインをWordPressのガイドラインに従ってパッケージ化するよう依頼してください。"
+
+#: framework/inc/class-tgm-plugin-activation.php:1022
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "リモートプラグインパッケージには複数のファイルが含まれていますが、ファイルはフォルダーにパッケージ化されていません。"
+
+#: framework/inc/class-tgm-plugin-activation.php:1206 framework/inc/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "および"
+
+#. translators: %s: version number
+#: framework/inc/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: framework/inc/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr "必須"
+
+#: framework/inc/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr "推奨"
+
+#: framework/inc/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr "WordPress リポジトリ"
+
+#: framework/inc/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr "外部ソース"
+
+#: framework/inc/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr "事前パッケージ"
+
+#: framework/inc/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr "インストールされていません"
+
+#: framework/inc/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr "インストール済みですがアクティベートされていません"
+
+#: framework/inc/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr "アクティブ"
+
+#: framework/inc/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr "必要な更新が利用できません"
+
+#: framework/inc/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr "更新が必要です"
+
+#: framework/inc/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr "更新が推奨されています"
+
+#. translators: 1: install status, 2: update status
+#: framework/inc/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s、%2$s"
+
+#. translators: 1: number of plugins.
+#: framework/inc/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "すべて <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: framework/inc/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "インストールする <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: framework/inc/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "利用可能な更新 <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: framework/inc/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "アクティベートする <span class=\"count\">(%s)</span>"
+
+#: framework/inc/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "不明"
+
+#: framework/inc/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr "インストールされたバージョン:"
+
+#: framework/inc/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr "最低限必要なバージョン:"
+
+#: framework/inc/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr "利用可能なバージョン:"
+
+#: framework/inc/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr "インストール、更新、またはアクティベートするプラグインがありません。"
+
+#: framework/inc/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr "プラグイン"
+
+#: framework/inc/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr "ソース"
+
+#: framework/inc/class-tgm-plugin-activation.php:2634 framework/inc/pagebuilder/pagebuilder_theme.php:190
+#: framework/inc/pagebuilder/pagebuilder_theme.php:742 framework/inc/pagebuilder/pagebuilder_theme.php:1089
+msgid "Type"
+msgstr "タイプ"
+
+#: framework/inc/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr "バージョン"
+
+#: framework/inc/class-tgm-plugin-activation.php:2639 woocommerce/myaccount/orders.php:69
+msgid "Status"
+msgstr "ステータス"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: framework/inc/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr "%2$s をインストール"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: framework/inc/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr "%2$s を更新"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: framework/inc/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr "%2$s を有効化"
+
+#: framework/inc/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr "プラグイン作成者からのアップグレードメッセージ:"
+
+#: framework/inc/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr "インストール"
+
+#: framework/inc/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr "更新"
+
+#: framework/inc/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr "有効化"
+
+#: framework/inc/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "インストールするプラグインが選択されていません。アクションは実行されませんでした。"
+
+#: framework/inc/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "更新するプラグインが選択されていません。アクションは実行されませんでした。"
+
+#: framework/inc/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr "現在インストールできるプラグインはありません。"
+
+#: framework/inc/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr "現在更新できるプラグインはありません。"
+
+#: framework/inc/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "有効化するプラグインが選択されていません。アクションは実行されませんでした。"
+
+#: framework/inc/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr "現在有効化できるプラグインはありません。"
+
+#: framework/inc/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr "プラグインの有効化に失敗しました。"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: framework/inc/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "プラグイン %1$s を更新中 (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: error message.
+#: framework/inc/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "%1$s のインストール中にエラーが発生しました: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name.
+#: framework/inc/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "%1$s のインストールに失敗しました。"
+
+#: framework/inc/class-tgm-plugin-activation.php:3592
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "インストールおよび有効化プロセスを開始します。ホストによっては時間がかかる場合がありますので、しばらくお待ちください。"
+
+#. translators: 1: plugin name.
+#: framework/inc/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s が正常にインストールおよび有効化されました。"
+
+#: framework/inc/class-tgm-plugin-activation.php:3594 framework/inc/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr "詳細を表示"
+
+#: framework/inc/class-tgm-plugin-activation.php:3594 framework/inc/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr "詳細を非表示"
+
+#: framework/inc/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr "すべてのインストールおよび有効化が完了しました。"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: framework/inc/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "プラグイン %1$s をインストールおよび有効化中 (%2$d/%3$d)"
+
+#: framework/inc/class-tgm-plugin-activation.php:3600
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "インストールプロセスを開始します。ホストによっては時間がかかる場合がありますので、しばらくお待ちください。"
+
+#. translators: 1: plugin name.
+#: framework/inc/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s が正常にインストールされました。"
+
+#: framework/inc/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr "すべてのインストールが完了しました。"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: framework/inc/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "プラグイン %1$s をインストール中 (%2$d/%3$d)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:37 framework/inc/pagebuilder/pagebuilder_theme.php:47
+#: framework/inc/pagebuilder/pagebuilder_theme.php:486 framework/inc/pagebuilder/pagebuilder_theme.php:648
+#: framework/inc/pagebuilder/pagebuilder_theme.php:970 framework/inc/pagebuilder/pagebuilder_theme.php:1081
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1720 framework/inc/pagebuilder/pagebuilder_theme.php:1774
+#: framework/inc/templates/backend/page/sohohotel-page.htm.php:18
+msgid "Title"
+msgstr "タイトル"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:38
+msgid "Add a title"
+msgstr "タイトルを追加"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:55
+msgid "Size"
+msgstr "サイズ"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:58
+msgid "20px"
+msgstr "20px"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:59
+msgid "25px"
+msgstr "25px"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:60
+msgid "28px"
+msgstr "28px"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:61
+msgid "35px"
+msgstr "35px"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:68
+msgid "Alignment"
+msgstr "整列"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:71 framework/inc/pagebuilder/pagebuilder_theme.php:883
+msgid "Left"
+msgstr "左"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:72 framework/inc/pagebuilder/pagebuilder_theme.php:885
+msgid "Center"
+msgstr "中央"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:83
+msgid "Hotel Listing"
+msgstr "ホテルリスト"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:84
+msgid "Add a hotel listing"
+msgstr "ホテルリストを追加"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:93
+msgid "Columns"
+msgstr "カラム"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:96
+msgid "2 Columns"
+msgstr "2カラム"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:97
+msgid "3 Columns"
+msgstr "3カラム"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:104 framework/inc/pagebuilder/pagebuilder_theme.php:761
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1847
+msgid "Title 1"
+msgstr "タイトル1"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:112
+msgid "Link URL 1"
+msgstr "リンクURL 1"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:120 framework/inc/pagebuilder/pagebuilder_theme.php:1839
+msgid "Image 1"
+msgstr "画像1"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:128 framework/inc/pagebuilder/pagebuilder_theme.php:785
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1914
+msgid "Title 2"
+msgstr "タイトル2"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:136
+msgid "Link URL 2"
+msgstr "リンクURL 2"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:144 framework/inc/pagebuilder/pagebuilder_theme.php:1906
+msgid "Image 2"
+msgstr "画像2"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:152 framework/inc/pagebuilder/pagebuilder_theme.php:809
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1981
+msgid "Title 3"
+msgstr "タイトル3"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:160
+msgid "Link URL 3"
+msgstr "リンクURL 3"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:168 framework/inc/pagebuilder/pagebuilder_theme.php:1973
+msgid "Image 3"
+msgstr "画像3"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:180
+msgid "Contact Details"
+msgstr "連絡先詳細"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:181
+msgid "Display contact details in icon list"
+msgstr "アイコンリストに連絡先詳細を表示"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:193
+msgid "Type 1"
+msgstr "タイプ1"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:194
+msgid "Type 2"
+msgstr "タイプ2"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:209
+msgid "Phone"
+msgstr "電話"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:229
+msgid "Google Map"
+msgstr "Google マップ"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:230
+msgid "Display Google Map"
+msgstr "Google マップを表示"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:239
+msgid "Map ID"
+msgstr "マップID"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:248
+msgid "Width"
+msgstr "幅"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:257
+msgid "Height"
+msgstr "高さ"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:266
+msgid "Map Type"
+msgstr "マップタイプ"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:275
+msgid "Zoom"
+msgstr "ズーム"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:284
+msgid "Latitude"
+msgstr "緯度"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:293
+msgid "Longitude"
+msgstr "経度"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:302
+msgid "Marker Content"
+msgstr "マーカー内容"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:311
+msgid "Map Color"
+msgstr "マップの色"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:319
+msgid "Marker Color"
+msgstr "マーカーの色"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:331
+msgid "Social Media"
+msgstr "ソーシャルメディア"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:332
+msgid "Display social media icon links"
+msgstr "ソーシャルメディアアイコンリンクを表示"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:341
+msgid "Facebook"
+msgstr "フェイスブック"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:349
+msgid "Flickr"
+msgstr "フリッカー"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:357
+msgid "Google Plus"
+msgstr "グーグルプラス"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:365
+msgid "Instagram"
+msgstr "インスタグラム"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:373
+msgid "Pinterest"
+msgstr "ピンタレスト"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:381
+msgid "Skype"
+msgstr "スカイプ"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:389
+msgid "Soundcloud"
+msgstr "サウンドクラウド"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:397
+msgid "Tumblr"
+msgstr "タンブラー"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:405
+msgid "Twitter"
+msgstr "ツイッター"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:413
+msgid "Vimeo"
+msgstr "ヴィメオ"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:421
+msgid "Vine"
+msgstr "バイン"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:429
+msgid "Yelp"
+msgstr "イェルプ"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:437
+msgid "Youtube"
+msgstr "ユーチューブ"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:445
+msgid "Trip Advisor"
+msgstr "トリップアドバイザー"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:457
+msgid "Image Text"
+msgstr "画像テキスト"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:458
+msgid "Add a large image with text and a button beside it"
+msgstr "テキストとボタンを添えた大きな画像を追加"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:467 framework/inc/pagebuilder/pagebuilder_theme.php:580
+#: framework/inc/pagebuilder/pagebuilder_theme.php:629
+msgid "Image Alignment"
+msgstr "画像の配置"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:470 framework/inc/pagebuilder/pagebuilder_theme.php:583
+#: framework/inc/pagebuilder/pagebuilder_theme.php:632
+msgid "Left Align Image"
+msgstr "左揃え画像"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:471 framework/inc/pagebuilder/pagebuilder_theme.php:584
+#: framework/inc/pagebuilder/pagebuilder_theme.php:633
+msgid "Right Align Image"
+msgstr "右揃え画像"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:478 framework/inc/pagebuilder/pagebuilder_theme.php:591
+#: framework/inc/pagebuilder/pagebuilder_theme.php:640 framework/inc/pagebuilder/pagebuilder_theme.php:962
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1011
+msgid "Image"
+msgstr "画像"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:494 framework/inc/pagebuilder/pagebuilder_theme.php:656
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1674 framework/inc/pagebuilder/pagebuilder_theme.php:1728
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1782
+msgid "Text"
+msgstr "テキスト"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:502 framework/inc/pagebuilder/pagebuilder_theme.php:664
+#: framework/inc/pagebuilder/pagebuilder_theme.php:863 framework/inc/pagebuilder/pagebuilder_theme.php:1682
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1736
+msgid "Button Text"
+msgstr "ボタンテキスト"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:510 framework/inc/pagebuilder/pagebuilder_theme.php:672
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1690 framework/inc/pagebuilder/pagebuilder_theme.php:1744
+msgid "Button URL"
+msgstr "ボタンURL"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:518 framework/inc/pagebuilder/pagebuilder_theme.php:680
+msgid "Button Icon"
+msgstr "ボタンアイコン"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:526
+msgid "Image Gallery IDs"
+msgstr "画像ギャラリーID"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:534 framework/inc/pagebuilder/pagebuilder_theme.php:688
+msgid "Open link in new window"
+msgstr "新しいウィンドウでリンクを開く"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:544 framework/inc/pagebuilder/pagebuilder_theme.php:706
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1045
+msgid "Background color"
+msgstr "背景色"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:551 framework/inc/pagebuilder/pagebuilder_theme.php:713
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1052
+msgid "Primary text color"
+msgstr "主テキスト色"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:558 framework/inc/pagebuilder/pagebuilder_theme.php:720
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1059
+msgid "Secondary text color"
+msgstr "副テキスト色"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:570
+msgid "Image Testimonial"
+msgstr "画像の推薦文"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:571
+msgid "Add a large image with a testimonial beside it"
+msgstr "推薦文を添えた大きな画像を追加"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:599 framework/inc/pagebuilder/pagebuilder_theme.php:1019
+msgid "Testimonial Text"
+msgstr "推薦文テキスト"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:607 framework/inc/pagebuilder/pagebuilder_theme.php:1027
+msgid "Guest Name"
+msgstr "ゲスト名"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:619
+msgid "Video Text"
+msgstr "動画テキスト"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:620
+msgid "Add a video and text"
+msgstr "動画とテキストを追加"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:699 framework/inc/pagebuilder/pagebuilder_theme.php:939
+msgid "Video URL"
+msgstr "動画URL"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:732
+msgid "Icon Text"
+msgstr "アイコンテキスト"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:733
+msgid "Add an icon with text"
+msgstr "テキスト付きのアイコンを追加"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:745
+msgid "Left Aligned Icons"
+msgstr "左揃えアイコン"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:746
+msgid "Center Aligned Icons"
+msgstr "中央揃えアイコン"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:753
+msgid "Icon 1"
+msgstr "アイコン1"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:769
+msgid "Content 1"
+msgstr "コンテンツ1"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:777
+msgid "Icon 2"
+msgstr "アイコン2"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:793
+msgid "Content 2"
+msgstr "コンテンツ2"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:801
+msgid "Icon 3"
+msgstr "アイコン3"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:817
+msgid "Content 3"
+msgstr "コンテンツ3"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:825
+msgid "Icon 4"
+msgstr "アイコン4"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:833 framework/inc/pagebuilder/pagebuilder_theme.php:2048
+msgid "Title 4"
+msgstr "タイトル4"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:841
+msgid "Content 4"
+msgstr "コンテンツ4"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:853
+msgid "Button"
+msgstr "ボタン"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:854
+msgid "Add a button"
+msgstr "ボタンを追加"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:871
+msgid "Link"
+msgstr "リンク"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:880
+msgid "Align"
+msgstr "配置"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:884
+msgid "Right"
+msgstr "右"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:892
+msgid "Background Color"
+msgstr "背景色"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:900
+msgid "Text Color"
+msgstr "テキスト色"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:908
+msgid "Margin Bottom"
+msgstr "下のマージン"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:911
+msgid "e.g. 30px"
+msgstr "例：30px"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:921
+msgid "Video Thumbnail"
+msgstr "ビデオサムネイル"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:922
+msgid "Add a video with a thumbnail image"
+msgstr "サムネイル画像付きのビデオを追加"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:931
+msgid "Thumbnail Image"
+msgstr "サムネイル画像"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:952
+msgid "Fixed Height Text Image"
+msgstr "固定高さのテキスト画像"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:953
+msgid "Add text and an image with a fixed height"
+msgstr "固定高さのテキストと画像を追加"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:978
+msgid "Content"
+msgstr "コンテンツ"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:989 framework/inc/pagebuilder/pagebuilder_theme.php:1038
+msgid "Image on right"
+msgstr "右側の画像"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:990 framework/inc/pagebuilder/pagebuilder_theme.php:1039
+msgid "Image on left"
+msgstr "左側の画像"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1001
+msgid "Single Testimonial"
+msgstr "単一の推薦文"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1002
+msgid "Add single testimonial with an image"
+msgstr "画像付きの単一の推薦文を追加"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1071
+msgid "Testimonials Carousel"
+msgstr "推薦文カルーセル"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1072
+msgid "Display testimonials in a carousel"
+msgstr "カルーセルで推薦文を表示"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1100 framework/inc/pagebuilder/pagebuilder_theme.php:1376
+msgid "Post quantity to display"
+msgstr "表示する投稿数"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1209 framework/inc/pagebuilder/pagebuilder_theme.php:1351
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1485 framework/inc/pagebuilder/pagebuilder_theme.php:1641
+msgid "Order"
+msgstr "順序"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1220 framework/inc/pagebuilder/pagebuilder_theme.php:1698
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1752 framework/inc/pagebuilder/pagebuilder_theme.php:1798
+msgid "Background Image"
+msgstr "背景画像"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1232
+msgid "Testimonials Page"
+msgstr "推薦文ページ"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1233
+msgid "Display the testimonials page content"
+msgstr "推薦文ページのコンテンツを表示"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1242 framework/inc/pagebuilder/pagebuilder_theme.php:1532
+msgid "Posts per page"
+msgstr "ページごとの投稿数"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1366
+msgid "Blog Carousel"
+msgstr "ブログカルーセル"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1367
+msgid "Display blog posts in a carousel"
+msgstr "カルーセルでブログ投稿を表示"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1496
+msgid "Category"
+msgstr "カテゴリ"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1499
+msgid "Leave blank to display all post categories"
+msgstr "すべての投稿カテゴリを表示するには空白のままにしてください"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1509
+msgid "Blog Page"
+msgstr "ブログページ"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1510
+msgid "Display blog posts"
+msgstr "ブログ投稿を表示"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1519
+msgid "Style"
+msgstr "スタイル"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1652
+msgid "Category ID (Leave empty to display all categories)"
+msgstr "カテゴリID（すべてのカテゴリを表示するには空白のままにしてください）"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1664
+msgid "Call To Action Small"
+msgstr "小さなコールトゥアクション"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1665 framework/inc/pagebuilder/pagebuilder_theme.php:1711
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1765
+msgid "Display call to action"
+msgstr "コールトゥアクションを表示"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1710
+msgid "Call To Action Large"
+msgstr "大きなコールトゥアクション"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1764
+msgid "Call To Action Video"
+msgstr "コールトゥアクションビデオ"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1790
+msgid "Youtube Video URL"
+msgstr "YoutubeビデオURL"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1810
+msgid "Slideshow"
+msgstr "スライドショー"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1811
+msgid "Create a simple slideshow"
+msgstr "シンプルなスライドショーを作成"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1820
+msgid "Full screen"
+msgstr "全画面"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1831
+msgid "Full screen offset"
+msgstr "全画面オフセット"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1855
+msgid "Text 1"
+msgstr "テキスト1"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1863
+msgid "Button Text 1"
+msgstr "ボタンテキスト1"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1871
+msgid "Button URL 1"
+msgstr "ボタンURL1"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1879
+msgid "Align 1"
+msgstr "配置1"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1890
+msgid "Overlay Color 1 (e.g. '#000')"
+msgstr "オーバーレイカラー1（例：'#000'）"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1898
+msgid "Overlay Opacity 1 (e.g. '0.1' or '0.9' etc)"
+msgstr "オーバーレイ不透明度1（例：'0.1' または '0.9' など）"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1922
+msgid "Text 2"
+msgstr "テキスト2"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1930
+msgid "Button Text 2"
+msgstr "ボタンテキスト2"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1938
+msgid "Button URL 2"
+msgstr "ボタンURL2"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1946
+msgid "Align 2"
+msgstr "配置2"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1957
+msgid "Overlay Color 2 (e.g. '#000')"
+msgstr "オーバーレイカラー2（例：'#000'）"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1965
+msgid "Overlay Opacity 2 (e.g. '0.1' or '0.9' etc)"
+msgstr "オーバーレイ不透明度2（例：'0.1' または '0.9' など）"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1989
+msgid "Text 3"
+msgstr "テキスト3"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1997
+msgid "Button Text 3"
+msgstr "ボタンテキスト3"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2005
+msgid "Button URL 3"
+msgstr "ボタンURL3"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2013
+msgid "Align 3"
+msgstr "配置3"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2024
+msgid "Overlay Color 3 (e.g. '#000')"
+msgstr "オーバーレイカラー3（例：'#000'）"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2032
+msgid "Overlay Opacity 3 (e.g. '0.1' or '0.9' etc)"
+msgstr "オーバーレイ不透明度3（例：'0.1' または '0.9' など）"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2040
+msgid "Image 4"
+msgstr "画像4"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2056
+msgid "Text 4"
+msgstr "テキスト4"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2064
+msgid "Button Text 4"
+msgstr "ボタンテキスト4"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2072
+msgid "Button URL 4"
+msgstr "ボタンURL4"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2080
+msgid "Align 4"
+msgstr "配置4"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2091
+msgid "Overlay Color 4 (e.g. '#000')"
+msgstr "オーバーレイカラー4（例：'#000'）"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2099
+msgid "Overlay Opacity 4 (e.g. '0.1' or '0.9' etc)"
+msgstr "オーバーレイ不透明度4（例：'0.1' または '0.9' など）"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2107
+msgid "Image 5"
+msgstr "画像5"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2115
+msgid "Title 5"
+msgstr "タイトル5"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2123
+msgid "Text 5"
+msgstr "テキスト5"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2131
+msgid "Button Text 5"
+msgstr "ボタンテキスト5"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2139
+msgid "Button URL 5"
+msgstr "ボタンURL5"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2147
+msgid "Align 5"
+msgstr "配置5"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2158
+msgid "Overlay Color 5 (e.g. '#000')"
+msgstr "オーバーレイカラー5（例：'#000'）"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2166
+msgid "Overlay Opacity 5 (e.g. '0.1' or '0.9' etc)"
+msgstr "オーバーレイ不透明度5（例：'0.1' または '0.9' など）"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2174
+msgid "Image 6"
+msgstr "画像6"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2182
+msgid "Title 6"
+msgstr "タイトル6"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2190
+msgid "Text 6"
+msgstr "テキスト6"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2198
+msgid "Button Text 6"
+msgstr "ボタンテキスト6"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2206
+msgid "Button URL 6"
+msgstr "ボタンURL6"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2214
+msgid "Align 6"
+msgstr "配置6"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2225
+msgid "Overlay Color 6 (e.g. '#000')"
+msgstr "オーバーレイカラー6（例：'#000'）"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2233
+msgid "Overlay Opacity 6 (e.g. '0.1' or '0.9' etc)"
+msgstr "オーバーレイ不透明度6（例：'0.1' または '0.9' など）"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2241
+msgid "Image 7"
+msgstr "画像7"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2249
+msgid "Title 7"
+msgstr "タイトル7"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2257
+msgid "Text 7"
+msgstr "テキスト7"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2265
+msgid "Button Text 7"
+msgstr "ボタンテキスト7"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2273
+msgid "Button URL 7"
+msgstr "ボタンURL7"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2281
+msgid "Align 7"
+msgstr "配置7"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2292
+msgid "Overlay Color 7 (e.g. '#000')"
+msgstr "オーバーレイカラー7（例：'#000'）"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2300
+msgid "Overlay Opacity 7 (e.g. '0.1' or '0.9' etc)"
+msgstr "オーバーレイ不透明度7（例：'0.1' または '0.9' など）"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2308
+msgid "Image 8"
+msgstr "画像8"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2316
+msgid "Title 8"
+msgstr "タイトル8"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2324
+msgid "Text 8"
+msgstr "テキスト8"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2332
+msgid "Button Text 8"
+msgstr "ボタンテキスト8"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2340
+msgid "Button URL 8"
+msgstr "ボタンURL8"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2348
+msgid "Align 8"
+msgstr "配置8"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2359
+msgid "Overlay Color 8 (e.g. '#000')"
+msgstr "オーバーレイカラー8（例：'#000'）"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2367
+msgid "Overlay Opacity 8 (e.g. '0.1' or '0.9' etc)"
+msgstr "オーバーレイ不透明度8（例：'0.1' または '0.9' など）"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2375
+msgid "Image 9"
+msgstr "画像9"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2383
+msgid "Title 9"
+msgstr "タイトル9"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2391
+msgid "Text 9"
+msgstr "テキスト9"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2399
+msgid "Button Text 9"
+msgstr "ボタンテキスト9"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2407
+msgid "Button URL 9"
+msgstr "ボタンURL9"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2415
+msgid "Align 9"
+msgstr "配置9"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2426
+msgid "Overlay Color 9 (e.g. '#000')"
+msgstr "オーバーレイカラー9（例：'#000'）"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2434
+msgid "Overlay Opacity 9 (e.g. '0.1' or '0.9' etc)"
+msgstr "オーバーレイ不透明度9（例：'0.1' または '0.9' など）"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2442
+msgid "Image 10"
+msgstr "画像10"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2450
+msgid "Title 10"
+msgstr "タイトル10"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2458
+msgid "Text 10"
+msgstr "テキスト10"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2466
+msgid "Button Text 10"
+msgstr "ボタンテキスト10"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2474
+msgid "Button URL 10"
+msgstr "ボタンURL10"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2482
+msgid "Align 10"
+msgstr "配置10"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2493
+msgid "Overlay Color 10 (e.g. '#000')"
+msgstr "オーバーレイカラー10（例：'#000'）"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2501
+msgid "Overlay Opacity 10 (e.g. '0.1' or '0.9' etc)"
+msgstr "オーバーレイ不透明度10（例：'0.1' または '0.9' など）"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2514 framework/inc/pagebuilder/pagebuilder_theme.php:2524
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2534
+msgid "Fixed Width"
+msgstr "固定幅"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2516 framework/inc/pagebuilder/pagebuilder_theme.php:2526
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2536
+msgid "yes"
+msgstr "はい"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2517 framework/inc/pagebuilder/pagebuilder_theme.php:2527
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2537
+msgid "If you're using the unboxed full width page layout check this option to display boxed content"
+msgstr "アンボックスフル幅ページレイアウトを使用している場合は、このオプションを選択してボックスコンテンツを表示します。"
+
+#: framework/inc/templates/backend/page/sohohotel-page.htm.php:13
+msgid "Full Width Unboxed"
+msgstr "フル幅アンボックス"
+
+#: framework/inc/templates/backend/page/sohohotel-page.htm.php:22
+msgid "Standard Title"
+msgstr "標準タイトル"
+
+#: framework/inc/templates/backend/page/sohohotel-page.htm.php:23
+msgid "No Title"
+msgstr "タイトルなし"
+
+#: framework/inc/templates/backend/post/sohohotel-post.htm.php:6
+msgid "Enter a short summary of the post"
+msgstr "投稿の短い要約を入力してください"
+
+#: functions.php:719
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr "オン"
+
+#: functions.php:770
+msgid "Soho Hotel Shortcodes & Post Types"
+msgstr "ソーホーホテル ショートコードと投稿タイプ"
+
+#: functions.php:780
+msgid "Soho Hotel Booking"
+msgstr "ソーホーホテル 予約"
+
+#: functions.php:790
+msgid "Soho Hotel Demo Data"
+msgstr "ソーホーホテル デモデータ"
+
+#: functions.php:800
+msgid "WP Bakery Page Builder"
+msgstr "WP Bakery ページビルダー"
+
+#: functions.php:810
+msgid "Contact Form 7"
+msgstr "コンタクトフォーム7"
+
+#: functions.php:819
+msgid "Newsletter"
+msgstr "ニュースレター"
+
+#: functions.php:828
+msgid "WP PageNavi"
+msgstr "WP PageNavi"
+
+#: functions.php:837
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: functions.php:897
+msgid "Standard Page Sidebar"
+msgstr "標準ページサイドバー"
+
+#: functions.php:899
+msgid "Displayed on all pages with a sidebar set"
+msgstr "サイドバーが設定されたすべてのページに表示"
+
+#: functions.php:908
+msgid "Footer Area"
+msgstr "フッターエリア"
+
+#: functions.php:910
+msgid "Displayed at the bottom of all pages"
+msgstr "すべてのページの下部に表示"
+
+#: functions.php:937
+msgid "Primary Navigation Left"
+msgstr "プライマリナビゲーション左"
+
+#: functions.php:938
+msgid "Primary Navigation Right"
+msgstr "プライマリナビゲーション右"
+
+#: functions.php:939 functions.php:946
+msgid "Primary Navigation Mobile"
+msgstr "プライマリナビゲーション モバイル"
+
+#: functions.php:945
+msgid "Primary Navigation"
+msgstr "プライマリナビゲーション"
+
+#: functions.php:1202
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: functions.php:1204
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s で %2$s"
+
+#: functions.php:1210
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントはモデレーション待ちです。"
+
+#: functions.php:1217
+msgid "(Edit)"
+msgstr "(編集)"
+
+#: functions.php:1241
+msgid "This post is password protected. To view it please enter your password below"
+msgstr "この投稿はパスワードで保護されています。表示するには、以下にパスワードを入力してください。"
+
+#: functions.php:1242
+msgid "Password"
+msgstr "パスワード"
+
+#: functions.php:1242
+msgid "Submit"
+msgstr "送信"
+
+#: functions.php:1291
+msgid "Post"
+msgstr "投稿"
+
+#: functions.php:1295
+msgid "Testimonial"
+msgstr "推薦の言葉"
+
+#: functions.php:1299
+msgid "Page"
+msgstr "ページ"
+
+#: functions.php:1303
+msgid "Room"
+msgstr "部屋"
+
+#: page.php:13
+msgid "Pages:"
+msgstr "ページ："
+
+#: search.php:10
+msgid "You searched for:"
+msgstr "検索した内容："
+
+#: search.php:74
+msgid "No results were found."
+msgstr "結果は見つかりませんでした。"
+
+#: single.php:54
+msgid "Next page"
+msgstr "次のページ"
+
+#: single.php:55
+msgid "Previous page"
+msgstr "前のページ"
+
+#: single.php:62
+msgid "Tags: "
+msgstr "タグ："
+
+#: single.php:92
+msgid "More News"
+msgstr "さらにニュース"
+
+#: single.php:161
+msgid "No news has been added yet"
+msgstr "まだニュースは追加されていません"
+
+#: single.php:167
+msgid "View More"
+msgstr "もっと見る"
+
+#: sohohotel-pagetitle.php:12
+msgid "Latest News"
+msgstr "最新ニュース"
+
+#: sohohotel-pagination.php:18 sohohotel-pagination.php:42
+msgid "&larr; Older posts"
+msgstr "&larr; 古い投稿"
+
+#: sohohotel-pagination.php:19 sohohotel-pagination.php:43
+msgid "Newer posts &rarr;"
+msgstr "新しい投稿 &rarr;"
+
+#: woocommerce/checkout/review-order.php:23
+msgid "Product"
+msgstr "製品"
+
+#: woocommerce/checkout/review-order.php:24 woocommerce/checkout/review-order.php:56
+msgid "Subtotal"
+msgstr "小計"
+
+#: woocommerce/checkout/review-order.php:103 woocommerce/myaccount/orders.php:70
+msgid "Total"
+msgstr "合計"
+
+#: woocommerce/checkout/review-order.php:117
+#, php-format
+msgid "%s deposit due now for total price of %s"
+msgstr "%s の保証金が今すぐ支払われるべきです。合計価格は %s です。"
+
+#: woocommerce/myaccount/orders.php:67
+msgid "Booking ID"
+msgstr "予約ID"
+
+#: woocommerce/myaccount/orders.php:68
+msgid "Date"
+msgstr "日付"
+
+#: woocommerce/myaccount/orders.php:88
+msgid "No bookings have been placed yet."
+msgstr "まだ予約は行われていません。"
+
+#. Theme Name of the plugin/theme
+msgid "Soho Hotel"
+msgstr "ソーホーホテル"
+
+#. Theme URI of the plugin/theme
+msgid "http://themes.quitenicestuff.com/sohohotelwp"
+msgstr "http://themes.quitenicestuff.com/sohohotelwp"
+
+#. Description of the plugin/theme
+msgid "A Premium WordPress Theme For Hotels and Accommodation Providers"
+msgstr "ホテルや宿泊施設向けのプレミアムWordPressテーマ"
+
+#. Author of the plugin/theme
+msgid "quitenicestuff"
+msgstr "quitenicestuff"
+
+#. Author URI of the plugin/theme
+msgid "http://themeforest.net/user/quitenicestuff"
+msgstr "http://themeforest.net/user/quitenicestuff"

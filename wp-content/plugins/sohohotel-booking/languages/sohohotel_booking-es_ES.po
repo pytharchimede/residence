@@ -1,0 +1,2739 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Soho Hotel Booking\n"
+"POT-Creation-Date: 2023-07-24 17:05+0800\n"
+"PO-Revision-Date: 2023-07-24 17:09+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: sohohotel-booking.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/functions/backend/general/shb-admin-booking-custom-form.php:19
+#: includes/functions/backend/general/shb-core-functions.php:2257
+msgid "First Name"
+msgstr "Nombre de pila"
+
+#: includes/functions/backend/general/shb-admin-booking-custom-form.php:19
+#: includes/functions/backend/general/shb-core-functions.php:2257
+msgid "Last Name"
+msgstr "Apellido"
+
+#: includes/functions/backend/general/shb-admin-booking-custom-form.php:19
+#: includes/functions/backend/general/shb-core-functions.php:2257
+#: includes/templates/backend/settings/shb-settings-emails.htm.php:14
+msgid "Email Address"
+msgstr "Dirección de correo electrónico"
+
+#: includes/functions/backend/general/shb-admin-booking-custom-form.php:19
+#: includes/functions/backend/general/shb-core-functions.php:2257
+#: includes/templates/backend/settings/shb-settings-general.htm.php:37
+msgid "Phone Number"
+msgstr "Número de teléfono"
+
+#: includes/functions/backend/general/shb-admin-fields.php:181
+#: includes/functions/backend/general/shb-admin-fields.php:224
+#: includes/functions/backend/general/shb-admin-fields.php:267
+#: includes/functions/backend/general/shb-admin-fields.php:339
+#: includes/functions/backend/general/shb-admin-fields.php:382
+msgid "Check All"
+msgstr "Comprobar todo"
+
+#: includes/functions/backend/general/shb-admin-fields.php:223
+#: includes/templates/backend/rate/shb-rate.htm.php:25
+msgid "Add to room"
+msgstr "Añadir a la habitación"
+
+#: includes/functions/backend/general/shb-admin-fields.php:236
+#: includes/functions/backend/general/shb-admin-fields.php:294
+msgid "(no title)"
+msgstr "(Sin título)"
+
+#: includes/functions/backend/general/shb-admin-fields.php:245
+#: includes/shortcodes/shb-accommodation-carousel-1.php:140
+#: includes/shortcodes/shb-accommodation-carousel-2.php:136
+#: includes/shortcodes/shb-accommodation-listing-1.php:228
+#: includes/shortcodes/shb-accommodation-listing-2.php:234
+#: includes/shortcodes/shb-accommodation-listing-3.php:224
+msgid "No rooms have been added yet"
+msgstr "Aún no se han añadido habitaciones"
+
+#: includes/functions/backend/general/shb-admin-fields.php:266
+msgid "Add to rate"
+msgstr "Agregar a la tarifa"
+
+#: includes/functions/backend/general/shb-admin-fields.php:311
+msgid "No rates have been added yet"
+msgstr "Aún no se han añadido tarifas"
+
+#: includes/functions/backend/general/shb-admin-fields.php:338
+msgid "Add to season"
+msgstr "Añadir a la temporada"
+
+#: includes/functions/backend/general/shb-admin-fields.php:343
+msgid "Default (All year round any time)"
+msgstr "Predeterminado (Todo el año en cualquier momento)"
+
+#: includes/functions/backend/general/shb-admin-fields.php:358
+msgid "No seasons have been added yet"
+msgstr "Aún no se han añadido temporadas"
+
+#: includes/functions/backend/general/shb-admin-fields.php:397
+msgid "No add-ons have been added yet"
+msgstr "Aún no se han agregado complementos"
+
+#: includes/functions/backend/general/shb-admin-menu.php:10
+#: includes/functions/backend/general/shb-admin-menu.php:11
+msgid "Hotel Booking"
+msgstr "Reserva de hotel"
+
+#: includes/functions/backend/general/shb-admin-menu.php:22
+#: includes/post-types/shb-booking.php:14
+#: includes/post-types/shb-booking.php:16
+#: includes/post-types/shb-booking.php:18
+msgid "Bookings"
+msgstr "Reservaciones"
+
+#: includes/functions/backend/general/shb-admin-menu.php:31
+msgid "Add Booking"
+msgstr "Agregar reserva"
+
+#: includes/functions/backend/general/shb-admin-menu.php:39
+#: includes/functions/backend/general/shb-admin-menu.php:40
+msgid "Calendar"
+msgstr "Calendario"
+
+#: includes/functions/backend/general/shb-admin-menu.php:49
+#: includes/post-types/shb-additionalfee.php:14
+#: includes/post-types/shb-additionalfee.php:16
+#: includes/post-types/shb-additionalfee.php:18
+#: includes/post-types/shb-booking.php:136
+msgid "Additional Fees"
+msgstr "Cuotas adicionales"
+
+#: includes/functions/backend/general/shb-admin-menu.php:58
+msgid "Add Additional Fee"
+msgstr "Agregar tarifa adicional"
+
+#: includes/functions/backend/general/shb-admin-menu.php:67
+#: includes/post-types/shb-condition.php:14
+#: includes/post-types/shb-condition.php:16
+#: includes/post-types/shb-condition.php:18
+#: includes/shortcodes/shb-booking-page.php:498
+#: includes/shortcodes/shb-booking-page.php:563
+#: includes/templates/backend/booking/shb-booking-accommodation.htm.php:103
+#: includes/templates/backend/booking/shb-booking-accommodation.htm.php:128
+msgid "Conditions"
+msgstr "Condiciones"
+
+#: includes/functions/backend/general/shb-admin-menu.php:76
+msgid "Add Condition"
+msgstr "Añadir condición"
+
+#: includes/functions/backend/general/shb-admin-menu.php:85
+#: includes/post-types/shb-guestclass.php:16
+#: includes/post-types/shb-guestclass.php:18
+msgid "Guest Classes"
+msgstr "Clases de invitados"
+
+#: includes/functions/backend/general/shb-admin-menu.php:94
+msgid "Add Guest Class"
+msgstr "Agregar clase de invitado"
+
+#: includes/functions/backend/general/shb-admin-menu.php:103
+#: includes/post-types/shb-additionalfee.php:111
+#: includes/post-types/shb-condition.php:112
+#: includes/post-types/shb-rate.php:14 includes/post-types/shb-rate.php:16
+#: includes/post-types/shb-rate.php:18
+#: includes/post-types/shb-ratevariation.php:107
+#: includes/post-types/shb-season.php:107
+msgid "Rates"
+msgstr "Tarifas"
+
+#: includes/functions/backend/general/shb-admin-menu.php:112
+msgid "Add Rate"
+msgstr "Añadir tarifa"
+
+#: includes/functions/backend/general/shb-admin-menu.php:121
+#: includes/post-types/shb-ratevariation.php:14
+#: includes/post-types/shb-ratevariation.php:16
+#: includes/post-types/shb-ratevariation.php:18
+msgid "Rate Variations"
+msgstr "Variaciones de tarifas"
+
+#: includes/functions/backend/general/shb-admin-menu.php:130
+msgid "Add Rate Variation"
+msgstr "Agregar variación de tarifa"
+
+#: includes/functions/backend/general/shb-admin-menu.php:139
+#: includes/post-types/shb-additionalfee.php:110
+#: includes/post-types/shb-condition.php:111
+#: includes/post-types/shb-ratevariation.php:106
+#: includes/post-types/shb-season.php:14 includes/post-types/shb-season.php:18
+msgid "Seasons"
+msgstr "Estaciones"
+
+#: includes/functions/backend/general/shb-admin-menu.php:148
+msgid "Add Season"
+msgstr "Agregar temporada"
+
+#: includes/functions/backend/general/shb-admin-menu.php:157
+#: includes/post-types/shb-offer.php:14 includes/post-types/shb-offer.php:16
+#: includes/post-types/shb-offer.php:18
+msgid "Offers"
+msgstr "Ofertas"
+
+#: includes/functions/backend/general/shb-admin-menu.php:166
+msgid "Add Offer"
+msgstr "Agregar oferta"
+
+#: includes/functions/backend/general/shb-admin-menu.php:174
+#: includes/functions/backend/general/shb-admin-menu.php:175
+msgid "iCal Feeds"
+msgstr "Fuentes iCal"
+
+#: includes/functions/backend/general/shb-admin-menu.php:183
+#: includes/functions/backend/general/shb-admin-menu.php:184
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/functions/backend/general/shb-calendar.php:297
+#: includes/functions/backend/general/shb-core-functions.php:1731
+msgid "Nights"
+msgstr "Noches"
+
+#: includes/functions/backend/general/shb-calendar.php:299
+#: includes/functions/backend/general/shb-core-functions.php:1733
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:21
+msgid "Night"
+msgstr "Noche"
+
+#: includes/functions/backend/general/shb-calendar.php:327
+#: includes/functions/backend/general/shb-core-functions.php:479
+#: includes/templates/backend/booking/shb-booking-publish.htm.php:5
+msgid "Pending"
+msgstr "Pendiente"
+
+#: includes/functions/backend/general/shb-calendar.php:328
+#: includes/functions/backend/general/shb-core-functions.php:480
+#: includes/templates/backend/booking/shb-booking-publish.htm.php:4
+msgid "Confirmed"
+msgstr "Confirmada"
+
+#: includes/functions/backend/general/shb-calendar.php:329
+#: includes/functions/backend/general/shb-core-functions.php:481
+#: includes/templates/backend/booking/shb-booking-publish.htm.php:6
+msgid "Cancelled"
+msgstr "Cancelada"
+
+#: includes/functions/backend/general/shb-calendar.php:330
+#: includes/functions/backend/general/shb-core-functions.php:482
+msgid "iCal"
+msgstr "iCal"
+
+#: includes/functions/backend/general/shb-calendar.php:331
+#: includes/functions/backend/general/shb-core-functions.php:483
+#: includes/templates/backend/booking/shb-booking-publish.htm.php:7
+msgid "Maintenance"
+msgstr "Mantenimiento"
+
+#: includes/functions/backend/general/shb-calendar.php:393
+#: includes/post-types/shb-accommodation.php:70
+#: includes/shortcodes/shb-accommodation-listing-1.php:99
+#: includes/shortcodes/shb-accommodation-listing-2.php:99
+#: includes/shortcodes/shb-accommodation-listing-3.php:99
+msgid "All"
+msgstr "Toda"
+
+#: includes/functions/backend/general/shb-calendar.php:421
+#: includes/functions/backend/general/shb-css-js.php:42
+#: includes/functions/backend/general/shb-css-js.php:138
+#: includes/functions/frontend/datepicker/shb-datepicker.php:104
+#: includes/post-types/shb-condition.php:148
+#: includes/post-types/shb-condition.php:160
+#: includes/post-types/shb-condition.php:172
+#: includes/post-types/shb-condition.php:184
+msgid "Mo"
+msgstr "Lu"
+
+#: includes/functions/backend/general/shb-calendar.php:422
+#: includes/functions/backend/general/shb-css-js.php:42
+#: includes/functions/backend/general/shb-css-js.php:138
+#: includes/functions/frontend/datepicker/shb-datepicker.php:105
+#: includes/post-types/shb-condition.php:149
+#: includes/post-types/shb-condition.php:161
+#: includes/post-types/shb-condition.php:173
+#: includes/post-types/shb-condition.php:185
+msgid "Tu"
+msgstr "Ma"
+
+#: includes/functions/backend/general/shb-calendar.php:423
+#: includes/functions/backend/general/shb-css-js.php:42
+#: includes/functions/backend/general/shb-css-js.php:138
+#: includes/functions/frontend/datepicker/shb-datepicker.php:106
+#: includes/post-types/shb-condition.php:150
+#: includes/post-types/shb-condition.php:162
+#: includes/post-types/shb-condition.php:174
+#: includes/post-types/shb-condition.php:186
+msgid "We"
+msgstr "Mi"
+
+#: includes/functions/backend/general/shb-calendar.php:424
+#: includes/functions/backend/general/shb-css-js.php:42
+#: includes/functions/backend/general/shb-css-js.php:138
+#: includes/functions/frontend/datepicker/shb-datepicker.php:107
+#: includes/post-types/shb-condition.php:151
+#: includes/post-types/shb-condition.php:163
+#: includes/post-types/shb-condition.php:175
+#: includes/post-types/shb-condition.php:187
+msgid "Th"
+msgstr "Ju"
+
+#: includes/functions/backend/general/shb-calendar.php:425
+#: includes/functions/backend/general/shb-css-js.php:42
+#: includes/functions/backend/general/shb-css-js.php:138
+#: includes/functions/frontend/datepicker/shb-datepicker.php:108
+#: includes/post-types/shb-condition.php:152
+#: includes/post-types/shb-condition.php:164
+#: includes/post-types/shb-condition.php:176
+#: includes/post-types/shb-condition.php:188
+msgid "Fr"
+msgstr "Vi"
+
+#: includes/functions/backend/general/shb-calendar.php:426
+#: includes/functions/backend/general/shb-css-js.php:42
+#: includes/functions/backend/general/shb-css-js.php:138
+#: includes/functions/frontend/datepicker/shb-datepicker.php:109
+#: includes/post-types/shb-condition.php:153
+#: includes/post-types/shb-condition.php:165
+#: includes/post-types/shb-condition.php:177
+#: includes/post-types/shb-condition.php:189
+msgid "Sa"
+msgstr "Sá"
+
+#: includes/functions/backend/general/shb-calendar.php:427
+#: includes/functions/backend/general/shb-css-js.php:42
+#: includes/functions/backend/general/shb-css-js.php:138
+#: includes/functions/frontend/datepicker/shb-datepicker.php:110
+#: includes/post-types/shb-condition.php:154
+#: includes/post-types/shb-condition.php:166
+#: includes/post-types/shb-condition.php:178
+#: includes/post-types/shb-condition.php:190
+msgid "Su"
+msgstr "Do"
+
+#: includes/functions/backend/general/shb-calendar.php:429
+#: includes/functions/backend/general/shb-css-js.php:43
+#: includes/functions/backend/general/shb-css-js.php:139
+#: includes/functions/frontend/datepicker/shb-datepicker.php:89
+msgid "January"
+msgstr "Enero"
+
+#: includes/functions/backend/general/shb-calendar.php:430
+#: includes/functions/backend/general/shb-css-js.php:43
+#: includes/functions/backend/general/shb-css-js.php:139
+#: includes/functions/frontend/datepicker/shb-datepicker.php:90
+msgid "February"
+msgstr "Febrero"
+
+#: includes/functions/backend/general/shb-calendar.php:431
+#: includes/functions/backend/general/shb-css-js.php:43
+#: includes/functions/backend/general/shb-css-js.php:139
+#: includes/functions/frontend/datepicker/shb-datepicker.php:91
+msgid "March"
+msgstr "Marzo"
+
+#: includes/functions/backend/general/shb-calendar.php:432
+#: includes/functions/backend/general/shb-css-js.php:43
+#: includes/functions/backend/general/shb-css-js.php:139
+#: includes/functions/frontend/datepicker/shb-datepicker.php:92
+msgid "April"
+msgstr "Abril"
+
+#: includes/functions/backend/general/shb-calendar.php:433
+#: includes/functions/backend/general/shb-css-js.php:43
+#: includes/functions/backend/general/shb-css-js.php:139
+#: includes/functions/frontend/datepicker/shb-datepicker.php:93
+msgid "May"
+msgstr "Mayo"
+
+#: includes/functions/backend/general/shb-calendar.php:434
+#: includes/functions/backend/general/shb-css-js.php:43
+#: includes/functions/backend/general/shb-css-js.php:139
+#: includes/functions/frontend/datepicker/shb-datepicker.php:94
+msgid "June"
+msgstr "Junio"
+
+#: includes/functions/backend/general/shb-calendar.php:435
+#: includes/functions/backend/general/shb-css-js.php:43
+#: includes/functions/backend/general/shb-css-js.php:139
+#: includes/functions/frontend/datepicker/shb-datepicker.php:95
+msgid "July"
+msgstr "Julio"
+
+#: includes/functions/backend/general/shb-calendar.php:436
+#: includes/functions/backend/general/shb-css-js.php:43
+#: includes/functions/backend/general/shb-css-js.php:139
+#: includes/functions/frontend/datepicker/shb-datepicker.php:96
+msgid "August"
+msgstr "Agosto"
+
+#: includes/functions/backend/general/shb-calendar.php:437
+#: includes/functions/backend/general/shb-css-js.php:43
+#: includes/functions/backend/general/shb-css-js.php:139
+#: includes/functions/frontend/datepicker/shb-datepicker.php:97
+msgid "September"
+msgstr "Septiembre"
+
+#: includes/functions/backend/general/shb-calendar.php:438
+#: includes/functions/backend/general/shb-css-js.php:43
+#: includes/functions/backend/general/shb-css-js.php:139
+#: includes/functions/frontend/datepicker/shb-datepicker.php:98
+msgid "October"
+msgstr "Octubre"
+
+#: includes/functions/backend/general/shb-calendar.php:439
+#: includes/functions/backend/general/shb-css-js.php:43
+#: includes/functions/backend/general/shb-css-js.php:139
+#: includes/functions/frontend/datepicker/shb-datepicker.php:99
+msgid "November"
+msgstr "Noviembre"
+
+#: includes/functions/backend/general/shb-calendar.php:440
+#: includes/functions/backend/general/shb-css-js.php:43
+#: includes/functions/backend/general/shb-css-js.php:139
+#: includes/functions/frontend/datepicker/shb-datepicker.php:100
+msgid "December"
+msgstr "Diciembre"
+
+#: includes/functions/backend/general/shb-core-functions.php:423
+#: includes/templates/backend/accommodation/shb-accommodation-pricing.htm.php:152
+#: includes/templates/backend/accommodation/shb-accommodation-pricing.htm.php:170
+msgid "Default"
+msgstr "Por defecto"
+
+#: includes/functions/backend/general/shb-core-functions.php:474
+msgid "Fixed Fee"
+msgstr "Cuota Fija"
+
+#: includes/functions/backend/general/shb-core-functions.php:475
+msgid "Per Room"
+msgstr "Por Habitacion"
+
+#: includes/functions/backend/general/shb-core-functions.php:476
+msgid "Per Person"
+msgstr "Por Persona"
+
+#: includes/functions/backend/general/shb-core-functions.php:477
+msgid "Per Night"
+msgstr "Por Noche"
+
+#: includes/functions/backend/general/shb-core-functions.php:478
+msgid "Per Booking"
+msgstr "Por Reserva"
+
+#: includes/functions/backend/general/shb-core-functions.php:484
+msgid "Percentage"
+msgstr "Porcentaje"
+
+#: includes/functions/backend/general/shb-core-functions.php:485
+msgid "Exact Price"
+msgstr "Precio Exacto"
+
+#: includes/functions/backend/general/shb-core-functions.php:486
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:23
+msgid "Private"
+msgstr "Privada"
+
+#: includes/functions/backend/general/shb-core-functions.php:487
+msgid "Dorm"
+msgstr "Dormitorio"
+
+#: includes/functions/backend/general/shb-core-functions.php:488
+#: includes/pagebuilder/shb-pagebuilder.php:667
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:121
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:32
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:43
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:76
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:87
+#: includes/widgets/shb-widget-booking.php:218
+msgid "Yes"
+msgstr "Sí"
+
+#: includes/functions/backend/general/shb-core-functions.php:489
+#: includes/pagebuilder/shb-pagebuilder.php:668
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:122
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:33
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:44
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:77
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:88
+#: includes/widgets/shb-widget-booking.php:219
+msgid "No"
+msgstr "No"
+
+#: includes/functions/backend/general/shb-core-functions.php:490
+#: includes/templates/backend/ratevariation/shb-ratevariation.htm.php:11
+msgid "Duration"
+msgstr "Duración"
+
+#: includes/functions/backend/general/shb-core-functions.php:491
+#: includes/templates/backend/ratevariation/shb-ratevariation.htm.php:12
+msgid "Early"
+msgstr "Temprana"
+
+#: includes/functions/backend/general/shb-core-functions.php:492
+#: includes/templates/backend/ratevariation/shb-ratevariation.htm.php:13
+msgid "Late"
+msgstr "Tarde"
+
+#: includes/functions/backend/general/shb-core-functions.php:521
+msgid "year(s)"
+msgstr "año"
+
+#: includes/functions/backend/general/shb-core-functions.php:522
+msgid "month(s)"
+msgstr "mes"
+
+#: includes/functions/backend/general/shb-core-functions.php:523
+msgid "week(s)"
+msgstr "semana"
+
+#: includes/functions/backend/general/shb-core-functions.php:524
+msgid "day(s)"
+msgstr "días"
+
+#: includes/functions/backend/general/shb-core-functions.php:525
+msgid "hour(s)"
+msgstr "hora"
+
+#: includes/functions/backend/general/shb-core-functions.php:526
+msgid "minute(s)"
+msgstr "minuto"
+
+#: includes/functions/backend/general/shb-core-functions.php:527
+msgid "second(s)"
+msgstr "segunda"
+
+#: includes/functions/backend/general/shb-core-functions.php:538
+msgid "ago"
+msgstr "atrás"
+
+#: includes/functions/backend/general/shb-core-functions.php:538
+msgid "just now"
+msgstr "en este momento"
+
+#: includes/functions/backend/general/shb-core-functions.php:1098
+#, php-format
+msgid "Minimum %u %s"
+msgstr "Mínima% u% s"
+
+#: includes/functions/backend/general/shb-core-functions.php:1103
+#, php-format
+msgid "Maximum %u %s"
+msgstr "Máximo %u %s"
+
+#: includes/functions/backend/general/shb-core-functions.php:1114
+msgid "guests"
+msgstr "invitadas"
+
+#: includes/functions/backend/general/shb-core-functions.php:1116
+msgid "guest"
+msgstr "invitada"
+
+#: includes/functions/backend/general/shb-core-functions.php:1121
+#, php-format
+msgid "Minimum total of %u %s"
+msgstr "Total mínimo de %u %s"
+
+#: includes/functions/backend/general/shb-core-functions.php:1126
+#, php-format
+msgid "Maximum total of %u %s"
+msgstr "Total máximo de %u %s"
+
+#: includes/functions/backend/general/shb-core-functions.php:1250
+#, php-format
+msgid "You must book a minimum of %s nights when checking in on %s"
+msgstr "Debe reservar un mínimo de %s noches al registrarse en %s"
+
+#: includes/functions/backend/general/shb-core-functions.php:1251
+#, php-format
+msgid "You must book a minimum of %s nights when checking out on %s"
+msgstr "Debe reservar un mínimo de %s noches al realizar el check-out en %s"
+
+#: includes/functions/backend/general/shb-core-functions.php:1257
+#, php-format
+msgid "You can book a maximum of %s nights when checking in on %s"
+msgstr "Puede reservar un máximo de %s noches cuando se registra en %s"
+
+#: includes/functions/backend/general/shb-core-functions.php:1258
+#, php-format
+msgid "You can book a maximum of %s nights when checking out on %s"
+msgstr "Puede reservar un máximo de %s noches al realizar el check-out el %s"
+
+#: includes/functions/backend/general/shb-core-functions.php:1267
+#, php-format
+msgid "You must book %s nights in advance"
+msgstr "Debes reservar %s noches con anticipación"
+
+#: includes/functions/backend/general/shb-core-functions.php:1275
+#, php-format
+msgid ""
+"You must book in increments of %s nights e.g. %s nights, %s nights, %s "
+"nights, etc"
+msgstr ""
+"Debe reservar en incrementos de %s noches, p. %s noches, %s noches, %s "
+"noches, etc"
+
+#: includes/functions/backend/general/shb-core-functions.php:1280
+#, php-format
+msgid "Check in allowed on %s for the selected dates"
+msgstr "Entrada permitida en %s para las fechas seleccionadas"
+
+#: includes/functions/backend/general/shb-core-functions.php:1285
+#, php-format
+msgid "Check out allowed on %s for the selected dates"
+msgstr "Salida permitida en %s para las fechas seleccionadas"
+
+#: includes/functions/backend/general/shb-core-functions.php:1314
+msgid "and"
+msgstr "y"
+
+#: includes/functions/backend/general/shb-core-functions.php:1330
+#: includes/functions/backend/general/shb-core-functions.php:1371
+msgid "Monday"
+msgstr "Lunes"
+
+#: includes/functions/backend/general/shb-core-functions.php:1331
+#: includes/functions/backend/general/shb-core-functions.php:1372
+msgid "Tuesday"
+msgstr "Martes"
+
+#: includes/functions/backend/general/shb-core-functions.php:1332
+#: includes/functions/backend/general/shb-core-functions.php:1373
+msgid "Wednesday"
+msgstr "Miércoles"
+
+#: includes/functions/backend/general/shb-core-functions.php:1333
+#: includes/functions/backend/general/shb-core-functions.php:1374
+msgid "Thursday"
+msgstr "Jueves"
+
+#: includes/functions/backend/general/shb-core-functions.php:1334
+#: includes/functions/backend/general/shb-core-functions.php:1375
+msgid "Friday"
+msgstr "Viernes"
+
+#: includes/functions/backend/general/shb-core-functions.php:1335
+#: includes/functions/backend/general/shb-core-functions.php:1376
+msgid "Saturday"
+msgstr "Sábado"
+
+#: includes/functions/backend/general/shb-core-functions.php:1336
+#: includes/functions/backend/general/shb-core-functions.php:1377
+msgid "Sunday"
+msgstr "Domingo"
+
+#: includes/functions/backend/general/shb-core-functions.php:1343
+#: includes/functions/backend/general/shb-core-functions.php:1383
+#: includes/templates/backend/condition/shb-condition.htm.php:51
+#: includes/templates/backend/condition/shb-condition.htm.php:66
+#: includes/templates/backend/condition/shb-condition.htm.php:81
+#: includes/templates/backend/condition/shb-condition.htm.php:96
+msgid "Mon"
+msgstr "Lun"
+
+#: includes/functions/backend/general/shb-core-functions.php:1344
+#: includes/functions/backend/general/shb-core-functions.php:1384
+#: includes/templates/backend/condition/shb-condition.htm.php:52
+#: includes/templates/backend/condition/shb-condition.htm.php:67
+#: includes/templates/backend/condition/shb-condition.htm.php:82
+#: includes/templates/backend/condition/shb-condition.htm.php:97
+msgid "Tue"
+msgstr "Mar"
+
+#: includes/functions/backend/general/shb-core-functions.php:1345
+#: includes/functions/backend/general/shb-core-functions.php:1385
+#: includes/templates/backend/condition/shb-condition.htm.php:53
+#: includes/templates/backend/condition/shb-condition.htm.php:68
+#: includes/templates/backend/condition/shb-condition.htm.php:83
+#: includes/templates/backend/condition/shb-condition.htm.php:98
+msgid "Wed"
+msgstr "Mié"
+
+#: includes/functions/backend/general/shb-core-functions.php:1346
+#: includes/functions/backend/general/shb-core-functions.php:1386
+#: includes/templates/backend/condition/shb-condition.htm.php:54
+#: includes/templates/backend/condition/shb-condition.htm.php:69
+#: includes/templates/backend/condition/shb-condition.htm.php:84
+#: includes/templates/backend/condition/shb-condition.htm.php:99
+msgid "Thu"
+msgstr "Jue"
+
+#: includes/functions/backend/general/shb-core-functions.php:1347
+#: includes/functions/backend/general/shb-core-functions.php:1387
+#: includes/templates/backend/condition/shb-condition.htm.php:55
+#: includes/templates/backend/condition/shb-condition.htm.php:70
+#: includes/templates/backend/condition/shb-condition.htm.php:85
+#: includes/templates/backend/condition/shb-condition.htm.php:100
+msgid "Fri"
+msgstr "Vie"
+
+#: includes/functions/backend/general/shb-core-functions.php:1348
+#: includes/functions/backend/general/shb-core-functions.php:1388
+#: includes/templates/backend/condition/shb-condition.htm.php:56
+#: includes/templates/backend/condition/shb-condition.htm.php:71
+#: includes/templates/backend/condition/shb-condition.htm.php:86
+#: includes/templates/backend/condition/shb-condition.htm.php:101
+msgid "Sat"
+msgstr "Sáb"
+
+#: includes/functions/backend/general/shb-core-functions.php:1349
+#: includes/functions/backend/general/shb-core-functions.php:1389
+#: includes/templates/backend/condition/shb-condition.htm.php:57
+#: includes/templates/backend/condition/shb-condition.htm.php:72
+#: includes/templates/backend/condition/shb-condition.htm.php:87
+#: includes/templates/backend/condition/shb-condition.htm.php:102
+msgid "Sun"
+msgstr "Dom"
+
+#: includes/functions/backend/general/shb-core-functions.php:1486
+msgid "This room is fully booked for the selected dates"
+msgstr "Esta habitación está completa para las fechas seleccionadas"
+
+#: includes/functions/backend/general/shb-core-functions.php:2084
+msgid "Sorry the selected accommodation is unavailable"
+msgstr "Lo sentimos, el alojamiento seleccionado no está disponible"
+
+#: includes/functions/backend/general/shb-core-functions.php:2629
+#: includes/templates/backend/booking/shb-booking-sendmail.htm.php:26
+msgid "Booking Pending"
+msgstr "Reserva pendiente"
+
+#: includes/functions/backend/general/shb-core-functions.php:2633
+msgid "Booking Confirmation"
+msgstr "Confirmación de reserva"
+
+#: includes/functions/backend/general/shb-core-functions.php:2637
+msgid "Booking Cancellation"
+msgstr "Cancelación de reserva"
+
+#: includes/functions/backend/general/shb-core-functions.php:2708
+#: includes/post-types/shb-booking.php:15
+#: includes/post-types/shb-booking.php:30
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:22
+msgid "Booking"
+msgstr "Reserva"
+
+#: includes/functions/backend/general/shb-core-functions.php:2712
+msgid "Item"
+msgstr "Artículo"
+
+#: includes/functions/backend/general/shb-core-functions.php:2713
+#: includes/post-types/shb-accommodation.php:182
+#: includes/post-types/shb-additionalfee.php:104
+#: includes/templates/backend/accommodation/shb-accommodation-pricing.htm.php:166
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:93
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:52
+msgid "Price"
+msgstr "Precio"
+
+#: includes/functions/backend/general/shb-core-functions.php:2719
+#: includes/shortcodes/shb-booking-page.php:1390
+#: includes/shortcodes/shb-booking-page.php:1392
+#: includes/templates/backend/accommodation/shb-accommodation-pricing.htm.php:52
+#: includes/templates/backend/booking/shb-booking-additionalfee.htm.php:25
+#: includes/templates/backend/booking/shb-booking-additionalfee.htm.php:27
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:30
+msgid "Room"
+msgstr "Habitación"
+
+#: includes/functions/backend/general/shb-core-functions.php:2719
+#: includes/post-types/shb-rate.php:15 includes/post-types/shb-rate.php:30
+#: includes/templates/backend/accommodation/shb-accommodation-pricing.htm.php:135
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:31
+msgid "Rate"
+msgstr "Tasa"
+
+#: includes/functions/backend/general/shb-core-functions.php:2719
+#: includes/shortcodes/shb-booking-form-1.php:222
+#: includes/shortcodes/shb-booking-form-single-horizontal.php:129
+#: includes/shortcodes/shb-booking-form-single-vertical.php:127
+#: includes/shortcodes/shb-booking-page.php:677
+#: includes/shortcodes/shb-booking-page.php:1014
+#: includes/shortcodes/shb-booking-page.php:1135
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:41
+#: includes/widgets/shb-widget-booking.php:166
+msgid "Guests"
+msgstr "Invitadas"
+
+#: includes/functions/backend/general/shb-core-functions.php:2719
+#: includes/post-types/shb-booking.php:341
+#: includes/post-types/shb-booking.php:663
+#: includes/shortcodes/shb-booking-form-1.php:198
+#: includes/shortcodes/shb-booking-form-single-horizontal.php:105
+#: includes/shortcodes/shb-booking-form-single-vertical.php:103
+#: includes/shortcodes/shb-booking-page.php:1854
+#: includes/shortcodes/shb-booking-page.php:1862
+#: includes/templates/backend/booking/shb-booking-accommodation.htm.php:37
+#: includes/widgets/shb-widget-booking.php:142
+msgid "Check In"
+msgstr "Fecha de llegada"
+
+#: includes/functions/backend/general/shb-core-functions.php:2719
+#: includes/post-types/shb-booking.php:342
+#: includes/post-types/shb-booking.php:664
+#: includes/shortcodes/shb-booking-form-1.php:210
+#: includes/shortcodes/shb-booking-form-single-horizontal.php:117
+#: includes/shortcodes/shb-booking-form-single-vertical.php:115
+#: includes/shortcodes/shb-booking-page.php:1863
+#: includes/templates/backend/booking/shb-booking-accommodation.htm.php:43
+#: includes/widgets/shb-widget-booking.php:154
+msgid "Check Out"
+msgstr "Fecha de salida"
+
+#: includes/functions/backend/general/shb-core-functions.php:2730
+msgid "Fee"
+msgstr "Tarifa"
+
+#: includes/functions/backend/general/shb-core-functions.php:2733
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:39
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:55
+msgid "Quantity"
+msgstr "Cantidad"
+
+#: includes/functions/backend/general/shb-core-functions.php:2737
+#: includes/post-types/shb-additionalfee.php:109
+#: includes/shortcodes/shb-booking-page.php:1509
+#: includes/templates/backend/booking/shb-booking-additionalfee.htm.php:128
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:63
+msgid "Time"
+msgstr "Tiempo"
+
+#: includes/functions/backend/general/shb-core-functions.php:2741
+#: includes/post-types/shb-accommodation.php:187
+#: includes/post-types/shb-additionalfee.php:108
+#: includes/shortcodes/shb-booking-page.php:1495
+#: includes/templates/backend/booking/shb-booking-additionalfee.htm.php:110
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:59
+msgid "Date"
+msgstr "Fecha"
+
+#: includes/functions/backend/general/shb-core-functions.php:2763
+#: includes/shortcodes/shb-booking-page.php:734
+#: includes/shortcodes/shb-booking-page.php:1149
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:98
+msgid "Total"
+msgstr "Total"
+
+#: includes/functions/backend/general/shb-core-functions.php:2768
+#: includes/post-types/shb-booking.php:145
+msgid "Guest Information"
+msgstr "Informacion del Invitado"
+
+#: includes/functions/backend/general/shb-core-functions.php:3176
+#: includes/shortcodes/shb-booking-form-1.php:30
+#: includes/shortcodes/shb-booking-form-with-background-3.php:61
+#: includes/templates/backend/booking/shb-booking-publish.htm.php:20
+#: includes/widgets/shb-widget-booking.php:176
+msgid "Book Now"
+msgstr "Reservar ahora"
+
+#: includes/functions/backend/general/shb-css-js.php:40
+msgid "Please select a check in and check out date"
+msgstr "Seleccione una fecha de entrada y salida"
+
+#: includes/functions/backend/general/shb-css-js.php:41
+msgid "Please select at least 1 guest"
+msgstr "Seleccione al menos 1 invitado"
+
+#: includes/functions/backend/general/shb-css-js.php:57
+msgid "MM/DD/YYYY"
+msgstr "MM/DD/AAAA"
+
+#: includes/functions/backend/general/shb-css-js.php:59
+msgid "YYYY/MM/DD"
+msgstr "AAAA/MM/DD"
+
+#: includes/functions/backend/general/shb-css-js.php:61
+msgid "DD.MM.YYYY"
+msgstr "DD.MM.AAAA"
+
+#: includes/functions/backend/general/shb-css-js.php:63
+msgid "MM.DD.YYYY"
+msgstr "MM.DD.AAAA"
+
+#: includes/functions/backend/general/shb-css-js.php:65
+msgid "YYYY.MM.DD"
+msgstr "AAAA.MM.DD"
+
+#: includes/functions/backend/general/shb-css-js.php:67
+msgid "DD/MM/YYYY"
+msgstr "DD/MM/AAAA"
+
+#: includes/functions/backend/general/shb-ical.php:13
+msgid "Import iCal Data"
+msgstr "Importar datos de iCal"
+
+#: includes/functions/backend/general/shb-ical.php:14
+msgid ""
+"This section allows you to import external iCal feeds, you can separate "
+"multiple feeds with a comma,"
+msgstr ""
+"Esta sección le permite importar fuentes externas de iCal, puede separar "
+"varias fuentes con una coma,"
+
+#: includes/functions/backend/general/shb-ical.php:14
+msgid "click here to import all iCal feeds"
+msgstr "haga clic aquí para importar todos los feeds de iCal"
+
+#: includes/functions/backend/general/shb-ical.php:23
+msgid "Seperate multiple feed URLs with a comma ,"
+msgstr "Separe las URL de varios feeds con una coma ,"
+
+#: includes/functions/backend/general/shb-ical.php:32
+msgid "Export iCal Data"
+msgstr "Exportar datos de iCal"
+
+#: includes/functions/backend/general/shb-ical.php:33
+msgid ""
+"This section allows you to export your iCal feeds to any external service "
+"which supports the iCal format"
+msgstr ""
+"Esta sección le permite exportar sus fuentes iCal a cualquier servicio "
+"externo que admita el formato iCal"
+
+#: includes/functions/backend/general/shb-ical.php:53
+#: includes/templates/backend/settings/shb-settings-emails.htm.php:60
+#: includes/templates/backend/settings/shb-settings-forms.htm.php:36
+#: includes/templates/backend/settings/shb-settings-general.htm.php:105
+#: includes/templates/backend/settings/shb-settings-messages.htm.php:36
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:218
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: includes/functions/backend/general/shb-ical.php:193
+msgid "Success"
+msgstr "Éxito"
+
+#: includes/functions/backend/general/shb-ical.php:197
+msgid "Error"
+msgstr "Error"
+
+#: includes/functions/backend/general/shb-settings.php:17
+msgid "General"
+msgstr "General"
+
+#: includes/functions/backend/general/shb-settings.php:21
+msgid "Forms"
+msgstr "Formularios"
+
+#: includes/functions/backend/general/shb-settings.php:25
+msgid "Emails"
+msgstr "Correos electrónicos"
+
+#: includes/functions/backend/general/shb-settings.php:29
+msgid "Messages"
+msgstr "Mensajes"
+
+#: includes/functions/backend/general/shb-settings.php:33
+msgid "Payments"
+msgstr "Pagos"
+
+#: includes/functions/backend/general/shb-users.php:5
+msgid "Guest"
+msgstr "Invitada"
+
+#: includes/functions/backend/general/shb-users.php:38
+msgid "Registration successful, you may login now"
+msgstr "Registro exitoso, puede iniciar sesión ahora"
+
+#: includes/functions/backend/general/shb-users.php:42
+#: includes/functions/backend/general/shb-users.php:48
+msgid "Username or email is already registered"
+msgstr "El nombre de usuario o correo electrónico ya está registrado"
+
+#: includes/functions/backend/general/shb-users.php:60
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: includes/functions/backend/general/shb-users.php:63
+#: includes/pagebuilder/shb-pagebuilder.php:1029
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: includes/functions/backend/general/shb-users.php:66
+msgid "Password"
+msgstr "Contraseña"
+
+#: includes/functions/backend/general/shb-users.php:69
+msgid "Register"
+msgstr "Registro"
+
+#: includes/functions/backend/general/shb-users.php:80
+msgid "Contact Details"
+msgstr "Detalles de contacto"
+
+#: includes/functions/backend/general/shb-users.php:98
+msgid "Custom Fields"
+msgstr "Campos Personalizados"
+
+#: includes/pagebuilder/shb-pagebuilder.php:16
+msgid "Accommodation Listing 1"
+msgstr "Alojamiento Listado 1"
+
+#: includes/pagebuilder/shb-pagebuilder.php:26
+#: includes/pagebuilder/shb-pagebuilder.php:205
+#: includes/pagebuilder/shb-pagebuilder.php:384
+#: includes/pagebuilder/shb-pagebuilder.php:574
+#: includes/pagebuilder/shb-pagebuilder.php:620
+msgid "Columns"
+msgstr "Columnas"
+
+#: includes/pagebuilder/shb-pagebuilder.php:38
+#: includes/pagebuilder/shb-pagebuilder.php:217
+#: includes/pagebuilder/shb-pagebuilder.php:396
+msgid "Rooms per page"
+msgstr "Habitaciones por página"
+
+#: includes/pagebuilder/shb-pagebuilder.php:148
+#: includes/pagebuilder/shb-pagebuilder.php:327
+#: includes/pagebuilder/shb-pagebuilder.php:506
+#: includes/pagebuilder/shb-pagebuilder.php:585
+#: includes/pagebuilder/shb-pagebuilder.php:631
+msgid "Accommodation Category Slug (Leave blank to display all)"
+msgstr "Slug de categoría de alojamiento (dejar en blanco para mostrar todo)"
+
+#: includes/pagebuilder/shb-pagebuilder.php:156
+#: includes/pagebuilder/shb-pagebuilder.php:335
+#: includes/pagebuilder/shb-pagebuilder.php:514
+msgid "Hide Pagination"
+msgstr "Ocultar paginación"
+
+#: includes/pagebuilder/shb-pagebuilder.php:167
+#: includes/pagebuilder/shb-pagebuilder.php:346
+#: includes/pagebuilder/shb-pagebuilder.php:525
+msgid "Hide Filter"
+msgstr "Ocultar filtro"
+
+#: includes/pagebuilder/shb-pagebuilder.php:178
+#: includes/pagebuilder/shb-pagebuilder.php:357
+#: includes/pagebuilder/shb-pagebuilder.php:536
+msgid "Hide Order"
+msgstr "Ocultar orden"
+
+#: includes/pagebuilder/shb-pagebuilder.php:195
+msgid "Accommodation Listing 2"
+msgstr "Alojamiento Listado 2"
+
+#: includes/pagebuilder/shb-pagebuilder.php:374
+msgid "Accommodation Listing 3"
+msgstr "Alojamiento Listado 3"
+
+#: includes/pagebuilder/shb-pagebuilder.php:553
+msgid "Accommodation Carousel 1"
+msgstr "Carrusel de alojamiento 1"
+
+#: includes/pagebuilder/shb-pagebuilder.php:563
+#: includes/pagebuilder/shb-pagebuilder.php:609
+#: includes/pagebuilder/shb-pagebuilder.php:1179
+msgid "Order"
+msgstr "Orden"
+
+#: includes/pagebuilder/shb-pagebuilder.php:599
+msgid "Accommodation Carousel 2"
+msgstr "Carrusel de alojamiento 2"
+
+#: includes/pagebuilder/shb-pagebuilder.php:639
+msgid "Show specific accommodation IDs (Leave blank to display all)"
+msgstr ""
+"Mostrar identificaciones de alojamiento específicas (déjelas en blanco para "
+"mostrarlas todas)"
+
+#: includes/pagebuilder/shb-pagebuilder.php:653
+msgid "Booking Form 1"
+msgstr "Formulario de reserva 1"
+
+#: includes/pagebuilder/shb-pagebuilder.php:663
+msgid "Display location selection"
+msgstr "Mostrar selección de ubicación"
+
+#: includes/pagebuilder/shb-pagebuilder.php:681
+msgid "Booking Form With Background 1"
+msgstr "Formulario de reserva con fondo 1"
+
+#: includes/pagebuilder/shb-pagebuilder.php:691
+#: includes/pagebuilder/shb-pagebuilder.php:739
+#: includes/pagebuilder/shb-pagebuilder.php:787
+#: includes/pagebuilder/shb-pagebuilder.php:907
+msgid "Title 1"
+msgstr "Título 1"
+
+#: includes/pagebuilder/shb-pagebuilder.php:699
+#: includes/pagebuilder/shb-pagebuilder.php:747
+#: includes/pagebuilder/shb-pagebuilder.php:795
+#: includes/pagebuilder/shb-pagebuilder.php:931
+msgid "Title 2"
+msgstr "Título 2"
+
+#: includes/pagebuilder/shb-pagebuilder.php:707
+#: includes/pagebuilder/shb-pagebuilder.php:755
+#: includes/pagebuilder/shb-pagebuilder.php:803
+msgid "Background Image"
+msgstr "Imagen de fondo"
+
+#: includes/pagebuilder/shb-pagebuilder.php:715
+#: includes/pagebuilder/shb-pagebuilder.php:763
+#: includes/pagebuilder/shb-pagebuilder.php:811
+msgid "Offset"
+msgstr "Compensar"
+
+#: includes/pagebuilder/shb-pagebuilder.php:729
+msgid "Booking Form With Background 2"
+msgstr "Formulario de reserva con fondo 2"
+
+#: includes/pagebuilder/shb-pagebuilder.php:777
+msgid "Booking Form With Background 3"
+msgstr "Formulario de reserva con fondo 3"
+
+#: includes/pagebuilder/shb-pagebuilder.php:825
+msgid "Booking Form Single Accommodation Horizontal"
+msgstr "Formulario de Reserva Alojamiento Individual Horizontal"
+
+#: includes/pagebuilder/shb-pagebuilder.php:835
+#: includes/pagebuilder/shb-pagebuilder.php:859
+msgid "Accommodation ID"
+msgstr "Identificación de alojamiento"
+
+#: includes/pagebuilder/shb-pagebuilder.php:849
+msgid "Booking Form Single Accommodation Vertical"
+msgstr "Formulario de Reserva Alojamiento Individual Vertical"
+
+#: includes/pagebuilder/shb-pagebuilder.php:873
+msgid "Title With Icons"
+msgstr "Título con iconos"
+
+#: includes/pagebuilder/shb-pagebuilder.php:883
+msgid "Main Title"
+msgstr "Titulo principal"
+
+#: includes/pagebuilder/shb-pagebuilder.php:891
+msgid "Secondary Title"
+msgstr "Título secundario"
+
+#: includes/pagebuilder/shb-pagebuilder.php:899
+msgid "Icon 1"
+msgstr "Icono 1"
+
+#: includes/pagebuilder/shb-pagebuilder.php:915
+msgid "Value 1"
+msgstr "Valor 1"
+
+#: includes/pagebuilder/shb-pagebuilder.php:923
+msgid "Icon 2"
+msgstr "Icono 2"
+
+#: includes/pagebuilder/shb-pagebuilder.php:939
+msgid "Value 2"
+msgstr "Valor 2"
+
+#: includes/pagebuilder/shb-pagebuilder.php:947
+msgid "Icon 3"
+msgstr "Icono 3"
+
+#: includes/pagebuilder/shb-pagebuilder.php:955
+msgid "Title 3"
+msgstr "Título 3"
+
+#: includes/pagebuilder/shb-pagebuilder.php:963
+msgid "Value 3"
+msgstr "Valor 3"
+
+#: includes/pagebuilder/shb-pagebuilder.php:979
+msgid "Booking Contact"
+msgstr "Reserva Contacto"
+
+#: includes/pagebuilder/shb-pagebuilder.php:989
+#: includes/post-types/shb-booking.php:339
+msgid "Title"
+msgstr "Título"
+
+#: includes/pagebuilder/shb-pagebuilder.php:997
+msgid "Content"
+msgstr "Contenido"
+
+#: includes/pagebuilder/shb-pagebuilder.php:1005
+#: includes/templates/backend/settings/shb-settings-general.htm.php:25
+msgid "Address"
+msgstr "Dirección"
+
+#: includes/pagebuilder/shb-pagebuilder.php:1013
+#: includes/templates/backend/settings/shb-settings-general.htm.php:31
+msgid "Address URL"
+msgstr "Dirección URL"
+
+#: includes/pagebuilder/shb-pagebuilder.php:1021
+msgid "Phone"
+msgstr "Teléfono"
+
+#: includes/pagebuilder/shb-pagebuilder.php:1044
+#: includes/templates/backend/settings/shb-settings-general.htm.php:71
+msgid "Booking Page"
+msgstr "Página de reserva"
+
+#: includes/pagebuilder/shb-pagebuilder.php:1060
+msgid "Offer Carousel"
+msgstr "Carrusel de ofertas"
+
+#: includes/pagebuilder/shb-pagebuilder.php:1061
+msgid "Display offer posts in a carousel"
+msgstr "Mostrar publicaciones de ofertas en un carrusel"
+
+#: includes/pagebuilder/shb-pagebuilder.php:1070
+msgid "Post quantity to display"
+msgstr "Publicar cantidad para mostrar"
+
+#: includes/post-types/shb-accommodation.php:14
+#: includes/post-types/shb-accommodation.php:15
+#: includes/post-types/shb-accommodation.php:16
+#: includes/post-types/shb-accommodation.php:18
+#: includes/post-types/shb-accommodation.php:30
+#: includes/post-types/shb-booking.php:127 includes/post-types/shb-rate.php:104
+#: includes/templates/backend/booking/shb-booking-additionalfee.htm.php:19
+msgid "Accommodation"
+msgstr "Alojamiento"
+
+#: includes/post-types/shb-accommodation.php:17
+msgid "Parent Accommodation:"
+msgstr "Alojamiento para padres:"
+
+#: includes/post-types/shb-accommodation.php:19
+msgid "View Accommodation"
+msgstr "Ver alojamiento"
+
+#: includes/post-types/shb-accommodation.php:20
+msgid "Add New Room"
+msgstr "Añadir nueva habitación"
+
+#: includes/post-types/shb-accommodation.php:21
+#: includes/post-types/shb-additionalfee.php:21
+#: includes/post-types/shb-booking.php:21
+#: includes/post-types/shb-condition.php:21
+#: includes/post-types/shb-guestclass.php:21
+#: includes/post-types/shb-offer.php:21 includes/post-types/shb-rate.php:21
+#: includes/post-types/shb-ratevariation.php:21
+#: includes/post-types/shb-season.php:21
+msgid "Add New"
+msgstr "Agregar nueva"
+
+#: includes/post-types/shb-accommodation.php:22
+msgid "Edit Room"
+msgstr "Cuarto de edición"
+
+#: includes/post-types/shb-accommodation.php:23
+msgid "Update Room"
+msgstr "Actualizar sala"
+
+#: includes/post-types/shb-accommodation.php:24
+msgid "Search Accommodation"
+msgstr "Buscar alojamiento"
+
+#: includes/post-types/shb-accommodation.php:25
+#: includes/post-types/shb-additionalfee.php:25
+#: includes/post-types/shb-booking.php:25
+#: includes/post-types/shb-condition.php:25
+#: includes/post-types/shb-guestclass.php:25
+#: includes/post-types/shb-offer.php:25 includes/post-types/shb-rate.php:25
+#: includes/post-types/shb-ratevariation.php:25
+#: includes/post-types/shb-season.php:25
+msgid "Not found"
+msgstr "Extraviado"
+
+#: includes/post-types/shb-accommodation.php:26
+#: includes/post-types/shb-additionalfee.php:26
+#: includes/post-types/shb-booking.php:26
+#: includes/post-types/shb-condition.php:26
+#: includes/post-types/shb-guestclass.php:26
+#: includes/post-types/shb-offer.php:26 includes/post-types/shb-rate.php:26
+#: includes/post-types/shb-ratevariation.php:26
+#: includes/post-types/shb-season.php:26
+msgid "Not found in Trash"
+msgstr "No encontrado en la Papelera"
+
+#: includes/post-types/shb-accommodation.php:66
+msgctxt "taxonomy general name"
+msgid "Accommodation Type"
+msgstr "Tipo de alojamiento"
+
+#: includes/post-types/shb-accommodation.php:67
+msgctxt "taxonomy singular name"
+msgid "Accommodation Type"
+msgstr "Tipo de alojamiento"
+
+#: includes/post-types/shb-accommodation.php:68
+#: includes/shortcodes/shb-booking-page.php:415
+msgid "Search"
+msgstr "Buscar"
+
+#: includes/post-types/shb-accommodation.php:69
+msgid "Popular"
+msgstr "Popular"
+
+#: includes/post-types/shb-accommodation.php:73
+msgid "Edit Type"
+msgstr "Editar tipo"
+
+#: includes/post-types/shb-accommodation.php:74
+msgid "Update Type"
+msgstr "Tipo de actualización"
+
+#: includes/post-types/shb-accommodation.php:75
+msgid "Add New Type"
+msgstr "Agregar nuevo tipo"
+
+#: includes/post-types/shb-accommodation.php:76
+msgid "New Type Name"
+msgstr "Nuevo nombre de tipo"
+
+#: includes/post-types/shb-accommodation.php:77
+msgid "Separate types with commas"
+msgstr "Separe los tipos con comas"
+
+#: includes/post-types/shb-accommodation.php:78
+msgid "Add or remove types"
+msgstr "Agregar o quitar tipos"
+
+#: includes/post-types/shb-accommodation.php:79
+msgid "Choose from the most used types"
+msgstr "Elige entre los tipos más utilizados"
+
+#: includes/post-types/shb-accommodation.php:80
+msgid "No types found"
+msgstr "No se encontraron tipos"
+
+#: includes/post-types/shb-accommodation.php:81
+msgid "Types"
+msgstr "Tipos"
+
+#: includes/post-types/shb-accommodation.php:103
+#: includes/post-types/shb-accommodation.php:186
+msgid "Hotel"
+msgstr "Hotel"
+
+#: includes/post-types/shb-accommodation.php:118
+msgid "Accommodation Settings"
+msgstr "Ajustes de alojamiento"
+
+#: includes/post-types/shb-accommodation.php:127
+msgid "Accommodation Pricing"
+msgstr "Precios de alojamiento"
+
+#: includes/post-types/shb-accommodation.php:183
+#: includes/post-types/shb-ratevariation.php:104
+#: includes/templates/backend/ratevariation/shb-ratevariation.htm.php:7
+msgid "Type"
+msgstr "Tipo"
+
+#: includes/post-types/shb-accommodation.php:184
+msgid "Occupancy"
+msgstr "Ocupación"
+
+#: includes/post-types/shb-accommodation.php:185
+#: includes/post-types/shb-additionalfee.php:106
+msgid "Qty"
+msgstr "Cantidad"
+
+#: includes/post-types/shb-accommodation.php:228
+msgid "Min"
+msgstr "Mín"
+
+#: includes/post-types/shb-accommodation.php:228
+msgid "Max"
+msgstr "Máx"
+
+#: includes/post-types/shb-accommodation.php:407
+msgid "All Hotels"
+msgstr "Todos los hoteles"
+
+#: includes/post-types/shb-additionalfee.php:15
+#: includes/post-types/shb-additionalfee.php:30
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:51
+msgid "Additional Fee"
+msgstr "Cuota Adicional"
+
+#: includes/post-types/shb-additionalfee.php:17
+msgid "Parent Additional Fee:"
+msgstr "Tarifa adicional para padres:"
+
+#: includes/post-types/shb-additionalfee.php:19
+msgid "View Additional Fee"
+msgstr "Ver tarifa adicional"
+
+#: includes/post-types/shb-additionalfee.php:20
+msgid "Add New Additional Fee"
+msgstr "Agregar nueva tarifa adicional"
+
+#: includes/post-types/shb-additionalfee.php:22
+msgid "Edit Additional Fee"
+msgstr "Editar tarifa adicional"
+
+#: includes/post-types/shb-additionalfee.php:23
+msgid "Update Additional Fee"
+msgstr "Actualizar tarifa adicional"
+
+#: includes/post-types/shb-additionalfee.php:24
+msgid "Search Additional Fee"
+msgstr "Buscar tarifa adicional"
+
+#: includes/post-types/shb-additionalfee.php:46
+msgid "additionalfee"
+msgstr "cuotaadicional"
+
+#: includes/post-types/shb-additionalfee.php:65
+msgid "Additional Fee Settings"
+msgstr "Configuración de tarifas adicionales"
+
+#: includes/post-types/shb-additionalfee.php:105
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:27
+msgid "Optional"
+msgstr "Opcional"
+
+#: includes/post-types/shb-additionalfee.php:107
+msgid "Min/Max Qty"
+msgstr "Cant Mín/Máx"
+
+#: includes/post-types/shb-additionalfee.php:135
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:17
+msgid "Per"
+msgstr "Por"
+
+#: includes/post-types/shb-booking.php:17
+msgid "Parent Booking:"
+msgstr "Reserva de padres:"
+
+#: includes/post-types/shb-booking.php:19
+msgid "View Booking"
+msgstr "Ver reserva"
+
+#: includes/post-types/shb-booking.php:20
+msgid "Add New Booking"
+msgstr "Añadir nueva reserva"
+
+#: includes/post-types/shb-booking.php:22
+msgid "Edit Booking"
+msgstr "Editar reserva"
+
+#: includes/post-types/shb-booking.php:23
+msgid "Update Booking"
+msgstr "Actualizar reserva"
+
+#: includes/post-types/shb-booking.php:24
+msgid "Search Guest"
+msgstr "Buscar invitada"
+
+#: includes/post-types/shb-booking.php:46
+msgid "booking"
+msgstr "reserva"
+
+#: includes/post-types/shb-booking.php:64
+msgctxt "post"
+msgid "Pending"
+msgstr "Pendiente"
+
+#: includes/post-types/shb-booking.php:69
+#, php-format
+msgid "Pending <span class=\"count\">(%s)</span>"
+msgid_plural "Pending <span class=\"count\">(%s)</span>"
+msgstr[0] "Pendiente <span class=“count”>(%s)</span>"
+msgstr[1] "Pendiente <span class=“count”>(%s)</span>"
+
+#: includes/post-types/shb-booking.php:73
+msgctxt "post"
+msgid "Confirmed"
+msgstr "Confirmada"
+
+#: includes/post-types/shb-booking.php:78
+#, php-format
+msgid "Confirmed <span class=\"count\">(%s)</span>"
+msgid_plural "Confirmed <span class=\"count\">(%s)</span>"
+msgstr[0] "Confirmado <span class=“count”>(%s)</span>"
+msgstr[1] "Confirmado <span class=“count”>(%s)</span>"
+
+#: includes/post-types/shb-booking.php:82
+msgctxt "post"
+msgid "Cancelled"
+msgstr "Cancelada"
+
+#: includes/post-types/shb-booking.php:87
+#, php-format
+msgid "Cancelled <span class=\"count\">(%s)</span>"
+msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+msgstr[0] "Cancelada <span class = “count”> (% s) </span>"
+msgstr[1] "Cancelada <span class = “count”> (% s) </span>"
+
+#: includes/post-types/shb-booking.php:91
+msgctxt "post"
+msgid "iCal"
+msgstr "iCal"
+
+#: includes/post-types/shb-booking.php:96
+#, php-format
+msgid "iCal <span class=\"count\">(%s)</span>"
+msgid_plural "iCal <span class=\"count\">(%s)</span>"
+msgstr[0] "iCal <span class=“count”>(%s)</span>"
+msgstr[1] "iCal <span class=“count”>(%s)</span>"
+
+#: includes/post-types/shb-booking.php:100
+msgctxt "post"
+msgid "Maintenance"
+msgstr "Mantenimiento"
+
+#: includes/post-types/shb-booking.php:105
+#, php-format
+msgid "Maintenance <span class=\"count\">(%s)</span>"
+msgid_plural "Maintenance <span class=\"count\">(%s)</span>"
+msgstr[0] "Mantenimiento <span class=“count”>(%s)</span>"
+msgstr[1] "Mantenimiento <span class=“count”>(%s)</span>"
+
+#: includes/post-types/shb-booking.php:154
+msgid "Booking Status"
+msgstr "Estado de la reservación"
+
+#: includes/post-types/shb-booking.php:163
+msgid "Send Email"
+msgstr "Enviar correo electrónico"
+
+#: includes/post-types/shb-booking.php:172
+msgid "Booking Summary"
+msgstr "Resumen de la reserva"
+
+#: includes/post-types/shb-booking.php:181
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/post-types/shb-booking.php:340
+#: includes/post-types/shb-offer.php:124
+msgid "Room(s)"
+msgstr "Habitaciones"
+
+#: includes/post-types/shb-booking.php:343
+msgid "Received"
+msgstr "Recibida"
+
+#: includes/post-types/shb-booking.php:344
+msgid "Status"
+msgstr "Estado"
+
+#: includes/post-types/shb-booking.php:345
+msgid "WC Payment ID"
+msgstr "ID de pago de WC"
+
+#: includes/post-types/shb-booking.php:379
+#: includes/post-types/shb-booking.php:382
+msgid "Move"
+msgstr "Mover"
+
+#: includes/post-types/shb-booking.php:379
+#: includes/post-types/shb-booking.php:382
+msgid "to the Trash"
+msgstr "a la basura"
+
+#: includes/post-types/shb-booking.php:379
+#: includes/post-types/shb-booking.php:382
+msgid "Trash"
+msgstr "Basura"
+
+#: includes/post-types/shb-booking.php:382
+msgid "Edit"
+msgstr "Editar"
+
+#: includes/post-types/shb-booking.php:385
+msgid "Show more details"
+msgstr "Mostrar más detalles"
+
+#: includes/post-types/shb-booking.php:414
+msgid "Note: This booking contains rooms booked for different dates"
+msgstr ""
+"Nota: Esta reserva contiene habitaciones reservadas para fechas diferentes"
+
+#: includes/post-types/shb-condition.php:15
+#: includes/post-types/shb-condition.php:30
+msgid "Condition"
+msgstr "Condición"
+
+#: includes/post-types/shb-condition.php:17
+msgid "Parent Condition:"
+msgstr "Condición de padres:"
+
+#: includes/post-types/shb-condition.php:19
+msgid "View Condition"
+msgstr "Ver condición"
+
+#: includes/post-types/shb-condition.php:20
+msgid "Add New Condition"
+msgstr "Agregar nueva condición"
+
+#: includes/post-types/shb-condition.php:22
+msgid "Edit Condition"
+msgstr "Editar condición"
+
+#: includes/post-types/shb-condition.php:23
+msgid "Update Condition"
+msgstr "Condición de actualización"
+
+#: includes/post-types/shb-condition.php:24
+msgid "Search Condition"
+msgstr "Condición de búsqueda"
+
+#: includes/post-types/shb-condition.php:46
+msgid "condition"
+msgstr "condición"
+
+#: includes/post-types/shb-condition.php:65
+msgid "Condition Settings"
+msgstr "Configuración de condiciones"
+
+#: includes/post-types/shb-condition.php:104
+msgid "Min/Max Stay"
+msgstr "Estancia Mín/Máx"
+
+#: includes/post-types/shb-condition.php:105
+#: includes/templates/backend/condition/shb-condition.htm.php:27
+msgid "Notice"
+msgstr "Aviso"
+
+#: includes/post-types/shb-condition.php:106
+#: includes/templates/backend/condition/shb-condition.htm.php:37
+msgid "Increments"
+msgstr "Incrementos"
+
+#: includes/post-types/shb-condition.php:107
+msgid "Allow In"
+msgstr "Llegada Permitida"
+
+#: includes/post-types/shb-condition.php:108
+msgid "Allow Out"
+msgstr "Salida Permitida"
+
+#: includes/post-types/shb-condition.php:109
+msgid "Apply In"
+msgstr "Aplicar Llegada"
+
+#: includes/post-types/shb-condition.php:110
+msgid "Apply Out"
+msgstr "Aplicar Salida"
+
+#: includes/post-types/shb-condition.php:134
+#: includes/post-types/shb-condition.php:138
+#: includes/post-types/shb-condition.php:142
+#: includes/post-types/shb-ratevariation.php:133
+msgid "Night(s)"
+msgstr "Noche(s)"
+
+#: includes/post-types/shb-guestclass.php:14
+#: includes/post-types/shb-guestclass.php:15
+#: includes/post-types/shb-guestclass.php:30
+msgid "Guest Class"
+msgstr "Clase invitada"
+
+#: includes/post-types/shb-guestclass.php:17
+msgid "Parent Guest Class:"
+msgstr "Clase de padres invitados:"
+
+#: includes/post-types/shb-guestclass.php:19
+msgid "View Guest Classes"
+msgstr "Ver clases de invitados"
+
+#: includes/post-types/shb-guestclass.php:20
+msgid "Add New Guest Class"
+msgstr "Agregar nueva clase de invitado"
+
+#: includes/post-types/shb-guestclass.php:22
+msgid "Edit Guest Class"
+msgstr "Editar clase de invitado"
+
+#: includes/post-types/shb-guestclass.php:23
+msgid "Update Guest Class"
+msgstr "Actualizar clase de invitado"
+
+#: includes/post-types/shb-guestclass.php:24
+msgid "Search Guest Class"
+msgstr "Buscar clase de invitado"
+
+#: includes/post-types/shb-guestclass.php:46
+msgid "guestclass"
+msgstr "claseinvitado"
+
+#: includes/post-types/shb-guestclass.php:65
+msgid "Guest Class Settings"
+msgstr "Configuración de la clase de invitado"
+
+#: includes/post-types/shb-guestclass.php:104
+#: includes/templates/backend/guestclass/shb-guestclass.htm.php:7
+msgid "Title Plural"
+msgstr "Título Plural"
+
+#: includes/post-types/shb-offer.php:15 includes/post-types/shb-offer.php:50
+msgid "Offer"
+msgstr "Oferta"
+
+#: includes/post-types/shb-offer.php:17
+msgid "Parent Offer:"
+msgstr "Oferta para padres:"
+
+#: includes/post-types/shb-offer.php:19
+msgid "View Offer"
+msgstr "Ver oferta"
+
+#: includes/post-types/shb-offer.php:20
+msgid "Add New Offer"
+msgstr "Agregar nueva oferta"
+
+#: includes/post-types/shb-offer.php:22
+msgid "Edit Offer"
+msgstr "Editar oferta"
+
+#: includes/post-types/shb-offer.php:23
+msgid "Update Offer"
+msgstr "Actualizar oferta"
+
+#: includes/post-types/shb-offer.php:24
+msgid "Search Offer"
+msgstr "Buscar oferta"
+
+#: includes/post-types/shb-offer.php:66
+msgid "offer"
+msgstr "oferta"
+
+#: includes/post-types/shb-offer.php:85
+msgid "Offer Settings"
+msgstr "Configuración de la oferta"
+
+#: includes/post-types/shb-offer.php:189 includes/post-types/shb-season.php:189
+msgid "None"
+msgstr "Ninguna"
+
+#: includes/post-types/shb-rate.php:17
+msgid "Parent Rate:"
+msgstr "Tarifa para padres:"
+
+#: includes/post-types/shb-rate.php:19
+msgid "View Rate"
+msgstr "Ver tarifa"
+
+#: includes/post-types/shb-rate.php:20
+msgid "Add New Rate"
+msgstr "Agregar nueva tarifa"
+
+#: includes/post-types/shb-rate.php:22
+msgid "Edit Rate"
+msgstr "Editar tarifa"
+
+#: includes/post-types/shb-rate.php:23
+msgid "Update Rate"
+msgstr "Frecuencia de actualización"
+
+#: includes/post-types/shb-rate.php:24
+msgid "Search Rate"
+msgstr "Tasa de búsqueda"
+
+#: includes/post-types/shb-rate.php:46
+msgid "rate"
+msgstr "tarifa"
+
+#: includes/post-types/shb-rate.php:65
+msgid "Rate Settings"
+msgstr "Ajustes de tarifas"
+
+#: includes/post-types/shb-ratevariation.php:15
+#: includes/post-types/shb-ratevariation.php:30
+msgid "Rate Variation"
+msgstr "Variación de tarifa"
+
+#: includes/post-types/shb-ratevariation.php:17
+msgid "Parent Rate Variation:"
+msgstr "Variación de tasa principal:"
+
+#: includes/post-types/shb-ratevariation.php:19
+msgid "View Rate Variation"
+msgstr "Ver variación de tarifa"
+
+#: includes/post-types/shb-ratevariation.php:20
+msgid "Add New Rate Variation"
+msgstr "Agregar nueva variación de tarifa"
+
+#: includes/post-types/shb-ratevariation.php:22
+msgid "Edit Rate Variation"
+msgstr "Editar variación de tarifa"
+
+#: includes/post-types/shb-ratevariation.php:23
+msgid "Update Rate Variation"
+msgstr "Actualizar variación de tasa"
+
+#: includes/post-types/shb-ratevariation.php:24
+msgid "Search Rate Variation"
+msgstr "Variación de la tasa de búsqueda"
+
+#: includes/post-types/shb-ratevariation.php:46
+msgid "ratevariation"
+msgstr "tasavariación"
+
+#: includes/post-types/shb-ratevariation.php:65
+msgid "Rate Variation Settings"
+msgstr "Ajustes de variación de tarifas"
+
+#: includes/post-types/shb-ratevariation.php:105
+#: includes/templates/backend/ratevariation/shb-ratevariation.htm.php:18
+msgid "Applied To"
+msgstr "Aplicado a"
+
+#: includes/post-types/shb-season.php:15 includes/post-types/shb-season.php:30
+#: includes/templates/backend/accommodation/shb-accommodation-pricing.htm.php:148
+msgid "Season"
+msgstr "Estación"
+
+#: includes/post-types/shb-season.php:16
+msgid "Seasones"
+msgstr "Estaciones"
+
+#: includes/post-types/shb-season.php:17
+msgid "Parent Season:"
+msgstr "Temporada de padres:"
+
+#: includes/post-types/shb-season.php:19
+msgid "View Season"
+msgstr "Ver temporada"
+
+#: includes/post-types/shb-season.php:20
+msgid "Add New Season"
+msgstr "Agregar nueva temporada"
+
+#: includes/post-types/shb-season.php:22
+msgid "Edit Season"
+msgstr "Editar temporada"
+
+#: includes/post-types/shb-season.php:23
+msgid "Update Season"
+msgstr "Temporada de actualización"
+
+#: includes/post-types/shb-season.php:24
+msgid "Search Season"
+msgstr "Temporada de búsqueda"
+
+#: includes/post-types/shb-season.php:46
+msgid "season"
+msgstr "estación"
+
+#: includes/post-types/shb-season.php:65
+msgid "Season Settings"
+msgstr "Ajustes de temporada"
+
+#: includes/post-types/shb-season.php:104
+msgid "From"
+msgstr "De"
+
+#: includes/post-types/shb-season.php:105
+msgid "To"
+msgstr "A"
+
+#: includes/post-types/shb-season.php:108
+msgid "Overlap"
+msgstr "Superposición"
+
+#: includes/post-types/shb-season.php:108
+msgid "Overlapping seasons should be avoided"
+msgstr "Se debe evitar la superposición de temporadas"
+
+#: includes/shortcodes/shb-accommodation-carousel-1.php:125
+#: includes/shortcodes/shb-accommodation-listing-1.php:214
+msgid "View Room"
+msgstr "Ver habitación"
+
+#: includes/shortcodes/shb-accommodation-listing-1.php:127
+#: includes/shortcodes/shb-accommodation-listing-2.php:127
+#: includes/shortcodes/shb-accommodation-listing-3.php:127
+msgid "Default Sorting"
+msgstr "Clasificación por defecto"
+
+#: includes/shortcodes/shb-accommodation-listing-1.php:135
+#: includes/shortcodes/shb-accommodation-listing-2.php:135
+#: includes/shortcodes/shb-accommodation-listing-3.php:135
+msgid "Price Low to High"
+msgstr "Precio baja a alta"
+
+#: includes/shortcodes/shb-accommodation-listing-1.php:143
+#: includes/shortcodes/shb-accommodation-listing-2.php:143
+#: includes/shortcodes/shb-accommodation-listing-3.php:143
+msgid "Price High to Low"
+msgstr "Precio alto a bajo"
+
+#: includes/shortcodes/shb-accommodation-listing-1.php:156
+#: includes/shortcodes/shb-accommodation-listing-2.php:156
+#: includes/shortcodes/shb-accommodation-listing-3.php:156
+msgid "Filter by"
+msgstr "Filtrado por"
+
+#: includes/shortcodes/shb-booking-form-1.php:172
+#: includes/shortcodes/shb-booking-form-single-horizontal.php:83
+#: includes/shortcodes/shb-booking-form-single-vertical.php:81
+#: includes/widgets/shb-widget-booking.php:116
+msgid "Ok"
+msgstr "De acuerdo"
+
+#: includes/shortcodes/shb-booking-form-1.php:184
+#: includes/widgets/shb-widget-booking.php:128
+msgid "Location"
+msgstr "Ubicación"
+
+#: includes/shortcodes/shb-booking-form-1.php:185
+#: includes/widgets/shb-widget-booking.php:129
+msgid "Select a location"
+msgstr "Selecciona una ubicación"
+
+#: includes/shortcodes/shb-booking-form-1.php:223
+#: includes/shortcodes/shb-booking-form-single-horizontal.php:130
+#: includes/shortcodes/shb-booking-form-single-vertical.php:128
+#: includes/widgets/shb-widget-booking.php:167
+msgid "Guest(s)"
+msgstr "Invitada (s)"
+
+#: includes/shortcodes/shb-booking-form-single-horizontal.php:93
+#: includes/shortcodes/shb-booking-form-single-vertical.php:91
+msgid "Room Type"
+msgstr "Tipo de habitación"
+
+#: includes/shortcodes/shb-booking-form-single-horizontal.php:154
+#: includes/shortcodes/shb-booking-form-single-vertical.php:152
+msgid "Please enter a valid accommodation ID to display the booking form."
+msgstr ""
+"Ingrese una identificación de alojamiento válida para mostrar el formulario "
+"de reserva."
+
+#: includes/shortcodes/shb-booking-page.php:17
+#: includes/shortcodes/shb-booking-page.php:35
+msgid "Rooms"
+msgstr "Habitaciones"
+
+#: includes/shortcodes/shb-booking-page.php:18
+#: includes/shortcodes/shb-booking-page.php:37
+#: includes/templates/backend/booking/shb-booking-woocommerce.htm.php:210
+msgid "Payment"
+msgstr "Pago"
+
+#: includes/shortcodes/shb-booking-page.php:19
+#: includes/shortcodes/shb-booking-page.php:38
+msgid "Complete"
+msgstr "Completa"
+
+#: includes/shortcodes/shb-booking-page.php:36
+msgid "Add-Ons"
+msgstr "Complementos"
+
+#: includes/shortcodes/shb-booking-page.php:487
+msgid "Room Selected"
+msgstr "Habitación Seleccionada"
+
+#: includes/shortcodes/shb-booking-page.php:489
+msgid ""
+"You have selected to book this room, you can select it again if you need "
+"multiple rooms of the same type"
+msgstr ""
+"Ha seleccionado reservar esta habitación, puede seleccionarla de nuevo si "
+"necesita varias habitaciones del mismo tipo"
+
+#: includes/shortcodes/shb-booking-page.php:588
+#: includes/shortcodes/shb-booking-page.php:592
+#: includes/shortcodes/shb-booking-page.php:740
+msgid "Select Room"
+msgstr "Seleccionar habitación"
+
+#: includes/shortcodes/shb-booking-page.php:590
+#: includes/shortcodes/shb-booking-page.php:593
+msgid "View Details"
+msgstr "Ver detalles"
+
+#: includes/shortcodes/shb-booking-page.php:676
+#: includes/shortcodes/shb-booking-page.php:1013
+#: includes/shortcodes/shb-booking-page.php:1134
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:40
+msgid "Dates"
+msgstr "Fechas"
+
+#: includes/shortcodes/shb-booking-page.php:743
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: includes/shortcodes/shb-booking-page.php:1007
+#, php-format
+msgid "Room %u of %s"
+msgstr "Habitación %u de %s"
+
+#: includes/shortcodes/shb-booking-page.php:1072
+#: includes/shortcodes/shb-booking-page.php:1089
+msgid "Remove"
+msgstr "Eliminar"
+
+#: includes/shortcodes/shb-booking-page.php:1106
+msgid "Your Stay"
+msgstr "Su estancia"
+
+#: includes/shortcodes/shb-booking-page.php:1178
+#, php-format
+msgid "Charged in %s (%s)"
+msgstr "Cobrado en %s (%s)"
+
+#: includes/shortcodes/shb-booking-page.php:1204
+msgid "Discounts"
+msgstr "Descuentos"
+
+#: includes/shortcodes/shb-booking-page.php:1217
+#, php-format
+msgid "Pay Now (%s)"
+msgstr "Pagar ahora (%s)"
+
+#: includes/shortcodes/shb-booking-page.php:1231
+msgid "Continue"
+msgstr "Continuar"
+
+#: includes/shortcodes/shb-booking-page.php:1238
+msgid "Add A Room?"
+msgstr "¿Añadir una habitación?"
+
+#: includes/shortcodes/shb-booking-page.php:1383
+msgid "Select add-ons for"
+msgstr "Seleccionar complementos para"
+
+#: includes/shortcodes/shb-booking-page.php:1446
+msgid "Read More"
+msgstr "Leer más"
+
+#: includes/shortcodes/shb-booking-page.php:1447
+msgid "Read Less"
+msgstr "Leer menos"
+
+#: includes/shortcodes/shb-booking-page.php:1601
+#: includes/templates/backend/booking/shb-booking-accommodation.htm.php:143
+#: includes/templates/backend/booking/shb-booking-accommodation.htm.php:145
+#: includes/templates/backend/booking/shb-booking-additionalfee.htm.php:235
+msgid "Select"
+msgstr "Seleccionar"
+
+#: includes/shortcodes/shb-booking-page.php:1629
+msgid "No add-ons available"
+msgstr "No hay complementos disponibles"
+
+#: includes/shortcodes/shb-booking-page.php:1685
+msgid "Please select at least one room before checking out"
+msgstr ""
+"Seleccione al menos una habitación antes de hacer el registro de salida"
+
+#: includes/shortcodes/shb-booking-page.php:1838
+msgid "Booking Complete!"
+msgstr "¡Reserva completa!"
+
+#: includes/shortcodes/shb-booking-page.php:1846
+#, php-format
+msgid "A confirmation email has been sent to %s"
+msgstr "Se ha enviado un correo electrónico de confirmación a %s"
+
+#: includes/shortcodes/shb-booking-page.php:1851
+msgid "Thank You"
+msgstr "Gracias"
+
+#: includes/shortcodes/shb-booking-page.php:1862
+#: includes/shortcodes/shb-booking-page.php:1863
+#, php-format
+msgid "%s at %s"
+msgstr "%s a las %s"
+
+#: includes/shortcodes/shb-booking-page.php:1867
+msgid "Find Us"
+msgstr "Encuéntranos"
+
+#: includes/shortcodes/shb-offer-carousel.php:78
+msgid "No news has been added yet"
+msgstr "Aún no se ha añadido ninguna noticia"
+
+#: includes/templates/backend/accommodation/shb-accommodation-pricing.htm.php:177
+#, php-format
+msgid "Duration: %d night(s) or more"
+msgstr "Duración: %d noche(s) o más"
+
+#: includes/templates/backend/accommodation/shb-accommodation-pricing.htm.php:179
+#, php-format
+msgid "Early: %d night(s) or more until check in date"
+msgstr "Temprano: %d noche(s) o más hasta la fecha de llegada"
+
+#: includes/templates/backend/accommodation/shb-accommodation-pricing.htm.php:181
+#, php-format
+msgid "Late: %d night(s) or less until check in date"
+msgstr "Tarde: %d noche(s) o menos hasta la fecha de llegada"
+
+#: includes/templates/backend/accommodation/shb-accommodation-pricing.htm.php:220
+msgid ""
+"Go to \"Hotel Booking > Rates\" and add this accommodation to an existing "
+"rate, or create a new one."
+msgstr ""
+"Vaya a “Reserva de hotel > Tarifas” y agregue este alojamiento a una tarifa "
+"existente o cree una nueva."
+
+#: includes/templates/backend/accommodation/shb-accommodation-pricing.htm.php:226
+msgid ""
+"You must set the \"Accommodation Settings\" above and publish the "
+"accommodation before you can enter prices."
+msgstr ""
+"Debe establecer la “Configuración de alojamiento” arriba y publicar el "
+"alojamiento antes de poder ingresar precios."
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:11
+msgid "Short description"
+msgstr "Breve descripción"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:12
+msgid ""
+"This is displayed on the accommodation listing pages and is intended as a "
+"brief overview of the room"
+msgstr ""
+"Esto se muestra en las páginas de la lista de alojamiento y pretende ser una "
+"breve descripción general de la habitación"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:19
+msgid "Accommodation type"
+msgstr "Tipo de alojamiento"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:24
+msgid "Shared dorm"
+msgstr "dormitorio compartido"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:29
+msgid "Price Scheme"
+msgstr "Esquema de precios"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:33
+msgid "Charge per guest"
+msgstr "Cargo por huésped"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:34
+msgid "Charge per room"
+msgstr "Cargo por habitación"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:40
+msgid ""
+"This sets the quantity of units available for this accommodation, use this "
+"if you have multiple units of the same type available"
+msgstr ""
+"Esto establece la cantidad de unidades disponibles para este alojamiento, "
+"use esto si tiene varias unidades del mismo tipo disponibles"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:58
+msgid "min"
+msgstr "mín"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:66
+msgid "max"
+msgstr "máx"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:79
+msgid "Total min"
+msgstr "Mín total"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:86
+msgid "Total max"
+msgstr "Máx total"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:100
+msgid "Price Introduction"
+msgstr "Precio Introducción"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:101
+msgid ""
+"This is a guide price for guests, it's displayed before the actual price can "
+"be calculated e.g. before dates and guest quantities are selected. You can "
+"add something like 'From $250 / Night'. Add the [price] shortcode in this "
+"field to use the 'Sorting Price' if you're using multiple currencies so it "
+"will be converted"
+msgstr ""
+"Este es un precio orientativo para los huéspedes, se muestra antes de que se "
+"pueda calcular el precio real, p. antes de seleccionar fechas y cantidades "
+"de invitados. Puedes agregar algo como ‘Desde $250 / Noche’. Agregue el "
+"código abreviado [precio] en este campo para usar el ‘Precio de "
+"clasificación’ si está usando varias monedas para que se convierta"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:108
+msgid "Sorting Price"
+msgstr "Precio de clasificación"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:109
+msgid ""
+"This price is used for sorting purposes, when the user selects the sort by "
+"price filter"
+msgstr ""
+"Este precio se utiliza con fines de clasificación, cuando el usuario "
+"selecciona el filtro Ordenar por precio."
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:116
+msgid "Display form"
+msgstr "formulario de visualización"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:117
+msgid "Display a booking form on the accommodation single page"
+msgstr ""
+"Mostrar un formulario de reserva en la página individual del alojamiento"
+
+#: includes/templates/backend/accommodation/shb-accommodation-settings.htm.php:132
+#: includes/templates/backend/booking/shb-booking-accommodation.htm.php:79
+msgid ""
+"Go to \"Hotel Booking > Guest Classes\" and create at least one guest class."
+msgstr ""
+"Vaya a “Reserva de hotel > Clases de invitados” y cree al menos una clase de "
+"invitados."
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:7
+msgid "Charge"
+msgstr "Cargar"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:11
+msgid "Per room"
+msgstr "Por habitacion"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:12
+msgid "Per person"
+msgstr "Por persona"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:28
+msgid ""
+"If this is set to 'No' the fee will be automatically added to user's total "
+"at the checkout"
+msgstr ""
+"Si esto se establece en ‘No’, la tarifa se agregará automáticamente al total "
+"del usuario en el momento de la compra."
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:38
+msgid "Quantity select"
+msgstr "Seleccionar cantidad"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:39
+msgid "Display a quantity selection for this fee"
+msgstr "Mostrar una selección de cantidad para esta tarifa"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:49
+msgid "Quantity min"
+msgstr "Cantidad mín"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:56
+msgid "Quantity max"
+msgstr "Cantidad máx"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:63
+msgid "Quantity name"
+msgstr "Nombre de la cantidad"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:64
+msgid ""
+"What is the name of the thing the user is selecting the quantity for? e.g. "
+"'people', 'car', 'breakfast', etc"
+msgstr ""
+"¿Cuál es el nombre de la cosa para la que el usuario está seleccionando la "
+"cantidad? p.ej. ‘gente’, ‘coche’, ‘desayuno’, etc."
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:71
+msgid "Select date"
+msgstr "Seleccione fecha"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:72
+msgid "Display a date selection for this fee"
+msgstr "Mostrar una selección de fecha para esta tarifa"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:82
+msgid "Select time"
+msgstr "Seleccionar hora"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:83
+msgid "Display a time selection for this fee"
+msgstr "Mostrar una selección de tiempo para esta tarifa"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:100
+msgid "Price name"
+msgstr "Nombre del precio"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:101
+msgid ""
+"Displayed next to the 'Price', you can add more details to describe the "
+"price such as 'Per Guest' or 'Per Night'"
+msgstr ""
+"Se muestra junto al ‘Precio’, puede agregar más detalles para describir el "
+"precio, como ‘Por huésped’ o ‘Por noche’"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:108
+msgid "Custom text input label"
+msgstr "Etiqueta de entrada de texto personalizada"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:109
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:117
+msgid "Leave this field blank if you do not want a custom text input"
+msgstr ""
+"Deje este campo en blanco si no desea una entrada de texto personalizada"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:116
+msgid "Custom select label"
+msgstr "Etiqueta de selección personalizada"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:124
+msgid "Custom select options"
+msgstr "Opciones de selección personalizadas"
+
+#: includes/templates/backend/additionalfee/shb-additionalfee.htm.php:125
+msgid "Separate each option with a | e.g. Option #1 | Option #2"
+msgstr "Separe cada opción con un | p.ej. Opción #1 | Opcion 2"
+
+#: includes/templates/backend/booking/shb-booking-accommodation.htm.php:75
+msgid "Check Availability"
+msgstr "Consultar disponibilidad"
+
+#: includes/templates/backend/booking/shb-booking-accommodation.htm.php:115
+msgid "Available"
+msgstr "Disponible"
+
+#: includes/templates/backend/booking/shb-booking-accommodation.htm.php:156
+msgid "No rates available"
+msgstr "No hay tarifas disponibles"
+
+#: includes/templates/backend/booking/shb-booking-additionalfee.htm.php:25
+#: includes/templates/backend/booking/shb-booking-additionalfee.htm.php:27
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:28
+msgid "of"
+msgstr "de"
+
+#: includes/templates/backend/booking/shb-booking-additionalfee.htm.php:256
+msgid ""
+"Enter your booking dates and guest quantities above, click \"Check "
+"Availability\", select your accommodation, and then you can select "
+"additional fees"
+msgstr ""
+"Ingrese las fechas de su reserva y la cantidad de invitados arriba, haga "
+"clic en “Verificar disponibilidad”, seleccione su alojamiento y luego puede "
+"seleccionar tarifas adicionales"
+
+#: includes/templates/backend/booking/shb-booking-guest-information.htm.php:11
+#: includes/templates/backend/booking/shb-booking-publish.htm.php:20
+msgid "Update"
+msgstr "Actualizar"
+
+#: includes/templates/backend/booking/shb-booking-publish.htm.php:14
+msgid "Move to trash"
+msgstr "Mover a la papelera"
+
+#: includes/templates/backend/booking/shb-booking-sendmail.htm.php:15
+msgid "Email successfully sent"
+msgstr "Correo electrónico enviado con éxito"
+
+#: includes/templates/backend/booking/shb-booking-sendmail.htm.php:27
+msgid "Booking Confirmed"
+msgstr "Reserva confirmada"
+
+#: includes/templates/backend/booking/shb-booking-sendmail.htm.php:28
+msgid "Booking Cancelled"
+msgstr "Reserva cancelada"
+
+#: includes/templates/backend/booking/shb-booking-sendmail.htm.php:31
+msgid "Send"
+msgstr "Enviar"
+
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:42
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:79
+msgid "Delete"
+msgstr "Borrar"
+
+#: includes/templates/backend/booking/shb-booking-summary.htm.php:104
+msgid "No accommodation selected."
+msgstr "Ningún alojamiento seleccionado."
+
+#: includes/templates/backend/booking/shb-booking-woocommerce.htm.php:116
+#: includes/templates/backend/booking/shb-booking-woocommerce.htm.php:159
+msgid "View WooCommerce Order"
+msgstr "Ver orden de WooCommerce"
+
+#: includes/templates/backend/booking/shb-booking-woocommerce.htm.php:132
+#: includes/templates/backend/booking/shb-booking-woocommerce.htm.php:175
+#: includes/templates/backend/booking/shb-booking-woocommerce.htm.php:190
+msgid "Create WooCommerce Order"
+msgstr "Crear orden de WooCommerce"
+
+#: includes/templates/backend/booking/shb-booking-woocommerce.htm.php:209
+msgid "Amount"
+msgstr "Cantidad"
+
+#: includes/templates/backend/booking/shb-booking-woocommerce.htm.php:223
+msgid "Update Price"
+msgstr "Actualizar precio"
+
+#: includes/templates/backend/condition/shb-condition.htm.php:7
+msgid "Min Stay"
+msgstr "Estancia Mín"
+
+#: includes/templates/backend/condition/shb-condition.htm.php:8
+msgid "Set a minimum booking period"
+msgstr "Establecer un período mínimo de reserva"
+
+#: includes/templates/backend/condition/shb-condition.htm.php:12
+#: includes/templates/backend/condition/shb-condition.htm.php:22
+#: includes/templates/backend/condition/shb-condition.htm.php:32
+#: includes/templates/backend/condition/shb-condition.htm.php:42
+#: includes/templates/backend/ratevariation/shb-ratevariation.htm.php:22
+msgid "nights"
+msgstr "noches"
+
+#: includes/templates/backend/condition/shb-condition.htm.php:13
+#: includes/templates/backend/condition/shb-condition.htm.php:23
+#: includes/templates/backend/condition/shb-condition.htm.php:33
+#: includes/templates/backend/condition/shb-condition.htm.php:43
+#: includes/templates/backend/ratevariation/shb-ratevariation.htm.php:23
+msgid "night"
+msgstr "noche"
+
+#: includes/templates/backend/condition/shb-condition.htm.php:17
+msgid "Max Stay"
+msgstr "Estancia Máx"
+
+#: includes/templates/backend/condition/shb-condition.htm.php:18
+msgid "Set a maximum booking period"
+msgstr "Establecer un período máximo de reserva"
+
+#: includes/templates/backend/condition/shb-condition.htm.php:28
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:20
+msgid ""
+"Set how many nights in advance of the check in date the user needs to submit "
+"their booking"
+msgstr ""
+"Establezca con cuántas noches de antelación a la fecha de entrada el usuario "
+"debe enviar su reserva"
+
+#: includes/templates/backend/condition/shb-condition.htm.php:38
+msgid ""
+"Restrict users so they can only book a certain number of nights, e.g. if you "
+"set this option to 7 nights, users will only be able to book weekly e.g. 7 "
+"nights, 14 nights, 21 nights, etc"
+msgstr ""
+"Restrinja a los usuarios para que solo puedan reservar un cierto número de "
+"noches, p. si establece esta opción en 7 noches, los usuarios solo podrán "
+"reservar semanalmente, p. 7 noches, 14 noches, 21 noches, etc."
+
+#: includes/templates/backend/condition/shb-condition.htm.php:47
+msgid "Allowed check in"
+msgstr "Llegada Permitida"
+
+#: includes/templates/backend/condition/shb-condition.htm.php:62
+msgid "Allowed check out"
+msgstr "Salida Permitida"
+
+#: includes/templates/backend/condition/shb-condition.htm.php:77
+msgid "Apply condition when check in is on the following days"
+msgstr "Aplica condición cuando el check in es en los siguientes días"
+
+#: includes/templates/backend/condition/shb-condition.htm.php:92
+msgid "Apply condition when check out is on the following days"
+msgstr "Aplicar condición cuando el check out es en los siguientes días"
+
+#: includes/templates/backend/guestclass/shb-guestclass.htm.php:13
+msgid "Description"
+msgstr "Descripción"
+
+#: includes/templates/backend/offer/shb-offer.htm.php:7
+#: includes/templates/backend/rate/shb-rate.htm.php:19
+msgid "Short Description"
+msgstr "Breve descripción"
+
+#: includes/templates/backend/season/shb-season.htm.php:7
+msgid "Start"
+msgstr "Comenzar"
+
+#: includes/templates/backend/season/shb-season.htm.php:15
+msgid "End"
+msgstr "Fin"
+
+#: includes/templates/backend/settings/shb-settings-emails.htm.php:20
+msgid "Pending message 1"
+msgstr "Mensaje pendiente 1"
+
+#: includes/templates/backend/settings/shb-settings-emails.htm.php:26
+msgid "Pending message 2"
+msgstr "Mensaje pendiente 2"
+
+#: includes/templates/backend/settings/shb-settings-emails.htm.php:32
+msgid "Confirmed message 1"
+msgstr "Mensaje confirmado 1"
+
+#: includes/templates/backend/settings/shb-settings-emails.htm.php:38
+msgid "Confirmed message 2"
+msgstr "mensaje confirmado 2"
+
+#: includes/templates/backend/settings/shb-settings-emails.htm.php:44
+msgid "Cancelled message 1"
+msgstr "Mensaje cancelado 1"
+
+#: includes/templates/backend/settings/shb-settings-emails.htm.php:50
+msgid "Cancelled message 2"
+msgstr "Mensaje cancelado 2"
+
+#: includes/templates/backend/settings/shb-settings-forms.htm.php:26
+msgid "preset"
+msgstr "preestablecida"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:14
+msgid "Booking confirmation"
+msgstr "Confirmación de reserva"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:15
+msgid ""
+"Booking dates are not blocked until a booking is set to confirmed status, "
+"booking dates will be automatically blocked if you set this option to "
+"automatic"
+msgstr ""
+"Las fechas de reserva no se bloquean hasta que una reserva se establece en "
+"estado confirmado, las fechas de reserva se bloquearán automáticamente si "
+"configura esta opción en automático"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:19
+msgid "Automatic"
+msgstr "Automática"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:20
+msgid "Manual"
+msgstr "Manual"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:43
+msgid "Date Format"
+msgstr "Formato de fecha"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:57
+msgid "Alternative Date Format"
+msgstr "Formato de fecha alternativo"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:58
+msgid ""
+"Used on the booking page sidebar, you should use a valid PHP date format "
+"such as M d, Y"
+msgstr ""
+"Usado en la barra lateral de la página de reserva, debe usar un formato de "
+"fecha PHP válido como M d, Y"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:64
+msgid "My Account Page"
+msgstr "Mi página de cuenta"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:78
+msgid "Check In Time"
+msgstr "Hora de entrada"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:84
+msgid "Check Out Time"
+msgstr "Hora de salida"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:90
+msgid "Booking Form Add-Ons step"
+msgstr "Paso Complementos del formulario de reserva"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:91
+msgid ""
+"This option allows you to show / hide the Add-On step in the booking process"
+msgstr ""
+"Esta opción le permite mostrar/ocultar el paso Add-On en el proceso de "
+"reserva"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:95
+msgid "Show"
+msgstr "Espectáculo"
+
+#: includes/templates/backend/settings/shb-settings-general.htm.php:96
+msgid "Hide"
+msgstr "Esconder"
+
+#: includes/templates/backend/settings/shb-settings-messages.htm.php:14
+msgid "Booking success"
+msgstr "Éxito de reserva"
+
+#: includes/templates/backend/settings/shb-settings-messages.htm.php:20
+msgid "Booking page sidebar title"
+msgstr "Título de la barra lateral de la página de reserva"
+
+#: includes/templates/backend/settings/shb-settings-messages.htm.php:26
+msgid "Booking page sidebar message"
+msgstr "Mensaje de la barra lateral de la página de reserva"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:15
+msgid "Deposit"
+msgstr "Depósito"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:19
+msgid "Amount to pay (%)"
+msgstr "Monto a pagar (%)"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:30
+msgid "Base currency"
+msgstr "Moneda base"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:34
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:95
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:157
+msgid "Currency code"
+msgstr "Código de moneda"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:35
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:96
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:158
+msgid "E.g. USD"
+msgstr "Por Ejemplo USD"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:41
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:102
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:164
+msgid "Currency symbol"
+msgstr "Símbolo de moneda"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:42
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:103
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:165
+msgid "E.g. $"
+msgstr "Por Ejemplo $"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:48
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:109
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:171
+msgid "Currency symbol position"
+msgstr "Posición del símbolo de moneda"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:52
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:113
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:175
+msgid "Before price"
+msgstr "Antes del precio"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:53
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:114
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:176
+msgid "After price"
+msgstr "Después del precio"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:58
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:119
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:181
+msgid "Decimal places"
+msgstr "Lugares decimales"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:71
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:132
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:194
+msgid "Decimal separator"
+msgstr "Separador decimal"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:77
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:138
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:200
+msgid "Thousand separator"
+msgstr "separador de mil"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:83
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:145
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:207
+msgid "Conversion multiplier"
+msgstr "Multiplicador de conversión"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:84
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:146
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:208
+msgid ""
+"E.g. if your base currency is USD, and converted currency is EUR, go to "
+"Google and search '1 USD to EUR', the result will be something like '0.84', "
+"add this in the field. Add '1' for the base currency since we're not "
+"converting it"
+msgstr ""
+"P.ej. si su moneda base es USD y la moneda convertida es EUR, vaya a Google "
+"y busque ‘1 USD a EUR’, el resultado será algo así como ‘0.84’, agregue esto "
+"en el campo. Agregue ‘1’ para la moneda base ya que no la estamos "
+"convirtiendo"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:91
+msgid "Converted currency 1"
+msgstr "Moneda convertida 1"
+
+#: includes/templates/backend/settings/shb-settings-payments.htm.php:153
+msgid "Converted currency 2"
+msgstr "Moneda convertida 2"
+
+#: includes/templates/backend/tax/shb-tax.htm.php:7
+msgid "Tax Rate (%)"
+msgstr "Tasa de impuesto (%)"
+
+#: includes/templates/frontend/offer/shb-offer-single.htm.php:52
+msgid "Next page"
+msgstr "Siguiente página"
+
+#: includes/templates/frontend/offer/shb-offer-single.htm.php:53
+msgid "Previous page"
+msgstr "Pagina anterior"
+
+#: includes/templates/frontend/offer/shb-offer-single.htm.php:60
+msgid "Tags: "
+msgstr "Etiquetas:"
+
+#: includes/templates/frontend/offer/shb-offer-single.htm.php:103
+msgid "Rooms Eligible For Offer"
+msgstr "Habitaciones elegibles para la oferta"
+
+#: includes/widgets/shb-widget-booking.php:15
+msgid "Soho Hotel Booking Form"
+msgstr "Formulario de reserva de hotel en Soho"
+
+#: includes/widgets/shb-widget-booking.php:16
+msgid "Display Booking Form"
+msgstr "Mostrar formulario de reserva"
+
+#: includes/widgets/shb-widget-booking.php:216
+msgid "Show hotel select option:"
+msgstr "Mostrar opción de selección de hotel:"
+
+#. Plugin Name of the plugin/theme
+msgid "Soho Hotel Booking"
+msgstr "Soho Hotel Booking"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://quitenicestuff.com"
+msgstr "http://quitenicestuff.com"
+
+#. Description of the plugin/theme
+msgid "Accommodation Booking System"
+msgstr "Sistema de reserva de alojamiento"
+
+#. Author of the plugin/theme
+msgid "Quite Nice Stuff"
+msgstr "Quite Nice Stuff"
+
+#~ msgid "day"
+#~ msgstr "día"
+
+#~ msgid "accommodation"
+#~ msgstr "alojamiento"
+
+#~ msgid "&larr; Older posts"
+#~ msgstr "&larr; Publicaciones más antiguas"
+
+#~ msgid "Newer posts &rarr;"
+#~ msgstr "Publicaciones más recientes &rarr;"
+
+#~ msgid "Repeat Yearly"
+#~ msgstr "Repetir anualmente"
+
+#~ msgid "Repeat each year"
+#~ msgstr "Repetir cada año"

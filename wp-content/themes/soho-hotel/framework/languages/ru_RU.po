@@ -1,0 +1,2247 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Soho Hotel\n"
+"POT-Creation-Date: 2022-07-27 11:09+0800\n"
+"PO-Revision-Date: 2023-05-05 18:15+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: 404.php:9
+msgid "Page Not Found"
+msgstr "Страница не найдена"
+
+#: 404.php:10
+msgid ""
+"Sorry, the requested page could not be found, the page may have been deleted "
+"or you may have followed a broken link."
+msgstr ""
+"К сожалению, запрошенная страница не найдена, возможно, страница была "
+"удалена или вы перешли по неработающей ссылке."
+
+#: 404.php:14 search.php:14 searchform.php:3
+msgid "Search..."
+msgstr "Поиск…"
+
+#: archive.php:14
+#, php-format
+msgid "All posts in: \"%s\""
+msgstr "Все сообщения в: “%s”"
+
+#: archive.php:18
+#, php-format
+msgid "All posts tagged: \"%s\""
+msgstr "Все сообщения с тегами: “%s”"
+
+#: archive.php:23
+#, php-format
+msgid "All posts by: \"%s\""
+msgstr "Все сообщения от: “%s”"
+
+#: archive.php:27
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Ежедневные архивы: %s"
+
+#: archive.php:31
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Ежемесячный архив: %s"
+
+#: archive.php:31
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:35
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Годовой архив: %s"
+
+#: archive.php:35
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:38
+msgid "Archives"
+msgstr "Архивы"
+
+#: archive.php:86 category.php:41 index.php:43 single.php:27
+msgid "By"
+msgstr "К"
+
+#: archive.php:88 category.php:43 index.php:45
+msgid "No Comments"
+msgstr "Без комментариев"
+
+#: archive.php:88 category.php:43 comments.php:20 index.php:45
+msgid "1 Comment"
+msgstr "1 Комментарий"
+
+#: archive.php:88 category.php:43 comments.php:20 index.php:45
+msgid "% Comments"
+msgstr "% Комментарии"
+
+#: archive.php:88 category.php:43 index.php:45
+msgid "Comments Off"
+msgstr "Комментарии отключены"
+
+#: archive.php:99 category.php:54 functions.php:1276 index.php:56
+msgid "Read More"
+msgstr "Читать далее"
+
+#: comments.php:20
+msgid "No comments"
+msgstr "Без комментариев"
+
+#: comments.php:29
+msgid "&larr; Older Comments"
+msgstr "&larr; Старые комментарии"
+
+#: comments.php:30
+msgid "Newer Comments &rarr;"
+msgstr "Новые комментарии &rarr;"
+
+#: comments.php:49
+msgid "Comment"
+msgstr "Комментарий"
+
+#: comments.php:52
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+"Вы вошли как <a href=“%1$s”>%2$s</a>. <a href=“%3$s” title=“Выйти из этой "
+"учетной записи”>Выйти?</a>"
+
+#: comments.php:53 comments.php:54
+msgid "Leave a Comment"
+msgstr "Оставить комментарий"
+
+#: comments.php:55
+msgid "Cancel Reply To Comment"
+msgstr "Отменить ответ на комментарий"
+
+#: comments.php:56
+msgid "Submit Comment"
+msgstr "Отправить комментарий"
+
+#: comments.php:59
+msgid "Name"
+msgstr "Имя"
+
+#: comments.php:59 comments.php:60
+msgid "*"
+msgstr "*"
+
+#: comments.php:60 framework/inc/pagebuilder/pagebuilder_theme.php:217
+msgid "Email"
+msgstr "Электронная почта"
+
+#: comments.php:61
+msgid "Website"
+msgstr "Веб-сайт"
+
+#: footer.php:13
+msgid "&copy; 2021 Soho Hotel. All Rights Reserved"
+msgstr "&копировать; 2021 Отель Сохо. Все права защищены"
+
+#: footer.php:59
+msgid "Currency"
+msgstr "Валюта"
+
+#: footer.php:69
+msgid "Language"
+msgstr "Язык"
+
+#: framework/admin/admin-config.php:248
+msgid "Soho Hotel Settings"
+msgstr "Настройки отеля Сохо"
+
+#: framework/admin/admin-config.php:249
+msgid "Adjust Soho Hotel settings"
+msgstr "Изменить настройки отеля Soho"
+
+#: framework/admin/admin-config.php:260
+msgid "Header"
+msgstr "Заголовок"
+
+#: framework/admin/admin-config.php:277
+msgid "Header Style"
+msgstr "Стиль заголовка"
+
+#: framework/admin/admin-config.php:283
+msgid "Header 1"
+msgstr "Заголовок 1"
+
+#: framework/admin/admin-config.php:284
+msgid "Header 2"
+msgstr "Заголовок 2"
+
+#: framework/admin/admin-config.php:285
+msgid "Header 3"
+msgstr "Заголовок 3"
+
+#: framework/admin/admin-config.php:286
+msgid "Header 4"
+msgstr "Заголовок 4"
+
+#: framework/admin/admin-config.php:301
+msgid "Phone number"
+msgstr "Номер телефона"
+
+#: framework/admin/admin-config.php:319
+#: framework/inc/pagebuilder/pagebuilder_theme.php:201
+msgid "Address"
+msgstr "Адрес"
+
+#: framework/admin/admin-config.php:337
+msgid "Address URL"
+msgstr "URL-адрес адреса"
+
+#: framework/admin/admin-config.php:355
+msgid "Button label 1"
+msgstr "Метка кнопки 1"
+
+#: framework/admin/admin-config.php:373
+msgid "Button link 1"
+msgstr "Ссылка на кнопку 1"
+
+#: framework/admin/admin-config.php:379 framework/admin/admin-config.php:458
+msgid "http://"
+msgstr "http://"
+
+#: framework/admin/admin-config.php:394
+msgid "Button icon 1"
+msgstr "Значок кнопки 1"
+
+#: framework/admin/admin-config.php:412
+msgid "Button target 1"
+msgstr "Кнопка цель 1"
+
+#: framework/admin/admin-config.php:418 framework/admin/admin-config.php:497
+msgid "Open in new window/tab"
+msgstr "Открыть в новом окне/вкладке"
+
+#: framework/admin/admin-config.php:419 framework/admin/admin-config.php:498
+msgid "Open in same window/tab"
+msgstr "Открыть в том же окне/вкладке"
+
+#: framework/admin/admin-config.php:434
+msgid "Button label 2"
+msgstr "Метка кнопки 2"
+
+#: framework/admin/admin-config.php:452
+msgid "Button link 2"
+msgstr "Ссылка на кнопку 2"
+
+#: framework/admin/admin-config.php:473
+msgid "Button icon 2"
+msgstr "Значок кнопки 2"
+
+#: framework/admin/admin-config.php:491
+msgid "Button target 2"
+msgstr "Кнопка цель 2"
+
+#: framework/admin/admin-config.php:513 framework/admin/admin-config.php:611
+msgid "Display language selection"
+msgstr "Выбор языка дисплея"
+
+#: framework/admin/admin-config.php:519 framework/admin/admin-config.php:541
+#: framework/admin/admin-config.php:617 framework/admin/admin-config.php:639
+#: framework/admin/admin-config.php:1050
+#: framework/inc/pagebuilder/pagebuilder_theme.php:538
+#: framework/inc/pagebuilder/pagebuilder_theme.php:692
+msgid "No"
+msgstr "Нет"
+
+#: framework/admin/admin-config.php:520 framework/admin/admin-config.php:542
+#: framework/admin/admin-config.php:618 framework/admin/admin-config.php:640
+#: framework/admin/admin-config.php:1049
+#: framework/inc/pagebuilder/pagebuilder_theme.php:537
+#: framework/inc/pagebuilder/pagebuilder_theme.php:691
+msgid "Yes"
+msgstr "Да"
+
+#: framework/admin/admin-config.php:535 framework/admin/admin-config.php:633
+msgid "Display currency selection"
+msgstr "Показать выбор валюты"
+
+#: framework/admin/admin-config.php:550
+msgid "Footer"
+msgstr "Нижний колонтитул"
+
+#: framework/admin/admin-config.php:567
+msgid "Message"
+msgstr "Сообщение"
+
+#: framework/admin/admin-config.php:585
+msgid "Widget columns"
+msgstr "Столбцы виджета"
+
+#: framework/admin/admin-config.php:591
+msgid "1"
+msgstr "1"
+
+#: framework/admin/admin-config.php:592
+msgid "2"
+msgstr "2"
+
+#: framework/admin/admin-config.php:593
+msgid "3"
+msgstr "3"
+
+#: framework/admin/admin-config.php:594
+msgid "4"
+msgstr "4"
+
+#: framework/admin/admin-config.php:595
+msgid "5"
+msgstr "5"
+
+#: framework/admin/admin-config.php:596
+msgid "6"
+msgstr "6"
+
+#: framework/admin/admin-config.php:648 framework/admin/admin-config.php:665
+msgid "Logo"
+msgstr "Логотип"
+
+#: framework/admin/admin-config.php:668 framework/admin/admin-config.php:673
+#: framework/admin/admin-config.php:874 framework/admin/admin-config.php:879
+#: framework/admin/admin-config.php:899 framework/admin/admin-config.php:904
+#: framework/admin/admin-config.php:924 framework/admin/admin-config.php:929
+msgid "Select Image"
+msgstr "Выберите изображение"
+
+#: framework/admin/admin-config.php:669 framework/admin/admin-config.php:875
+#: framework/admin/admin-config.php:900 framework/admin/admin-config.php:925
+msgid "Change Image"
+msgstr "Изменить изображение"
+
+#: framework/admin/admin-config.php:670 framework/admin/admin-config.php:876
+#: framework/admin/admin-config.php:901 framework/admin/admin-config.php:926
+msgid "Remove"
+msgstr "Удалять"
+
+#: framework/admin/admin-config.php:671 framework/admin/admin-config.php:877
+#: framework/admin/admin-config.php:902 framework/admin/admin-config.php:927
+msgid "Default"
+msgstr "По умолчанию"
+
+#: framework/admin/admin-config.php:672 framework/admin/admin-config.php:878
+#: framework/admin/admin-config.php:903 framework/admin/admin-config.php:928
+msgid "No image selected"
+msgstr "Изображение не выбрано"
+
+#: framework/admin/admin-config.php:674 framework/admin/admin-config.php:880
+#: framework/admin/admin-config.php:905 framework/admin/admin-config.php:930
+msgid "Choose Image"
+msgstr "Выберите изображение"
+
+#: framework/admin/admin-config.php:690
+msgid "Desktop logo top margin (px)"
+msgstr "Верхнее поле логотипа рабочего стола (пикс.)"
+
+#: framework/admin/admin-config.php:709
+msgid "Desktop logo width (px or %)"
+msgstr "Ширина логотипа на рабочем столе (в пикселях или %)"
+
+#: framework/admin/admin-config.php:728
+msgid "Desktop logo max width (px or %)"
+msgstr "Максимальная ширина логотипа на рабочем столе (в пикселях или %)"
+
+#: framework/admin/admin-config.php:747
+msgid "Desktop sticky nav logo top margin (px)"
+msgstr "Верхнее поле липкого логотипа навигации на рабочем столе (пикс.)"
+
+#: framework/admin/admin-config.php:766
+msgid "Desktop sticky nav logo width (px or %)"
+msgstr ""
+"Ширина закрепленного логотипа навигации на рабочем столе (в пикселях или %)"
+
+#: framework/admin/admin-config.php:785
+msgid "Desktop sticky nav logo max width (px or %)"
+msgstr ""
+"Максимальная ширина прикрепленного логотипа навигации на рабочем столе (в "
+"пикселях или %)"
+
+#: framework/admin/admin-config.php:804
+msgid "Mobile logo top margin (px)"
+msgstr "Верхнее поле мобильного логотипа (пикс.)"
+
+#: framework/admin/admin-config.php:823
+msgid "Mobile logo width (px or %)"
+msgstr "Ширина мобильного логотипа (пкс или %)"
+
+#: framework/admin/admin-config.php:842
+msgid "Mobile logo max width (px or %)"
+msgstr "Максимальная ширина мобильного логотипа (пикс. или %)"
+
+#: framework/admin/admin-config.php:853
+msgid "Images"
+msgstr "Изображений"
+
+#: framework/admin/admin-config.php:871
+msgid "Default header image"
+msgstr "Изображение заголовка по умолчанию"
+
+#: framework/admin/admin-config.php:896
+msgid "Search header image"
+msgstr "Изображение заголовка поиска"
+
+#: framework/admin/admin-config.php:921
+msgid "404 header image"
+msgstr "Изображение заголовка 404"
+
+#: framework/admin/admin-config.php:938
+#: framework/inc/pagebuilder/pagebuilder_theme.php:986
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1035
+#: framework/inc/templates/backend/page/sohohotel-page.htm.php:6
+msgid "Layout"
+msgstr "Макет"
+
+#: framework/admin/admin-config.php:956
+msgid "Archive Layout"
+msgstr "Макет архива"
+
+#: framework/admin/admin-config.php:962 framework/admin/admin-config.php:985
+#: framework/admin/admin-config.php:1008
+#: framework/inc/templates/backend/page/sohohotel-page.htm.php:10
+msgid "Right Sidebar"
+msgstr "Правая боковая панель"
+
+#: framework/admin/admin-config.php:963 framework/admin/admin-config.php:986
+#: framework/admin/admin-config.php:1009
+#: framework/inc/templates/backend/page/sohohotel-page.htm.php:11
+msgid "Left Sidebar"
+msgstr "Левая боковая панель"
+
+#: framework/admin/admin-config.php:964 framework/admin/admin-config.php:987
+#: framework/admin/admin-config.php:1010
+#: framework/inc/templates/backend/page/sohohotel-page.htm.php:12
+msgid "Full Width"
+msgstr "Полная ширина"
+
+#: framework/admin/admin-config.php:979
+msgid "Category Layout"
+msgstr "Макет категории"
+
+#: framework/admin/admin-config.php:1002
+msgid "Search Layout"
+msgstr "Макет поиска"
+
+#: framework/admin/admin-config.php:1025
+msgid "Blog page URL"
+msgstr "URL-адрес страницы блога"
+
+#: framework/admin/admin-config.php:1043
+msgid "Show Newsletter Field Labels"
+msgstr "Показать метки полей новостной рассылки"
+
+#: framework/admin/admin-config.php:1058
+msgid "Colors"
+msgstr "Цвета"
+
+#: framework/admin/admin-config.php:1075
+msgid "Main color"
+msgstr "Основной цвет"
+
+#: framework/admin/admin-config.php:1093
+msgid "Header background color"
+msgstr "Цвет фона заголовка"
+
+#: framework/admin/admin-config.php:1111
+msgid "Header primary text color"
+msgstr "Цвет основного текста заголовка"
+
+#: framework/admin/admin-config.php:1129
+msgid "Header secondary text color"
+msgstr "Цвет вторичного текста заголовка"
+
+#: framework/admin/admin-config.php:1147
+msgid "Header border color"
+msgstr "Цвет границы заголовка"
+
+#: framework/admin/admin-config.php:1165
+msgid "Top right button background color"
+msgstr "Цвет фона верхней правой кнопки"
+
+#: framework/admin/admin-config.php:1183
+msgid "Top right button text color"
+msgstr "Цвет текста верхней правой кнопки"
+
+#: framework/admin/admin-config.php:1201
+msgid "Booking form button background color"
+msgstr "Цвет фона кнопки формы бронирования"
+
+#: framework/admin/admin-config.php:1219
+msgid "Booking form button text color"
+msgstr "Цвет текста кнопки формы бронирования"
+
+#: framework/admin/admin-config.php:1237
+msgid "Booking form icon color"
+msgstr "Цвет значка формы бронирования"
+
+#: framework/admin/admin-config.php:1255
+msgid "Footer background color"
+msgstr "Цвет фона нижнего колонтитула"
+
+#: framework/admin/admin-config.php:1273
+msgid "Footer text color"
+msgstr "Цвет текста нижнего колонтитула"
+
+#: framework/admin/admin-config.php:1291
+msgid "Footer border color"
+msgstr "Цвет границы нижнего колонтитула"
+
+#: framework/admin/admin-config.php:1309
+msgid "Footer bottom bar background color"
+msgstr "Цвет фона нижней панели нижнего колонтитула"
+
+#: framework/admin/admin-config.php:1327
+msgid "Footer bottom bar text color"
+msgstr "Цвет текста нижней панели нижнего колонтитула"
+
+#: framework/admin/admin-config.php:1345
+msgid "Slideshow button background color"
+msgstr "Цвет фона кнопки слайд-шоу"
+
+#: framework/admin/admin-config.php:1363
+msgid "Slideshow button text color"
+msgstr "Цвет текста кнопки слайд-шоу"
+
+#: framework/admin/admin-config.php:1381
+msgid "Title line color"
+msgstr "Цвет строки заголовка"
+
+#: framework/admin/admin-config.php:1399
+msgid "Datepicker hover background color"
+msgstr "Цвет фона при наведении указателя даты"
+
+#: framework/admin/admin-config.php:1417
+msgid "Datepicker select background color 1"
+msgstr "Datepicker выбрать цвет фона 1"
+
+#: framework/admin/admin-config.php:1435
+msgid "Datepicker select background color 2"
+msgstr "Datepicker выбрать цвет фона 2"
+
+#: framework/admin/admin-config.php:1453
+msgid "Booking background color"
+msgstr "Цвет фона бронирования"
+
+#: framework/admin/admin-config.php:1471
+msgid "Booking primary text color"
+msgstr "Бронирование основного цвета текста"
+
+#: framework/admin/admin-config.php:1489
+msgid "Booking secondary text color"
+msgstr "Бронирование дополнительного цвета текста"
+
+#: framework/admin/admin-config.php:1507
+msgid "Booking border color"
+msgstr "Цвет границы бронирования"
+
+#: framework/admin/admin-config.php:1525
+msgid "Footer Alternative Text Color"
+msgstr "Цвет альтернативного текста нижнего колонтитула"
+
+#: framework/admin/admin-config.php:1544
+msgid "Transparent header page IDs"
+msgstr "Идентификаторы прозрачных страниц шапки"
+
+#: framework/admin/admin-config.php:1555
+msgid "Fonts"
+msgstr "Шрифты"
+
+#: framework/admin/admin-config.php:1572
+msgid "Primary font family"
+msgstr "Основное семейство шрифтов"
+
+#: framework/admin/admin-config.php:1590
+msgid "Primary font weights"
+msgstr "Основной вес шрифта"
+
+#: framework/admin/admin-config.php:1608
+msgid "Secondary font family"
+msgstr "Второстепенное семейство шрифтов"
+
+#: framework/admin/admin-config.php:1626
+msgid "Secondary font weights"
+msgstr "Второстепенные веса шрифта"
+
+#: framework/admin/admin-config.php:1637
+msgid "Google API"
+msgstr "Google API"
+
+#: framework/admin/admin-config.php:1654
+msgid "Google API Key"
+msgstr "Ключ API Google"
+
+#: framework/inc/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr "Установите необходимые плагины"
+
+#: framework/inc/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr "Установить плагины"
+
+#. translators: %s: plugin name.
+#: framework/inc/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Установка плагина: %s"
+
+#. translators: %s: plugin name.
+#: framework/inc/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "Обновление плагина: %s"
+
+#: framework/inc/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr "Что-то пошло не так с API плагина."
+
+#. translators: 1: plugin name(s).
+#: framework/inc/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Для этой темы требуется следующий подключаемый модуль: %1$s."
+msgstr[1] "Для этой темы требуется следующий подключаемый модуль: %1$s."
+msgstr[2] "Для этой темы требуется следующий подключаемый модуль: %1$s."
+
+#. translators: 1: plugin name(s).
+#: framework/inc/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Для этой темы рекомендуется следующий плагин: %1$s."
+msgstr[1] "Для этой темы рекомендуется следующий плагин: %1$s."
+msgstr[2] "Для этой темы рекомендуется следующий плагин: %1$s."
+
+#. translators: 1: plugin name(s).
+#: framework/inc/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"Следующий плагин необходимо обновить до последней версии, чтобы обеспечить "
+"максимальную совместимость с этой темой: %1$s."
+msgstr[1] ""
+"Следующий плагин необходимо обновить до последней версии, чтобы обеспечить "
+"максимальную совместимость с этой темой: %1$s."
+msgstr[2] ""
+"Следующий плагин необходимо обновить до последней версии, чтобы обеспечить "
+"максимальную совместимость с этой темой: %1$s."
+
+#. translators: 1: plugin name(s).
+#: framework/inc/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Доступны обновления для следующих подключаемых модулей: %1$s."
+msgstr[1] "Доступны обновления для следующих подключаемых модулей: %1$s."
+msgstr[2] "Доступны обновления для следующих подключаемых модулей: %1$s."
+
+#. translators: 1: plugin name(s).
+#: framework/inc/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+"Следующие обязательные подключаемые модули в настоящее время неактивны: %1$s."
+msgstr[1] ""
+"Следующие обязательные подключаемые модули в настоящее время неактивны: %1$s."
+msgstr[2] ""
+"Следующие обязательные подключаемые модули в настоящее время неактивны: %1$s."
+
+#. translators: 1: plugin name(s).
+#: framework/inc/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+"Следующие рекомендуемые подключаемые модули в настоящее время неактивны: "
+"%1$s."
+msgstr[1] ""
+"Следующие рекомендуемые подключаемые модули в настоящее время неактивны: "
+"%1$s."
+msgstr[2] ""
+"Следующие рекомендуемые подключаемые модули в настоящее время неактивны: "
+"%1$s."
+
+#: framework/inc/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Начать установку плагинов"
+msgstr[1] "Начать установку плагинов"
+msgstr[2] "Начать установку плагинов"
+
+#: framework/inc/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Начать обновление плагинов"
+msgstr[1] "Начать обновление плагинов"
+msgstr[2] "Начать обновление плагинов"
+
+#: framework/inc/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Начать активацию плагина"
+msgstr[1] "Начать активацию плагина"
+msgstr[2] "Начать активацию плагина"
+
+#: framework/inc/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr "Вернуться к установщику необходимых плагинов"
+
+#: framework/inc/class-tgm-plugin-activation.php:393
+#: framework/inc/class-tgm-plugin-activation.php:912
+#: framework/inc/class-tgm-plugin-activation.php:2618
+#: framework/inc/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr "Вернуться к панели инструментов"
+
+#: framework/inc/class-tgm-plugin-activation.php:394
+#: framework/inc/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr "Плагин успешно активирован."
+
+#: framework/inc/class-tgm-plugin-activation.php:395
+#: framework/inc/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Следующие плагины были успешно активированы:"
+msgstr[1] "Следующие плагины были успешно активированы:"
+msgstr[2] "Следующие плагины были успешно активированы:"
+
+#. translators: 1: plugin name.
+#: framework/inc/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Никаких действий не принимается. Плагин %1$s уже был активен."
+
+#. translators: 1: plugin name.
+#: framework/inc/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Плагин не активирован. Для этой темы требуется более высокая версия %s. "
+"Пожалуйста, обновите плагин."
+
+#. translators: 1: dashboard link.
+#: framework/inc/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Все плагины успешно установлены и активированы. %1$s"
+
+#: framework/inc/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "Закрыть это уведомление"
+
+#: framework/inc/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Существует один или несколько обязательных или рекомендуемых подключаемых "
+"модулей для установки, обновления или активации."
+
+#: framework/inc/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "Обратитесь за помощью к администратору этого сайта."
+
+#: framework/inc/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Этот плагин необходимо обновить, чтобы он был совместим с вашей темой."
+
+#: framework/inc/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr "Требуется обновление"
+
+#: framework/inc/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"В пакете удаленного плагина нет папки с нужным слагом и переименование не "
+"помогло."
+
+#: framework/inc/class-tgm-plugin-activation.php:1019
+#: framework/inc/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Пожалуйста, свяжитесь с поставщиком плагина и попросите его упаковать свой "
+"плагин в соответствии с рекомендациями WordPress."
+
+#: framework/inc/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"Пакет удаленного подключаемого модуля состоит более чем из одного файла, но "
+"файлы не упакованы в папку."
+
+#: framework/inc/class-tgm-plugin-activation.php:1206
+#: framework/inc/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "и"
+
+#. translators: %s: version number
+#: framework/inc/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: framework/inc/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr "Необходимый"
+
+#: framework/inc/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr "рекомендуемые"
+
+#: framework/inc/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr "Репозиторий WordPress"
+
+#: framework/inc/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr "Внешний источник"
+
+#: framework/inc/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr "предварительно упакованный"
+
+#: framework/inc/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr "Не установлен"
+
+#: framework/inc/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr "Установленные но не активированы"
+
+#: framework/inc/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr "Активный"
+
+#: framework/inc/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr "Требуемое обновление недоступно"
+
+#: framework/inc/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr "Требуется обновление"
+
+#: framework/inc/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr "Рекомендуется обновить"
+
+#. translators: 1: install status, 2: update status
+#: framework/inc/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#. translators: 1: number of plugins.
+#: framework/inc/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Все <span class=“count”>(%s)</span>"
+msgstr[1] "Все <span class=“count”>(%s)</span>"
+msgstr[2] "Все <span class=“count”>(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: framework/inc/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Чтобы установить <span class=“count”>(%s)</span>"
+msgstr[1] "Чтобы установить <span class=“count”>(%s)</span>"
+msgstr[2] "Чтобы установить <span class=“count”>(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: framework/inc/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Доступно обновление <span class=“count”>(%s)</span>"
+msgstr[1] "Доступно обновление <span class=“count”>(%s)</span>"
+msgstr[2] "Доступно обновление <span class=“count”>(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: framework/inc/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Чтобы активировать <span class=“count”>(%s)</span>"
+msgstr[1] "Чтобы активировать <span class=“count”>(%s)</span>"
+msgstr[2] "Чтобы активировать <span class=“count”>(%s)</span>"
+
+#: framework/inc/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "неизвестный"
+
+#: framework/inc/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr "Установленная версия:"
+
+#: framework/inc/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr "Минимальная требуемая версия:"
+
+#: framework/inc/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr "Доступная версия:"
+
+#: framework/inc/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr "Никаких плагинов для установки, обновления или активации."
+
+#: framework/inc/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr "Плагин"
+
+#: framework/inc/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr "Источник"
+
+#: framework/inc/class-tgm-plugin-activation.php:2634
+#: framework/inc/pagebuilder/pagebuilder_theme.php:190
+#: framework/inc/pagebuilder/pagebuilder_theme.php:742
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1089
+msgid "Type"
+msgstr "Тип"
+
+#: framework/inc/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr "Версия"
+
+#: framework/inc/class-tgm-plugin-activation.php:2639
+#: woocommerce/myaccount/orders.php:69
+msgid "Status"
+msgstr "Положение дел"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: framework/inc/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr "Установить %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: framework/inc/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr "Обновить %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: framework/inc/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr "Активировать %2$s"
+
+#: framework/inc/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr "Сообщение об обновлении от автора плагина:"
+
+#: framework/inc/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr "Установить"
+
+#: framework/inc/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr "Обновлять"
+
+#: framework/inc/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr "Активировать"
+
+#: framework/inc/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Плагины для установки не выбраны. Никаких действий не принимается."
+
+#: framework/inc/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Плагины для обновления не выбраны. Никаких действий не принимается."
+
+#: framework/inc/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr "В настоящее время нет доступных для установки плагинов."
+
+#: framework/inc/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr "В настоящее время нет доступных для обновления плагинов."
+
+#: framework/inc/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Плагины для активации не выбраны. Никаких действий не принимается."
+
+#: framework/inc/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr "В настоящее время нет доступных для активации плагинов."
+
+#: framework/inc/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr "Активация плагина не удалась."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: framework/inc/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Обновление подключаемого модуля %1$s (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: error message.
+#: framework/inc/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "При установке %1$s произошла ошибка: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name.
+#: framework/inc/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "Не удалось установить %1$s."
+
+#: framework/inc/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Начинается процесс установки и активации. На некоторых хостах этот процесс "
+"может занять некоторое время, поэтому наберитесь терпения."
+
+#. translators: 1: plugin name.
+#: framework/inc/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s успешно установлено и активировано."
+
+#: framework/inc/class-tgm-plugin-activation.php:3594
+#: framework/inc/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr "Показать детали"
+
+#: framework/inc/class-tgm-plugin-activation.php:3594
+#: framework/inc/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr "Скрыть детали"
+
+#: framework/inc/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr "Все установки и активации завершены."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: framework/inc/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Установка и активация подключаемого модуля %1$s (%2$d/%3$d)"
+
+#: framework/inc/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Начинается процесс установки. На некоторых хостах этот процесс может занять "
+"некоторое время, поэтому наберитесь терпения."
+
+#. translators: 1: plugin name.
+#: framework/inc/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s успешно установлено."
+
+#: framework/inc/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr "Все установки завершены."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: framework/inc/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Установка подключаемого модуля %1$s (%2$d/%3$d)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:37
+#: framework/inc/pagebuilder/pagebuilder_theme.php:47
+#: framework/inc/pagebuilder/pagebuilder_theme.php:486
+#: framework/inc/pagebuilder/pagebuilder_theme.php:648
+#: framework/inc/pagebuilder/pagebuilder_theme.php:970
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1081
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1720
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1774
+#: framework/inc/templates/backend/page/sohohotel-page.htm.php:18
+msgid "Title"
+msgstr "Заголовок"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:38
+msgid "Add a title"
+msgstr "Добавить заголовок"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:55
+msgid "Size"
+msgstr "Размер"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:58
+msgid "20px"
+msgstr "20px"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:59
+msgid "25px"
+msgstr "25px"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:60
+msgid "28px"
+msgstr "28px"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:61
+msgid "35px"
+msgstr "35px"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:68
+msgid "Alignment"
+msgstr "Выравнивание"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:71
+#: framework/inc/pagebuilder/pagebuilder_theme.php:883
+msgid "Left"
+msgstr "Левый"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:72
+#: framework/inc/pagebuilder/pagebuilder_theme.php:885
+msgid "Center"
+msgstr "Центр"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:83
+msgid "Hotel Listing"
+msgstr "Список отелей"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:84
+msgid "Add a hotel listing"
+msgstr "Добавить список отелей"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:93
+msgid "Columns"
+msgstr "Столбцы"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:96
+msgid "2 Columns"
+msgstr "2 столбца"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:97
+msgid "3 Columns"
+msgstr "3 столбца"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:104
+#: framework/inc/pagebuilder/pagebuilder_theme.php:761
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1847
+msgid "Title 1"
+msgstr "Название 1"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:112
+msgid "Link URL 1"
+msgstr "URL-адрес ссылки 1"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:120
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1839
+msgid "Image 1"
+msgstr "Изображение 1"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:128
+#: framework/inc/pagebuilder/pagebuilder_theme.php:785
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1914
+msgid "Title 2"
+msgstr "Название 2"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:136
+msgid "Link URL 2"
+msgstr "URL-адрес ссылки 2"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:144
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1906
+msgid "Image 2"
+msgstr "Изображение 2"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:152
+#: framework/inc/pagebuilder/pagebuilder_theme.php:809
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1981
+msgid "Title 3"
+msgstr "Название 3"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:160
+msgid "Link URL 3"
+msgstr "URL-адрес ссылки 3"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:168
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1973
+msgid "Image 3"
+msgstr "Изображение 3"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:180
+msgid "Contact Details"
+msgstr "Контактная информация"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:181
+msgid "Display contact details in icon list"
+msgstr "Отображать контактную информацию в списке значков"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:193
+msgid "Type 1"
+msgstr "Тип 1"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:194
+msgid "Type 2"
+msgstr "Тип 2"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:209
+msgid "Phone"
+msgstr "Телефон"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:229
+msgid "Google Map"
+msgstr "Google Map"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:230
+msgid "Display Google Map"
+msgstr "Показать карту Google"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:239
+msgid "Map ID"
+msgstr "Идентификатор карты"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:248
+msgid "Width"
+msgstr "Ширина"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:257
+msgid "Height"
+msgstr "Высота"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:266
+msgid "Map Type"
+msgstr "Тип карты"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:275
+msgid "Zoom"
+msgstr "Увеличить"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:284
+msgid "Latitude"
+msgstr "Широта"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:293
+msgid "Longitude"
+msgstr "Долгота"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:302
+msgid "Marker Content"
+msgstr "Содержимое маркера"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:311
+msgid "Map Color"
+msgstr "Цвет карты"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:319
+msgid "Marker Color"
+msgstr "Цвет карты"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:331
+msgid "Social Media"
+msgstr "Социальные медиа"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:332
+msgid "Display social media icon links"
+msgstr "Отображение ссылок на значки социальных сетей"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:341
+msgid "Facebook"
+msgstr "Facebook"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:349
+msgid "Flickr"
+msgstr "Flickr"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:357
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:365
+msgid "Instagram"
+msgstr "Instagram"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:373
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:381
+msgid "Skype"
+msgstr "Skype"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:389
+msgid "Soundcloud"
+msgstr "Soundcloud"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:397
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:405
+msgid "Twitter"
+msgstr "Twitter"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:413
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:421
+msgid "Vine"
+msgstr "Vine"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:429
+msgid "Yelp"
+msgstr "Yelp"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:437
+msgid "Youtube"
+msgstr "Youtube"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:445
+msgid "Trip Advisor"
+msgstr "Trip Advisor"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:457
+msgid "Image Text"
+msgstr "Текст изображения"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:458
+msgid "Add a large image with text and a button beside it"
+msgstr "Добавьте большое изображение с текстом и кнопкой рядом с ним"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:467
+#: framework/inc/pagebuilder/pagebuilder_theme.php:580
+#: framework/inc/pagebuilder/pagebuilder_theme.php:629
+msgid "Image Alignment"
+msgstr "Выравнивание изображения"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:470
+#: framework/inc/pagebuilder/pagebuilder_theme.php:583
+#: framework/inc/pagebuilder/pagebuilder_theme.php:632
+msgid "Left Align Image"
+msgstr "Изображение с выравниванием по левому краю"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:471
+#: framework/inc/pagebuilder/pagebuilder_theme.php:584
+#: framework/inc/pagebuilder/pagebuilder_theme.php:633
+msgid "Right Align Image"
+msgstr "Изображение с выравниванием по правому краю"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:478
+#: framework/inc/pagebuilder/pagebuilder_theme.php:591
+#: framework/inc/pagebuilder/pagebuilder_theme.php:640
+#: framework/inc/pagebuilder/pagebuilder_theme.php:962
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1011
+msgid "Image"
+msgstr "Изображение"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:494
+#: framework/inc/pagebuilder/pagebuilder_theme.php:656
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1674
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1728
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1782
+msgid "Text"
+msgstr "Текст"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:502
+#: framework/inc/pagebuilder/pagebuilder_theme.php:664
+#: framework/inc/pagebuilder/pagebuilder_theme.php:863
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1682
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1736
+msgid "Button Text"
+msgstr "Текст кнопки"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:510
+#: framework/inc/pagebuilder/pagebuilder_theme.php:672
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1690
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1744
+msgid "Button URL"
+msgstr "URL-адрес кнопки"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:518
+#: framework/inc/pagebuilder/pagebuilder_theme.php:680
+msgid "Button Icon"
+msgstr "Значок кнопки"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:526
+msgid "Image Gallery IDs"
+msgstr "Идентификаторы галереи изображений"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:534
+#: framework/inc/pagebuilder/pagebuilder_theme.php:688
+msgid "Open link in new window"
+msgstr "Открыть ссылку в новом окне"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:544
+#: framework/inc/pagebuilder/pagebuilder_theme.php:706
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1045
+msgid "Background color"
+msgstr "Фоновый цвет"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:551
+#: framework/inc/pagebuilder/pagebuilder_theme.php:713
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1052
+msgid "Primary text color"
+msgstr "Основной цвет текста"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:558
+#: framework/inc/pagebuilder/pagebuilder_theme.php:720
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1059
+msgid "Secondary text color"
+msgstr "Вторичный цвет текста"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:570
+msgid "Image Testimonial"
+msgstr "Отзыв об изображении"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:571
+msgid "Add a large image with a testimonial beside it"
+msgstr "Добавьте большое изображение с отзывом рядом с ним"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:599
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1019
+msgid "Testimonial Text"
+msgstr "Текст отзыва"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:607
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1027
+msgid "Guest Name"
+msgstr "Имя гостя"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:619
+msgid "Video Text"
+msgstr "Видео текст"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:620
+msgid "Add a video and text"
+msgstr "Добавьте видео и текст"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:699
+#: framework/inc/pagebuilder/pagebuilder_theme.php:939
+msgid "Video URL"
+msgstr "URL-адрес видео"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:732
+msgid "Icon Text"
+msgstr "Текст значка"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:733
+msgid "Add an icon with text"
+msgstr "Добавьте иконку с текстом"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:745
+msgid "Left Aligned Icons"
+msgstr "Значки с выравниванием по левому краю"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:746
+msgid "Center Aligned Icons"
+msgstr "Значки с выравниванием по центру"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:753
+msgid "Icon 1"
+msgstr "Значок 1"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:769
+msgid "Content 1"
+msgstr "Содержание 1"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:777
+msgid "Icon 2"
+msgstr "Значок 2"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:793
+msgid "Content 2"
+msgstr "Содержание 2"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:801
+msgid "Icon 3"
+msgstr "Значок 3"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:817
+msgid "Content 3"
+msgstr "Содержание 3"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:825
+msgid "Icon 4"
+msgstr "Значок 4"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:833
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2048
+msgid "Title 4"
+msgstr "Название 4"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:841
+msgid "Content 4"
+msgstr "Содержание 4"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:853
+msgid "Button"
+msgstr "Кнопка"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:854
+msgid "Add a button"
+msgstr "Добавить кнопку"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:871
+msgid "Link"
+msgstr "Связь"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:880
+msgid "Align"
+msgstr "Выровнять"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:884
+msgid "Right"
+msgstr "Верно"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:892
+msgid "Background Color"
+msgstr "Фоновый цвет"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:900
+msgid "Text Color"
+msgstr "Цвет текста"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:908
+msgid "Margin Bottom"
+msgstr "Поле внизу"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:911
+msgid "e.g. 30px"
+msgstr "например 30px"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:921
+msgid "Video Thumbnail"
+msgstr "Миниатюра видео"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:922
+msgid "Add a video with a thumbnail image"
+msgstr "Добавьте видео с уменьшенным изображением"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:931
+msgid "Thumbnail Image"
+msgstr "Миниатюрное изображение"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:952
+msgid "Fixed Height Text Image"
+msgstr "Текстовое изображение фиксированной высоты"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:953
+msgid "Add text and an image with a fixed height"
+msgstr "Добавьте текст и изображение с фиксированной высотой"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:978
+msgid "Content"
+msgstr "Содержание"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:989
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1038
+msgid "Image on right"
+msgstr "Изображение справа"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:990
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1039
+msgid "Image on left"
+msgstr "Изображение слева"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1001
+msgid "Single Testimonial"
+msgstr "Один отзыв"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1002
+msgid "Add single testimonial with an image"
+msgstr "Добавить один отзыв с изображением"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1071
+msgid "Testimonials Carousel"
+msgstr "Карусель отзывов"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1072
+msgid "Display testimonials in a carousel"
+msgstr "Отображение отзывов в карусели"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1100
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1376
+msgid "Post quantity to display"
+msgstr "Количество постов для отображения"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1209
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1351
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1485
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1641
+msgid "Order"
+msgstr "Заказ"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1220
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1698
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1752
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1798
+msgid "Background Image"
+msgstr "Изображение на заднем плане"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1232
+msgid "Testimonials Page"
+msgstr "Страница отзывов"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1233
+msgid "Display the testimonials page content"
+msgstr "Показать содержимое страницы отзывов"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1242
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1532
+msgid "Posts per page"
+msgstr "Сообщений на странице"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1366
+msgid "Blog Carousel"
+msgstr "Блог Карусель"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1367
+msgid "Display blog posts in a carousel"
+msgstr "Отображение сообщений блога в карусели"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1496
+msgid "Category"
+msgstr "Категория"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1499
+msgid "Leave blank to display all post categories"
+msgstr "Оставьте пустым, чтобы отобразить все категории сообщений."
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1509
+msgid "Blog Page"
+msgstr "Страница блога"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1510
+msgid "Display blog posts"
+msgstr "Отображение сообщений в блоге"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1519
+msgid "Style"
+msgstr "Стиль"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1652
+msgid "Category ID (Leave empty to display all categories)"
+msgstr ""
+"Идентификатор категории (оставьте пустым, чтобы отобразить все категории)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1664
+msgid "Call To Action Small"
+msgstr "Призыв к действию, маленький"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1665
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1711
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1765
+msgid "Display call to action"
+msgstr "Показать призыв к действию"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1710
+msgid "Call To Action Large"
+msgstr "Призыв к действию большой"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1764
+msgid "Call To Action Video"
+msgstr "Видео с призывом к действию"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1790
+msgid "Youtube Video URL"
+msgstr "URL видео на ютубе"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1810
+msgid "Slideshow"
+msgstr "Слайд-шоу"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1811
+msgid "Create a simple slideshow"
+msgstr "Создайте простое слайд-шоу"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1820
+msgid "Full screen"
+msgstr "Полноэкранный"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1831
+msgid "Full screen offset"
+msgstr "Полное смещение экрана"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1855
+msgid "Text 1"
+msgstr "Текст 1"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1863
+msgid "Button Text 1"
+msgstr "Текст кнопки 1"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1871
+msgid "Button URL 1"
+msgstr "URL-адрес кнопки 1"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1879
+msgid "Align 1"
+msgstr "Выровнять 1"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1890
+msgid "Overlay Color 1 (e.g. '#000')"
+msgstr "Цвет наложения 1 (например, «#000»)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1898
+msgid "Overlay Opacity 1 (e.g. '0.1' or '0.9' etc)"
+msgstr "Непрозрачность наложения 1 (например, «0.1» или «0.9» и т. д.)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1922
+msgid "Text 2"
+msgstr "Текст 2"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1930
+msgid "Button Text 2"
+msgstr "Текст кнопки 2"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1938
+msgid "Button URL 2"
+msgstr "URL-адрес кнопки 2"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1946
+msgid "Align 2"
+msgstr "Выровнять 2"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1957
+msgid "Overlay Color 2 (e.g. '#000')"
+msgstr "Цвет наложения 2 (например, «#000»)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1965
+msgid "Overlay Opacity 2 (e.g. '0.1' or '0.9' etc)"
+msgstr "Непрозрачность наложения 2 (например, «0.1» или «0.9» и т. д.)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1989
+msgid "Text 3"
+msgstr "Текст 3"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:1997
+msgid "Button Text 3"
+msgstr "Текст кнопки 3"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2005
+msgid "Button URL 3"
+msgstr "URL-адрес кнопки 3"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2013
+msgid "Align 3"
+msgstr "Выровнять 3"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2024
+msgid "Overlay Color 3 (e.g. '#000')"
+msgstr "Цвет наложения 3 (например, «#000»)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2032
+msgid "Overlay Opacity 3 (e.g. '0.1' or '0.9' etc)"
+msgstr "Непрозрачность наложения 3 (например, «0.1» или «0.9» и т. д.)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2040
+msgid "Image 4"
+msgstr "Изображение 4"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2056
+msgid "Text 4"
+msgstr "Текст 4"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2064
+msgid "Button Text 4"
+msgstr "Текст кнопки 4"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2072
+msgid "Button URL 4"
+msgstr "URL-адрес кнопки 4"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2080
+msgid "Align 4"
+msgstr "Выровнять 4"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2091
+msgid "Overlay Color 4 (e.g. '#000')"
+msgstr "Цвет наложения 4 (например, «#000»)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2099
+msgid "Overlay Opacity 4 (e.g. '0.1' or '0.9' etc)"
+msgstr "Непрозрачность наложения 4 (например, «0.1» или «0.9» и т. д.)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2107
+msgid "Image 5"
+msgstr "Изображение 5"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2115
+msgid "Title 5"
+msgstr "Название 5"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2123
+msgid "Text 5"
+msgstr "Текст 5"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2131
+msgid "Button Text 5"
+msgstr "Текст кнопки 5"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2139
+msgid "Button URL 5"
+msgstr "URL-адрес кнопки 5"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2147
+msgid "Align 5"
+msgstr "Выровнять 5"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2158
+msgid "Overlay Color 5 (e.g. '#000')"
+msgstr "Цвет наложения 5 (например, «#000»)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2166
+msgid "Overlay Opacity 5 (e.g. '0.1' or '0.9' etc)"
+msgstr "Непрозрачность наложения 5 (например, «0.1» или «0.9» и т. д.)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2174
+msgid "Image 6"
+msgstr "Изображение 6"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2182
+msgid "Title 6"
+msgstr "Название 6"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2190
+msgid "Text 6"
+msgstr "Текст 6"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2198
+msgid "Button Text 6"
+msgstr "Текст кнопки 6"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2206
+msgid "Button URL 6"
+msgstr "URL-адрес кнопки 6"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2214
+msgid "Align 6"
+msgstr "Выровнять 6"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2225
+msgid "Overlay Color 6 (e.g. '#000')"
+msgstr "Цвет наложения 6 (например, «#000»)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2233
+msgid "Overlay Opacity 6 (e.g. '0.1' or '0.9' etc)"
+msgstr "Непрозрачность наложения 6 (например, «0.1» или «0.9» и т. д.)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2241
+msgid "Image 7"
+msgstr "Изображение 7"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2249
+msgid "Title 7"
+msgstr "Название 7"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2257
+msgid "Text 7"
+msgstr "Текст 7"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2265
+msgid "Button Text 7"
+msgstr "Текст кнопки 7"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2273
+msgid "Button URL 7"
+msgstr "URL-адрес кнопки 7"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2281
+msgid "Align 7"
+msgstr "Выровнять 7"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2292
+msgid "Overlay Color 7 (e.g. '#000')"
+msgstr "Цвет наложения 7 (например, «#000»)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2300
+msgid "Overlay Opacity 7 (e.g. '0.1' or '0.9' etc)"
+msgstr "Непрозрачность наложения 7 (например, «0.1» или «0.9» и т. д.)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2308
+msgid "Image 8"
+msgstr "Изображение 8"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2316
+msgid "Title 8"
+msgstr "Название 8"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2324
+msgid "Text 8"
+msgstr "Текст 8"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2332
+msgid "Button Text 8"
+msgstr "Текст кнопки 8"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2340
+msgid "Button URL 8"
+msgstr "URL-адрес кнопки 8"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2348
+msgid "Align 8"
+msgstr "Выровнять 8"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2359
+msgid "Overlay Color 8 (e.g. '#000')"
+msgstr "Цвет наложения 8 (например, «#000»)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2367
+msgid "Overlay Opacity 8 (e.g. '0.1' or '0.9' etc)"
+msgstr "Непрозрачность наложения 8 (например, «0.1» или «0.9» и т. д.)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2375
+msgid "Image 9"
+msgstr "Изображение 9"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2383
+msgid "Title 9"
+msgstr "Название 9"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2391
+msgid "Text 9"
+msgstr "Текст 9"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2399
+msgid "Button Text 9"
+msgstr "Текст кнопки 9"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2407
+msgid "Button URL 9"
+msgstr "URL-адрес кнопки 9"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2415
+msgid "Align 9"
+msgstr "Выровнять 9"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2426
+msgid "Overlay Color 9 (e.g. '#000')"
+msgstr "Цвет наложения 9 (например, «#000»)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2434
+msgid "Overlay Opacity 9 (e.g. '0.1' or '0.9' etc)"
+msgstr "Непрозрачность наложения 9 (например, «0.1» или «0.9» и т. д.)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2442
+msgid "Image 10"
+msgstr "Изображение 10"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2450
+msgid "Title 10"
+msgstr "Название 10"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2458
+msgid "Text 10"
+msgstr "Текст 10"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2466
+msgid "Button Text 10"
+msgstr "Текст кнопки 10"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2474
+msgid "Button URL 10"
+msgstr "URL-адрес кнопки 10"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2482
+msgid "Align 10"
+msgstr "Выровнять 10"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2493
+msgid "Overlay Color 10 (e.g. '#000')"
+msgstr "Цвет наложения 10 (например, «#000»)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2501
+msgid "Overlay Opacity 10 (e.g. '0.1' or '0.9' etc)"
+msgstr "Непрозрачность наложения 10 (например, «0.1» или «0.9» и т. д.)"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2514
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2524
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2534
+msgid "Fixed Width"
+msgstr "Фиксированная ширина"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2516
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2526
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2536
+msgid "yes"
+msgstr "да"
+
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2517
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2527
+#: framework/inc/pagebuilder/pagebuilder_theme.php:2537
+msgid ""
+"If you're using the unboxed full width page layout check this option to "
+"display boxed content"
+msgstr ""
+"Если вы используете неупакованный макет страницы с полной шириной, "
+"установите этот флажок, чтобы отображать упакованное содержимое."
+
+#: framework/inc/templates/backend/page/sohohotel-page.htm.php:13
+msgid "Full Width Unboxed"
+msgstr "Полная ширина без коробки"
+
+#: framework/inc/templates/backend/page/sohohotel-page.htm.php:22
+msgid "Standard Title"
+msgstr "Стандартное название"
+
+#: framework/inc/templates/backend/page/sohohotel-page.htm.php:23
+msgid "No Title"
+msgstr "Без заголовка"
+
+#: framework/inc/templates/backend/post/sohohotel-post.htm.php:6
+msgid "Enter a short summary of the post"
+msgstr "Введите краткое содержание поста"
+
+#: functions.php:719
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr "на"
+
+#: functions.php:770
+msgid "Soho Hotel Shortcodes & Post Types"
+msgstr "Soho Hotel Shortcodes & Post Types"
+
+#: functions.php:780
+msgid "Soho Hotel Booking"
+msgstr "Soho Hotel Booking"
+
+#: functions.php:790
+msgid "Soho Hotel Demo Data"
+msgstr "Soho Hotel Demo Data"
+
+#: functions.php:800
+msgid "WP Bakery Page Builder"
+msgstr "WP Bakery Page Builder"
+
+#: functions.php:810
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#: functions.php:819
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: functions.php:828
+msgid "WP PageNavi"
+msgstr "WP PageNavi"
+
+#: functions.php:837
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: functions.php:897
+msgid "Standard Page Sidebar"
+msgstr "Стандартная боковая панель страницы"
+
+#: functions.php:899
+msgid "Displayed on all pages with a sidebar set"
+msgstr "Отображается на всех страницах с установленной боковой панелью"
+
+#: functions.php:908
+msgid "Footer Area"
+msgstr "Нижний колонтитул"
+
+#: functions.php:910
+msgid "Displayed at the bottom of all pages"
+msgstr "Отображается внизу всех страниц"
+
+#: functions.php:937
+msgid "Primary Navigation Left"
+msgstr "Основная навигация слева"
+
+#: functions.php:938
+msgid "Primary Navigation Right"
+msgstr "Основное право навигации"
+
+#: functions.php:939 functions.php:946
+msgid "Primary Navigation Mobile"
+msgstr "Основная мобильная навигация"
+
+#: functions.php:945
+msgid "Primary Navigation"
+msgstr "Основная навигация"
+
+#: functions.php:1202
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: functions.php:1204
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s в %2$s"
+
+#: functions.php:1210
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает модерации."
+
+#: functions.php:1217
+msgid "(Edit)"
+msgstr "(Редактировать)"
+
+#: functions.php:1241
+msgid ""
+"This post is password protected. To view it please enter your password below"
+msgstr "Эта запись защищена паролем. Для просмотра введите свой пароль ниже"
+
+#: functions.php:1242
+msgid "Password"
+msgstr "Пароль"
+
+#: functions.php:1242
+msgid "Submit"
+msgstr "Представлять на рассмотрение"
+
+#: functions.php:1291
+msgid "Post"
+msgstr "Почта"
+
+#: functions.php:1295
+msgid "Testimonial"
+msgstr "Отзыв"
+
+#: functions.php:1299
+msgid "Page"
+msgstr "Страница"
+
+#: functions.php:1303
+msgid "Room"
+msgstr "Комната"
+
+#: page.php:13
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: search.php:10
+msgid "You searched for:"
+msgstr "Вы искали:"
+
+#: search.php:74
+msgid "No results were found."
+msgstr "Ничего не найдено."
+
+#: single.php:54
+msgid "Next page"
+msgstr "Следущая страница"
+
+#: single.php:55
+msgid "Previous page"
+msgstr "Предыдущая страница"
+
+#: single.php:62
+msgid "Tags: "
+msgstr "Теги:"
+
+#: single.php:92
+msgid "More News"
+msgstr "Больше новостей"
+
+#: single.php:161
+msgid "No news has been added yet"
+msgstr "Новости еще не добавлены"
+
+#: single.php:167
+msgid "View More"
+msgstr "Посмотреть больше"
+
+#: sohohotel-pagetitle.php:12
+msgid "Latest News"
+msgstr "Последние новости"
+
+#: sohohotel-pagination.php:18 sohohotel-pagination.php:42
+msgid "&larr; Older posts"
+msgstr "&larr; Старые сообщения"
+
+#: sohohotel-pagination.php:19 sohohotel-pagination.php:43
+msgid "Newer posts &rarr;"
+msgstr "Более новые сообщения &rarr;"
+
+#: woocommerce/checkout/review-order.php:23
+msgid "Product"
+msgstr "Продукт"
+
+#: woocommerce/checkout/review-order.php:24
+#: woocommerce/checkout/review-order.php:56
+msgid "Subtotal"
+msgstr "Промежуточный итог"
+
+#: woocommerce/checkout/review-order.php:103
+#: woocommerce/myaccount/orders.php:70
+msgid "Total"
+msgstr "Общий"
+
+#: woocommerce/checkout/review-order.php:117
+#, php-format
+msgid "%s deposit due now for total price of %s"
+msgstr "Депозит %s к уплате сейчас на общую сумму %s"
+
+#: woocommerce/myaccount/orders.php:67
+msgid "Booking ID"
+msgstr "Идентификатор бронирования"
+
+#: woocommerce/myaccount/orders.php:68
+msgid "Date"
+msgstr "Дата"
+
+#: woocommerce/myaccount/orders.php:88
+msgid "No bookings have been placed yet."
+msgstr "Бронирования еще не было."
+
+#. Theme Name of the plugin/theme
+msgid "Soho Hotel"
+msgstr "Soho Hotel"
+
+#. Theme URI of the plugin/theme
+msgid "http://themes.quitenicestuff.com/sohohotelwp"
+msgstr "http://themes.quitenicestuff.com/sohohotelwp"
+
+#. Description of the plugin/theme
+msgid "A Premium WordPress Theme For Hotels and Accommodation Providers"
+msgstr "Тема премиум-класса WordPress для отелей и поставщиков жилья"
+
+#. Author of the plugin/theme
+msgid "quitenicestuff"
+msgstr "quitenicestuff"
+
+#. Author URI of the plugin/theme
+msgid "http://themeforest.net/user/quitenicestuff"
+msgstr "http://themeforest.net/user/quitenicestuff"

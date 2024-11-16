@@ -1,0 +1,619 @@
+/*
+ * jQuery FlexSlider v2.7.2
+ * https://www.woocommerce.com/flexslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the GPLv2 and later license.
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Contributing author: Tyler Smith (@mbmufffin)
+ *
+ */
+/* ====================================================================================================================
+ * RESETS
+ * ====================================================================================================================*/
+.flex-container a:hover,
+.flex-slider a:hover {
+  outline: none;
+}
+.slides,
+.slides > li,
+.flex-control-nav,
+.flex-direction-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.flex-pauseplay span {
+  text-transform: capitalize;
+}
+/* ====================================================================================================================
+ * BASE STYLES
+ * ====================================================================================================================*/
+.flexslider {
+  margin: 0;
+  padding: 0;
+}
+.flexslider .slides > li {
+  display: none;
+  -webkit-backface-visibility: hidden;
+}
+.flexslider .slides img {
+  width: 100%;
+  display: block;
+}
+.flexslider .slides:after {
+  content: "\0020";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+html[xmlns] .flexslider .slides {
+  display: block;
+}
+* html .flexslider .slides {
+  height: 1%;
+}
+.no-js .flexslider .slides > li:first-child {
+  display: block;
+}
+
+.flexslider .slides > li {
+	padding: 0;
+}
+
+.flexslider .slides > li:before {
+	display: none;
+}
+
+/* ====================================================================================================================
+ * DEFAULT THEME
+ * ====================================================================================================================*/
+.flexslider {
+  position: relative;
+  zoom: 1;
+  overflow: hidden;
+}
+.flexslider .slides {
+  zoom: 1;
+  margin: 0;
+}
+.flexslider .slides img {
+  height: auto;
+  -moz-user-select: none;
+}
+.flex-viewport {
+  max-height: 2000px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.loading .flex-viewport {
+  max-height: 300px;
+}
+@-moz-document url-prefix() {
+  .loading .flex-viewport {
+    max-height: none;
+  }
+}
+.carousel li {
+  margin-right: 5px;
+}
+.flex-direction-nav {
+  *height: 0;
+}
+.flex-direction-nav a {
+  text-decoration: none;
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: -20px 0 0;
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: transparent;
+}
+.flex-direction-nav a:before {
+	font-family: "Font Awesome 5 Free";
+	font-style: normal;
+	font-weight: 900;
+	text-decoration: inherit;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	content: '\f053';
+  font-size: 22px;
+  display: inline-block;  
+  color: #fff;
+  position: absolute;
+  top: 13px;
+  left: 19px;
+}
+
+.flex-direction-nav a.flex-next:before {
+  content: '\f054';
+}
+
+ul li.flex-nav-prev,
+ul li.flex-nav-next {
+	position: static;
+	padding: 0;
+}
+
+.flex-direction-nav .flex-prev {
+  left: -50px;
+}
+.flex-direction-nav .flex-next {
+  right: -50px;
+}
+.flexslider:hover .flex-direction-nav .flex-prev {
+  left: 13px;
+}
+
+.flexslider:hover .flex-direction-nav .flex-next {
+  right: 13px;
+}
+
+.flex-direction-nav .flex-disabled {
+  opacity: 0!important;
+  filter: alpha(opacity=0);
+  cursor: default;
+  z-index: -1;
+}
+.flex-pauseplay a {
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  opacity: 0.8;
+  z-index: 10;
+  overflow: hidden;
+  cursor: pointer;
+  color: #000;
+}
+.flex-pauseplay a:before {
+  font-family: "flexslider-icon";
+  font-size: 20px;
+  display: inline-block;
+  content: '\f004';
+}
+.flex-pauseplay a:hover {
+  opacity: 1;
+}
+.flex-pauseplay a.flex-play:before {
+  content: '\f003';
+}
+.flex-control-nav {
+  width: 100%;
+  position: absolute;
+  bottom: -40px;
+  text-align: center;
+}
+.flex-control-nav li {
+  margin: 0 6px;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+.flex-control-paging li a {
+  width: 11px;
+  height: 11px;
+  display: block;
+  background: #666;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  text-indent: -9999px;
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+.flex-control-paging li a:hover {
+  background: #333;
+  background: rgba(0, 0, 0, 0.7);
+}
+.flex-control-paging li a.flex-active {
+  background: #000;
+  background: rgba(0, 0, 0, 0.9);
+  cursor: default;
+}
+.flex-control-thumbs {
+  margin: 5px 0 0;
+  position: static;
+  overflow: hidden;
+}
+.flex-control-thumbs li {
+  width: 25%;
+  float: left;
+  margin: 0;
+}
+.flex-control-thumbs img {
+  width: 100%;
+  height: auto;
+  display: block;
+  opacity: .7;
+  cursor: pointer;
+  -moz-user-select: none;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.flex-control-thumbs img:hover {
+  opacity: 1;
+}
+.flex-control-thumbs .flex-active {
+  opacity: 1;
+  cursor: default;
+}
+/* ====================================================================================================================
+ * CAPTION 1
+ * ====================================================================================================================*/
+.sohohotel-slider-caption-1 {
+	position: absolute;
+	top: calc(50% - 120px);
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	z-index: 999;
+}
+
+.sohohotel-slider-caption-1 h2 {
+	font-size: 70px;
+	font-weight: 300;
+	color: #fff;
+	text-align: center;
+	line-height: 120%;
+	margin: 0 0 30px 0;
+}
+
+.sohohotel-slider-caption-1 .sohohotel-slider-button {
+	background: #b99470;
+	color: #fff;
+	padding: 17px 30px;
+	font-weight: 500;
+	font-size: 14px;
+	margin: 0 auto;
+	display: table;
+}
+
+@media screen and (max-width: 860px) {
+	
+	.sohohotel-slider-caption-1 {
+		width: 450px;
+		top: calc(50% - 100px);
+	}
+	
+	.sohohotel-slider-caption-1 h2 {
+		font-size: 50px;
+	}
+	
+}
+
+@media screen and (max-width: 660px) {
+	
+	.sohohotel-slider-caption-1 {
+		width: 300px;
+		top: calc(50% - 65px);
+	}
+	
+	.sohohotel-slider-caption-1 h2 {
+		font-size: 30px;
+		margin: 0 0 20px 0;
+	}
+	
+	.sohohotel-slider-caption-1 .sohohotel-slider-button {
+		padding: 10px 20px;
+	}
+	
+}
+
+/* ====================================================================================================================
+ * CAPTION 2
+ * ====================================================================================================================*/
+.sohohotel-slider-caption-2 {
+	position: absolute;
+	top: calc(50% - 120px);
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1210px;
+	width: calc(100% - 160px);
+	z-index: 999;
+}
+
+.sohohotel-slider-caption-2 h2 {
+	font-size: 70px;
+	font-weight: 300;
+	color: #fff;
+	text-align: left;
+	line-height: 120%;
+	margin: 0 0 30px 0;
+	width: 600px;
+}
+
+.sohohotel-slider-caption-2 .sohohotel-slider-button {
+	background: #b99470;
+	color: #fff;
+	padding: 17px 30px;
+	font-weight: 500;
+	font-size: 14px;
+	display: table;
+}
+
+@media screen and (max-width: 860px) {
+	
+	.sohohotel-slider-caption-2 {
+		width: calc(100% - 160px);
+		top: calc(50% - 100px);
+	}
+	
+	.sohohotel-slider-caption-2 h2 {
+		font-size: 50px;
+		width: 400px;
+	}
+	
+}
+
+@media screen and (max-width: 660px) {
+	
+	.sohohotel-slider-caption-2 {
+		width: calc(100% - 160px);
+		top: calc(50% - 65px);
+	}
+	
+	.sohohotel-slider-caption-2 h2 {
+		font-size: 30px;
+		margin: 0 0 20px 0;
+		width: 300px;
+	}
+	
+	.sohohotel-slider-caption-2 .sohohotel-slider-button {
+		padding: 10px 20px;
+	}
+	
+}
+
+/* ====================================================================================================================
+ * CAPTION 3
+ * ====================================================================================================================*/
+.sohohotel-slider-caption-3 {
+	position: absolute;
+	top: calc(50% - 135px);
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	z-index: 999;
+}
+
+.sohohotel-slider-caption-3 h2 {
+	font-size: 70px;
+	font-weight: 300;
+	color: #fff;
+	text-align: center;
+	line-height: 120%;
+	margin: 0 0 25px 0;
+}
+
+.sohohotel-slider-caption-3 h2:after {
+	background: #b99470;
+	content: '';
+	display: block;
+	width: 70px;
+	height: 2px;
+	margin: 15px auto 0 auto;
+}
+
+.sohohotel-slider-caption-3 p {
+	color: #fff;
+	text-align: center;
+	max-width: 550px;
+	margin: 0 auto 30px auto;
+	font-size: 15px;
+}
+
+.sohohotel-slider-caption-3 .sohohotel-slider-button {
+	background: #b99470;
+	color: #fff;
+	padding: 17px 30px;
+	font-weight: 500;
+	font-size: 14px;
+	margin: 0 auto;
+	display: table;
+}
+
+@media screen and (max-width: 860px) {
+	
+	.sohohotel-slider-caption-3 {
+		width: 450px;
+		top: calc(50% - 135px);
+	}
+	
+	.sohohotel-slider-caption-3 h2 {
+		font-size: 50px;
+	}
+	
+}
+
+@media screen and (max-width: 660px) {
+	
+	.sohohotel-slider-caption-3 {
+		width: 300px;
+		top: calc(50% - 50px);
+	}
+	
+	.sohohotel-slider-caption-3 h2 {
+		font-size: 30px;
+		margin: 0 0 20px 0;
+	}
+	
+	.sohohotel-slider-caption-3 .sohohotel-slider-button {
+		padding: 10px 20px;
+	}
+	
+	.sohohotel-slider-caption-3 p,
+	.sohohotel-slider-caption-3 h2:after {
+		display: none;
+	}
+	
+}
+
+/* ====================================================================================================================
+ * CAPTION 4
+ * ====================================================================================================================*/
+.sohohotel-slider-caption-4 {
+	position: absolute;
+	top: calc(50% - 135px);
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1210px;
+	width: calc(100% - 160px);
+	z-index: 999;
+}
+
+.sohohotel-slider-caption-4 h2 {
+	font-size: 70px;
+	font-weight: 300;
+	color: #fff;
+	text-align: left;
+	line-height: 120%;
+	margin: 0 0 25px 0;
+}
+
+.sohohotel-slider-caption-4 h2:after {
+	background: #b99470;
+	content: '';
+	display: block;
+	width: 70px;
+	height: 2px;
+	margin: 15px 0 0 0;
+}
+
+.sohohotel-slider-caption-4 p {
+	color: #fff;
+	text-align: left;
+	max-width: 550px;
+	margin: 0 0 30px 0;
+	font-size: 15px;
+}
+
+.sohohotel-slider-caption-4 .sohohotel-slider-button {
+	background: #b99470;
+	color: #fff;
+	padding: 17px 30px;
+	font-weight: 500;
+	font-size: 14px;
+	margin: 0 0 0 0;
+	display: table;
+}
+
+@media screen and (max-width: 860px) {
+	
+	.sohohotel-slider-caption-4 {
+		width: calc(100% - 160px);
+		top: calc(50% - 120px);
+	}
+	
+	.sohohotel-slider-caption-4 h2 {
+		font-size: 50px;
+	}
+	
+}
+
+@media screen and (max-width: 660px) {
+	
+	.sohohotel-slider-caption-4 {
+		width: calc(100% - 160px);
+		top: calc(50% - 50px);
+	}
+	
+	.sohohotel-slider-caption-4 h2 {
+		font-size: 30px;
+		margin: 0 0 20px 0;
+	}
+	
+	.sohohotel-slider-caption-4 .sohohotel-slider-button {
+		padding: 10px 20px;
+	}
+	
+	.sohohotel-slider-caption-4 p,
+	.sohohotel-slider-caption-4 h2:after {
+		display: none;
+	}
+	
+}
+
+/* ====================================================================================================================
+ * OVERLAY
+ * ====================================================================================================================*/
+.sohohotel-slider-overlay {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.flexslider.sohohotel-slider-fullscreen .slides > li {
+	width: 100%;
+}
+
+.sohohotel-slide-image {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+}
+
+/* ====================================================================================================================
+ * RESPONSIVE
+ * ====================================================================================================================*/
+@media only screen and (max-width: 860px) { 
+  .flex-direction-nav .flex-prev {
+    opacity: 1;
+    left: 13px;
+  }
+  .flex-direction-nav .flex-next {
+    opacity: 1;
+    right: 13px;
+  }
+}
+
+@media only screen and (max-width: 860px) { 
+	
+	.flexslider.sohohotel-slider-fullscreen .slides > li {
+		height: calc(60vh) !important;
+	}
+	
+}
+
+@media only screen and (max-width: 660px) { 
+	
+	.flexslider.sohohotel-slider-fullscreen .slides > li {
+		height: calc(50vh) !important;
+	}
+	
+}
